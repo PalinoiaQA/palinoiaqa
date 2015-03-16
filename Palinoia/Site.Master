@@ -1,0 +1,119 @@
+﻿<%--
+Modified By:Reem Altamimi
+Date:01/14/2013
+Description: a <DIV> tag was added to contain the tree view and the main content  
+ --%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Palinoia.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <link href="~/Scripts/JSTree/themes/classic/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/jquery-ui-1.10.2.custom.min.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/jquery-1.8.3.min.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/jquery.validate.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/jquery.json-2.4.min.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/jquery-ui-1.9.0.min.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/jquery-cookie-1.4.0/jquery.cookie.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/JSTree/jquery.jstree.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/Palinoia/utility.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/jquery.alerts.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/Palinoia/navigationMenu.js") %>' type="text/javascript"></script>
+    <script language="javascript" src='<%# Page.ResolveClientUrl("~/Scripts/Palinoia/navigationMenu.js") %>' type="text/javascript"></script>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/jquery.alerts.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" language="javascript">
+        var sessionTimeout;
+        var sessionTimeoutWarning;
+        var timeOnPageLoad;
+
+        function startTimeoutMonitor(timeout, timeoutWarning) {
+            sessionTimeout = timeout;
+            sessionTimeoutWarning = timeoutWarning;
+            timeOnPageLoad = new Date();
+            setTimeout('SessionWarning()', parseInt(sessionTimeoutWarning) * 60 * 1000);
+            //To redirect to the welcome page
+            setTimeout('RedirectToLoginPage()', parseInt(sessionTimeout) * 60 * 1000);
+        }
+
+        //Session Warning
+        function SessionWarning() {
+            //minutes left for expiry
+            var minutesForExpiry = (parseInt(sessionTimeout) -
+		    parseInt(sessionTimeoutWarning));
+            var message = "Your session will expire in another " + minutesForExpiry +
+	            " mins! Please Save the data before the session expires";
+            jAlert(message);
+            var currentTime = new Date();
+            //time for expiry
+            var timeForExpiry = timeOnPageLoad.setMinutes(timeOnPageLoad.getMinutes()
+		    + parseInt(sessionTimeout));
+
+            //Current time is greater than the expiry time
+            if (Date.parse(currentTime) > timeForExpiry) {
+                RedirectToLoginPage();
+            }
+        }
+
+        //Session timeout
+        function RedirectToLoginPage(){
+            jAlert("Session expired. You will be redirected to login page");
+            window.location = "/../Account/Login.aspx";
+        }                                                                          
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+        	
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" id="masterForm">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    <asp:Label ID="ProjectLabel" runat="server" Text="Palinoia"></asp:Label>
+                </h1>
+            </div>
+            <div id="LoginDIV" runat="server">
+                <div id="validUserDiv" class="loginDisplay" runat="server">
+                    Welcome <span class="bold"><asp:Label ID="lblLoginName" runat="server" /></span>!
+                    <a href="~/Account/Login.aspx" ID="A2" runat="server">Log Out</a>           
+                </div>
+                <div id="invalidUserDiv" class="loginDisplay" runat="server">
+                    <a href="~/Account/Login.aspx" ID="A1" runat="server">Log In</a>
+                </div>
+            </div>
+        </div>
+        <div>
+        <div id="navigation" class="leftCol">
+            <asp:Panel ID="Panel1" runat="server" ScrollBars="auto" Height="615px">
+                <div id="navTree" class="treeNavigation">
+                </div>
+            </asp:Panel>
+        </div>
+
+        <div class="main" style="position:relative;">
+            <asp:HiddenField ID="hdnUserID" runat="server" />
+            <asp:HiddenField ID="hdnProjectID" runat="server" />
+            <asp:HiddenField ID="hdnSessionTimeout" runat="server"/>
+            <asp:HiddenField ID="hdnSessionTimeoutWarning" runat="server"/>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    
+    </form>
+    
+</body>
+</html>
+

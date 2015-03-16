@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="applicationModelStoreContainer" CdmEntityContainer="applicationEntities">
+    <EntitySetMapping Name="Palinoia_Projects">
+      <EntityTypeMapping TypeName="applicationModel.Palinoia_Projects">
+        <MappingFragment StoreEntitySet="Palinoia_Projects">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="DataSource" ColumnName="DataSource" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_Features">
+      <EntityTypeMapping TypeName="applicationModel.lkup_Features">
+        <MappingFragment StoreEntitySet="lkup_Features">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_Roles">
+      <EntityTypeMapping TypeName="applicationModel.lkup_Roles">
+        <MappingFragment StoreEntitySet="lkup_Roles">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role_Features">
+      <EntityTypeMapping TypeName="applicationModel.Role_Features">
+        <MappingFragment StoreEntitySet="Role_Features">
+          <ScalarProperty Name="fk_FeatureID" ColumnName="fk_FeatureID" />
+          <ScalarProperty Name="fk_RoleID" ColumnName="fk_RoleID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="applicationModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="fk_ProjectID" ColumnName="fk_ProjectID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="PW" ColumnName="PW" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="MiddleInitial" ColumnName="MiddleInitial" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="fk_UserRoleID" ColumnName="fk_UserRoleID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Application_Errors">
+      <EntityTypeMapping TypeName="applicationModel.Application_Errors">
+        <MappingFragment StoreEntitySet="Application_Errors">
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="StackTrace" ColumnName="StackTrace" />
+          <ScalarProperty Name="InnerException" ColumnName="InnerException" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="fk_ProjectID" ColumnName="fk_ProjectID" />
+          <ScalarProperty Name="fk_UserID" ColumnName="fk_UserID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Application_History">
+      <EntityTypeMapping TypeName="applicationModel.Application_History">
+        <MappingFragment StoreEntitySet="Application_History">
+          <ScalarProperty Name="fk_ApplicationFieldID" ColumnName="fk_ApplicationFieldID" />
+          <ScalarProperty Name="fk_ApplicationObjectID" ColumnName="fk_ApplicationObjectID" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="UserID_UpdatedBy" ColumnName="UserID_UpdatedBy" />
+          <ScalarProperty Name="NewValue" ColumnName="NewValue" />
+          <ScalarProperty Name="OldValue" ColumnName="OldValue" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_ApplicationFields">
+      <EntityTypeMapping TypeName="applicationModel.lkup_ApplicationFields">
+        <MappingFragment StoreEntitySet="lkup_ApplicationFields">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_ApplicationObjects">
+      <EntityTypeMapping TypeName="applicationModel.lkup_ApplicationObjects">
+        <MappingFragment StoreEntitySet="lkup_ApplicationObjects">
+          <ScalarProperty Name="TEXT" ColumnName="TEXT" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Navigation_Menu_Items">
+      <EntityTypeMapping TypeName="applicationModel.Navigation_Menu_Items">
+        <MappingFragment StoreEntitySet="Navigation_Menu_Items">
+          <ScalarProperty Name="FeatureID" ColumnName="FeatureID" />
+          <ScalarProperty Name="NodeID" ColumnName="NodeID" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,5 @@
+C:\ palinoia\Entities\bin\Debug\Entities.dll
+C:\ palinoia\Entities\bin\Debug\Entities.pdb
+C:\ palinoia\Entities\obj\Debug\Entities.dll
+C:\ palinoia\Entities\obj\Debug\Entities.pdb
+C:\ palinoia\Entities\bin\Debug\Entities.XML

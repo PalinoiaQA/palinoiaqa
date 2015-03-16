@@ -1,0 +1,1900 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BLL</name>
+    </assembly>
+    <members>
+        <member name="T:BLL.AdminBLL">
+            <summary>
+            class to hold the code for the admistrative part of the palinoia business logic layer
+            </summary>
+        </member>
+        <member name="M:BLL.AdminBLL.#ctor(System.Int32)">
+            <summary>
+            constructor with one parameter
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.AdminBLL.getCSMResponseTypes">
+            <summary>
+            fetch CSM Response Types from database
+            </summary>
+            <returns>List&lt;viewCSMResponseType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getActiveCSMResponseTypes">
+            <summary>
+            fetch Active CSM Response Types from database
+            </summary>
+            <returns>List&lt;viewCSMResponseType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getCSMResponseTypeByID(System.Int32)">
+            <summary>
+            fetch CMS response type from database by ID
+            </summary>
+            <param name="responseTypeID">int</param>
+            <returns>viewCSMResponseType</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addNewCSMResponseType(Entities.viewCSMResponseType)">
+            <summary>
+            add a new CSM Response Types to database 
+            </summary>
+            <param name="viewRT">viewCSMResponseType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteCSMResponseType(System.Int32,System.Int32)">
+            <summary>
+            delete a CSM Response Types from database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateCSMResponseType(Entities.viewCSMResponseType)">
+            <summary>
+            update a CSM Response Types in the database 
+            </summary>
+            <param name="editResponseType">viewCSMResponseType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllCSMTypes">
+            <summary>
+            fetches all CSM types from the database 
+            </summary> 
+            <returns>List&lt;viewCSMType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllActiveCSMTypes">
+            <summary>
+            fetches all active CSM types from the database 
+            </summary> 
+            <returns>List&lt;viewCSMType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getCSMTypesByID(System.Int32)">
+            <summary>
+            fetches CSM types info from database by ID
+            </summary>
+            <param name="csmTypeID">int</param>
+            <returns>viewCSMType</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addNewCSMType(Entities.viewCSMType)">
+            <summary>
+            add a new CSMType to the database
+            </summary>
+            <param name="CSMType">viewCSMType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteCSMType(System.Int32,System.Int32)">
+            <summary>
+            delete a CSMType from the database
+            </summary>
+            <param name="CSMTypeID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateCSMType(Entities.viewCSMType)">
+            <summary>
+            update a CSMType in the database
+            </summary>
+            <param name="CSMType">viewCSMType </param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllStatuses">
+            <summary>
+            fetch all status info from database
+            </summary>
+            <returns>List&lt;viewStatus&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getStatusByID(System.Int32)">
+            <summary>
+            fetches status info from database by ID
+            </summary>
+            <param name="statusID">int</param>
+            <returns>viewStatus</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addNewStatus(Entities.viewStatus)">
+            <summary>
+            add a new status to the database
+            </summary>
+            <param name="status">viewStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteStatus(System.Int32,System.Int32)">
+            <summary>
+            delete a status from the database
+            </summary>
+            <param name="statusID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateStatus(Entities.viewStatus)">
+            <summary>
+            update a status in the database
+            </summary>
+            <param name="status">viewStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllSections">
+            <summary>
+            fetches all sections from the database
+            </summary>
+            <returns>List&lt;viewSection&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllActiveSections">
+            <summary>
+            fetches all active sections from the database
+            </summary>
+            <returns>List&lt;viewSection&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getSectionByID(System.Int32)">
+            <summary>
+            fetches a section from the database by ID
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>viewSection</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addSection(Entities.viewSection)">
+            <summary>
+            adds a section in the database
+            </summary>
+            <param name="section">viewSection</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateSection(Entities.viewSection)">
+            <summary>
+            updates a section in the database
+            </summary>
+            <param name="section">viewSection</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteSection(System.Int32,System.Int32)">
+            <summary>
+            deletes a section from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllTestSteps">
+            <summary>
+            fetch all test step records from db
+            </summary>
+            <returns>List&lt;viewTestStep&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteTestStepByID(System.Int32,System.Int32)">
+            <summary>
+            delete test step record from db
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addTestStep(Entities.viewTestStep)">
+            <summary>
+            add a test step in the database 
+            </summary>
+            <param name="newTestStep">viewTestStep</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateTestStep(Entities.viewTestStep)">
+            <summary>
+            update a test step in the database
+            </summary>
+            <param name="testStep">viewTestStep</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllDocumentTypes">
+            <summary>
+            calls dal method to return list of all entity objects in lkup_DocumentTypes
+            and converts list to generic list of viewDocumentType objects before returning
+            </summary>
+            <returns>List&lt;viewDocumentType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllActiveDocumentTypes">
+            <summary>
+            calls dal method to return list of all active entity objects in lkup_DocumentTypes
+            and converts list to generic list of viewDocumentType objects before returning
+            </summary>
+            <returns>List&lt;viewDocumentType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteDocumentType(System.Int32,System.Int32)">
+            <summary>
+            pass through to call DAL method to delete document type record
+            in lkup_DocumentTypes by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateDocumentType(Entities.viewDocumentType)">
+            <summary>
+            pass through to call DAL method to update document type record
+            by viewDocumentType object
+            </summary>
+            <param name="dt">viewDocumentType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addDocumentType(Entities.viewDocumentType)">
+            <summary>
+            pass through to DAL method for adding new lkup_DocumentType
+            record from a viewDocumentType object
+            </summary>
+            <param name="dt">viewDocumentType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getDocumentTypeByID(System.Int32)">
+            <summary>
+            pass through to dal.  returns viewDocumentType object by ID
+            </summary>
+            <param name="documentTypeID">int</param>
+            <returns>viewDocumentType</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllChapterTypes">
+            <summary>
+            pass through to DAL.  Get all Chapter type records from db
+            </summary>
+            <returns>List&lt;viewChapterType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllActiveChapterTypes">
+            <summary>
+            calls dal method to return list of all active entity objects in lkup_ChapterTypes
+            and converts list to generic list of viewChapterType objects before returning
+            </summary>
+            <returns>List&lt;viewChapterType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteChapterType(System.Int32,System.Int32)">
+            <summary>
+            pass through to call DAL method to delete Chapter type record
+            in lkup_ChapterTypes by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateChapterType(Entities.viewChapterType)">
+            <summary>
+            pass through to call DAL method to update Chapter type record
+            by viewChapterType object
+            </summary>
+            <param name="ct">viewChapterType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addChapterType(Entities.viewChapterType)">
+            <summary>
+            pass through to DAL method for adding new lkup_ChapterType
+            record from a viewChapterType object
+            </summary>
+            <param name="ct">viewChapterType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getChapterTypeByID(System.Int32)">
+            <summary>
+            pass through to dal.  returns viewChapterType object by ID
+            </summary>
+            <param name="chapterTypeID">int</param>
+            <returns>viewDChapterType</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllDefectTypes">
+            <summary>
+            calls dal method to return list of all entity objects in lkup_DefectType
+            and converts list to generic list of viewDefectType objects before returning
+            </summary>
+            <returns>List&lt;viewDefectType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllActiveDefectTypes">
+            <summary>
+            calls dal method to return list of all active entity objects in lkup_DefectTypes
+            and converts list to generic list of viewDefectType objects before returning
+            </summary>
+            <returns>List&lt;viewDocumentType&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteDefectType(System.Int32,System.Int32)">
+            <summary>
+            pass through to call DAL method to delete DefectType record
+            in lkup_DefectType by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateDefectType(Entities.viewDefectType)">
+            <summary>
+            pass through to call DAL method to update DefectType record
+            by viewDefectType object
+            </summary>
+            <param name="dt">viewDefectType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addDefectType(Entities.viewDefectType)">
+            <summary>
+            pass through to DAL method for adding new lkup_DefectType
+            record from a viewDefectType object
+            </summary>
+            <param name="dt">viewDefectType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getDefectTypeByID(System.Int32)">
+            <summary>
+            pass through to dal.  returns viewDefectType object by ID
+            </summary>
+            <param name="defectTypeID">int</param>
+            <returns>viewDefectType</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllDefectStatus">
+            <summary>
+            calls dal method to return list of all entity objects in lkup_DefectStatus
+            and converts list to generic list of viewDefectStatus objects before returning
+            </summary>
+            <returns>List&lt;viewDefectStatus&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllActiveDefectStatus">
+            <summary>
+            calls dal method to return list of all active entity objects in lkup_DefectTypes
+            and converts list to generic list of viewDefectStatus objects before returning
+            </summary>
+            <returns>List&lt;viewDocumentStatus&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteDefectStatus(System.Int32,System.Int32)">
+            <summary>
+            pass through to call DAL method to delete DefectStatus record
+            in lkup_DefectStatus by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateDefectStatus(Entities.viewDefectStatus)">
+            <summary>
+            pass through to call DAL method to update DefectStatus record
+            by viewDefectStatus object
+            </summary>
+            <param name="ds">viewDefectStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addDefectStatus(Entities.viewDefectStatus)">
+            <summary>
+            pass through to DAL method for adding new lkup_DefectStatus
+            record from a viewDefectStatus object
+            </summary>
+            <param name="ds">viewDefectStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getDefectStatusByID(System.Int32)">
+            <summary>
+            pass through to dal.  returns viewDefectStatus object by ID
+            </summary>
+            <param name="defectStatusID">int</param>
+            <returns>viewDefectStatus</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllDefectPriorities">
+            <summary>
+            calls dal method to return list of all entity objects in lkup_DefectPriority
+            and converts list to generic list of viewDefectPriority objects before returning
+            </summary>
+            <returns>List&lt;viewDefectStatus&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getAllActiveDefectPriorities">
+            <summary>
+            calls dal method to return list of all active entity objects in lkup_DefectPriority
+            and converts list to generic list of viewDefectPriority objects before returning
+            </summary>
+            <returns>List&lt;viewDocumentPriority&gt;</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.deleteDefectPriority(System.Int32,System.Int32)">
+            <summary>
+            pass through to call DAL method to delete DefectPriority record
+            in lkup_DefectPriority by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.updateDefectPriority(Entities.viewDefectPriority)">
+            <summary>
+            pass through to call DAL method to update DefectPriority record
+            by viewDefectPriority object
+            </summary>
+            <param name="dp">viewDefectPriority</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.addDefectPriority(Entities.viewDefectPriority)">
+            <summary>
+            pass through to DAL method for adding new lkup_DefectPriority
+            record from a viewDefectPriority object
+            </summary>
+            <param name="dp">viewDefectPriority</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.AdminBLL.getDefectPriorityByID(System.Int32)">
+            <summary>
+            pass through to dal.  returns viewDefectPriority object by ID
+            </summary>
+            <param name="defectPriorityID">int</param>
+            <returns>viewDefectPriority</returns>
+        </member>
+        <member name="P:BLL.AdminBLL.ProjectID">
+            <summary>
+            Class variable to store current project id
+            which is required to create a DAL object
+            </summary>
+        </member>
+        <member name="T:BLL.SearchBLL">
+            <summary>
+            class to hold code for SearchBLL
+            </summary>
+        </member>
+        <member name="M:BLL.SearchBLL.#ctor(System.Int32)">
+            <summary>
+            constructor for SearchBLL
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.SearchBLL.doBasicDocumentSearch(System.String,System.Int32)">
+            <summary>
+            perform basic document search
+            </summary>
+            <param name="searchValue">string</param>
+            <param name="searchObjectType">int</param>
+            <returns>DocumentSearchResult</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.doBasicTestCaseSearch(System.String,System.Int32)">
+            <summary>
+            perform basic testcase search
+            </summary>
+            <param name="searchValue">string</param>
+            <param name="searchObjectType">int</param>
+            <returns>TestCaseSearchResult</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.doAdvancedTestCaseSearch(Entities.SearchEntities,System.Int32)">
+            <summary>
+            perform an advanced search for test cases
+            </summary>
+            <param name="advSearch">AdvancedSearch</param>
+            <param name="searchType">int</param>
+            <returns>TestCaseSearchResult</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.doAdvancedDocumentSearch(Entities.SearchEntities,System.Int32)">
+            <summary>
+            perform an advanced search
+            </summary>
+            <param name="advSearch">AdvancedSearch</param>
+            <param name="searchType">int</param>
+            <returns>List&lt;BasicSearchResult&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.doBasicSearch(System.String,System.Int32)">
+            <summary>
+            perform a basic search
+            </summary>
+            <param name="searchValue">string</param>
+            <param name="searchObjectType">int</param>
+            <returns>List&lt;BasicSearchResult&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.doAdvancedSearch(Entities.SearchEntities,System.Int32)">
+            <summary>
+            perform an advanced search
+            </summary>
+            <param name="advSearch">AdvancedSearch</param>
+            <param name="searchType">int</param>
+            <returns>List&lt;BasicSearchResult&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getDefectsForSearchResults(System.Collections.Generic.List{Entities.BasicSearchResult})">
+            <summary>
+            fetch defects for search results
+            </summary>
+            <param name="resultList">List&lt;BasicSearchResult&gt;</param>
+            <returns>List&lt;viewDefect&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getDefectsForSearchResults(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            returns generic list of viewDefect objects from a 
+            generic list of ids identified during search
+            </summary>
+            <param name="resultList">List&lt;int&gt;</param>
+            <returns>List&lt;viewDefect&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getDDLSearchObjectsForTypeID(System.Int32)">
+            <summary>
+            fetch DDL objects for type ID
+            </summary>
+            <param name="searchTypeID">int</param>
+            <returns>List&lt;SearchObject&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getDataTypeForSearchObjectID(System.Int32)">
+            <summary>
+            fetch data for search object
+            </summary>
+            <param name="searchObjectID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getDDLValuesForSearchObject(System.Int32)">
+            <summary>
+            returns list of objects to populate the search object DDL in the advanced
+            search based on a search object id
+            </summary>
+            <param name="searchObjectID">int</param>
+            <returns>List&lt;DDLValueItem&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getSearchOperators">
+            <summary>
+            fetch search operators
+            </summary>
+            <returns>List&lt;string&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getTableFromSearchTypeid(System.Int32)">
+            <summary>
+            returns table name for search object type id
+            </summary>
+            <param name="searchObjectType">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.compareLists(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32},System.String)">
+            <summary>
+            returns single int list based on filtering 2 int lists on AND or OR comparer
+            </summary>
+            <param name="list1">List&lt;int&gt;</param>
+            <param name="list2">List&lt;int&gt;</param>
+            <param name="comparer">string</param>
+            <returns>List&lt;int&gt;</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getAdvancedWhereClause(Entities.SearchRow,System.Int32)">
+            <summary>
+            fetch advanced clause
+            </summary>
+            <param name="row">SearchRow</param>
+            <param name="searchObjectType">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getBasicWhereClause(System.String,DAL.lkup_SearchObjects)">
+            <summary>
+            fetch basic where clause
+            </summary>
+            <param name="basicItem">string</param>
+            <param name="obj">lkup_SearchObjects</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.SearchBLL.getOperatorValueSQL(System.String,System.Int32,System.String)">
+            <summary>
+            fetch operator value SQL
+            </summary>
+            <param name="operatorID">string</param>
+            <param name="searchDataType">int</param>
+            <param name="value">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="P:BLL.SearchBLL.ProjectID">
+            <summary>
+            class variable to store value of ProjectID
+            </summary>
+        </member>
+        <member name="T:BLL.DefectsBLL">
+            <summary>
+            class to hold code for DefectsBLL
+            </summary>
+        </member>
+        <member name="M:BLL.DefectsBLL.#ctor(System.Int32)">
+            <summary>
+            constructor for DefectsBLL
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.DefectsBLL.getAllOpenDefects">
+            <summary>
+            fetch all open defects
+            </summary>
+            <returns>List&lt;string&gt;</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.getDefectByID(System.Int32)">
+            <summary>
+            fetch defect by ID
+            </summary>
+            <param name="defectID">int</param>
+            <returns>viewDefect</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.addNewDefect(Entities.viewDefect,System.Int32)">
+            <summary>
+            add new defect
+            </summary>
+            <param name="defect">viewDefect</param>
+            <param name="userID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.createNewDefectForTestStepFail(Entities.viewTestResult)">
+            <summary>
+            Create new defect based for a test step that was indicated as failed in the test runner.
+            Defect is emailed to owner of original business rule defect.
+            </summary>
+            <param name="tr">viewTestResult</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.createNewDefectFromBusinessRule(Entities.viewBusinessRule,System.Int32)">
+            <summary>
+            create new defect for new business rule
+            </summary>
+            <param name="rule">viewBusinessRule</param>
+            <param name="ownerID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.createUpdateDefectFromBusinessRule(Entities.viewBusinessRule,System.Int32)">
+            <summary>
+            create update defect for business rule
+            </summary>
+            <param name="rule">viewBusinessRule</param>
+            <param name="ownerID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.createDefectBusinessRuleRelationship(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            called DAL method to create a defect/business rule relationship in the Defect_BusinessRule table
+            </summary>
+            <param name="businessRuleID">int</param>
+            <param name="defectID">int</param>
+            <param name="userID">int</param>
+        </member>
+        <member name="M:BLL.DefectsBLL.getBusinessRuleForDefectID(System.Int32)">
+            <summary>
+            return business rules associated with defect
+            </summary>
+            <param name="defectID">int</param>
+            <returns>viewBusinessRule</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.getDefectForBusinessRuleID(System.Int32)">
+            <summary>
+            return viewDefect object associated with a Business Rule
+            </summary>
+            <param name="businessRuleID">int</param>
+            <returns>viewDefect</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.addComment(System.Int32,Entities.viewComment)">
+            <summary>
+            add comment
+            </summary>
+            <param name="projectID">int</param>
+            <param name="comment">viewComment</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.addSystemComment(Entities.viewComment)">
+            <summary>
+            add system comment
+            </summary>
+            <param name="comment">viewComment</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.getCommentsForDefect(System.Int32)">
+            <summary>
+            fetch comments for defect
+            </summary>
+            <param name="defectID">int</param>
+            <returns>List&lt;viewComment&gt;</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.updateDefect(Entities.viewDefect,System.Int32)">
+            <summary>
+            update defect
+            </summary>
+            <param name="updatedDefect">viewDefect</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.deleteDefectByID(System.Int32,System.Int32)">
+            <summary>
+            delete defect by ID
+            </summary>
+            <param name="defectID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.sendNewDefectEmail(Entities.viewDefect,System.Int32)">
+            <summary>
+            create mail message for new defect and call send method from applicationBLL
+            </summary>
+            <param name="defect">viewDefect</param>
+            <param name="ownerID">int</param>
+        </member>
+        <member name="M:BLL.DefectsBLL.checkForChangeComments(Entities.viewDefect,Entities.viewDefect,System.Int32)">
+            <summary>
+            check for changes
+            </summary>
+            <param name="origDefect">viewDefect</param>
+            <param name="updatedDefect">viewDefect</param>
+            <param name="userID">int</param>
+        </member>
+        <member name="M:BLL.DefectsBLL.updateChangesInName(Entities.viewDefect,Entities.viewDefect,Entities.viewUser)">
+            <summary>
+            check for changes in name
+            </summary>
+            <param name="origDefect">viewDefect</param>
+            <param name="updatedDefect">viewDefect</param>
+            <param name="user">viewUser</param>
+        </member>
+        <member name="M:BLL.DefectsBLL.addChangeComment(System.Int32,System.String,System.String,System.String,Entities.viewUser)">
+            <summary>
+            add change comment
+            </summary>
+            <param name="defectID">int</param>
+            <param name="changeName">string</param>
+            <param name="origChange">string</param>
+            <param name="updatedChange">string</param>
+            <param name="user">viewUser</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DefectsBLL.sendDefectUpdateEmail(System.String,Entities.viewDefect,System.Int32)">
+            <summary>
+            create mail message for updated defect and call method to send from applicationBLL
+            </summary>
+            <param name="emailBody">string</param>
+            <param name="defect">viewDefect</param>
+            <param name="ownerID">int</param>
+        </member>
+        <member name="M:BLL.DefectsBLL.sendDefectUpdateEmail(Entities.viewComment)">
+            <summary>
+            create mail message for comment added to defect and call method to send from applicationBLL
+            </summary>
+            <param name="comment">viewComment</param>
+        </member>
+        <member name="T:BLL.PostToPDF">
+            <summary>
+            class to hold code for PostToPDF
+            </summary>
+        </member>
+        <member name="M:BLL.PostToPDF.#ctor(System.Int32)">
+            <summary>
+            constructor for PostToPDF
+            </summary>
+            <param name="projectID"></param>
+        </member>
+        <member name="M:BLL.PostToPDF.createTestCasePDF(Entities.viewTestCase,System.Boolean)">
+            <summary>
+            create pdf for test case document
+            </summary>
+            <param name="tc">viewTestCase</param>
+            <param name="showSummary">bool</param>
+            <returns>byte[]</returns>
+        </member>
+        <member name="M:BLL.PostToPDF.createPDFFromHTML(Entities.viewDocument,System.Int32)">
+            <summary>
+            create PDF from HTML using iTextSharp XMLWorker obj
+            </summary>
+            <param name="document">viewDocument</param>
+            <param name="chapterID">int</param>
+            <returns>byte</returns>
+        </member>
+        <member name="M:BLL.PostToPDF.createReportPDF(Entities.Report)">
+            <summary>
+            create pdf for report
+            </summary>
+            <param name="report">Report</param>
+            <returns>byte[]</returns>
+        </member>
+        <member name="M:BLL.PostToPDF.createSummaryReportPDF(Entities.Report)">
+            <summary>
+            create pdf for report that contains only BR Summary
+            </summary>
+            <param name="report">Report</param>
+            <returns>byte[]</returns>
+        </member>
+        <member name="M:BLL.PostToPDF.fixClosingP(System.String)">
+            <summary>
+            adds proper code after closing paragraph
+            </summary>
+            <param name="html">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.PostToPDF.fixImageTags(System.String)">
+            <summary>
+            fix image tags
+            </summary>
+            <param name="html">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="T:BLL.BusinessRulesBLL">
+            <summary>
+            class to hold code for BusinessRulesBLL
+            </summary>
+        </member>
+        <member name="F:BLL.BusinessRulesBLL.palinoiaBLL">
+            <summary>
+            class variable for palinoia BLL
+            </summary>
+        </member>
+        <member name="F:BLL.BusinessRulesBLL.dal">
+            <summary>
+            class variable to store dal
+            </summary>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.#ctor(System.Int32)">
+            <summary>
+            constructor for business rules BLL
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.hasBusinessRules(System.Int32)">
+            <summary>
+            pass through method for hasBusinessRules
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.getAllBusinessRules">
+            <summary>
+            fetches all business rules from the database
+            </summary>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.getBusinessRuleByID(System.Int32)">
+            <summary>
+            fetch business rule from the database by ID
+            </summary>
+            <param name="businessRuleID">int</param>
+            <returns>viewBusinessRule</returns>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.getAllBusinessRulesBySection(System.Int32)">
+            <summary>
+            get all business rules by section
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.getAllBusinessRulesByStatus(System.Int32)">
+            <summary>
+            get all business rules by status
+            </summary>
+            <param name="statusID">int</param>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.addBusinessRule(Entities.viewBusinessRule,System.Int32)">
+            <summary>
+            add business rule to database
+            </summary>
+            <param name="businessRule">viewBusinessRule</param>
+            <param name="ownerID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.deleteBusinessRule(System.Int32,System.Int32)">
+            <summary>
+            delete business rule from database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.BusinessRulesBLL.updateBusinessRule(Entities.viewBusinessRule)">
+            <summary>
+            update business rule in database
+            </summary>
+            <param name="businessRule">viewBusinessRule</param>
+            <returns>string</returns>
+        </member>
+        <member name="P:BLL.BusinessRulesBLL.ProjectID">
+            <summary>
+            class variable to store project ID
+            </summary>
+        </member>
+        <member name="T:BLL.EncryptionHandler">
+            <summary>
+            class to hold code for EncryptionHandler
+            </summary>
+        </member>
+        <member name="M:BLL.EncryptionHandler.#ctor">
+            <summary>
+            constructor with no parameters
+            </summary>
+        </member>
+        <member name="M:BLL.EncryptionHandler.GenerateEncryptionKey">
+            <summary>
+            Generates an encryption key
+            </summary>
+            <returns>byte</returns>
+        </member>
+        <member name="M:BLL.EncryptionHandler.GenerateEncryptionVector">
+            <summary>
+            Generates an encryption vector
+            </summary>
+            <returns>byte</returns>
+        </member>
+        <member name="M:BLL.EncryptionHandler.EncryptToString(System.String)">
+            <summary>
+            Encrypt some text and return a string suitable for passing in a URL
+            </summary>
+            <param name="TextValue">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.EncryptionHandler.Encrypt(System.String)">
+            <summary>
+            Translate our text value into a byte array. (used to stream the data in and out of the CryptoStream)
+            </summary>
+            <param name="TextValue">string</param>
+            <returns>byte[]</returns>
+        </member>
+        <member name="M:BLL.EncryptionHandler.DecryptString(System.String)">
+            <summary>
+            decrypt string
+            </summary>
+            <param name="EncryptedString">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.EncryptionHandler.Decrypt(System.Byte[])">
+            <summary>
+            decrypt byte array
+            </summary>
+            <param name="EncryptedValue">byte[]</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.EncryptionHandler.StrToByteArray(System.String)">
+            <summary>
+            Convert a string to a byte array
+              NOTE: Normally we'd create a Byte Array from a string using an ASCII encoding (like so).
+                 System.Text.ASCIIEncoding encoding = new System.Text.ASCIIEncoding();
+                 return encoding.GetBytes(str);
+            However, this results in character values that cannot be passed in a URL.  So, instead, I just
+            lay out all of the byte values in a long string of numbers (three per - must pad numbers less than 100).
+            </summary>
+            <param name="str">string</param>
+            <returns>byte[]</returns>
+        </member>
+        <member name="M:BLL.EncryptionHandler.ByteArrToString(System.Byte[])">
+            <summary>
+            Convert a byte array to a string
+            Same comment as above.  Normally the conversion would use an ASCII encoding in the other direction:
+                 System.Text.ASCIIEncoding enc = new System.Text.ASCIIEncoding();
+                 return enc.GetString(byteArr); 
+            </summary>
+            <param name="byteArr">byte[]</param>
+            <returns>string</returns>
+        </member>
+        <member name="T:BLL.DocumentsBLL">
+            <summary>
+            Class that contains all business logic related to Documents and
+            provides all accesss to the DAL (Data Access Layer)
+            </summary>
+        </member>
+        <member name="M:BLL.DocumentsBLL.#ctor(System.Int32)">
+            <summary>
+            constructor for document BLL
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getAllDocuments">
+            <summary>
+            fetch all documents from the database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getAllActiveDocuments">
+            <summary>
+            fetch all active documents from the database
+            </summary>
+            <returns>List&lt;viewDocument&gt;</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getDocumentByID(System.Int32)">
+            <summary>
+            pass through method to fetch documents by ID
+            </summary>
+            <param name="docID">int</param>
+            <returns>viewDocument</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getDocumentsByType(System.Int32)">
+            <summary>
+            fetch all documents from the database of a specific type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.deleteDocumentByID(System.Int32)">
+            <summary>
+            pass through method to delete document by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.addNewDocument(Entities.viewDocument)">
+            <summary>
+            pass through method to add new document
+            </summary>
+            <param name="doc">viewDocument</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.updateDocument(Entities.viewDocument)">
+            <summary>
+            pass through method to update document
+            </summary>
+            <param name="doc">viewDocument</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.saveDocumentChapterRelationship(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            pass through method to save document-chapter relationship
+            </summary>
+            <param name="documentID">int</param>
+            <param name="chapterID">int</param>
+            <param name="seqNum">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getTestCaseIDForDocumentID(System.Int32)">
+            <summary>
+            returns test case id for associated document id from
+            TestCase_Documents table
+            </summary>
+            <param name="documentID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getEditDetailsForDocument(System.Int32)">
+            <summary>
+            return data object created to be utilized by the client javascript
+            for editing document details in the document manager
+            </summary>
+            <param name="docID">int</param>
+            <returns>EditDocumentDetails</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.documentHasChapters(System.Int32)">
+            <summary>
+            document has chapters
+            </summary>
+            <param name="documentID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.reorderDocumentChapters(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            update sequence numbers for all chapters in a document in order
+            contained in chapterIDList
+            </summary>
+            <param name="documentID">int</param>
+            <param name="chapterIDList">List&lt;int&gt;</param>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getChaptersForDocumentID(System.Int32)">
+            <summary>
+            pass through method to fetch chapters for document ID
+            </summary>
+            <param name="documentID">int</param>
+            <returns>List&lt;viewChapter&gt;</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getChapterByID(System.Int32)">
+            <summary>
+            pass through method to fetch chapters by ID
+            </summary>
+            <param name="chapterID">int</param>
+            <returns>viewChapter</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.addNewChapter(System.Int32,Entities.viewChapter)">
+            <summary>
+            pass through method to add new chapter
+            </summary>
+            <param name="documentID">int</param>
+            <param name="newChapter">viewChapter</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.updateChapter(Entities.viewChapter)">
+            <summary>
+            pass through method to update chapter
+            </summary>
+            <param name="editChapter">viewChapter</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.deleteChapterByID(System.Int32,System.Int32)">
+            <summary>
+            delete chapter by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.updateChapterSequence(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            call to dal saveDocumentChapterRelationship.  Should only be call via
+            the BLL for reordering chapters based on DocumentEdit UI
+            </summary>
+            <param name="documentID">int</param>
+            <param name="chapterID">int</param>
+            <param name="sequenceNumber">int</param>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getDocumentIDForChapter(System.Int32)">
+            <summary>
+            fetch document ID for chapter
+            </summary>
+            <param name="chapterID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.addImage(Entities.ImageData)">
+            <summary>
+            add an image 
+            </summary>
+            <param name="iData">ImageData</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getImageFileNameByID(System.Int32)">
+            <summary>
+            fetch image file by ID
+            </summary>
+            <param name="id">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getNextImageID(System.String,System.String)">
+            <summary>
+            fetch next image ID
+            </summary>
+            <param name="dbDataSource">string</param>
+            <param name="fileName">string</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.createSummaryFromText(System.String,System.Boolean)">
+            <summary>
+            scans input text for business rules and csm names and
+            creates HTML summary table
+            </summary>
+            <param name="text"></param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getChapterSummaryHTML(System.Collections.Generic.SortedDictionary{System.String,System.String},System.Boolean)">
+            <summary>
+            generates and returns the entire html source for the chapter summary
+            </summary>
+            <param name="chapterRules">SortedDictionary&lt;string, string&gt;</param>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.buildRow(Entities.viewBusinessRule,System.Boolean)">
+            <summary>
+            generate individual row in the chapter summary table for a 
+            specific business rule
+            </summary>
+            <param name="br">viewBusinessRule</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.buildRow(Entities.viewCustomerServiceMessage)">
+            <summary>
+            generate individual row in the chapter summary table for a 
+            specific customer service message
+            </summary>
+            <param name="csm">viewCustomerServiceMessage</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getChapterRules(Entities.viewChapter)">
+            <summary>
+            return sorted dictionary object containing all the business rules(name and text) and
+            customer service messages (name and text) references in a specific chapter
+            </summary>
+            <param name="chapter">viewChapter</param>
+            <returns>SortedDictionary&lt;string, string&gt;</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.checkForNewItemsInChapterRules(System.Collections.Generic.SortedDictionary{System.String,System.String})">
+            <summary>
+            spins through the list of chapter rules referenced in a document and
+            checks for rule references in the rules themselves.  New rules are
+            added as necessary until no new rules are found
+            </summary>
+            <param name="chapterRules">SortedDictionary&lt;string, string&gt;</param>
+            <returns>SortedDictionary&lt;string, string&gt;</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.isBRCSMReferencedInDocument(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            function used to determine if a specific business rule id is referenced
+            anywhere in a document
+            </summary>
+            <param name="documentID">int</param>
+            <param name="businessRuleID">int</param>
+            <param name="customerServiceMessageID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.isBRCSMReferencedInChapter(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            function used to determine if a specific business rule id is referenced
+            anywhere in a document
+            </summary>
+            <param name="chapterID">int</param>
+            <param name="businessRuleID">int</param>
+            <param name="customerServiceMessageID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getViewDocumentRedirectURL(System.Int32,System.Int32)">
+            <summary>
+            get url to show document pdf based on doc type
+            </summary>
+            <param name="documentID">int</param>
+            <param name="testCaseID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getViewReportRedirectURL(System.Int32,System.Int32)">
+            <summary>
+            get url to show report pdf based on report id
+            </summary>
+            <param name="reportID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getViewDocumentChapterRedirectURL(System.Int32,System.Int32)">
+            <summary>
+            get url to show document pdf based on doc type
+            </summary>
+            <param name="documentID">int</param>
+            <param name="chapterID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getDocumentEditRedirectURL(System.Int32)">
+            <summary>
+            fetch the redirect URL
+            </summary>
+            <param name="documentID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getBusinessRulesNotInDocuments">
+            <summary>
+            returns list of business rule that are not referenced in any project document
+            </summary>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getBusinessRulesNotInDocuments(System.Int32)">
+            <summary>
+            returns list of business rule that are not referenced in any project document 
+            of a specific document type
+            </summary>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:BLL.DocumentsBLL.getBusinessRulesWithoutTestCase">
+            <summary>
+            return list of business rules that are not referenced in any test case for a probject
+            </summary>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="P:BLL.DocumentsBLL.ProjectID">
+            <summary>
+            class variable to store project ID
+            </summary>
+        </member>
+        <member name="T:BLL.CustomerServiceMessagesBLL">
+            <summary>
+            class to hold code for CustomerServiceMessagesBLL
+            </summary>
+        </member>
+        <member name="F:BLL.CustomerServiceMessagesBLL.palinoiaBLL">
+            <summary>
+            class variable to store palinoia BLL
+            </summary>
+        </member>
+        <member name="F:BLL.CustomerServiceMessagesBLL.dal">
+            <summary>
+            class variable to store dal
+            </summary>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.#ctor(System.Int32)">
+            <summary>
+            constructor for customer service message BLL
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.hasCSM(System.Int32)">
+            <summary>
+            pass through method from Data logic layer
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.getAllCSMs">
+            <summary>
+            fetches all customer's service messages from the database
+            </summary>
+            <returns>List&lt;viewCustomerServiceMessage&gt;</returns>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.getCSMByID(System.Int32)">
+            <summary>
+            fetches customer service message from database by ID
+            </summary>
+            <param name="csmID">int</param>
+            <returns>viewCustomerServiceMessage</returns>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.getAllCSMsBySection(System.Int32)">
+            <summary>
+            get all csms by section
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.addCSM(Entities.viewCustomerServiceMessage)">
+            <summary>
+            adds customer service message to database
+            </summary>
+            <param name="csm">viewCustomerServiceMessage</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.deleteCSM(System.Int32,System.Int32)">
+            <summary>
+            deletes customer service message from database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.CustomerServiceMessagesBLL.updateCSM(Entities.viewCustomerServiceMessage)">
+            <summary>
+            update customer service message in database
+            </summary>
+            <param name="csm">viewCustomerServiceMessage</param>
+            <returns>string</returns>
+        </member>
+        <member name="P:BLL.CustomerServiceMessagesBLL.ProjectID">
+            <summary>
+            class variable to store project ID
+            </summary>
+        </member>
+        <member name="T:BLL.applicationBLL">
+            <summary>
+            class to hold the code for the palinoia business logic layer
+            </summary>
+        </member>
+        <member name="M:BLL.applicationBLL.#ctor">
+            <summary>
+            constructor with no parameters
+            </summary>
+        </member>
+        <member name="M:BLL.applicationBLL.#ctor(System.Int32)">
+            <summary>
+            constructor with one parameter
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.applicationBLL.getMenuItemByID(System.Int32)">
+            <summary>
+            fetch NavigationMenuItem object for a specific id
+            </summary>
+            <param name="id">int</param>
+            <returns>NavigationMenuItem</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getChildNodesForParentID(System.Int32,System.Int32)">
+            <summary>
+            return list of navigation nodes based on user features
+            used to populate the navigation tree
+            </summary>
+            <param name="parentID">int</param>
+            <param name="userID">int</param>
+            <returns>List&lt;NavigationMenuItem&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.hasChildNodes(System.Int32)">
+            <summary>
+            returns true if specific node id has related child nodes in db
+            </summary>
+            <param name="nodeID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getAllProjects">
+            <summary>
+            pass-through procedure to permit the DAL to fetch all projects from the database
+            </summary>
+            <returns>List&lt;viewProject&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getProjectByID(System.Int32)">
+            <summary>
+            fetch project by ID
+            </summary>
+            <param name="projectID">int</param>
+            <returns>viewProject</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.createNewProject(System.String,System.String,System.Int32)">
+            <summary>
+            creates a new project in the database
+            </summary>
+            <param name="projectName">string</param>
+            <param name="projectPath">string</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.updateProject(Entities.viewProject)">
+            <summary>
+            updates a project in the database
+            </summary>
+            <param name="project">viewProject</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.deleteProject(System.Int32,System.Int32)">
+            <summary>
+            deletes a project in the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.loginUser(Entities.viewUser)">
+            <summary>
+            log user info in database
+            </summary>
+            <param name="user">viewUser</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getFeaturesForUser(Entities.viewUser)">
+            <summary>
+            fetches features for user from database
+            </summary>
+            <param name="user">viewUser</param>
+            <returns>List&lt;viewFeature&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getAllUsers">
+            <summary>
+            fetches all users from the database
+            </summary>
+            <returns>List&lt;viewUser&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getUserByID(System.Int32)">
+            <summary>
+            fetches user info from the database by ID
+            </summary>
+            <param name="userID">int</param>
+            <returns>viewUser</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.addUser(Entities.viewUser)">
+            <summary>
+            adds user info to the database
+            </summary>
+            <param name="user">viewUser</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.updateUser(Entities.viewUser)">
+            <summary>
+            updates user info in the database
+            </summary>
+            <param name="user">viewUser</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.deleteUser(System.Int32,System.Int32)">
+            <summary>
+            deletes user info from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.updateUserProject(System.Int32,System.Int32)">
+            <summary>
+            update user project
+            </summary>
+            <param name="userID">int</param>
+            <param name="projectID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getProjectForUser(System.Int32)">
+            <summary>
+            fetch project for user
+            </summary>
+            <param name="userID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getAllRoles">
+            <summary>
+            fetches all roles from the database
+            </summary>
+            <returns>List&lt;viewRole&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.addRole(Entities.viewRole)">
+            <summary>
+            adds role to the database
+            </summary>
+            <param name="role">viewRole</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.updateRole(Entities.viewRole)">
+            <summary>
+            updates role info in the database
+            </summary>
+            <param name="role">viewRole</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.deleteRole(System.Int32,System.Int32)">
+            <summary>
+            deletes a role from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getAssociatedFeaturesForRole(System.Int32)">
+            <summary>
+            fetches all features associated with a particular role from the database
+            </summary>
+            <param name="roleID">int</param>
+            <returns>List&lt;viewFeature&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getAvailableFeaturesForRole(System.Int32)">
+            <summary>
+            fetches all available features for a particular role from the database
+            </summary>
+            <param name="roleID">int</param>
+            <returns>List&lt;viewFeature&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getRoleByID(System.Int32)">
+            <summary>
+            fetches role from the database by ID
+            </summary>
+            <param name="roleID">int</param>
+            <returns>viewRole</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.addFeatureToRole(System.Int32,System.Int32)">
+            <summary>
+            associates a particular feature with a particular role in the database
+            </summary>
+            <param name="roleID">int</param>
+            <param name="featureID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.removeFeatureFromRole(System.Int32,System.Int32)">
+            <summary>
+            remove association between feature and role in the database
+            </summary>
+            <param name="roleID">int</param>
+            <param name="featureID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getAllFeatures">
+            <summary>
+            fetches all features from the database
+            </summary>
+            <returns>List&lt;viewFeature&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getFeatureByID(System.Int32)">
+            <summary>
+            fetches feature from the database by ID
+            </summary>
+            <param name="featureID">int</param>
+            <returns>viewFeature</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.addFeature(Entities.viewFeature)">
+            <summary>
+            adds a feature from the database by ID
+            </summary>
+            <param name="feature">viewFeature</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.updateFeature(Entities.viewFeature)">
+            <summary>
+            updates a feature in the database
+            </summary>
+            <param name="feature">viewFeature</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.deleteFeature(System.Int32,System.Int32)">
+            <summary>
+            deletes a feature from the database by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getAllActiveErrors">
+            <summary>
+            fetches all error log records from Application_Errors table
+            </summary>
+            <returns>List&lt;viewError&gt;</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.getErrorByID(System.Int32)">
+            <summary>
+            get a single error log record by id
+            </summary>
+            <param name="errorID">int</param>
+            <returns>viewError</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.clearErrors">
+            <summary>
+            delete all error log records from Application_Errors table
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.logError(System.Exception,System.Int32,System.Int32)">
+            <summary>
+            log error
+            </summary>
+            <param name="ex">Exception</param>
+            <param name="projectID">int</param>
+            <param name="userID">int</param>
+        </member>
+        <member name="M:BLL.applicationBLL.isValidText(System.String)">
+            <summary>
+            tests for invalid characters within within a specified string
+            </summary>
+            <param name="text">string</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.sendEmail(OpenSmtp.Mail.MailMessage)">
+            <summary>
+            class to send MailMessage object to SMTP server
+            </summary>
+            <param name="mail">MailMessage</param>
+        </member>
+        <member name="M:BLL.applicationBLL.GetEnvData(System.String)">
+            <summary>
+            class to pull webconfig values by key
+            </summary>
+            <param name="library">key</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.applicationBLL.isDevelopmentMode">
+            <summary>
+            return a bool to indicate whether development mode is on or off
+            </summary>
+            <returns>bool</returns>
+        </member>
+        <member name="T:BLL.TestCasesBLL">
+            <summary>
+            class to hold code for TestCasesBLL object
+            </summary>
+        </member>
+        <member name="M:BLL.TestCasesBLL.#ctor(System.Int32)">
+            <summary>
+            constructor with one parameter
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:BLL.TestCasesBLL.hasTestCases(System.Int32)">
+            <summary>
+            has test cases
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getAllTestCases">
+            <summary>
+            fetch all test cases from the database
+            </summary>
+            <returns>List&lt;viewTestCase&gt;</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getTestCaseByID(System.Int32)">
+            <summary>
+            fetch a test case from the database by ID
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>viewTestCase</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.addNewTestCase(Entities.viewTestCase)">
+            <summary>
+            add a test case to the database
+            </summary>
+            <param name="newTestCase">viewTestCase</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.createAssociatedBusinessRulesForTestCase(System.Int32)">
+            <summary>
+            create list of associated business rules for a test case by compiling a list of 
+            business rule associations for each of the test steps in the test case.
+            </summary>
+            <param name="testCaseID">int</param>
+        </member>
+        <member name="M:BLL.TestCasesBLL.deleteTestCase(System.Int32,System.Int32)">
+            <summary>
+            delete a test case from the database 
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.updateTestCase(Entities.viewTestCase)">
+            <summary>
+            update a test case in the database
+            </summary>
+            <param name="testCase">viewTestCase</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getAllTestCasesBySection(System.Int32)">
+            <summary>
+            get all test cases by section
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>List&lt;viewTestCase&gt;</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getBusinessRulesForTestCase(System.Int32)">
+            <summary>
+            get business rules for test case
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.updateTestCaseStatus(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            update test case status
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStatusID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.resetTestCaseStatus(System.Int32,System.Int32)">
+            <summary>
+            reset test case status
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getBusinessRulesWithNoTestCase">
+            <summary>
+            returns list of business rules that are not associated with any test cases
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.hasTestSteps(System.Int32)">
+            <summary>
+            has test steps
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getActiveTestSteps">
+            <summary>
+            fetches generic list of viewTestStep records from db where Active = true
+            </summary>
+            <returns>List&lt;viewTestStep&gt;</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getTestStepByID(System.Int32)">
+            <summary>
+            fetch a test step from the database by ID
+            </summary>
+            <param name="testStepID">int</param>
+            <returns>viewTestStep</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getTestStepByID(System.Int32,System.Int32)">
+            <summary>
+            fetch a test step from the database by ID
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="testCaseID">int</param>
+            <returns>viewTestStep</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.addTestStep(Entities.viewTestStep,System.Int32)">
+            <summary>
+            Adds new test step to database including relationship  to test case id paramater
+            </summary>
+            <param name="newTestStep">viewTestStep</param>
+            <param name="testCaseID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getTestStepsForTestCase(System.Int32)">
+            <summary>
+            fetch the test steps for a particular test case from the database
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>List&lt;viewTestStep&gt;</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.removeTestStepTestCaseRelationship(System.Int32,System.Int32)">
+            <summary>
+            remove relationship link in db between test step and test case
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="testCaseID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.removeTestStepBusinessRuleRelationship(System.Int32,System.Int32)">
+            <summary>
+            remove relationship link in db between test step and business rule
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="businessRuleID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.addTestStepBusinessRuleRelationship(System.Int32,System.Int32)">
+            <summary>
+            create relationship link in db betweek test step and business rule
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="businessRuleID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.removeAllTestStepBusinessRuleRelationshipsForTestCaseID(System.Int32,System.Int32)">
+            <summary>
+            remove all test step business rule relationships for test case
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="testCaseID">int</param>
+        </member>
+        <member name="M:BLL.TestCasesBLL.updateTestStepForTestCase(Entities.viewTestStep,System.Int32)">
+            <summary>
+            update test step for test case
+            </summary>
+            <param name="updateTestStep">viewTestStep </param>
+            <param name="testCaseID">int</param>
+        </member>
+        <member name="M:BLL.TestCasesBLL.updateTestStepBusinessRuleRelationships(System.Int32,System.Collections.Generic.List{Entities.viewBusinessRule})">
+            <summary>
+            update test step business rule relationship
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="brList">List&lt;viewBusinessRule&gt;</param>
+        </member>
+        <member name="M:BLL.TestCasesBLL.resequenceTestSteps(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            resequence test steps
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="sequence">List&lt;int&gt;</param>
+        </member>
+        <member name="M:BLL.TestCasesBLL.updateSeqNumForTestStep(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            update sequence number for test step 
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStepID">int</param>
+            <param name="seqNum">int</param>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getRelatedBusinessRulesForTestStepName(System.String)">
+            <summary>
+            calls DAL method to get comma delimeted list of business rule ids related to other test steps 
+            with the same name
+            </summary>
+            <param name="testName">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getPreConditionsForTestCase(System.Int32)">
+            <summary>
+            fetch preconditions for test case
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>List&lt;viewPreCondition&gt;</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.savePreConditionsForTestCase(System.Int32,System.String)">
+            <summary>
+            save preconditions fot test case
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="preConditionIDs">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.removeAllPreConditionTestCases(System.Int32)">
+            <summary>
+            remove all precondition test cases
+            </summary>
+            <param name="tcID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getTestCaseListForTesting(System.Int32)">
+            <summary>
+            Retrieve list of test cases for testing.  return list includes
+            all preconditions ordered by sequence number.
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>List&lt;vieTestCase&gt;</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.saveTestResult(Entities.viewTestResult)">
+            <summary>
+            forward test result to dal to be saved to db
+            </summary>
+            <param name="tr">viewTestResult</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getLatestTestResultString(System.Int32,System.Int32)">
+            <summary>
+            forwards request for latest test result (by date desc) to DAL 
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStepID">int</param>
+            <returns>viewTestResult</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getLatestTestResult(System.Int32,System.Int32)">
+            <summary>
+            fetch latest test result
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStepID">int</param>
+            <returns>viewTestResult</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getNextTestStepForTestRunner(Entities.viewTestResult)">
+            <summary>
+            fetch next test step for test runner
+            </summary>
+            <param name="tr">TestRunnerTestStep</param>
+            <returns>viewTestStep</returns>
+        </member>
+        <member name="M:BLL.TestCasesBLL.getPreviousTestStepForTestRunner(Entities.viewTestResult)">
+            <summary>
+            fetch previous test step for test runner
+            </summary>
+            <param name="tr">int</param>
+            <returns>viewTestResult</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/UI/Default.aspx" title="Home"  description="Home" value="Home">
+      <siteMapNode title="Administration"  description="Administration">
+        <siteMapNode title="General" description="General">
+          <siteMapNode url="~/UI/Admin/adminProject.aspx" title="Projects"  description="Projects" />
+          <siteMapNode url="~/UI/Admin/adminUsers.aspx" title="Users" description="Users" />
+          <siteMapNode url="~/UI/Admin/adminRoles.aspx" title="Roles" description="Roles" />
+          <siteMapNode url="~/UI/Admin/adminFeatures.aspx" title="Features" description="Features" />
+          <siteMapNode url="~/UI/Admin/adminSections.aspx" title="Sections" description="Sections" />
+          <siteMapNode url="~/UI/Admin/adminTestSteps.aspx" title="Test Steps" description="Test Steps Administration" />
+          <siteMapNode url="~/UI/Admin/adminErrorLog.aspx" title="Error Log" description="Error Log" />
+        </siteMapNode>
+        <siteMapNode title="Business Rules" description ="Business Rule Administration">
+          <siteMapNode url="~/UI/Admin/adminStatus.aspx" title="Status"  description="Status" />
+        </siteMapNode>
+        <siteMapNode title="Customer Service Messages" description="CSM Administration">
+          <siteMapNode url="~/UI/Admin/adminCSMResponseTypes.aspx" title="CSM Response Types"  description="CSM Response Types" />
+          <siteMapNode  url="~/UI/Admin/adminCSMTypes.aspx" title="CSM Types" description ="CSM Types" />
+        </siteMapNode>
+        <siteMapNode title="Documents" description="Document Administration">
+          <siteMapNode url="~/UI/Admin/adminDocumentTypes.aspx" title="Document Types" description="Document Types Administration" />
+          <siteMapNode url="~/UI/Admin/adminChapterTypes.aspx" title="Chapter Types" description="Chapter Types Administration" />
+        </siteMapNode>
+        <siteMapNode title="Defects" description="Defects Administration">
+          <siteMapNode url="~/UI/Admin/adminDefectTypes.aspx" title="Defect Types" description="Defect Types Administration" />
+          <siteMapNode url="~/UI/Admin/adminDefectStatus.aspx" title="Defect Status" description="Defect Status Administration" />
+          <siteMapNode url="~/UI/Admin/adminDefectPriority.aspx" title="Defect Priority" description="Defect Priority Administration" />
+        </siteMapNode>  
+      </siteMapNode>
+      <siteMapNode url="~/UI/BusinessRules/BusinessRules.aspx" title="Business Rules"  description="Business Rules" value="Business Rules"/>
+      <siteMapNode url="~/UI/CustomerServiceMessages/CustomerServiceMessages.aspx" title="Customer Service Messages"  description="Customer Service Messages" />
+      <siteMapNode url="~/UI/TestCases/TestCases.aspx" title="Test Cases"  description="Test Cases" />
+      <siteMapNode url="~/UI/Documents/DocumentManager.aspx" title="Document Manager"  description="Document Manager" />
+      <siteMapNode url="~/UI/Defects/Defects.aspx" title="Defect Tracking"  description="Defect Tracking" />
+      <siteMapNode title="Reports"  description="Reports" />
+    </siteMapNode>
+</siteMap>
+

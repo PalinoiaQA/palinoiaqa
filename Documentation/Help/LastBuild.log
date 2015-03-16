@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="C:\ palinoia\Documentation\PalinoiaDocProject.shfbproj" started="2/10/2013 10:15:01 AM">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files (x86)\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\ palinoia\Palinoia.sln
+    Found project &#39;C:\ palinoia\Palinoia\Palinoia.csproj&#39;
+    Found project &#39;C:\ palinoia\DAL\DAL.csproj&#39;
+    Found project &#39;C:\ palinoia\BLL\BLL.csproj&#39;
+    Found project &#39;C:\ palinoia\Entities\Entities.csproj&#39;
+    Found project &#39;C:\ palinoia\Enums\Enums.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\ palinoia\Palinoia\bin\Palinoia.dll&#39;
+    Found assembly &#39;C:\ palinoia\DAL\bin\Debug\DAL.dll&#39;
+    Found assembly &#39;C:\ palinoia\BLL\bin\Debug\BLL.dll&#39;
+    Found assembly &#39;C:\ palinoia\Entities\bin\Debug\Entities.dll&#39;
+    Found assembly &#39;C:\ palinoia\Enums\bin\Debug\Enums.dll&#39;
+
+References to include (excluding framework assemblies):
+    AjaxControlToolkit
+    AJAXExtensionsToolbox, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    EntityFramework
+    HtmlAgilityPack
+    Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL
+    SanitizerProviders
+    System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86
+    System.Data.SQLite.Linq, Version=2.0.38.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL
+
+Copying XML comments files
+    C:\ palinoia\Palinoia\bin\Palinoia.XML -&gt; C:\ palinoia\Documentation\Help\Working\Palinoia.XML
+    C:\ palinoia\DAL\bin\Debug\DAL.XML -&gt; C:\ palinoia\Documentation\Help\Working\DAL.XML
+    C:\ palinoia\BLL\bin\Debug\BLL.XML -&gt; C:\ palinoia\Documentation\Help\Working\BLL.XML
+    C:\ palinoia\Entities\bin\Debug\Entities.XML -&gt; C:\ palinoia\Documentation\Help\Working\Entities.XML
+    C:\ palinoia\Enums\bin\Debug\Enums.XML -&gt; C:\ palinoia\Documentation\Help\Working\Enums.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0360
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0330
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 5 assemblies for reflection and 7 dependency assemblies.
+  Info: Wrote information on 12 namespaces, 81 types, and 997 members
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:04.0522
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0300
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    467 attribute nodes removed
+    0 explicit interface implementations removed
+    324 local and base class EII elements removed
+    Last step completed in 00:00:00.4170
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:08.5545
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.4320
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_caution.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_note.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_security.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_adm.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\big_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\big_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\big_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_kw.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\big_kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\box.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\box.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\Caution.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\Caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\CFW.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collall.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\collall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\collapse.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse_all.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\collapse_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycode.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\copycode.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycodeHighlight.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\copycodeHighlight.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdown.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\dropdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdownHover.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\dropdownHover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\drpdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\drpdown_orange.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange_up.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\drpdown_orange_up.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpup.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\drpup.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\exp.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\exp.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expall.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\expall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expand_all.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\expand_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1a.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\filter1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1c.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\filter1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\footer.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\footer.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\gradient.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\gradient.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greencheck.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\greencheck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greychck.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\greychck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_prev_next.jpg -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\header_prev_next.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_blank.jpg -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_blank.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_logo.GIF -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_logo.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\kw_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\LastChild.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\LastChild.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\load.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load_hover.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\load_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\note.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pencil.GIF -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privclass.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privdelegate.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenum.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenumeration.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privevent.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privextension.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privfield.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privinterface.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privmethod.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privproperty.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privstructure.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protclass.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protdelegate.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenum.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenumeration.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protevent.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protextension.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protfield.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protinterface.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protmethod.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protoperator.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protproperty.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protstructure.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubclass.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubdelegate.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenum.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenumeration.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubevent.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubextension.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubfield.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubinterface.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubmethod.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\puboperator.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubproperty.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubstructure.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1a.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\requirements1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1c.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\requirements1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\save.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save_hover.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\save_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\security.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1a.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\seealso1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1c.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\seealso1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\slMobile.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\static.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\xna.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CheckboxMenu.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\scripts\CheckboxMenu.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CommonUtilities.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\scripts\CommonUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\Dropdown.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\scripts\Dropdown.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\EventUtilities.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\scripts\EventUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_feedBack.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\scripts\script_feedBack.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_manifold.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\scripts\script_manifold.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\SplitScreen.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\scripts\SplitScreen.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Presentation.css -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\styles\Presentation.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Whidbey\Presentation.css -&gt; C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\styles\Whidbey\Presentation.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\adm_dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_caution.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\alert_caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_note.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\alert_note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\alert_security.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\alert_security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_adm.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\big_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\big_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\big_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\big_kw.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\big_kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\box.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\box.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\Caution.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\Caution.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\CFW.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collall.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\collall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\collapse.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\collapse_all.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\collapse_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycode.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\copycode.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\copycodeHighlight.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\copycodeHighlight.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdown.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\dropdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\dropdownHover.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\dropdownHover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\drpdown.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\drpdown_orange.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpdown_orange_up.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\drpdown_orange_up.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\drpup.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\drpup.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\exp.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\exp.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expall.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\expall.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\expand_all.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\expand_all.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1a.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\filter1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\filter1c.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\filter1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\footer.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\footer.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\gradient.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\gradient.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greencheck.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\greencheck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\greychck.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\greychck.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_prev_next.jpg -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\header_prev_next.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_blank.jpg -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\header_sql_tutorial_blank.jpg
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_logo.GIF -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\header_sql_tutorial_logo.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw_adm.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw_adm_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw_adm_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw_adm_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw_dev.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\kw_dev_arch.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\kw_dev_arch.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\LastChild.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\LastChild.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\load.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\load_hover.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\load_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\note.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\note.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pencil.GIF -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pencil.GIF
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privclass.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privdelegate.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenum.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privenumeration.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privevent.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privextension.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privfield.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privinterface.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privmethod.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privproperty.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\privstructure.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protclass.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protdelegate.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenum.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protenumeration.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protevent.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protextension.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protfield.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protinterface.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protmethod.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protoperator.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protproperty.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\protstructure.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubclass.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubdelegate.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenum.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubenum.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubenumeration.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubevent.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubextension.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubfield.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubinterface.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubmethod.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\puboperator.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubproperty.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\pubstructure.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1a.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\requirements1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\requirements1c.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\requirements1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\save.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\save_hover.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\save_hover.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\security.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\security.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1a.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\seealso1a.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\seealso1c.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\seealso1c.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\slMobile.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\static.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\icons\xna.gif -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CheckboxMenu.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\scripts\CheckboxMenu.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\CommonUtilities.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\scripts\CommonUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\Dropdown.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\scripts\Dropdown.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\EventUtilities.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\scripts\EventUtilities.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_feedBack.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\scripts\script_feedBack.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\script_manifold.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\scripts\script_manifold.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\scripts\SplitScreen.js -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\scripts\SplitScreen.js
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Presentation.css -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\styles\Presentation.css
+C:\Program Files (x86)\Sandcastle\\Presentation\VS2005\styles\Whidbey\Presentation.css -&gt; C:\ palinoia\Documentation\Help\Working\Output\Website\styles\Whidbey\Presentation.css
+    Last step completed in 00:00:06.1434
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0530
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0250
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files (x86)\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:01.2441
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0690
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\ palinoia\Documentation\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.1460
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loading configuration...
+  Info: Processing topics...
+  Warn: ShowMissingComponent: [N:BLL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:BLL.AdminBLL.ProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:BLL.BusinessRulesBLL.dal] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.BusinessRulesBLL.getAllBusinessRules] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.BusinessRulesBLL.getAllBusinessRules] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [F:BLL.BusinessRulesBLL.palinoiaBLL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:BLL.BusinessRulesBLL.ProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:BLL.CustomerServiceMessagesBLL.dal] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.CustomerServiceMessagesBLL.getAllCSMs] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.CustomerServiceMessagesBLL.getAllCSMs] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [F:BLL.CustomerServiceMessagesBLL.palinoiaBLL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:BLL.CustomerServiceMessagesBLL.ProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.ByteArrToString(System.Byte[])] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.ByteArrToString(System.Byte[])] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.ByteArrToString(System.Byte[])] Missing &lt;param name=&quot;byteArr&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.EncryptToString(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.EncryptToString(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.EncryptToString(System.String)] Missing &lt;param name=&quot;TextValue&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.StrToByteArray(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.StrToByteArray(System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.EncryptionHandler.StrToByteArray(System.String)] Missing &lt;param name=&quot;str&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllFeatures] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllFeatures] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllProjects] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllProjects] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllRoles] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllRoles] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllUsers] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAllUsers] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAssociatedFeaturesForRole(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAssociatedFeaturesForRole(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAssociatedFeaturesForRole(System.Int32)] Missing &lt;param name=&quot;roleID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAvailableFeaturesForRole(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAvailableFeaturesForRole(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getAvailableFeaturesForRole(System.Int32)] Missing &lt;param name=&quot;roleID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getFeaturesForUser(Entities.viewUser)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getFeaturesForUser(Entities.viewUser)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.PalinoiaBLL.getFeaturesForUser(Entities.viewUser)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestCasesBLL.getAllTestCases] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestCasesBLL.getAllTestCases] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestCasesBLL.getTestStepsForTestCase(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestCasesBLL.getTestStepsForTestCase(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestCasesBLL.getTestStepsForTestCase(System.Int32)] Missing &lt;param name=&quot;testCaseID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestScenariosBLL.getAllTestScenarios] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestScenariosBLL.getAllTestScenarios] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestScenariosBLL.getTestCasesForScenario(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestScenariosBLL.getTestCasesForScenario(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:BLL.TestScenariosBLL.getTestCasesForScenario(System.Int32)] Missing &lt;param name=&quot;scenarioID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [N:DAL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:DAL.AdminDAL.ProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.#ctor(System.Data.EntityClient.EntityConnection)] Missing &lt;param name=&quot;connection&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.#ctor(System.String)] Missing &lt;param name=&quot;connectionString&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.AddTolkup_Features(DAL.lkup_Features)] Missing &lt;param name=&quot;lkup_Features&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.AddTolkup_Roles(DAL.lkup_Roles)] Missing &lt;param name=&quot;lkup_Roles&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.AddToPalinoia_Errors(DAL.Palinoia_Errors)] Missing &lt;param name=&quot;palinoia_Errors&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.AddToPalinoia_Projects(DAL.Palinoia_Projects)] Missing &lt;param name=&quot;palinoia_Projects&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.AddToRole_Features(DAL.Role_Features)] Missing &lt;param name=&quot;role_Features&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.applicationEntities.AddToUsers(DAL.User)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.BusinessRule.CreateBusinessRule(System.Int64,System.String,System.String,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.BusinessRules_CustomerServiceMessages.CreateBusinessRules_CustomerServiceMessages(System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.BusinessRulesDAL.getAllBusinessRules] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.BusinessRulesDAL.getAllBusinessRules] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [P:DAL.BusinessRulesDAL.ProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.CustomerServiceMessage.CreateCustomerServiceMessage(System.Int64,System.String,System.Int64,System.Int64,System.Int64,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.CustomerServiceMessagesDAL.getAllCSMs] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.CustomerServiceMessagesDAL.getAllCSMs] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [P:DAL.CustomerServiceMessagesDAL.ProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.History.CreateHistory(System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.lkup_CSMResponseType.Createlkup_CSMResponseType(System.Int64,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.lkup_CSMType.Createlkup_CSMType(System.Int64,System.Boolean,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.lkup_Features.Createlkup_Features(System.Int64,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.lkup_PalinoiaObjects.Createlkup_PalinoiaObjects(System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.lkup_Roles.Createlkup_Roles(System.Int64,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.lkup_Sections.Createlkup_Sections(System.Int64,System.String,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.lkup_Status.Createlkup_Status(System.Int64,System.String,System.Boolean)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.Palinoia_Errors.CreatePalinoia_Errors(System.Int64,System.Int64,System.String,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.Palinoia_Projects.CreatePalinoia_Projects(System.Int64,System.String,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [F:DAL.PalinoiaDAL.createClientTablesSQLFileName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:DAL.PalinoiaDAL.currentProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllFeatures] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllFeatures] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllProjects] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllProjects] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllRoles] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllRoles] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllUsers] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAllUsers] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAvailableFeaturesForRole(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAvailableFeaturesForRole(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getAvailableFeaturesForRole(System.Int32)] Missing &lt;param name=&quot;roleID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getFeaturesForUser(Entities.viewUser)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getFeaturesForUser(Entities.viewUser)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getFeaturesForUser(Entities.viewUser)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getRoleFeatures(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getRoleFeatures(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PalinoiaDAL.getRoleFeatures(System.Int32)] Missing &lt;param name=&quot;roleID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.#ctor(System.Data.EntityClient.EntityConnection)] Missing &lt;param name=&quot;connection&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.#ctor(System.String)] Missing &lt;param name=&quot;connectionString&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToBusinessRules(DAL.BusinessRule)] Missing &lt;param name=&quot;businessRule&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToBusinessRules_CustomerServiceMessages(DAL.BusinessRules_CustomerServiceMessages)] Missing &lt;param name=&quot;businessRules_CustomerServiceMessages&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToCustomerServiceMessages(DAL.CustomerServiceMessage)] Missing &lt;param name=&quot;customerServiceMessage&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToHistories(DAL.History)] Missing &lt;param name=&quot;history&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddTolkup_CSMResponseType(DAL.lkup_CSMResponseType)] Missing &lt;param name=&quot;lkup_CSMResponseType&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddTolkup_CSMType(DAL.lkup_CSMType)] Missing &lt;param name=&quot;lkup_CSMType&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddTolkup_PalinoiaObjects(DAL.lkup_PalinoiaObjects)] Missing &lt;param name=&quot;lkup_PalinoiaObjects&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddTolkup_Sections(DAL.lkup_Sections)] Missing &lt;param name=&quot;lkup_Sections&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddTolkup_Status(DAL.lkup_Status)] Missing &lt;param name=&quot;lkup_Status&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToPostConditions(DAL.PostCondition)] Missing &lt;param name=&quot;postCondition&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToPreConditions(DAL.PreCondition)] Missing &lt;param name=&quot;preCondition&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestCase_BusinessRules(DAL.TestCase_BusinessRules)] Missing &lt;param name=&quot;testCase_BusinessRules&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestCase_PostConditions(DAL.TestCase_PostConditions)] Missing &lt;param name=&quot;testCase_PostConditions&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestCase_PreConditions(DAL.TestCase_PreConditions)] Missing &lt;param name=&quot;testCase_PreConditions&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestCase_TestSteps(DAL.TestCase_TestSteps)] Missing &lt;param name=&quot;testCase_TestSteps&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestCases(DAL.TestCase)] Missing &lt;param name=&quot;testCase&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestScenario_TestCases(DAL.TestScenario_TestCases)] Missing &lt;param name=&quot;testScenario_TestCases&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestScenarios(DAL.TestScenario)] Missing &lt;param name=&quot;testScenario&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestStep_BusinessRules(DAL.TestStep_BusinessRules)] Missing &lt;param name=&quot;testStep_BusinessRules&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.palinoiaEntities.AddToTestSteps(DAL.TestStep)] Missing &lt;param name=&quot;testStep&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PostCondition.CreatePostCondition(System.Int64,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.PreCondition.CreatePreCondition(System.Int64,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.Role_Features.CreateRole_Features(System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCase.CreateTestCase(System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCase_BusinessRules.CreateTestCase_BusinessRules(System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCase_PostConditions.CreateTestCase_PostConditions(System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCase_PreConditions.CreateTestCase_PreConditions(System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCase_TestSteps.CreateTestCase_TestSteps(System.Int64,System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [P:DAL.TestCasesDAL.currentProjectID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCasesDAL.getAllTestCases] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCasesDAL.getAllTestCases] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCasesDAL.getTestStepsForTestCase(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCasesDAL.getTestStepsForTestCase(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestCasesDAL.getTestStepsForTestCase(System.Int32)] Missing &lt;param name=&quot;testCaseID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestScenario.CreateTestScenario(System.Int64,System.Boolean)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestScenario_TestCases.CreateTestScenario_TestCases(System.Int64,System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [T:DAL.TestScenariosDAL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestScenariosDAL.addNewTestScenario(Entities.viewTestScenario)] Missing &lt;param name=&quot;ts&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestScenariosDAL.getTestCasesForScenario(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestScenariosDAL.getTestCasesForScenario(System.Int32)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestScenariosDAL.getTestCasesForScenario(System.Int32)] Missing &lt;param name=&quot;scenarioID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestScenariosDAL.updateTestScenario(Entities.viewTestScenario)] Missing &lt;param name=&quot;vTestScenario&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestStep.CreateTestStep(System.Int64,System.String)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.TestStep_BusinessRules.CreateTestStep_BusinessRules(System.Int64,System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:DAL.User.CreateUser(System.Int64,System.Int64)] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [N:Entities] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Entities.JSTree_Node.attr] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Entities.JSTree_Node.children] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.JSTree_Node.data] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.JSTree_Node.icons] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.JSTree_Node.IdServerUse] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.JSTree_Node.state] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Entities.JsTreeAttribute] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Entities.JsTreeAttribute.id] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Entities.JsTreeAttribute.selected] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewBusinessRule.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewBusinessRule.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewBusinessRule.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewBusinessRule.Status] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewBusinessRule.StatusID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewBusinessRule.Text] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCSMResponseType.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCSMResponseType.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCSMResponseType.Text] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCSMType.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCSMType.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCSMType.Text] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.CSMResponse_Type] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.CSMResponse_TypeID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.CSMType] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.CSMTypeID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.Status] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.StatusID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewCustomerServiceMessage.Text] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewFeature.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewFeature.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewFeature.Text] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewProject.DataSource] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewProject.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewProject.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewRole.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewRole.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewRole.Text] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewSection.Abbreviation] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewSection.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewSection.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewSection.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewStatus.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewStatus.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewStatus.Text] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Entities.viewTestCase.#ctor(System.Int32,System.String,System.Int32)] Missing &lt;param name=&quot;seqNum&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestCase.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestCase.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestCase.SeqNum] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestScenario.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestScenario.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestStep.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestStep.Name] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewTestStep.SeqNum] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.Active] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.Email] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.FirstName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.ID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.LastName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.MiddleInitial] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.PW] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.RoleName] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [P:Entities.viewUser.UserRoleID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Enums] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Palinoia.About] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.About.Page_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.About.Page_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.About.Page_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:Palinoia.Global] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia.Account] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:Palinoia.Account.ChangePassword] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.Account.ChangePassword.Page_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.Account.ChangePassword.Page_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.Account.ChangePassword.Page_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.Account.ChangePasswordSuccess.Page_Load(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.Account.ChangePasswordSuccess.Page_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.Account.ChangePasswordSuccess.Page_Load(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia.UI] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia.UI.Admin] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminCSMResponseTypes.Page_Init(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminCSMResponseTypes.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminCSMResponseTypes.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminFeatures.grdFeatures_RowEditing(System.Object,System.Web.UI.WebControls.GridViewEditEventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminFeatures.grdFeatures_RowEditing(System.Object,System.Web.UI.WebControls.GridViewEditEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminFeatures.grdFeatures_RowEditing(System.Object,System.Web.UI.WebControls.GridViewEditEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminRoles.btnSetFeatures_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminRoles.btnSetFeatures_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.Admin.adminRoles.btnSetFeatures_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [T:Palinoia.UI.Admin.adminUsers] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia.UI.BusinessRules] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.BusinessRules.BusinessRules.Page_Init(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.BusinessRules.BusinessRules.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.BusinessRules.BusinessRules.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia.UI.CustomerServiceMessages] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.CustomerServiceMessages.CustomerServiceMessages.Page_Init(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.CustomerServiceMessages.CustomerServiceMessages.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.CustomerServiceMessages.CustomerServiceMessages.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia.UI.TestCases] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestCases.TestCases.applyFeatures(System.Int32)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestCases.TestCases.applyFeatures(System.Int32)] Missing &lt;param name=&quot;userID&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestCases.TestCases.Page_Init(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestCases.TestCases.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestCases.TestCases.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [N:Palinoia.UI.TestScenarios] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Palinoia.UI.TestScenarios.TestScenarios.adminBLL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Palinoia.UI.TestScenarios.TestScenarios.bll] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.btnEditTestScenarioSave_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.GetTestCasesForTree] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.GetTestCasesForTree] Missing &lt;returns&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.Page_Init(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.Page_Init(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+  Warn: ShowMissingComponent: [F:Palinoia.UI.TestScenarios.TestScenarios.palinoiaBLL] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [F:Palinoia.UI.TestScenarios.TestScenarios.pID] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.SaveTestScenarioTestCaseRelationships(System.String)] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:Palinoia.UI.TestScenarios.TestScenarios.SaveTestScenarioTestCaseRelationships(System.String)] Missing &lt;param name=&quot;testCaseIDList&quot;/&gt; documentation
+  Info: Processed 1347 topics
+    Last step completed in 00:10:18.5514
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+
+Clearing any prior web output
+    Last step completed in 00:00:01.2251
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.6.0
+Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1
+Processed 1347 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\ palinoia\Documentation\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\ palinoia\Documentation\Help\Working\Documentation.hhc
+
+Processing website files in C:\ palinoia\Documentation\Help\Working\Output\Website
+Processed 1347 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\ palinoia\Documentation\Help\Working\WebKI.xml
+Saving website table of contents to C:\ palinoia\Documentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:28.7076
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0280
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0350
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0450
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[c:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 25 seconds
+  
+  1,349	Topics
+  
+  17,576	Local links
+  
+  36,440	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\ palinoia\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm, 2,828,209 bytes
+  
+  Compression decreased file by 19,679,346 bytes.
+  
+    Last step completed in 00:00:38.1402
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0350
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:09.2275
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 100 files
+Copied 200 files
+Copied 300 files
+Copied 400 files
+Copied 500 files
+Copied 600 files
+Copied 700 files
+Copied 800 files
+Copied 900 files
+Copied 1000 files
+Copied 1100 files
+Copied 1200 files
+Copied 1300 files
+Copied 1400 files
+Copied 1480 files for the website content
+    Last step completed in 00:00:12.1127
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:02.9372
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 02/10/2013 10:27 AM.  Total time: 00:12:14.7980
+
+</buildStep>
+</shfbBuild>

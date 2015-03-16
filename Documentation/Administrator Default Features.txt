@@ -1,0 +1,112 @@
+Admin CMS Response Types Add
+Admin CMS Response Types Delete
+Admin CMS Response Types Edit
+Admin CMS Response Types View
+Admin CMS Types Add
+Admin CMS Types Delete
+Admin CMS Types Edit
+Admin CMS Types View
+Admin Defect Priority Add
+Admin Defect Priority Delete
+Admin Defect Priority Edit
+Admin Defect Priority View
+Admin Defect Status Add
+Admin Defect Status Delete
+Admin Defect Status Edit
+Admin Defect Status View
+Admin Defect Type Add
+Admin Defect Type Delete
+Admin Defect Type Edit
+Admin Defect Type View
+Admin Features Add
+Admin Features Delete
+Admin Features Edit
+Admin Features View
+Admin Projects Add
+Admin Projects Delete
+Admin Projects Edit
+Admin Projects View
+Admin RoleFeatures Edit
+Admin RoleFeatures View
+Admin Roles Add
+Admin Roles Delete
+Admin Roles Edit
+Admin Roles View
+Admin Sections Add
+Admin Sections Delete
+Admin Sections Edit
+Admin Sections View
+Admin Status Add
+Admin Status Delete
+Admin Status Edit
+Admin Status View
+Admin Users Add
+Admin Users Delete
+Admin Users Edit
+Admin Users View
+Admin:BusinessRulesMenuItem
+Admin:CustomerServiceMessagesMenuItem
+Admin:DefectsMenuItem
+Admin:Documents:ChapterTypesMenuItem
+Admin:Documents:DocumentTypesMenuItem
+Admin:DocumentsMenuItem
+Administration Menu Item
+Business Rules Add
+Business Rules Delete
+Business Rules Edit
+Business Rules Menu Item
+Business Rules View
+BusinessRules:StatusMenuItem
+CSMResponseTypesMenuItem
+CSMTypesMenuItem
+Chapter Add
+Chapter Delete
+Chapter Edit
+Chapter View
+ChapterTypesAdd
+ChapterTypesDelete
+ChapterTypesEdit
+ChapterTypesView
+Customer Service Messages Add
+Customer Service Messages Delete
+Customer Service Messages Menu Item
+Customer Service Messages View
+Customer Services Messages Edit
+Defect Tracking Menu Item
+Defects Add
+Defects Delete
+Defects Edit
+Defects View
+Defects:DefectPriorityMenuItem
+Defects:DefectStatusMenuItem
+Defects:DefectTypesMenuItem
+Document Types Add
+Document Types Delete
+Document Types Edit
+Document Types View
+DocumentManagerMenuItem
+Documents Add
+Documents Delete
+Documents Edit
+Documents View
+ErrorLogMenuItem
+General Menu Item
+PreConditionsAdd
+PreConditionsDelete
+PreConditionsEdit
+ProjectsMenuItem
+Reports Menu Item
+SectionsMenuItem
+Test Cases Add
+Test Cases Delete
+Test Cases Edit
+Test Cases Menu Item
+Test Cases View
+Test Steps Add
+Test Steps Delete
+Test Steps Edit
+Test Steps View
+Users:FeaturesMenuItem
+Users:RolesMenuItem
+Users:UsersMenuItem
+UsersMenuItem

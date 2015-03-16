@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="palinoiaModelStoreContainer" CdmEntityContainer="palinoiaEntities">
+    <EntitySetMapping Name="BusinessRule_Sections">
+      <EntityTypeMapping TypeName="palinoiaModel.BusinessRule_Sections">
+        <MappingFragment StoreEntitySet="BusinessRule_Sections">
+          <ScalarProperty Name="fk_SectionID" ColumnName="fk_SectionID" />
+          <ScalarProperty Name="fk_BusinessRuleID" ColumnName="fk_BusinessRuleID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BusinessRules">
+      <EntityTypeMapping TypeName="palinoiaModel.BusinessRule">
+        <MappingFragment StoreEntitySet="BusinessRules">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="fk_SectionID" ColumnName="fk_SectionID" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="fk_StatusID" ColumnName="fk_StatusID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BusinessRules_CustomerServiceMessages">
+      <EntityTypeMapping TypeName="palinoiaModel.BusinessRules_CustomerServiceMessages">
+        <MappingFragment StoreEntitySet="BusinessRules_CustomerServiceMessages">
+          <ScalarProperty Name="fk_CustomerServiceMessagesID" ColumnName="fk_CustomerServiceMessagesID" />
+          <ScalarProperty Name="fk_BusinessRulesID" ColumnName="fk_BusinessRulesID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chapters">
+      <EntityTypeMapping TypeName="palinoiaModel.Chapter">
+        <MappingFragment StoreEntitySet="Chapters">
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="fk_ChapterTypeID" ColumnName="fk_ChapterTypeID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerServiceMessage_Sections">
+      <EntityTypeMapping TypeName="palinoiaModel.CustomerServiceMessage_Sections">
+        <MappingFragment StoreEntitySet="CustomerServiceMessage_Sections">
+          <ScalarProperty Name="fk_SectionID" ColumnName="fk_SectionID" />
+          <ScalarProperty Name="fk_CustomerServiceMessageID" ColumnName="fk_CustomerServiceMessageID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerServiceMessages">
+      <EntityTypeMapping TypeName="palinoiaModel.CustomerServiceMessage">
+        <MappingFragment StoreEntitySet="CustomerServiceMessages">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="fk_SectionID" ColumnName="fk_SectionID" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="fk_CSMResponseTypeID" ColumnName="fk_CSMResponseTypeID" />
+          <ScalarProperty Name="fk_CSMTypeID" ColumnName="fk_CSMTypeID" />
+          <ScalarProperty Name="fk_StatusID" ColumnName="fk_StatusID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Defect_BusinessRules">
+      <EntityTypeMapping TypeName="palinoiaModel.Defect_BusinessRules">
+        <MappingFragment StoreEntitySet="Defect_BusinessRules">
+          <ScalarProperty Name="fk_BusinessRuleID" ColumnName="fk_BusinessRuleID" />
+          <ScalarProperty Name="fk_DefectID" ColumnName="fk_DefectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Defect_Comments">
+      <EntityTypeMapping TypeName="palinoiaModel.Defect_Comments">
+        <MappingFragment StoreEntitySet="Defect_Comments">
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="fk_DefectID" ColumnName="fk_DefectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Defect_CustomerServiceMessages">
+      <EntityTypeMapping TypeName="palinoiaModel.Defect_CustomerServiceMessages">
+        <MappingFragment StoreEntitySet="Defect_CustomerServiceMessages">
+          <ScalarProperty Name="fk_CustomerServiceMessageID" ColumnName="fk_CustomerServiceMessageID" />
+          <ScalarProperty Name="fk_DefectID" ColumnName="fk_DefectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Defect_TestCases">
+      <EntityTypeMapping TypeName="palinoiaModel.Defect_TestCases">
+        <MappingFragment StoreEntitySet="Defect_TestCases">
+          <ScalarProperty Name="fk_TestCaseID" ColumnName="fk_TestCaseID" />
+          <ScalarProperty Name="fk_DefectID" ColumnName="fk_DefectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Defects">
+      <EntityTypeMapping TypeName="palinoiaModel.Defect">
+        <MappingFragment StoreEntitySet="Defects">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Closed" ColumnName="Closed" />
+          <ScalarProperty Name="DateCompleted" ColumnName="DateCompleted" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="DefectName" ColumnName="DefectName" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+          <ScalarProperty Name="fk_DefectTypeID" ColumnName="fk_DefectTypeID" />
+          <ScalarProperty Name="fk_DefectStatusID" ColumnName="fk_DefectStatusID" />
+          <ScalarProperty Name="fk_DefectPriorityID" ColumnName="fk_DefectPriorityID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Document_Chapters">
+      <EntityTypeMapping TypeName="palinoiaModel.Document_Chapters">
+        <MappingFragment StoreEntitySet="Document_Chapters">
+          <ScalarProperty Name="fk_ChapterID" ColumnName="fk_ChapterID" />
+          <ScalarProperty Name="fk_DocumentID" ColumnName="fk_DocumentID" />
+          <ScalarProperty Name="SeqNum" ColumnName="SeqNum" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocumentImages">
+      <EntityTypeMapping TypeName="palinoiaModel.DocumentImage">
+        <MappingFragment StoreEntitySet="DocumentImages">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Documents">
+      <EntityTypeMapping TypeName="palinoiaModel.Document">
+        <MappingFragment StoreEntitySet="Documents">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="fk_DocumentType" ColumnName="fk_DocumentType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Histories">
+      <EntityTypeMapping TypeName="palinoiaModel.History">
+        <MappingFragment StoreEntitySet="History">
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="UserID_UpdatedBy" ColumnName="UserID_UpdatedBy" />
+          <ScalarProperty Name="NewValue" ColumnName="NewValue" />
+          <ScalarProperty Name="OldValue" ColumnName="OldValue" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+          <ScalarProperty Name="fk_PalinoiaFieldID" ColumnName="fk_PalinoiaFieldID" />
+          <ScalarProperty Name="RecordID" ColumnName="RecordID" />
+          <ScalarProperty Name="fk_PalinoiaObjectID" ColumnName="fk_PalinoiaObjectID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_ChapterType">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_ChapterType">
+        <MappingFragment StoreEntitySet="lkup_ChapterType">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_CSMResponseType">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_CSMResponseType">
+        <MappingFragment StoreEntitySet="lkup_CSMResponseType">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_CSMType">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_CSMType">
+        <MappingFragment StoreEntitySet="lkup_CSMType">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_DefectPriority">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_DefectPriority">
+        <MappingFragment StoreEntitySet="lkup_DefectPriority">
+          <ScalarProperty Name="Importance" ColumnName="Importance" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_DefectStatus">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_DefectStatus">
+        <MappingFragment StoreEntitySet="lkup_DefectStatus">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_DefectType">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_DefectType">
+        <MappingFragment StoreEntitySet="lkup_DefectType">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_DocumentType">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_DocumentType">
+        <MappingFragment StoreEntitySet="lkup_DocumentType">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="IncludeBRCSMSummaryTable" ColumnName="IncludeBRCSMSummaryTable" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_PalinoiaFields">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_PalinoiaFields">
+        <MappingFragment StoreEntitySet="lkup_PalinoiaFields">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_PalinoiaObjects">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_PalinoiaObjects">
+        <MappingFragment StoreEntitySet="lkup_PalinoiaObjects">
+          <ScalarProperty Name="TEXT" ColumnName="TEXT" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_SearchDataTypes">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_SearchDataTypes">
+        <MappingFragment StoreEntitySet="lkup_SearchDataTypes">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_SearchObjects">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_SearchObjects">
+        <MappingFragment StoreEntitySet="lkup_SearchObjects">
+          <ScalarProperty Name="XREF_Table" ColumnName="XREF_Table" />
+          <ScalarProperty Name="ResultDisplayPriority" ColumnName="ResultDisplayPriority" />
+          <ScalarProperty Name="SearchColumn" ColumnName="SearchColumn" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="fk_SearchDataTypeID" ColumnName="fk_SearchDataTypeID" />
+          <ScalarProperty Name="fk_SearchTypeID" ColumnName="fk_SearchTypeID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_SearchOperators">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_SearchOperators">
+        <MappingFragment StoreEntitySet="lkup_SearchOperators">
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_SearchTypes">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_SearchTypes">
+        <MappingFragment StoreEntitySet="lkup_SearchTypes">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_Sections">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_Sections">
+        <MappingFragment StoreEntitySet="lkup_Sections">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Abbreviation" ColumnName="Abbreviation" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_Status">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_Status">
+        <MappingFragment StoreEntitySet="lkup_Status">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DisplayInChapterSummary" ColumnName="DisplayInChapterSummary" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lkup_TestStatus">
+      <EntityTypeMapping TypeName="palinoiaModel.lkup_TestStatus">
+        <MappingFragment StoreEntitySet="lkup_TestStatus">
+          <ScalarProperty Name="TEXT" ColumnName="TEXT" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SQLITEADMIN_QUERIES">
+      <EntityTypeMapping TypeName="palinoiaModel.SQLITEADMIN_QUERIES">
+        <MappingFragment StoreEntitySet="SQLITEADMIN_QUERIES">
+          <ScalarProperty Name="SQL" ColumnName="SQL" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCase_BusinessRules">
+      <EntityTypeMapping TypeName="palinoiaModel.TestCase_BusinessRules">
+        <MappingFragment StoreEntitySet="TestCase_BusinessRules">
+          <ScalarProperty Name="fk_BusinessRuleID" ColumnName="fk_BusinessRuleID" />
+          <ScalarProperty Name="fk_TestCaseID" ColumnName="fk_TestCaseID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCase_Documents">
+      <EntityTypeMapping TypeName="palinoiaModel.TestCase_Documents">
+        <MappingFragment StoreEntitySet="TestCase_Documents">
+          <ScalarProperty Name="fk_DocumentID" ColumnName="fk_DocumentID" />
+          <ScalarProperty Name="fk_TestCaseID" ColumnName="fk_TestCaseID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCase_PreConditions">
+      <EntityTypeMapping TypeName="palinoiaModel.TestCase_PreConditions">
+        <MappingFragment StoreEntitySet="TestCase_PreConditions">
+          <ScalarProperty Name="SeqNum" ColumnName="SeqNum" />
+          <ScalarProperty Name="PreConditionTestCaseID" ColumnName="PreConditionTestCaseID" />
+          <ScalarProperty Name="fk_TestCaseID" ColumnName="fk_TestCaseID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCase_TestSteps">
+      <EntityTypeMapping TypeName="palinoiaModel.TestCase_TestSteps">
+        <MappingFragment StoreEntitySet="TestCase_TestSteps">
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="fk_TestStepID" ColumnName="fk_TestStepID" />
+          <ScalarProperty Name="fk_TestCaseID" ColumnName="fk_TestCaseID" />
+          <ScalarProperty Name="SeqNum" ColumnName="SeqNum" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCases">
+      <EntityTypeMapping TypeName="palinoiaModel.TestCase">
+        <MappingFragment StoreEntitySet="TestCases">
+          <ScalarProperty Name="fk_TestStatusID" ColumnName="fk_TestStatusID" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="fk_lkup_SectionID" ColumnName="fk_lkup_SectionID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestResults">
+      <EntityTypeMapping TypeName="palinoiaModel.TestResult">
+        <MappingFragment StoreEntitySet="TestResults">
+          <ScalarProperty Name="FailedBusinessRuleID" ColumnName="FailedBusinessRuleID" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="TestDate" ColumnName="TestDate" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="fk_TestStatusID" ColumnName="fk_TestStatusID" />
+          <ScalarProperty Name="fk_TestStepID" ColumnName="fk_TestStepID" />
+          <ScalarProperty Name="fk_TestCaseID" ColumnName="fk_TestCaseID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestStep_BusinessRules">
+      <EntityTypeMapping TypeName="palinoiaModel.TestStep_BusinessRules">
+        <MappingFragment StoreEntitySet="TestStep_BusinessRules">
+          <ScalarProperty Name="fk_BusinessRuleID" ColumnName="fk_BusinessRuleID" />
+          <ScalarProperty Name="fk_TestStepID" ColumnName="fk_TestStepID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestSteps">
+      <EntityTypeMapping TypeName="palinoiaModel.TestStep">
+        <MappingFragment StoreEntitySet="TestSteps">
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

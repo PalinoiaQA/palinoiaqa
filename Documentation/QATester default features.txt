@@ -1,0 +1,28 @@
+Admin Projects View
+Business Rules Menu Item
+Business Rules View
+Chapter Add
+Chapter Delete
+Chapter Edit
+Chapter View
+Customer Service Messages Menu Item
+Customer Service Messages View
+Defect Tracking Menu Item
+Defects Add
+Defects Delete
+Defects Edit
+Defects View
+DocumentManagerMenuItem
+Documents Add
+Documents Edit
+Documents View
+ProjectsMenuItem
+Test Cases Add
+Test Cases Delete
+Test Cases Edit
+Test Cases Menu Item
+Test Cases View
+Test Steps Add
+Test Steps Delete
+Test Steps Edit
+Test Steps View

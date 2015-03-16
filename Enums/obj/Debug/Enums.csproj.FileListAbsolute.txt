@@ -1,0 +1,5 @@
+C:\ palinoia\Enums\bin\Debug\Enums.dll
+C:\ palinoia\Enums\bin\Debug\Enums.pdb
+C:\ palinoia\Enums\obj\Debug\Enums.dll
+C:\ palinoia\Enums\obj\Debug\Enums.pdb
+C:\ palinoia\Enums\bin\Debug\Enums.XML

@@ -1,0 +1,49 @@
+1. Business Rule/ CSM summaries
+	* insertChapter(doc id, chapter id, viewChapter);
+	* reorderChapters(doc id); * needs more research
+	* automate on save chapter and save edit business rule, create/update word doc on server
+
+2. add interface to word docs on server to document manager
+
+3. create test case manager
+	* floating window
+	* interface with defects manager
+
+4. create defects manager
+	* create interface
+	* view/edite interface
+
+5. automate defects when new business rule created
+
+6. add locks for chaper edit. business rules/csms??
+	* admin screen for unlocking records/ auto unlock time?
+
+7. create scenario manager
+	* execute scenario test cases
+
+8. Reports
+
+
+12/7/13
+
+Remove PostConditions table/ui objects
+Remove PreConditions tables/object
+Remove TestScenario tables/objects
+
+Update TestCase-PreConditions to store primary test case id, precondition test case id, and sequence number
+
+PreConditions:
+
+currently just text
+should be test case(s) - dragdrop?
+
+TestRunner should pull all test steps for primary test case and all test steps for preconditions in order and create a single list of test steps.  User should have option to skip pre conditions and go directly to primary test case step
+Precondition test steps should display test status (pass/fail) but user should be able to update status.
+
+update viewprecondition object to store primary/secondary test case ids and sequence number.
+
+update viewTestCase object to store generic list of test step objects and a generic list of precondition objects
+
+
+
+

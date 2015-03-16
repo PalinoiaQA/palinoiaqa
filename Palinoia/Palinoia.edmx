@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="palinoiaModel.Store" Alias="Self" Provider="System.Data.SQLite" ProviderManifestToken="ISO8601" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="palinoiaModelStoreContainer">
+          <EntitySet Name="BusinessRules" EntityType="palinoiaModel.Store.BusinessRules" store:Type="Tables" />
+          <EntitySet Name="CustomerServiceMessages" EntityType="palinoiaModel.Store.CustomerServiceMessages" store:Type="Tables" />
+          <EntitySet Name="lkup_CMSType" EntityType="palinoiaModel.Store.lkup_CMSType" store:Type="Tables" />
+          <EntitySet Name="lkup_CSMResponseType" EntityType="palinoiaModel.Store.lkup_CSMResponseType" store:Type="Tables" />
+          <EntitySet Name="lkup_Status" EntityType="palinoiaModel.Store.lkup_Status" store:Type="Tables" />
+          <AssociationSet Name="FK_BusinessRules_0" Association="palinoiaModel.Store.FK_BusinessRules_0">
+            <End Role="lkup_Status" EntitySet="lkup_Status" />
+            <End Role="BusinessRules" EntitySet="BusinessRules" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CustomerServiceMessages_0" Association="palinoiaModel.Store.FK_CustomerServiceMessages_0">
+            <End Role="lkup_CSMResponseType" EntitySet="lkup_CSMResponseType" />
+            <End Role="CustomerServiceMessages" EntitySet="CustomerServiceMessages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CustomerServiceMessages_1" Association="palinoiaModel.Store.FK_CustomerServiceMessages_1">
+            <End Role="lkup_CMSType" EntitySet="lkup_CMSType" />
+            <End Role="CustomerServiceMessages" EntitySet="CustomerServiceMessages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CustomerServiceMessages_2" Association="palinoiaModel.Store.FK_CustomerServiceMessages_2">
+            <End Role="lkup_Status" EntitySet="lkup_Status" />
+            <End Role="CustomerServiceMessages" EntitySet="CustomerServiceMessages" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="BusinessRules">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="StatusID" Type="integer" Nullable="false" />
+          <Property Name="Text" Type="nvarchar" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CustomerServiceMessages">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="StatusID" Type="integer" Nullable="false" />
+          <Property Name="TypeID" Type="integer" Nullable="false" />
+          <Property Name="ResponseID" Type="integer" Nullable="false" />
+          <Property Name="Text" Type="nvarchar" Nullable="false" />
+        </EntityType>
+        <EntityType Name="lkup_CMSType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="lkup_CSMResponseType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="lkup_Status">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_BusinessRules_0">
+          <End Role="lkup_Status" Type="palinoiaModel.Store.lkup_Status" Multiplicity="1" />
+          <End Role="BusinessRules" Type="palinoiaModel.Store.BusinessRules" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_Status">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BusinessRules">
+              <PropertyRef Name="StatusID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CustomerServiceMessages_0">
+          <End Role="lkup_CSMResponseType" Type="palinoiaModel.Store.lkup_CSMResponseType" Multiplicity="1" />
+          <End Role="CustomerServiceMessages" Type="palinoiaModel.Store.CustomerServiceMessages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_CSMResponseType">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CustomerServiceMessages">
+              <PropertyRef Name="ResponseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CustomerServiceMessages_1">
+          <End Role="lkup_CMSType" Type="palinoiaModel.Store.lkup_CMSType" Multiplicity="1" />
+          <End Role="CustomerServiceMessages" Type="palinoiaModel.Store.CustomerServiceMessages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_CMSType">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CustomerServiceMessages">
+              <PropertyRef Name="TypeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CustomerServiceMessages_2">
+          <End Role="lkup_Status" Type="palinoiaModel.Store.lkup_Status" Multiplicity="1" />
+          <End Role="CustomerServiceMessages" Type="palinoiaModel.Store.CustomerServiceMessages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_Status">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CustomerServiceMessages">
+              <PropertyRef Name="StatusID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="palinoiaModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="palinoiaEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BusinessRules" EntityType="palinoiaModel.BusinessRule" />
+          <EntitySet Name="CustomerServiceMessages" EntityType="palinoiaModel.CustomerServiceMessage" />
+          <EntitySet Name="lkup_CMSType" EntityType="palinoiaModel.lkup_CMSType" />
+          <EntitySet Name="lkup_CSMResponseType" EntityType="palinoiaModel.lkup_CSMResponseType" />
+          <EntitySet Name="lkup_Status" EntityType="palinoiaModel.lkup_Status" />
+          <AssociationSet Name="FK_BusinessRules_0" Association="palinoiaModel.FK_BusinessRules_0">
+            <End Role="lkup_Status" EntitySet="lkup_Status" />
+            <End Role="BusinessRules" EntitySet="BusinessRules" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CustomerServiceMessages_0" Association="palinoiaModel.FK_CustomerServiceMessages_0">
+            <End Role="lkup_CSMResponseType" EntitySet="lkup_CSMResponseType" />
+            <End Role="CustomerServiceMessages" EntitySet="CustomerServiceMessages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CustomerServiceMessages_1" Association="palinoiaModel.FK_CustomerServiceMessages_1">
+            <End Role="lkup_CMSType" EntitySet="lkup_CMSType" />
+            <End Role="CustomerServiceMessages" EntitySet="CustomerServiceMessages" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CustomerServiceMessages_2" Association="palinoiaModel.FK_CustomerServiceMessages_2">
+            <End Role="lkup_Status" EntitySet="lkup_Status" />
+            <End Role="CustomerServiceMessages" EntitySet="CustomerServiceMessages" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="BusinessRule">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="StatusID" Type="Int64" Nullable="false" />
+          <Property Name="Text" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="lkup_Status" Relationship="palinoiaModel.FK_BusinessRules_0" FromRole="BusinessRules" ToRole="lkup_Status" />
+        </EntityType>
+        <EntityType Name="CustomerServiceMessage">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="StatusID" Type="Int64" Nullable="false" />
+          <Property Name="TypeID" Type="Int64" Nullable="false" />
+          <Property Name="ResponseID" Type="Int64" Nullable="false" />
+          <Property Name="Text" Type="String" Nullable="false" MaxLength="2147483647" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="lkup_CSMResponseType" Relationship="palinoiaModel.FK_CustomerServiceMessages_0" FromRole="CustomerServiceMessages" ToRole="lkup_CSMResponseType" />
+          <NavigationProperty Name="lkup_CMSType" Relationship="palinoiaModel.FK_CustomerServiceMessages_1" FromRole="CustomerServiceMessages" ToRole="lkup_CMSType" />
+          <NavigationProperty Name="lkup_Status" Relationship="palinoiaModel.FK_CustomerServiceMessages_2" FromRole="CustomerServiceMessages" ToRole="lkup_Status" />
+        </EntityType>
+        <EntityType Name="lkup_CMSType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CustomerServiceMessages" Relationship="palinoiaModel.FK_CustomerServiceMessages_1" FromRole="lkup_CMSType" ToRole="CustomerServiceMessages" />
+        </EntityType>
+        <EntityType Name="lkup_CSMResponseType">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="CustomerServiceMessages" Relationship="palinoiaModel.FK_CustomerServiceMessages_0" FromRole="lkup_CSMResponseType" ToRole="CustomerServiceMessages" />
+        </EntityType>
+        <EntityType Name="lkup_Status">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Text" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="BusinessRules" Relationship="palinoiaModel.FK_BusinessRules_0" FromRole="lkup_Status" ToRole="BusinessRules" />
+          <NavigationProperty Name="CustomerServiceMessages" Relationship="palinoiaModel.FK_CustomerServiceMessages_2" FromRole="lkup_Status" ToRole="CustomerServiceMessages" />
+        </EntityType>
+        <Association Name="FK_BusinessRules_0">
+          <End Role="lkup_Status" Type="palinoiaModel.lkup_Status" Multiplicity="1" />
+          <End Role="BusinessRules" Type="palinoiaModel.BusinessRule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_Status">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="BusinessRules">
+              <PropertyRef Name="StatusID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CustomerServiceMessages_0">
+          <End Role="lkup_CSMResponseType" Type="palinoiaModel.lkup_CSMResponseType" Multiplicity="1" />
+          <End Role="CustomerServiceMessages" Type="palinoiaModel.CustomerServiceMessage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_CSMResponseType">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CustomerServiceMessages">
+              <PropertyRef Name="ResponseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CustomerServiceMessages_1">
+          <End Role="lkup_CMSType" Type="palinoiaModel.lkup_CMSType" Multiplicity="1" />
+          <End Role="CustomerServiceMessages" Type="palinoiaModel.CustomerServiceMessage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_CMSType">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CustomerServiceMessages">
+              <PropertyRef Name="TypeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CustomerServiceMessages_2">
+          <End Role="lkup_Status" Type="palinoiaModel.lkup_Status" Multiplicity="1" />
+          <End Role="CustomerServiceMessages" Type="palinoiaModel.CustomerServiceMessage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="lkup_Status">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CustomerServiceMessages">
+              <PropertyRef Name="StatusID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="palinoiaModelStoreContainer" CdmEntityContainer="palinoiaEntities">
+          <EntitySetMapping Name="BusinessRules"><EntityTypeMapping TypeName="palinoiaModel.BusinessRule"><MappingFragment StoreEntitySet="BusinessRules">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+            <ScalarProperty Name="Text" ColumnName="Text" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="CustomerServiceMessages"><EntityTypeMapping TypeName="palinoiaModel.CustomerServiceMessage"><MappingFragment StoreEntitySet="CustomerServiceMessages">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Name" ColumnName="Name" />
+            <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+            <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+            <ScalarProperty Name="ResponseID" ColumnName="ResponseID" />
+            <ScalarProperty Name="Text" ColumnName="Text" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="lkup_CMSType"><EntityTypeMapping TypeName="palinoiaModel.lkup_CMSType"><MappingFragment StoreEntitySet="lkup_CMSType">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Text" ColumnName="Text" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="lkup_CSMResponseType"><EntityTypeMapping TypeName="palinoiaModel.lkup_CSMResponseType"><MappingFragment StoreEntitySet="lkup_CSMResponseType">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Text" ColumnName="Text" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="lkup_Status"><EntityTypeMapping TypeName="palinoiaModel.lkup_Status"><MappingFragment StoreEntitySet="lkup_Status">
+            <ScalarProperty Name="ID" ColumnName="ID" />
+            <ScalarProperty Name="Text" ColumnName="Text" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Palinoia">
+        <EntityTypeShape EntityType="palinoiaModel.BusinessRule" Width="1.5" PointX="4.875" PointY="0.5" Height="1.9802864583333335" IsExpanded="true" />
+        <EntityTypeShape EntityType="palinoiaModel.CustomerServiceMessage" Width="2" PointX="0.875" PointY="2.625" Height="2.7494921874999996" IsExpanded="true" />
+        <EntityTypeShape EntityType="palinoiaModel.lkup_CMSType" Width="1.5" PointX="0.5" PointY="0.5" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="palinoiaModel.lkup_CSMResponseType" Width="1.5" PointX="3.375" PointY="3" Height="1.5956835937499996" IsExpanded="true" />
+        <EntityTypeShape EntityType="palinoiaModel.lkup_Status" Width="1.5" PointX="2.5" PointY="0.5" Height="1.7879850260416652" IsExpanded="true" />
+        <AssociationConnector Association="palinoiaModel.FK_BusinessRules_0" ManuallyRouted="false">
+          <ConnectorPoint PointX="4" PointY="1.3939925130208328" />
+          <ConnectorPoint PointX="4.875" PointY="1.3939925130208328" />
+        </AssociationConnector>
+        <AssociationConnector Association="palinoiaModel.FK_CustomerServiceMessages_0" ManuallyRouted="false">
+          <ConnectorPoint PointX="3.375" PointY="3.797841796875" />
+          <ConnectorPoint PointX="2.875" PointY="3.797841796875" />
+        </AssociationConnector>
+        <AssociationConnector Association="palinoiaModel.FK_CustomerServiceMessages_1" ManuallyRouted="false">
+          <ConnectorPoint PointX="1.4375" PointY="2.0956835937499996" />
+          <ConnectorPoint PointX="1.4375" PointY="2.625" />
+        </AssociationConnector>
+        <AssociationConnector Association="palinoiaModel.FK_CustomerServiceMessages_2" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.6875" PointY="2.2879850260416652" />
+          <ConnectorPoint PointX="2.6875" PointY="2.625" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

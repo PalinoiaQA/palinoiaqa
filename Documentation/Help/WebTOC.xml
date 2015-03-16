@@ -1,0 +1,1583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="129372ce-3b8a-470b-aa7e-bb94aaa6e8f5" Title="BLL Namespace" Url="html/4302011f-b3d8-01ff-9bd8-7b69b5565afe.htm">
+    <HelpTOCNode Id="faae4ce9-29d6-4b17-a3f0-9421742b9794" Title="AdminBLL Class" Url="html/1a5e3dad-2e34-7116-e1f9-9972ba9fc18a.htm">
+      <HelpTOCNode Title="AdminBLL Members" Url="html/4497b399-07dc-ab7a-90aa-7f7a7dfc7d96.htm" />
+      <HelpTOCNode Title="AdminBLL Constructor " Url="html/f0e0d882-c7e6-4315-3cce-0cd036eeb2d8.htm" />
+      <HelpTOCNode Id="505942d2-9954-47b6-be2b-f209dad14a03" Title="AdminBLL Methods" Url="html/e6e6e2df-6179-7c73-7064-7fb1fa5db3b1.htm">
+        <HelpTOCNode Title="addNewCSMResponseType Method " Url="html/da029325-8111-9baa-c571-7fcadda458ba.htm" />
+        <HelpTOCNode Title="addNewCSMType Method " Url="html/a8dbf7ea-8312-4715-9aee-9abd8267a489.htm" />
+        <HelpTOCNode Title="addNewStatus Method " Url="html/a4cf968d-1ebd-b80f-41db-7a0eecf29f70.htm" />
+        <HelpTOCNode Title="addSection Method " Url="html/c102c308-f89a-cba7-4e16-37698804d934.htm" />
+        <HelpTOCNode Title="deleteCSMResponseType Method " Url="html/af780ee4-cfe6-4cb7-6ac2-779c555d5aa2.htm" />
+        <HelpTOCNode Title="deleteCSMType Method " Url="html/6af1ec23-7526-8776-4440-752a0d6788d6.htm" />
+        <HelpTOCNode Title="deleteSection Method " Url="html/87c89990-ff7b-af99-c11d-6e2f1ccb4e1f.htm" />
+        <HelpTOCNode Title="deleteStatus Method " Url="html/9747bd34-e20d-c0b7-7b7a-d1aa7d93b1ef.htm" />
+        <HelpTOCNode Title="getAllCSMTypes Method " Url="html/3b9a96b1-1e24-ce16-7556-b8880811bc41.htm" />
+        <HelpTOCNode Title="getAllSections Method " Url="html/4136b3c2-5927-8056-3276-6a8299cc578f.htm" />
+        <HelpTOCNode Title="getAllStatuses Method " Url="html/4859b3af-8dc2-7ffa-44f7-c6944e544e96.htm" />
+        <HelpTOCNode Title="getCSMResponseTypeByID Method " Url="html/c264e197-f789-ac3d-c54d-d02429938af7.htm" />
+        <HelpTOCNode Title="getCSMResponseTypes Method " Url="html/66b52c9b-ae0c-0767-0346-48ad73373222.htm" />
+        <HelpTOCNode Title="getCSMTypesByID Method " Url="html/36f6df1e-738e-be34-4256-bd589ece4935.htm" />
+        <HelpTOCNode Title="getSectionByID Method " Url="html/4d39fc14-fddf-cb16-0f87-40486cb83b74.htm" />
+        <HelpTOCNode Title="getStatusByID Method " Url="html/72b4da39-a422-f53c-c40b-6836dea3c7ad.htm" />
+        <HelpTOCNode Title="updateCSMResponseType Method " Url="html/73d78b47-9a80-4989-3ca4-8c53a0157388.htm" />
+        <HelpTOCNode Title="updateCSMType Method " Url="html/540bcefd-608a-0e23-abee-bed13962c92c.htm" />
+        <HelpTOCNode Title="updateSection Method " Url="html/cf7cfd19-25e1-6354-05cb-fd2e16c6c379.htm" />
+        <HelpTOCNode Title="updateStatus Method " Url="html/db674f57-1387-3e48-9910-f666a6347e74.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f4e13b80-179c-4a0d-8d41-faebee9b8036" Title="AdminBLL Properties" Url="html/8944ee8c-31bb-9c74-0bf1-fd3185725481.htm">
+        <HelpTOCNode Title="ProjectID Property " Url="html/fe50228e-bbf8-e1a4-14f3-48720dc1dfb8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="262eb926-a42a-4f50-8480-36fcb3a5e8d9" Title="BusinessRulesBLL Class" Url="html/01f860f9-ccd0-ea80-271e-cf4ad4c0faea.htm">
+      <HelpTOCNode Title="BusinessRulesBLL Members" Url="html/f9173963-c966-94c6-205b-1874752aaf1a.htm" />
+      <HelpTOCNode Title="BusinessRulesBLL Constructor " Url="html/e740499a-64e0-b014-b3d1-6fd18d0859de.htm" />
+      <HelpTOCNode Id="0aee8a86-a0c6-4bf7-bf6b-75a3ac58dfe1" Title="BusinessRulesBLL Fields" Url="html/00fca62b-3c12-692f-be69-cc16cc1124c5.htm">
+        <HelpTOCNode Title="dal Field" Url="html/f10ad6ae-6eab-97f6-7a11-6528268964ff.htm" />
+        <HelpTOCNode Title="palinoiaBLL Field" Url="html/10736b70-1092-620d-31e1-c232716ef6e9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="917d033e-8fdb-4f23-a935-86547b189b5f" Title="BusinessRulesBLL Methods" Url="html/60125450-6526-edc2-48fd-2eb96eb85a2c.htm">
+        <HelpTOCNode Title="addBusinessRule Method " Url="html/886caa2f-3d07-d812-7cf2-d16c267e6f91.htm" />
+        <HelpTOCNode Title="deleteBusinessRule Method " Url="html/e3cf14e8-0682-88cb-8331-0822ad7a838d.htm" />
+        <HelpTOCNode Title="getAllBusinessRules Method " Url="html/38508344-76e1-f937-5e0e-f16fa08b88d4.htm" />
+        <HelpTOCNode Title="getBusinessRuleByID Method " Url="html/158ea742-fa50-68ba-b12a-3a35b95520b0.htm" />
+        <HelpTOCNode Title="updateBusinessRule Method " Url="html/692a7b46-9554-afb1-1b68-9c13a8d58cbd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4356c490-40b0-4677-b34c-10cf6511b948" Title="BusinessRulesBLL Properties" Url="html/f2417a58-a6e1-d174-998c-3867f51f3738.htm">
+        <HelpTOCNode Title="ProjectID Property " Url="html/48c2fc79-daa3-09e6-749d-075f6ea9fe63.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ab67af86-565b-4ad1-b40c-cd5c3e5d5f8a" Title="CustomerServiceMessagesBLL Class" Url="html/29e7a677-05e2-2f2c-79f7-1011cca0c479.htm">
+      <HelpTOCNode Title="CustomerServiceMessagesBLL Members" Url="html/282dd7fd-278d-9df5-ea5b-50bd21b121bf.htm" />
+      <HelpTOCNode Title="CustomerServiceMessagesBLL Constructor " Url="html/13a15f35-d1e7-bbcf-f0d5-5883e56179dc.htm" />
+      <HelpTOCNode Id="78dfea33-2b82-4d45-9f1f-4a734cf22cd3" Title="CustomerServiceMessagesBLL Fields" Url="html/2d16c118-17c3-3a10-ee29-98957cd789d5.htm">
+        <HelpTOCNode Title="dal Field" Url="html/9982bf77-92c1-123a-e50a-a35cf19d5dfa.htm" />
+        <HelpTOCNode Title="palinoiaBLL Field" Url="html/bf7d78e8-58ea-db12-c39a-f30f318dea17.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b56911a-262b-4300-86ad-0dc07dcbc553" Title="CustomerServiceMessagesBLL Methods" Url="html/b5016254-32f1-01c1-5431-77eb3fef59ee.htm">
+        <HelpTOCNode Title="addCSM Method " Url="html/7bb94eff-3ed4-a3e0-d7fd-74a21f4dc57b.htm" />
+        <HelpTOCNode Title="deleteCSM Method " Url="html/94918fc9-8f61-724b-26df-bee320ee4e91.htm" />
+        <HelpTOCNode Title="getAllCSMs Method " Url="html/9d02dce2-630f-b713-1715-197737e36dab.htm" />
+        <HelpTOCNode Title="getCSMByID Method " Url="html/16b877b6-07a3-9438-c092-4e6e83b9b1a9.htm" />
+        <HelpTOCNode Title="updateCSM Method " Url="html/7cda03c0-5b65-81ed-dbd9-c573c717e8a2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="056bc5ff-2a72-48e9-a001-3b6127cc24ba" Title="CustomerServiceMessagesBLL Properties" Url="html/1dc8a907-12be-0e8a-e624-c2cec9ef80cb.htm">
+        <HelpTOCNode Title="ProjectID Property " Url="html/dcb47ce4-3d58-58fb-9df8-d0deab801c9b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d367752-1b4a-4c3b-b918-cdce559d4e85" Title="EncryptionHandler Class" Url="html/565da313-9593-24ee-ee90-d391ac3d3d37.htm">
+      <HelpTOCNode Title="EncryptionHandler Members" Url="html/9efa7c1b-b640-c578-6c2e-90323c729ded.htm" />
+      <HelpTOCNode Title="EncryptionHandler Constructor " Url="html/65a6000d-c970-fd79-8b89-845e0cbd81b5.htm" />
+      <HelpTOCNode Id="8b00b5f4-4d34-4d05-8bdd-b5d687504991" Title="EncryptionHandler Methods" Url="html/efb036b7-dac8-4555-28a6-747356196141.htm">
+        <HelpTOCNode Title="ByteArrToString Method " Url="html/4a5a07b1-5340-b2a0-1e05-e85b5e3f1f5c.htm" />
+        <HelpTOCNode Title="Decrypt Method " Url="html/0b27631a-cb35-e712-e051-264a883b8f69.htm" />
+        <HelpTOCNode Title="DecryptString Method " Url="html/307691cc-5cdc-0d84-2d4a-56c550a0e859.htm" />
+        <HelpTOCNode Title="Encrypt Method " Url="html/08143945-6652-5c0c-ff78-3975bc1c4cfb.htm" />
+        <HelpTOCNode Title="EncryptToString Method " Url="html/1116720c-1131-e6f7-4821-1aafe066b421.htm" />
+        <HelpTOCNode Title="GenerateEncryptionKey Method " Url="html/a9a92b7c-56bb-3740-3f1a-c600de768e02.htm" />
+        <HelpTOCNode Title="GenerateEncryptionVector Method " Url="html/3ebad5ee-7539-4063-7845-0f7aa5035a15.htm" />
+        <HelpTOCNode Title="StrToByteArray Method " Url="html/ab2d24e5-1b20-f98a-d887-851d3a5057dc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4cc6bc25-9c4e-497e-92f5-a32444647c83" Title="PalinoiaBLL Class" Url="html/992295e5-7cf7-e56d-deb6-a69b945f7184.htm">
+      <HelpTOCNode Title="PalinoiaBLL Members" Url="html/99df1062-004f-4cbc-1316-9640c16c6570.htm" />
+      <HelpTOCNode Id="46e11a5d-87b9-4509-a75e-1197aef2169c" Title="PalinoiaBLL Constructor " Url="html/ada77273-ceab-bc6b-7f1e-d0360f867a12.htm">
+        <HelpTOCNode Title="PalinoiaBLL Constructor " Url="html/0e1bac77-0eb1-a44d-7fbc-e8e296804ecf.htm" />
+        <HelpTOCNode Title="PalinoiaBLL Constructor (Int32)" Url="html/ff68dd16-0ddc-e2d4-4e7d-e08b3a3f8f3b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6bb34f77-43dd-46d6-8909-de28b9b794a1" Title="PalinoiaBLL Methods" Url="html/6abbe7ab-1fb4-6c95-6f8f-00375924e9e5.htm">
+        <HelpTOCNode Title="addFeature Method " Url="html/76ac9726-a4ad-2d12-bb8a-790d32c062e7.htm" />
+        <HelpTOCNode Title="addFeatureToRole Method " Url="html/304c0a33-4493-6753-7ff6-4cb0161652d8.htm" />
+        <HelpTOCNode Title="addRole Method " Url="html/c6f56517-c9ba-c152-9c03-a8cd587c6b2c.htm" />
+        <HelpTOCNode Title="addUser Method " Url="html/a29a2f9d-bdf0-c3e3-e4ef-ef7e10c1fdc6.htm" />
+        <HelpTOCNode Title="createNewProject Method " Url="html/5b365368-e361-2962-cc9d-86aa9191344f.htm" />
+        <HelpTOCNode Title="deleteFeature Method " Url="html/5e199140-200a-efcb-d709-b2c22e73065a.htm" />
+        <HelpTOCNode Title="deleteProject Method " Url="html/9f314f01-6cf5-c31e-712e-965edcacd8c6.htm" />
+        <HelpTOCNode Title="deleteRole Method " Url="html/9d5746aa-0eaa-07cf-6547-723988114abf.htm" />
+        <HelpTOCNode Title="deleteUser Method " Url="html/722a50e7-f7ab-9c5d-c0de-9c0baa6a36e0.htm" />
+        <HelpTOCNode Title="getAllFeatures Method " Url="html/ff31c000-d6e0-f38d-116d-983f3e5b3e87.htm" />
+        <HelpTOCNode Title="getAllProjects Method " Url="html/129b9f72-3bc5-babb-cd93-4f96b1d13df9.htm" />
+        <HelpTOCNode Title="getAllRoles Method " Url="html/2ff6468a-fb81-bc74-04e8-16b7343d4906.htm" />
+        <HelpTOCNode Title="getAllUsers Method " Url="html/ba5b07e8-031b-628e-a81c-93ff8b2ce717.htm" />
+        <HelpTOCNode Title="getAssociatedFeaturesForRole Method " Url="html/e3a0071e-6b70-0534-53a8-7bfc3e9879bc.htm" />
+        <HelpTOCNode Title="getAvailableFeaturesForRole Method " Url="html/e8476659-006c-2229-1969-1aa6877dc737.htm" />
+        <HelpTOCNode Title="getFeatureByID Method " Url="html/37f18d0c-01f1-d555-61b2-017f6a861279.htm" />
+        <HelpTOCNode Title="getFeaturesForUser Method " Url="html/8efea1b1-041a-785c-1415-0b267184b02e.htm" />
+        <HelpTOCNode Title="getRoleByID Method " Url="html/82982d36-dca0-a3e1-f969-dd3d1b9b72cb.htm" />
+        <HelpTOCNode Title="getUserByID Method " Url="html/a5c9739c-b486-b66c-d6f9-1c6f68da6dc2.htm" />
+        <HelpTOCNode Title="isValidText Method " Url="html/862a83da-4703-19a1-36ec-5462c6c40833.htm" />
+        <HelpTOCNode Title="loginUser Method " Url="html/74915660-1323-5361-79e2-e82a471b95e2.htm" />
+        <HelpTOCNode Title="removeFeatureFromRole Method " Url="html/0fb8ce4b-ad0e-d252-9bbd-05a9913bb5a7.htm" />
+        <HelpTOCNode Title="updateFeature Method " Url="html/89f251de-160b-569a-9077-1b793d70ad5d.htm" />
+        <HelpTOCNode Title="updateProject Method " Url="html/b7747f18-1681-50cb-ae76-6b06968818c2.htm" />
+        <HelpTOCNode Title="updateRole Method " Url="html/32d9a9d9-e62e-cd59-f30e-30cfda5a97d9.htm" />
+        <HelpTOCNode Title="updateUser Method " Url="html/8ef77610-e0cc-fca1-9953-fe446ff6ba72.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa2f6f09-a6d6-43dd-9324-48479cd0502d" Title="TestCasesBLL Class" Url="html/1b468a4f-41c9-19d1-45c8-8d6402a53a3e.htm">
+      <HelpTOCNode Title="TestCasesBLL Members" Url="html/789feb72-bba3-23f4-2139-2c638a3aad4b.htm" />
+      <HelpTOCNode Title="TestCasesBLL Constructor " Url="html/f6d5f1f2-76fd-6014-732d-1c9519ae5d6d.htm" />
+      <HelpTOCNode Id="892ce42b-c9d4-4dc2-8142-3b5892a535ff" Title="TestCasesBLL Methods" Url="html/70b5c69c-e275-650f-dcb2-bd231e35f3a1.htm">
+        <HelpTOCNode Title="addNewTestCase Method " Url="html/f24fb2d8-8fac-685c-bbf5-4860d30dd9e7.htm" />
+        <HelpTOCNode Title="addNewTestStep Method " Url="html/b3e077c3-c264-de61-5fb3-d14445399de4.htm" />
+        <HelpTOCNode Title="deleteTestCase Method " Url="html/b84fa085-6189-ce86-3eee-565347dbbf62.htm" />
+        <HelpTOCNode Title="deleteTestStep Method " Url="html/acf7cc87-f00d-3288-f53c-d7204e87a282.htm" />
+        <HelpTOCNode Title="getAllTestCases Method " Url="html/59da7472-fb64-c1fe-05ed-a07709f697fb.htm" />
+        <HelpTOCNode Title="getTestCaseByID Method " Url="html/9fbefab3-d775-26d6-fb25-31aef1b440ca.htm" />
+        <HelpTOCNode Title="getTestStepByID Method " Url="html/99e55bde-e8ea-7b55-49ce-1857c0fbf063.htm" />
+        <HelpTOCNode Title="getTestStepsForTestCase Method " Url="html/1164782f-7778-9a0b-7ff3-937f752e00f3.htm" />
+        <HelpTOCNode Title="updateTestCase Method " Url="html/4dba394c-9e15-b144-f788-993d7d372844.htm" />
+        <HelpTOCNode Title="updateTestStep Method " Url="html/566a2b66-3f18-e5cc-5ffa-cab3f62f9219.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="9454e060-52f8-4028-a478-183836490000" Title="TestScenariosBLL Class" Url="html/0578883a-3385-74e0-58de-531006c53744.htm">
+      <HelpTOCNode Title="TestScenariosBLL Members" Url="html/523f0bef-f228-b46c-29e2-07b1af0cbb80.htm" />
+      <HelpTOCNode Title="TestScenariosBLL Constructor " Url="html/d307c7a2-ce83-f66d-78fd-58952e6f0e7f.htm" />
+      <HelpTOCNode Id="f3abe93c-4e43-410a-8d44-dc3066563982" Title="TestScenariosBLL Methods" Url="html/cdbfff46-4c62-ca0d-828a-0a2d25429de5.htm">
+        <HelpTOCNode Title="addNewTestScenario Method " Url="html/bd831c2d-6798-06c9-2604-5a685024d187.htm" />
+        <HelpTOCNode Title="addTestScenarioTestCaseRelationship Method " Url="html/a2f22f2c-f374-7d9e-bc79-99aff02ba3e4.htm" />
+        <HelpTOCNode Title="deleteTestScenario Method " Url="html/1806d2db-f507-b471-1ea8-8e7e0d08b2b5.htm" />
+        <HelpTOCNode Title="deleteTestScenarioTestCaseRelationship Method " Url="html/d6bff589-6ae5-8e42-6057-ed2271793bf4.htm" />
+        <HelpTOCNode Title="getAllTestScenarios Method " Url="html/3d51199e-5098-43d8-300b-8b954f962b3c.htm" />
+        <HelpTOCNode Title="getTestCasesForScenario Method " Url="html/ca794157-6dbd-e2fa-640f-bdab2f2677f4.htm" />
+        <HelpTOCNode Title="getTestScenarioByID Method " Url="html/cb504a2a-1308-ccad-3a5f-a5b1eceb38a6.htm" />
+        <HelpTOCNode Title="updateTestScenario Method " Url="html/d392c5bb-2d4f-1169-238e-b7fdfd9bda54.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b1737d5c-9a28-4bdb-a17f-10f418a08551" Title="DAL Namespace" Url="html/6334a317-1d3e-dab1-9f4e-1c868d3f6675.htm">
+    <HelpTOCNode Id="78ba49e2-5bd7-4f19-bc36-a8bf174aa090" Title="AdminDAL Class" Url="html/5f283f17-082d-6f8b-c492-e2f67ce11326.htm">
+      <HelpTOCNode Title="AdminDAL Members" Url="html/11a40ea9-a64e-a7d3-7f0c-27a5db5c7dad.htm" />
+      <HelpTOCNode Title="AdminDAL Constructor " Url="html/f2c966d0-69e8-4600-e718-96a0717a947d.htm" />
+      <HelpTOCNode Id="ea87d56c-5fd7-4158-b075-4b851194679f" Title="AdminDAL Methods" Url="html/5f559e9a-132e-4f25-464a-642e77597d72.htm">
+        <HelpTOCNode Title="addCSMResponseType Method " Url="html/311cc570-71f2-75cf-846a-d441943e472c.htm" />
+        <HelpTOCNode Title="addCSMType Method " Url="html/2e3e070b-82b9-3731-b306-643cb70e3577.htm" />
+        <HelpTOCNode Title="addSection Method " Url="html/e0470500-032c-8038-d0c3-b6a863d4af9d.htm" />
+        <HelpTOCNode Title="addStatus Method " Url="html/8a0faff5-3b92-fbc5-d70e-c8cd1057b974.htm" />
+        <HelpTOCNode Title="deleteCSMResponseType Method " Url="html/4979db9c-20c8-295e-2f06-a749116686dd.htm" />
+        <HelpTOCNode Title="deleteCSMType Method " Url="html/4354d1ec-3706-4069-43b5-46f3b289ffcd.htm" />
+        <HelpTOCNode Title="deleteSection Method " Url="html/891803c5-ee04-1be6-6f36-1f7ed9630dcb.htm" />
+        <HelpTOCNode Title="deleteStatus Method " Url="html/9b4b9a0c-96dc-6934-e0ab-6e30d419a50b.htm" />
+        <HelpTOCNode Title="getAllCSMResponsesTypes Method " Url="html/8749f241-a7d9-242d-7f4c-8a040894290f.htm" />
+        <HelpTOCNode Title="getAllCSMTypes Method " Url="html/b268a191-70a5-5c25-a0bc-2c3d3b4c18f1.htm" />
+        <HelpTOCNode Title="getAllSections Method " Url="html/fa4c007b-0aec-36bf-90fd-3235d3b1aefc.htm" />
+        <HelpTOCNode Title="getAllStatuses Method " Url="html/3e6f81e6-8646-1f9b-6f5f-5edfdf471136.htm" />
+        <HelpTOCNode Title="getCSMResponseTypeByID Method " Url="html/32d13d4a-84df-ba85-ddd2-0cce285cb08a.htm" />
+        <HelpTOCNode Title="getCSMTypesByID Method " Url="html/35b8343a-5688-325a-d5e7-5f04fc53e15e.htm" />
+        <HelpTOCNode Title="getSectionByID Method " Url="html/dc2e979b-8ce1-0742-75d4-8a48a3807765.htm" />
+        <HelpTOCNode Title="getStatusByID Method " Url="html/62a73ee1-7050-85cd-7726-2c1e665f487c.htm" />
+        <HelpTOCNode Title="updateCSMResponseType Method " Url="html/bce63234-91b3-45c3-eb27-1ee5ffce8f50.htm" />
+        <HelpTOCNode Title="updateCSMType Method " Url="html/edd388f3-1df6-8f79-778b-63be369badd1.htm" />
+        <HelpTOCNode Title="updateSection Method " Url="html/6e8a31b5-d533-0c66-b1e4-0011389a46e7.htm" />
+        <HelpTOCNode Title="updateStatus Method " Url="html/ec759e63-ccff-cc36-d52e-e1605648c31d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="003557e7-e27b-4dd1-b60e-6d258d1bf8a4" Title="AdminDAL Properties" Url="html/5c9b837f-66cf-392c-4ec2-f01e3d2418a9.htm">
+        <HelpTOCNode Title="ProjectID Property " Url="html/c19dbb91-e7cb-ec4b-7951-7c3bb5e855c3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="692f3ba6-2f70-4ec2-962b-537bc028a162" Title="applicationEntities Class" Url="html/5f9ac33c-4ebd-972a-3eaa-d773e721343d.htm">
+      <HelpTOCNode Title="applicationEntities Members" Url="html/91b2e236-b8ef-e98d-7caa-a3a70e997d0f.htm" />
+      <HelpTOCNode Id="094e6ca0-bdac-41ec-a4bd-f70fe6f58b65" Title="applicationEntities Constructor " Url="html/c2f43ded-27b4-6868-ec79-b070946c6d31.htm">
+        <HelpTOCNode Title="applicationEntities Constructor " Url="html/54a5154b-8463-e41b-b222-c98d6aca17be.htm" />
+        <HelpTOCNode Title="applicationEntities Constructor (EntityConnection)" Url="html/d71394ed-596f-8fda-8c01-0f5d6abaf34c.htm" />
+        <HelpTOCNode Title="applicationEntities Constructor (String)" Url="html/2716a4c0-955e-16b4-1d9a-d234be6eb80d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7a976e24-f841-49a8-96ba-acd18ef7a541" Title="applicationEntities Methods" Url="html/dc7ea341-b312-9565-8f76-98669b167745.htm">
+        <HelpTOCNode Title="AddTolkup_Features Method " Url="html/c02f503d-d78f-9fc8-8b05-4cb53481f865.htm" />
+        <HelpTOCNode Title="AddTolkup_Roles Method " Url="html/831707e1-3b97-30b1-2f13-4319f73b5b28.htm" />
+        <HelpTOCNode Title="AddToPalinoia_Errors Method " Url="html/1d11b62b-c7eb-b37d-378f-d29045320a26.htm" />
+        <HelpTOCNode Title="AddToPalinoia_Projects Method " Url="html/be99fa9d-1eba-0a3f-1270-d87dcbc0cdf4.htm" />
+        <HelpTOCNode Title="AddToRole_Features Method " Url="html/3349c63c-b015-8dba-5e1b-41b13ee36fd9.htm" />
+        <HelpTOCNode Title="AddToUsers Method " Url="html/29c5ee56-42f3-0ab8-10dd-caabaeb7d38e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="524e2b05-271c-4787-87ae-07551eb9e4b4" Title="applicationEntities Properties" Url="html/6c512dfc-b656-5dbc-51c9-b27623a54452.htm">
+        <HelpTOCNode Title="lkup_Features Property " Url="html/431039da-151d-7015-9e3f-9267b42f2826.htm" />
+        <HelpTOCNode Title="lkup_Roles Property " Url="html/4c021020-4e49-97e8-d42f-110e9a02c858.htm" />
+        <HelpTOCNode Title="Palinoia_Errors Property " Url="html/7410109c-575a-64d1-0b7f-f44ba1389ac4.htm" />
+        <HelpTOCNode Title="Palinoia_Projects Property " Url="html/944342b1-d8ce-c206-9b32-da6671e0a828.htm" />
+        <HelpTOCNode Title="Role_Features Property " Url="html/43ea22ce-5c93-1dd4-a1bc-5e5e3b1bcedd.htm" />
+        <HelpTOCNode Title="Users Property " Url="html/99063da4-7e62-d8df-c0a1-7b5bd7e27b46.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="applicationEntities Events" Url="html/1e847239-5e46-da3a-63bb-3435d7779acf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0fa44d68-f217-4572-9250-ee3f7054c870" Title="BusinessRule Class" Url="html/62e1cca8-ac27-d91c-57bb-46a3628de129.htm">
+      <HelpTOCNode Title="BusinessRule Members" Url="html/2ff3840f-7339-98b1-2eb8-44304776bac5.htm" />
+      <HelpTOCNode Title="BusinessRule Constructor " Url="html/f4557266-43dd-c361-2ea4-f471e16b83db.htm" />
+      <HelpTOCNode Id="7cbb7662-5ef1-4371-9559-8918b914ad14" Title="BusinessRule Methods" Url="html/c3d250f1-c74a-15a9-8bc6-5a885dc236be.htm">
+        <HelpTOCNode Title="CreateBusinessRule Method " Url="html/1f99b351-b2af-3695-f093-7b998710487a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b82acef8-65fb-4fb5-8a0c-4c38fb4f132b" Title="BusinessRule Properties" Url="html/e3eb4642-bf52-c05a-8a70-ac3ac0e66ada.htm">
+        <HelpTOCNode Title="Active Property " Url="html/e0b2fc0d-f74f-be9d-2973-74f3575a3423.htm" />
+        <HelpTOCNode Title="BusinessRules_CustomerServiceMessages Property " Url="html/2f8474d7-7b5d-1cf5-6021-3eb021eee3fa.htm" />
+        <HelpTOCNode Title="fk_StatusID Property " Url="html/7f255e6d-af2b-a79c-ced7-165e0b2dfffb.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/2027f5bd-1e90-d78c-645e-fb11ad87d3d7.htm" />
+        <HelpTOCNode Title="lkup_Status Property " Url="html/56dcaebc-e9a2-b04a-7f04-8ffcbead1789.htm" />
+        <HelpTOCNode Title="lkup_StatusReference Property " Url="html/470153aa-c1ee-da68-0625-4e901cef81de.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/a03a1d39-3526-fe70-838d-fd3c76ff2439.htm" />
+        <HelpTOCNode Title="TestCase_BusinessRules Property " Url="html/f0ab5e48-7431-039d-b8eb-87cb97e51547.htm" />
+        <HelpTOCNode Title="TestStep_BusinessRules Property " Url="html/c671ca60-374b-6400-2707-9c28bc9bd11b.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/806b2beb-dd29-92c5-9956-b5584860a3cc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BusinessRule Events" Url="html/b0ab5eff-5670-af84-63ec-8dd836e97ca2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7ca92b9a-86a5-4b1c-a752-1db3407a3020" Title="BusinessRules_CustomerServiceMessages Class" Url="html/c19e34d2-28e0-94c9-8d19-55ee69968c42.htm">
+      <HelpTOCNode Title="BusinessRules_CustomerServiceMessages Members" Url="html/1bc66222-76b3-804b-3666-e40670a3968c.htm" />
+      <HelpTOCNode Title="BusinessRules_CustomerServiceMessages Constructor " Url="html/a4fd91db-eb1e-50d2-0e12-fd6d9949bdb2.htm" />
+      <HelpTOCNode Id="955a392a-596a-4412-994f-228675801564" Title="BusinessRules_CustomerServiceMessages Methods" Url="html/9a62bb1f-79e5-3632-d1f5-c88194d8f729.htm">
+        <HelpTOCNode Title="CreateBusinessRules_CustomerServiceMessages Method " Url="html/a59f9e4c-16a8-eb69-4972-2e3a162118e6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2dc6d144-f73a-4721-b879-459f8fec3d68" Title="BusinessRules_CustomerServiceMessages Properties" Url="html/abd31525-3694-18ee-ceb4-82406103da9c.htm">
+        <HelpTOCNode Title="BusinessRule Property " Url="html/4c720dee-5c58-05f1-1edc-d86320ca762d.htm" />
+        <HelpTOCNode Title="BusinessRuleReference Property " Url="html/b0123e78-1b10-ed2e-f2a6-fa1dd12369c1.htm" />
+        <HelpTOCNode Title="CustomerServiceMessage Property " Url="html/b9bae2cb-02d5-384e-531c-ba74858f9982.htm" />
+        <HelpTOCNode Title="CustomerServiceMessageReference Property " Url="html/6c2f9acd-e744-c67c-156d-d9a750eefe4a.htm" />
+        <HelpTOCNode Title="fk_BusinessRulesID Property " Url="html/d05c47f9-e24e-47ee-adf2-162f0429d11b.htm" />
+        <HelpTOCNode Title="fk_CustomerServiceMessagesID Property " Url="html/f8899e0b-8920-17de-a8f4-481cf5097939.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/da90a843-b11f-1b3d-50bf-5e1b9f6fa1ce.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BusinessRules_CustomerServiceMessages Events" Url="html/ec482911-51c1-6808-e66e-09799b02bf6c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="273b89d1-dbfb-4560-b7fd-5408c8a37a42" Title="BusinessRulesDAL Class" Url="html/380f765a-f5bd-e626-cd1b-7d98f0fb6548.htm">
+      <HelpTOCNode Title="BusinessRulesDAL Members" Url="html/5c03c6c2-010e-1c54-a31a-5041c9eea7d6.htm" />
+      <HelpTOCNode Title="BusinessRulesDAL Constructor " Url="html/6736fd5e-9c1c-adeb-d695-c2207f779876.htm" />
+      <HelpTOCNode Id="35ef1ad3-8338-4a8c-9ad3-a82701f20e63" Title="BusinessRulesDAL Methods" Url="html/aef4d3ab-4c4b-87bb-23b9-58627a914c45.htm">
+        <HelpTOCNode Title="addBusinessRule Method " Url="html/df89fc8a-ea31-c1f5-1c30-afc42644aae7.htm" />
+        <HelpTOCNode Title="deleteBusinessRule Method " Url="html/1deb0c3f-b6b6-9e94-e9d4-038115833d59.htm" />
+        <HelpTOCNode Title="getAllBusinessRules Method " Url="html/52f439c9-9ab0-32dc-fa4f-983364df9a45.htm" />
+        <HelpTOCNode Title="getBusinessRuleByID Method " Url="html/4363b68c-deb0-b13a-bafe-e149d21e6f9c.htm" />
+        <HelpTOCNode Title="updateBusinessRule Method " Url="html/9934a4df-84fb-e230-84da-b013e3feae90.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="06f35cee-869b-4467-b275-96ab267aee4f" Title="BusinessRulesDAL Properties" Url="html/5796ed9d-4457-d308-4ebe-88f33d3acc4e.htm">
+        <HelpTOCNode Title="ProjectID Property " Url="html/aaf4d493-e10f-b47e-0185-25f0edf02e0f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5cc4a6e5-6fe5-4921-9652-62f67a742166" Title="CustomerServiceMessage Class" Url="html/aab60e02-d252-30f1-766c-162b2090aa6b.htm">
+      <HelpTOCNode Title="CustomerServiceMessage Members" Url="html/1ede383a-f371-0085-7c80-06e2985b9bf1.htm" />
+      <HelpTOCNode Title="CustomerServiceMessage Constructor " Url="html/e35f2483-78c1-0c23-8092-2cb5fb349caf.htm" />
+      <HelpTOCNode Id="8e3435f4-7e96-4070-a156-8cdf37591cd5" Title="CustomerServiceMessage Methods" Url="html/ed572642-da79-b174-3bf9-ca07da6dd34c.htm">
+        <HelpTOCNode Title="CreateCustomerServiceMessage Method " Url="html/3d555475-d61f-4826-6236-a8565b4a7e22.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bde96c01-3077-4e80-84cb-13a46e435bf6" Title="CustomerServiceMessage Properties" Url="html/b8819b40-ffcd-b9c8-bf6f-69c871408d5e.htm">
+        <HelpTOCNode Title="Active Property " Url="html/9acd3a4d-6eff-def8-8a22-a3dec3662cb3.htm" />
+        <HelpTOCNode Title="BusinessRules_CustomerServiceMessages Property " Url="html/ace0916c-58ab-7c1a-078a-886d657f5c7a.htm" />
+        <HelpTOCNode Title="fk_CSMResponseTypeID Property " Url="html/45fcb7df-eb9b-6b25-3595-cf1868e6eba0.htm" />
+        <HelpTOCNode Title="fk_CSMTypeID Property " Url="html/81122ab0-4670-0a7c-75a1-f0daa3c65e95.htm" />
+        <HelpTOCNode Title="fk_StatusID Property " Url="html/7a466ab4-f693-d24e-55b7-8695d85d9c1a.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/a4f24d75-71a0-931a-2bd4-1f644bc8a370.htm" />
+        <HelpTOCNode Title="lkup_CSMResponseType Property " Url="html/92393d4e-155e-9019-9bd0-0608709b174a.htm" />
+        <HelpTOCNode Title="lkup_CSMResponseTypeReference Property " Url="html/049caa65-2b8e-6bb2-74b1-da50a13acdbb.htm" />
+        <HelpTOCNode Title="lkup_CSMType Property " Url="html/096eab84-d38c-e2d7-14c9-7c20dd33ac23.htm" />
+        <HelpTOCNode Title="lkup_CSMTypeReference Property " Url="html/3c632105-785a-8ef3-eab6-ec1e3d987dec.htm" />
+        <HelpTOCNode Title="lkup_Status Property " Url="html/34ac3c9f-5a9e-e40f-3b80-17fab7351a0a.htm" />
+        <HelpTOCNode Title="lkup_StatusReference Property " Url="html/6d69aa8f-27ee-ff10-fb78-026cd4c19c79.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/45926097-813e-9a40-4c6b-98e2ec46ea5b.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/d9301e9c-8c7d-7fbd-629b-b1e0f61e85cf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CustomerServiceMessage Events" Url="html/6a759d0a-c220-b25d-81ad-ce937206a3fa.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="080a04da-62f4-4ff2-84db-170987930d8a" Title="CustomerServiceMessagesDAL Class" Url="html/de25a5e3-96d8-6689-f9c8-e37bfe1c2123.htm">
+      <HelpTOCNode Title="CustomerServiceMessagesDAL Members" Url="html/1360d60e-4e5a-ce6d-8242-654ea8b00aa3.htm" />
+      <HelpTOCNode Title="CustomerServiceMessagesDAL Constructor " Url="html/59ebd9eb-9c75-0dd8-f17e-acf10d98a17d.htm" />
+      <HelpTOCNode Id="860009bc-c3a9-43a1-90b6-4b39ab873e46" Title="CustomerServiceMessagesDAL Methods" Url="html/6463bebb-c794-0abf-d161-75414b501c31.htm">
+        <HelpTOCNode Title="addCSM Method " Url="html/93a95c32-8e91-8deb-e1d3-7d7dc154735a.htm" />
+        <HelpTOCNode Title="deleteCSM Method " Url="html/39152e89-60f7-6c30-49ee-3cf02bf864dd.htm" />
+        <HelpTOCNode Title="getAllCSMs Method " Url="html/8553f1ce-b3e4-cdc5-9c4d-cbeebb219f46.htm" />
+        <HelpTOCNode Title="getCSMByID Method " Url="html/2a17f6b1-de9e-d9bd-d6f3-c12aebb9e179.htm" />
+        <HelpTOCNode Title="updateCSM Method " Url="html/da94a8eb-f89d-1bdf-3f1d-e3fe1947677e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="94e7c636-98b7-446e-b952-913a23ee0d3c" Title="CustomerServiceMessagesDAL Properties" Url="html/701caac1-5168-5a34-fc22-2143ce1fad6f.htm">
+        <HelpTOCNode Title="ProjectID Property " Url="html/19a82851-3dc1-e0b8-288f-24e99f348407.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="66cbd1d0-c81b-4c42-b7cc-c43911311af4" Title="History Class" Url="html/4df40ed4-502d-2ce1-e9ac-4790d01bf46a.htm">
+      <HelpTOCNode Title="History Members" Url="html/faf6054d-442e-5cd6-080f-11c7cd04ec25.htm" />
+      <HelpTOCNode Title="History Constructor " Url="html/10e659c3-8d1c-24de-ec3a-8cd03448377f.htm" />
+      <HelpTOCNode Id="1b7895e2-b165-4e1a-a1d3-d8c8b31b7039" Title="History Methods" Url="html/cf838bd4-ad67-7f12-7cc2-a9b3d28878bd.htm">
+        <HelpTOCNode Title="CreateHistory Method " Url="html/a3d63ad7-d89a-b99d-0a11-a6393b9050ac.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fe2660de-3f1a-4a96-8529-5f7ee66e1a43" Title="History Properties" Url="html/7734fd35-9e0c-dd1b-318f-6d85627286df.htm">
+        <HelpTOCNode Title="DateUpdated Property " Url="html/40b55fb1-9c06-8f61-4f55-3f72ed1cd300.htm" />
+        <HelpTOCNode Title="fk_PalinoiaObjectID Property " Url="html/58231055-9510-9208-9c93-c937dc1daa72.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/067e8d5b-d5b4-19fe-62d5-a2e365357a4e.htm" />
+        <HelpTOCNode Title="lkup_PalinoiaObjects Property " Url="html/e1497657-56fd-7b1a-61a3-36e1570ca74c.htm" />
+        <HelpTOCNode Title="lkup_PalinoiaObjectsReference Property " Url="html/84590015-710f-8583-6e25-c4287b1a739c.htm" />
+        <HelpTOCNode Title="NewValue Property " Url="html/2e845c3e-4899-37f2-c3c8-842ec4670955.htm" />
+        <HelpTOCNode Title="OldValue Property " Url="html/98dde157-1864-2243-0eb1-d60a52fd374b.htm" />
+        <HelpTOCNode Title="UserID_UpdatedBy Property " Url="html/c4bdfc4f-0ab5-7e0b-704c-5770b195ee87.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="History Events" Url="html/c2a8018f-8b80-ec19-5c58-313273a33b99.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e0881fa5-7f90-404e-8394-fa37f781df96" Title="lkup_CSMResponseType Class" Url="html/5d0d646c-6bc5-19f2-5175-c5d9125f361b.htm">
+      <HelpTOCNode Title="lkup_CSMResponseType Members" Url="html/b8ab7581-77e4-1f4c-9abc-24727ce20f24.htm" />
+      <HelpTOCNode Title="lkup_CSMResponseType Constructor " Url="html/e47d01fc-bc0a-f9f5-6862-6296c47f2812.htm" />
+      <HelpTOCNode Id="68752f9d-fca3-4994-9036-88428956c4a8" Title="lkup_CSMResponseType Methods" Url="html/c24e5c37-9128-c710-b66f-34be41a3138e.htm">
+        <HelpTOCNode Title="Createlkup_CSMResponseType Method " Url="html/a49fdbaa-1cdd-dae6-1e20-6277d06479e7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9fb98138-6030-4edd-8808-e3568c7a68f5" Title="lkup_CSMResponseType Properties" Url="html/abbda9c0-bac7-5c1f-8631-6a2eb472a2ca.htm">
+        <HelpTOCNode Title="Active Property " Url="html/9e5d925c-b60a-c7c9-8f9f-f76b9e01effb.htm" />
+        <HelpTOCNode Title="CustomerServiceMessages Property " Url="html/bd80ac18-da43-0cdd-e10a-0db331e46745.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/bb627420-0ef5-74eb-9264-068f614640d9.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/d100423a-ea0b-e409-6c3d-72166d472713.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="lkup_CSMResponseType Events" Url="html/ba72a195-34e1-3a4a-cf89-73c5e9f7c542.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="59c02dcf-b00b-4ab2-8d23-3fddef9a9755" Title="lkup_CSMType Class" Url="html/992576aa-1773-b1b3-4d1a-0359d92b46c9.htm">
+      <HelpTOCNode Title="lkup_CSMType Members" Url="html/ebe1922b-19c2-1a6e-f580-e30b6b576266.htm" />
+      <HelpTOCNode Title="lkup_CSMType Constructor " Url="html/af2f0c20-7a2c-5d58-938a-56e2f2d2636f.htm" />
+      <HelpTOCNode Id="caf25f37-a036-4216-b153-860d9cec49f8" Title="lkup_CSMType Methods" Url="html/d2420b50-cf07-d29b-6a55-5075c76aae1f.htm">
+        <HelpTOCNode Title="Createlkup_CSMType Method " Url="html/d155e8c6-4646-75c6-191d-eb402d27f039.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3f35f973-5d08-4983-8957-2b26d3224cab" Title="lkup_CSMType Properties" Url="html/6ee0747e-9ddf-c813-ee71-ff661cc1b582.htm">
+        <HelpTOCNode Title="Active Property " Url="html/6d561b46-035f-2d4d-3fac-61988b385149.htm" />
+        <HelpTOCNode Title="CustomerServiceMessages Property " Url="html/ef25d80b-427b-72f1-89e1-3a932fcf9542.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/459a00bb-4bc0-a277-4a79-da5fe1f35c5b.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/623e8483-4930-0555-f7ca-840404539412.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="lkup_CSMType Events" Url="html/ec9425fc-66f7-1088-e16f-37b0dd628953.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fa64c3d4-26f7-4390-b86a-2e5dfdbaabf0" Title="lkup_Features Class" Url="html/eb46e076-aa22-915d-3a43-f442b9545457.htm">
+      <HelpTOCNode Title="lkup_Features Members" Url="html/fb3084b9-7c9d-488d-f143-d4bad58e0d61.htm" />
+      <HelpTOCNode Title="lkup_Features Constructor " Url="html/976c7b7a-bcae-ae40-e766-646353032a5c.htm" />
+      <HelpTOCNode Id="e307d2b2-a50e-4dbd-8a6f-87b3dbca56f0" Title="lkup_Features Methods" Url="html/97553792-9721-6642-4d51-0ad73c7e6c23.htm">
+        <HelpTOCNode Title="Createlkup_Features Method " Url="html/64e3484f-e9a6-c6c3-42df-00e86e0706c8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="15e8c0ae-cbc8-4d58-b845-fb7f0e28a5c4" Title="lkup_Features Properties" Url="html/e87b1212-151a-9d94-82dd-5b5c8e3ca466.htm">
+        <HelpTOCNode Title="Active Property " Url="html/f5ca3b21-3e32-e8c0-2df9-ca092517e24a.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/1b3a3f91-87f7-0746-fcca-9cc94d12ba72.htm" />
+        <HelpTOCNode Title="Role_Features Property " Url="html/2d9e31da-4e23-3c66-c4c1-4862b0a3aa45.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/3125965d-605e-3136-bb63-278078908082.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="lkup_Features Events" Url="html/f1168957-8594-bf28-d9ed-4f40f6104285.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="77b5c3a1-1e23-497e-8311-e7a4fd12fd34" Title="lkup_PalinoiaObjects Class" Url="html/771106df-52f3-7320-e094-59abc0e4e446.htm">
+      <HelpTOCNode Title="lkup_PalinoiaObjects Members" Url="html/7e730a65-2585-5bbb-98b1-af5cd44c5142.htm" />
+      <HelpTOCNode Title="lkup_PalinoiaObjects Constructor " Url="html/135698e1-f3fe-1996-f6ea-aabae8539c53.htm" />
+      <HelpTOCNode Id="d3ec9faf-63b5-44bc-9f8f-f7292506e362" Title="lkup_PalinoiaObjects Methods" Url="html/ddf7e7cf-3dcb-8683-5f41-d91357ae4825.htm">
+        <HelpTOCNode Title="Createlkup_PalinoiaObjects Method " Url="html/d6581675-90fc-09ad-b117-9a41f38ac745.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e97da93f-8946-477a-b654-5e534424b63b" Title="lkup_PalinoiaObjects Properties" Url="html/7f092e21-8f2e-5957-afc8-048f6d5e6a07.htm">
+        <HelpTOCNode Title="Histories Property " Url="html/21addc88-30d6-b271-c4d8-30e90b7c8c95.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/9765777d-48f0-b3fa-c4eb-e69a321d170b.htm" />
+        <HelpTOCNode Title="TEXT Property " Url="html/8ffad2a1-7663-7643-e56f-f162333df834.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="lkup_PalinoiaObjects Events" Url="html/51249997-25f2-a4ca-550f-52a7ca4ef966.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8de84a84-544f-43a3-9a91-b2b610fa8e9b" Title="lkup_Roles Class" Url="html/0690c002-43d0-d0e2-795e-c4905bcc76f0.htm">
+      <HelpTOCNode Title="lkup_Roles Members" Url="html/a8098eb6-be19-303a-7679-5a56a5b14f5b.htm" />
+      <HelpTOCNode Title="lkup_Roles Constructor " Url="html/d7e80c0e-2df1-fb01-a038-4981dbf89625.htm" />
+      <HelpTOCNode Id="afbbdd47-e499-4dcb-9cfe-664ee6bea81a" Title="lkup_Roles Methods" Url="html/8bd70b47-ea15-87a5-2aa1-509414b31a66.htm">
+        <HelpTOCNode Title="Createlkup_Roles Method " Url="html/97fa288e-93b2-1a46-dc10-fee3afb390fc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7c33891d-8336-4b7f-b7f3-e39e509acf6b" Title="lkup_Roles Properties" Url="html/d45174ac-664d-f0fd-1fff-cc85e6ff5b68.htm">
+        <HelpTOCNode Title="Active Property " Url="html/a6482842-6504-749e-5c4b-6026cecddc6d.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/e04f7fdf-a36a-3a14-8e3c-19f139af4dff.htm" />
+        <HelpTOCNode Title="Role_Features Property " Url="html/197ad430-6b80-83c7-b054-97fc3cf98144.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/c6002b42-6d99-60c4-1070-db6b94e82ce8.htm" />
+        <HelpTOCNode Title="Users Property " Url="html/283a177a-a9e8-fe1b-0009-eb0a90903388.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="lkup_Roles Events" Url="html/643fef6b-7717-2bb1-e289-7b535eab8d37.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7e3f238-5233-4de2-86a4-2a64374351bd" Title="lkup_Sections Class" Url="html/7c14e936-7bd3-2569-b9c3-8ba9080a4683.htm">
+      <HelpTOCNode Title="lkup_Sections Members" Url="html/01ff2098-8bee-a2dd-3d12-ddab5f8aabda.htm" />
+      <HelpTOCNode Title="lkup_Sections Constructor " Url="html/2bf741a1-8b34-0ae2-9c19-bda18f5eeae9.htm" />
+      <HelpTOCNode Id="f99a01d9-5be2-437c-a215-0b15a8395dba" Title="lkup_Sections Methods" Url="html/97143c86-64e3-2e19-d6c4-6142f8bdcf55.htm">
+        <HelpTOCNode Title="Createlkup_Sections Method " Url="html/32ac9e13-d573-c2f3-a539-d6b06ea77d29.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cfdade30-4911-43be-9562-c3cdc977d586" Title="lkup_Sections Properties" Url="html/4b0b95cd-f9bf-691d-d267-c8fac24d0215.htm">
+        <HelpTOCNode Title="Abbreviation Property " Url="html/4f2ee08d-9ff2-fe0c-ab0d-aae90e8fe0d8.htm" />
+        <HelpTOCNode Title="Active Property " Url="html/f9b8b12e-5422-1bca-3b0e-cda0eeb63321.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/301311f1-6396-6124-f6b8-e5f9b5556193.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/ca2b6107-a76e-518d-d36a-47e5ad5d6fd5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="lkup_Sections Events" Url="html/120ed573-cd0b-dbe7-1cd6-ccf1c323e7a0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="868704c5-d30a-4e5c-a531-d84b0a9b35ef" Title="lkup_Status Class" Url="html/a45b4132-c6f8-f46d-88bc-b45124476ff0.htm">
+      <HelpTOCNode Title="lkup_Status Members" Url="html/3bf74b12-f023-2022-fedf-4ccb41d7c050.htm" />
+      <HelpTOCNode Title="lkup_Status Constructor " Url="html/9d376b26-b286-3954-430d-ad03b2bb72ea.htm" />
+      <HelpTOCNode Id="1d1b3db8-d96d-4575-b48f-9771afbef4b0" Title="lkup_Status Methods" Url="html/a9759fc1-4f53-d24a-362a-6f34fedd51a2.htm">
+        <HelpTOCNode Title="Createlkup_Status Method " Url="html/de1fc00d-beea-3454-1245-9fbe2ed50244.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="99b1bc9f-8e85-45ad-a782-4bee6baa2366" Title="lkup_Status Properties" Url="html/b44a02d0-7060-e0b9-171d-c6dccde1080e.htm">
+        <HelpTOCNode Title="Active Property " Url="html/10b63bee-7086-ecc4-6a5e-2a73324acfc3.htm" />
+        <HelpTOCNode Title="BusinessRules Property " Url="html/27adfa04-fe85-a062-f221-7cab395b5032.htm" />
+        <HelpTOCNode Title="CustomerServiceMessages Property " Url="html/2571733a-c4d3-892c-6a73-4426aaedf8cf.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/c479fcf4-c005-e105-e91a-b88853fdf318.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/0d92f71b-9e3b-e1aa-6b1d-adb4c3a9c98b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="lkup_Status Events" Url="html/f619afc1-3962-75c6-91b8-43add0375037.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c9a41127-26fb-43d3-97c1-57ac326b2e56" Title="Palinoia_Errors Class" Url="html/1ef12d53-3d7a-6ef1-66fe-7399a0321414.htm">
+      <HelpTOCNode Title="Palinoia_Errors Members" Url="html/7f4f57dd-c37a-8363-d65b-2cfcf1baee58.htm" />
+      <HelpTOCNode Title="Palinoia_Errors Constructor " Url="html/28828c38-b728-02fe-7ed5-651245c75703.htm" />
+      <HelpTOCNode Id="a613a890-c7e9-4a7b-a1e4-d33fb3911a7d" Title="Palinoia_Errors Methods" Url="html/8f448237-39a1-7d95-2ee5-f462cf441d02.htm">
+        <HelpTOCNode Title="CreatePalinoia_Errors Method " Url="html/e7b2d0cd-0e96-26c8-9d48-5642b9a9238e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dc1f3c88-04f8-4df7-bfab-0f0842b910e2" Title="Palinoia_Errors Properties" Url="html/3c23852d-4299-dd48-e452-9f7fd8a87280.htm">
+        <HelpTOCNode Title="ErrorCode Property " Url="html/fb29cefc-cf00-1bbf-21a4-7c095cb72e99.htm" />
+        <HelpTOCNode Title="fk_ProjectID Property " Url="html/d0db6d8e-ba49-c7b5-756e-f686b8141e5b.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/79661672-205e-a5ba-e8fd-a3bfde2c09be.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/1346a96a-702a-b425-d49e-c6179dfd4975.htm" />
+        <HelpTOCNode Title="Palinoia_Projects Property " Url="html/03681b2e-e354-c1e0-9867-a4c32452de4c.htm" />
+        <HelpTOCNode Title="Palinoia_ProjectsReference Property " Url="html/9a44e92d-10f5-b3ca-d600-83d716d97c7a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Palinoia_Errors Events" Url="html/fd453fb1-146a-7507-3fea-db3d692b7d79.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e31abd49-2994-43ce-9f5c-fbaeb60690b7" Title="Palinoia_Projects Class" Url="html/b7089884-9bde-1a57-150d-47322e066850.htm">
+      <HelpTOCNode Title="Palinoia_Projects Members" Url="html/feff61f7-288f-fce3-0264-fdea6356b84c.htm" />
+      <HelpTOCNode Title="Palinoia_Projects Constructor " Url="html/3500323f-22de-6753-e938-cf05e65fb4a9.htm" />
+      <HelpTOCNode Id="62fcb133-a17c-4b54-8e3c-37192cddb508" Title="Palinoia_Projects Methods" Url="html/ca70b5e2-837e-c231-1970-8c811ea33071.htm">
+        <HelpTOCNode Title="CreatePalinoia_Projects Method " Url="html/01004793-967c-f735-b623-372a1f3121e7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="df1937ff-ab17-48f8-aa82-5cf78512a746" Title="Palinoia_Projects Properties" Url="html/765925eb-8482-a15f-d860-2582143f00d7.htm">
+        <HelpTOCNode Title="DataSource Property " Url="html/375dd0ee-4dfa-6b8b-8b76-976f24c96c68.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/dea7b972-9039-9940-d9f8-9872fa5297a9.htm" />
+        <HelpTOCNode Title="NAME Property " Url="html/c71c55b2-30eb-5f37-fa07-611a73e519da.htm" />
+        <HelpTOCNode Title="Palinoia_Errors Property " Url="html/851abf4d-0882-f5ff-9a32-a81180245596.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Palinoia_Projects Events" Url="html/64cb1a87-5dee-e3f3-f75d-aa49cc767f0f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cc7d1c88-5015-4805-8ff0-30a2c3b5f702" Title="PalinoiaDAL Class" Url="html/e9c1baa6-df22-8dbb-af94-1c1bb9aeaada.htm">
+      <HelpTOCNode Title="PalinoiaDAL Members" Url="html/5c4a702d-5cd9-e818-df99-3c3e294e7eb9.htm" />
+      <HelpTOCNode Id="e8bd2308-d650-4593-ad20-cef9b79929b6" Title="PalinoiaDAL Constructor " Url="html/b56f22a1-93ef-fe77-4761-b02959f54b43.htm">
+        <HelpTOCNode Title="PalinoiaDAL Constructor " Url="html/f1dfeca4-0975-e12a-5772-036bd9c1a517.htm" />
+        <HelpTOCNode Title="PalinoiaDAL Constructor (Int32)" Url="html/08e01245-2c6d-f860-db11-8f29c10fe690.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="94c9c07b-a48a-4896-8a13-41cf9b690e27" Title="PalinoiaDAL Fields" Url="html/9bda804e-40e1-c824-8671-20512e08a32a.htm">
+        <HelpTOCNode Title="createClientTablesSQLFileName Field" Url="html/33e585bf-1b0f-325c-4bff-eec8ccc663ed.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6b44f888-67f4-4a11-95b5-7f8d1b0c8032" Title="PalinoiaDAL Methods" Url="html/4aed759b-a3f3-a277-5a39-802423f0d4f4.htm">
+        <HelpTOCNode Title="addFeature Method " Url="html/cd977798-0a2c-6da1-3f14-e4f28da33c0c.htm" />
+        <HelpTOCNode Title="addFeatureToRole Method " Url="html/c7d7bc89-ff92-9166-94dd-d73056cfa31e.htm" />
+        <HelpTOCNode Title="addRole Method " Url="html/6ff0eca7-f271-cced-7018-d3171adf91a1.htm" />
+        <HelpTOCNode Title="addUser Method " Url="html/ca137271-41ea-e473-6768-8c4ceb9a3f09.htm" />
+        <HelpTOCNode Title="createNewProjectDatabase Method " Url="html/149ed55d-21c4-e51a-e6db-3cda2b693d41.htm" />
+        <HelpTOCNode Title="deleteFeature Method " Url="html/ce8e3529-ab7e-7f75-82f1-c8d81cf01c49.htm" />
+        <HelpTOCNode Title="deleteProject Method " Url="html/2dd30989-0b2a-391f-0614-8c42214eb99e.htm" />
+        <HelpTOCNode Title="deleteRole Method " Url="html/4e4ca25f-821c-e23e-1d0b-3aba6179a68c.htm" />
+        <HelpTOCNode Title="deleteUser Method " Url="html/e9783b8a-c66e-ca2f-ac77-2fc24a221d1a.htm" />
+        <HelpTOCNode Title="getAllFeatures Method " Url="html/678b5bd0-5959-0211-cde7-00ddaabe132e.htm" />
+        <HelpTOCNode Title="getAllProjects Method " Url="html/3b85189f-16f9-96b1-dc6e-cc9002a50082.htm" />
+        <HelpTOCNode Title="getAllRoles Method " Url="html/b705092b-4c06-994b-f76f-39e72bccc782.htm" />
+        <HelpTOCNode Title="getAllUsers Method " Url="html/4e9325f4-f56e-f1af-f82c-a059728cc147.htm" />
+        <HelpTOCNode Title="getAvailableFeaturesForRole Method " Url="html/9f392934-a47e-7079-2eff-e33bf9d54483.htm" />
+        <HelpTOCNode Title="getContextForProject Method " Url="html/795697e8-423e-8430-cf46-f16f65437c2d.htm" />
+        <HelpTOCNode Title="getFeatureByID Method " Url="html/5fe77d62-2e2f-831c-ab52-8481d6411f49.htm" />
+        <HelpTOCNode Title="getFeaturesForUser Method " Url="html/6a91c0bb-59a4-e8a3-5564-ca11eecbf45d.htm" />
+        <HelpTOCNode Title="getRoleByID Method " Url="html/0196729a-6bcf-1cf6-e792-7664d7a5917c.htm" />
+        <HelpTOCNode Title="getRoleFeatures Method " Url="html/869e57e3-3492-da9f-9fbe-fd458771002f.htm" />
+        <HelpTOCNode Title="getUserByID Method " Url="html/543ada80-4598-4fd2-698f-e56b41cfc9be.htm" />
+        <HelpTOCNode Title="logError Method " Url="html/39a5e493-b974-0ea4-974f-90c641a04e32.htm" />
+        <HelpTOCNode Title="loginUser Method " Url="html/45964e3a-9b03-d327-b5ae-6135e7c0b0a8.htm" />
+        <HelpTOCNode Title="removeFeatureFromRole Method " Url="html/565d8a5a-2a61-33c7-4899-e935a73ef73e.htm" />
+        <HelpTOCNode Title="saveNewProject Method " Url="html/3c18e6ca-0f25-acd2-d6fa-1689ed8ca9d7.htm" />
+        <HelpTOCNode Title="updateFeature Method " Url="html/af186d9a-dcec-51e0-52ee-3f449827ae67.htm" />
+        <HelpTOCNode Title="updateProject Method " Url="html/47aa09a6-1c9c-2535-ea16-82f74364008f.htm" />
+        <HelpTOCNode Title="updateRole Method " Url="html/84bea00c-0f36-1f26-ba7b-78f701d2090d.htm" />
+        <HelpTOCNode Title="updateUser Method " Url="html/7300f324-ca6f-6fa5-ff2f-5ffd88151201.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="71b08b15-e639-4006-8242-6e4645028351" Title="PalinoiaDAL Properties" Url="html/6b862aea-5361-cb73-2238-e1735de323a2.htm">
+        <HelpTOCNode Title="currentProjectID Property " Url="html/b04daecf-f03e-4cc7-c46b-841eb0a0aa1f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4492ad78-8307-4923-81eb-b751f417f46f" Title="palinoiaEntities Class" Url="html/193f59f7-8d21-fc1d-5192-280cc8feb044.htm">
+      <HelpTOCNode Title="palinoiaEntities Members" Url="html/b391cb72-b911-0ade-eda0-ef999353da0e.htm" />
+      <HelpTOCNode Id="e65d93ad-b8a2-4182-ba12-ee736c021d29" Title="palinoiaEntities Constructor " Url="html/42f659ec-7d8e-d079-53e8-f03ca7bf15b9.htm">
+        <HelpTOCNode Title="palinoiaEntities Constructor " Url="html/89024dfc-461c-68d7-ead9-fe25f8bdbbba.htm" />
+        <HelpTOCNode Title="palinoiaEntities Constructor (EntityConnection)" Url="html/30eb1d4e-c7df-a266-4871-b70b93cce1ea.htm" />
+        <HelpTOCNode Title="palinoiaEntities Constructor (String)" Url="html/f36f1d11-3d46-0eab-784a-56f7b3d40036.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="83db0e91-c716-49b0-914c-b0352575e33f" Title="palinoiaEntities Methods" Url="html/71df6896-3f2f-1c97-ab1f-c4d609cbc95b.htm">
+        <HelpTOCNode Title="AddToBusinessRules Method " Url="html/86ac3773-82d3-f2da-49f4-de61c6ad7336.htm" />
+        <HelpTOCNode Title="AddToBusinessRules_CustomerServiceMessages Method " Url="html/dc64b921-6fb6-c5e3-f582-9d61d630d033.htm" />
+        <HelpTOCNode Title="AddToCustomerServiceMessages Method " Url="html/50d5c05d-bd12-3f8c-320b-9fc30936365c.htm" />
+        <HelpTOCNode Title="AddToHistories Method " Url="html/9eec083f-e0a9-d7b1-4e2b-26b66f218069.htm" />
+        <HelpTOCNode Title="AddTolkup_CSMResponseType Method " Url="html/ad63cd2b-e4b8-725b-c698-12881cd18ab5.htm" />
+        <HelpTOCNode Title="AddTolkup_CSMType Method " Url="html/e58a609d-9be5-04a3-7046-077fbcbd5359.htm" />
+        <HelpTOCNode Title="AddTolkup_PalinoiaObjects Method " Url="html/d187ac72-7af0-be41-1b77-12482762ebd5.htm" />
+        <HelpTOCNode Title="AddTolkup_Sections Method " Url="html/11391dd5-8a87-bbc7-43f3-75a8cac5405b.htm" />
+        <HelpTOCNode Title="AddTolkup_Status Method " Url="html/a0de9528-44a4-6ee0-6c81-395db471d19f.htm" />
+        <HelpTOCNode Title="AddToPostConditions Method " Url="html/2b0e8c19-d793-98c9-b223-d19856089b17.htm" />
+        <HelpTOCNode Title="AddToPreConditions Method " Url="html/daf99801-e511-8a36-d60a-1094941fff76.htm" />
+        <HelpTOCNode Title="AddToTestCase_BusinessRules Method " Url="html/4e6317f4-e1e7-787f-a99b-55866d761732.htm" />
+        <HelpTOCNode Title="AddToTestCase_PostConditions Method " Url="html/dd162ae9-1096-b402-cd2a-7c98fe52e218.htm" />
+        <HelpTOCNode Title="AddToTestCase_PreConditions Method " Url="html/30bf3f41-2fd8-ba09-c570-52d4201e3f22.htm" />
+        <HelpTOCNode Title="AddToTestCase_TestSteps Method " Url="html/d6a7e3cc-744f-8f71-4f1d-f119bd040c50.htm" />
+        <HelpTOCNode Title="AddToTestCases Method " Url="html/82fdb741-bb8b-f99c-d40d-13399da2b8f5.htm" />
+        <HelpTOCNode Title="AddToTestScenario_TestCases Method " Url="html/2264d3b7-cb1a-41a7-486e-60b1dc2b54bd.htm" />
+        <HelpTOCNode Title="AddToTestScenarios Method " Url="html/23d72073-43e9-432d-1cbe-cfda9fc64afe.htm" />
+        <HelpTOCNode Title="AddToTestStep_BusinessRules Method " Url="html/63bb0603-c609-9dd9-e6e0-cb4761cb6fb7.htm" />
+        <HelpTOCNode Title="AddToTestSteps Method " Url="html/79be0d74-9c70-bbc3-c647-ed7093b7fe44.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="413b476b-df9a-41cd-896b-c59422c30215" Title="palinoiaEntities Properties" Url="html/885c1452-5de2-9fae-5b9a-f86c96e6eced.htm">
+        <HelpTOCNode Title="BusinessRules Property " Url="html/328848ec-e3ef-9029-950f-fa09a0329476.htm" />
+        <HelpTOCNode Title="BusinessRules_CustomerServiceMessages Property " Url="html/e30a3575-b828-5dff-7fe9-ce8560869de4.htm" />
+        <HelpTOCNode Title="CustomerServiceMessages Property " Url="html/7277e92a-ec22-ca4a-175a-caee3ff20c85.htm" />
+        <HelpTOCNode Title="Histories Property " Url="html/8cc88a36-c2ab-37a4-4e53-f3ffb9812676.htm" />
+        <HelpTOCNode Title="lkup_CSMResponseType Property " Url="html/30751bf2-2779-70c7-d428-7a06239d84b0.htm" />
+        <HelpTOCNode Title="lkup_CSMType Property " Url="html/b19ff82f-4f87-0100-1ece-ef7e98196c37.htm" />
+        <HelpTOCNode Title="lkup_PalinoiaObjects Property " Url="html/2f5d8d51-2647-c407-2bd2-6c57ee20ba51.htm" />
+        <HelpTOCNode Title="lkup_Sections Property " Url="html/aa5c88dd-c277-5490-adf3-9a18ef1ca93d.htm" />
+        <HelpTOCNode Title="lkup_Status Property " Url="html/b348c63d-af38-b702-be42-0dd40b6095c3.htm" />
+        <HelpTOCNode Title="PostConditions Property " Url="html/31b42fe7-99b4-63f3-e571-a084e493aa65.htm" />
+        <HelpTOCNode Title="PreConditions Property " Url="html/b856a890-9500-3e9e-4955-e817d112bbc4.htm" />
+        <HelpTOCNode Title="TestCase_BusinessRules Property " Url="html/d0101daf-4eab-2d0d-0da9-ab796be32b95.htm" />
+        <HelpTOCNode Title="TestCase_PostConditions Property " Url="html/3b51cb2f-bdea-87a6-4a9b-dc9f946a291a.htm" />
+        <HelpTOCNode Title="TestCase_PreConditions Property " Url="html/2e1c7334-ee47-6591-5a19-26d88ce1c74b.htm" />
+        <HelpTOCNode Title="TestCase_TestSteps Property " Url="html/d54c91fd-cb00-52b9-97f1-e32267d368f6.htm" />
+        <HelpTOCNode Title="TestCases Property " Url="html/6facb0b4-db3e-330b-148e-959555e9878c.htm" />
+        <HelpTOCNode Title="TestScenario_TestCases Property " Url="html/628d4418-8442-b3bc-ab8f-2e3aa2a188a6.htm" />
+        <HelpTOCNode Title="TestScenarios Property " Url="html/e0009211-b938-22fa-b4ba-907ff65e71dd.htm" />
+        <HelpTOCNode Title="TestStep_BusinessRules Property " Url="html/006a6bf2-78b5-0908-be7f-1ca23f0b9555.htm" />
+        <HelpTOCNode Title="TestSteps Property " Url="html/32f13a68-2855-61a6-0efe-2686fd314a4b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="palinoiaEntities Events" Url="html/a8efc5ad-df5d-fda6-87ae-d9650b9887d1.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b35ce2d1-721c-4dd1-9332-bd1dcc4c8aab" Title="PostCondition Class" Url="html/ae4f24f6-a4c5-f50c-32bc-cd7bcc05a51b.htm">
+      <HelpTOCNode Title="PostCondition Members" Url="html/e919e2f6-211c-1cbc-be75-d8caaa0a2246.htm" />
+      <HelpTOCNode Title="PostCondition Constructor " Url="html/dee12bfb-e5c0-46cf-ba7f-7626dfb126d5.htm" />
+      <HelpTOCNode Id="a84af56a-a7a5-46e3-9635-ad3c6094301d" Title="PostCondition Methods" Url="html/670a5ba3-2c58-676b-c189-02eff76f3b40.htm">
+        <HelpTOCNode Title="CreatePostCondition Method " Url="html/0476ba66-41a9-8e45-6caa-e9222aa2476b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="320c42d4-100b-4503-88b9-8a9dc45e62e0" Title="PostCondition Properties" Url="html/b44658cd-8052-9141-010d-0346abd77757.htm">
+        <HelpTOCNode Title="ID Property " Url="html/9531c678-8a78-8a62-e432-7a92449fc837.htm" />
+        <HelpTOCNode Title="TestCase_PostConditions Property " Url="html/47ccf522-150e-0c58-5744-5b001c191c2c.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/4ca8cf0d-957d-f81f-7ad1-4d455ad7920d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PostCondition Events" Url="html/7efa3e6f-019c-03ff-67c2-6c5e3757a714.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e97e1250-2b32-49f2-8bfc-68cb5062d0a6" Title="PreCondition Class" Url="html/002c7af6-2bb0-080b-b09d-7c08c99af9b1.htm">
+      <HelpTOCNode Title="PreCondition Members" Url="html/776e4d04-3ecc-768e-938f-54f2c0fcf113.htm" />
+      <HelpTOCNode Title="PreCondition Constructor " Url="html/ea99353b-dd62-44a6-c010-5fa67f76f942.htm" />
+      <HelpTOCNode Id="e1b75e66-a1de-43e8-8a4a-5e4614129d2e" Title="PreCondition Methods" Url="html/e660c0ff-b734-78e3-eee9-c9d9073e353b.htm">
+        <HelpTOCNode Title="CreatePreCondition Method " Url="html/97358e4a-d4e9-2ff5-7350-bba0bb3c7a05.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="520c5880-a9c1-4aa4-acd3-0ca4a9718d77" Title="PreCondition Properties" Url="html/2cf5aec9-a7d6-effd-112e-0aa4ced8cbbe.htm">
+        <HelpTOCNode Title="ID Property " Url="html/9fbacf5f-2ecd-78f0-3928-0b6cf08fc1a9.htm" />
+        <HelpTOCNode Title="TestCase_PreConditions Property " Url="html/cd662a9b-1bfe-ed46-0d18-ab1c4f80b5d3.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/e0ce6ad5-99cc-b060-4e11-3a4aa352647c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PreCondition Events" Url="html/4f0047e4-b59d-36aa-e469-41eb02ab1d09.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="678d1e4f-b71c-4abf-b32b-4b04ff0dbe93" Title="Role_Features Class" Url="html/e224018a-1f07-2bde-3633-e766c40f1b0c.htm">
+      <HelpTOCNode Title="Role_Features Members" Url="html/bb761ee9-529e-dbd9-f0c6-db86698238a8.htm" />
+      <HelpTOCNode Title="Role_Features Constructor " Url="html/551c3174-a283-03fa-bea2-1ca11bf33268.htm" />
+      <HelpTOCNode Id="b1b63241-d359-4dc6-b57e-d3e9c9812f1d" Title="Role_Features Methods" Url="html/499f0a44-fee9-183a-4c9d-9513a5f20784.htm">
+        <HelpTOCNode Title="CreateRole_Features Method " Url="html/6eb4e4dc-c103-b597-aef8-2fb63fca9192.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a8f7a6f6-ad93-4129-b389-4bb7ce9da513" Title="Role_Features Properties" Url="html/7d27f2a5-6178-e2b8-3067-f65ca51d6f3d.htm">
+        <HelpTOCNode Title="fk_FeatureID Property " Url="html/d9f389f4-28c3-a942-8040-6c2d478bb661.htm" />
+        <HelpTOCNode Title="fk_RoleID Property " Url="html/f33d983b-28d5-a6ee-8f2e-88c9a311c198.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/de06cfa3-835e-699e-da09-730e63ff9068.htm" />
+        <HelpTOCNode Title="lkup_Features Property " Url="html/2aedef4b-7624-213b-ca61-e5d34fd884a6.htm" />
+        <HelpTOCNode Title="lkup_FeaturesReference Property " Url="html/6814596b-7aa2-f0a2-c1ee-30ec82ff10ab.htm" />
+        <HelpTOCNode Title="lkup_Roles Property " Url="html/05d4bc39-fa60-1e48-ce03-58589cf50142.htm" />
+        <HelpTOCNode Title="lkup_RolesReference Property " Url="html/86a8ad22-2bf0-c88c-b2c8-ce6858fa1f78.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Role_Features Events" Url="html/9cdb6a3e-f905-139d-d54b-aff68f2ffdfa.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e77233c7-3942-40bb-b9fa-9081ad4156f4" Title="TestCase Class" Url="html/d70a14f4-45b3-a414-b18a-165e185b6019.htm">
+      <HelpTOCNode Title="TestCase Members" Url="html/b74649eb-d371-c2d1-dd2a-7d68482a21ad.htm" />
+      <HelpTOCNode Title="TestCase Constructor " Url="html/3079035a-7652-a6ea-b94f-1927de08d903.htm" />
+      <HelpTOCNode Id="1b8517af-2c05-4fcd-8fad-608606052733" Title="TestCase Methods" Url="html/1e278a55-9e03-3cb0-cbd9-35a7e3051692.htm">
+        <HelpTOCNode Title="CreateTestCase Method " Url="html/edecb026-4276-4b84-40e8-b88b9c8f043d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5bfd33cd-5a95-45ea-89c4-2512c6d8baa5" Title="TestCase Properties" Url="html/239fcabc-e509-f820-9df1-4c1d3b05f47f.htm">
+        <HelpTOCNode Title="ID Property " Url="html/380565db-bc48-d43a-83eb-e9957882be1b.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/cd17cf1c-8d24-fbad-138a-3500c95d4ce2.htm" />
+        <HelpTOCNode Title="TestCase_BusinessRules Property " Url="html/0951c7f1-3bb6-31fa-1778-ca6bc40a3526.htm" />
+        <HelpTOCNode Title="TestCase_PostConditions Property " Url="html/e27ecd7a-d83b-0eb9-e9ed-f0439e5b489b.htm" />
+        <HelpTOCNode Title="TestCase_PreConditions Property " Url="html/94881e03-3a44-2840-5524-1007324719a7.htm" />
+        <HelpTOCNode Title="TestCase_TestSteps Property " Url="html/9ef08210-0088-8e70-9b1c-0b5c6b4536b4.htm" />
+        <HelpTOCNode Title="TestScenario_TestCases Property " Url="html/f4b3ab0c-5b4f-224e-0429-f84b9692c393.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestCase Events" Url="html/eb4dab7d-bb06-68e3-953d-81d2fd455dff.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b89a2c31-22bd-4441-9db2-a134a07f2d53" Title="TestCase_BusinessRules Class" Url="html/cc26a6c8-0bd8-e2d2-e3aa-ee21838711f1.htm">
+      <HelpTOCNode Title="TestCase_BusinessRules Members" Url="html/84439561-9dd6-64ff-0860-41b97d25be46.htm" />
+      <HelpTOCNode Title="TestCase_BusinessRules Constructor " Url="html/bdcf21c2-4d4b-b76b-7e58-4a4fb215abf7.htm" />
+      <HelpTOCNode Id="fb249a86-6d42-4987-87e6-f9e97cd4619f" Title="TestCase_BusinessRules Methods" Url="html/2ddc4c18-9daa-244a-c33e-a1dfad8493f3.htm">
+        <HelpTOCNode Title="CreateTestCase_BusinessRules Method " Url="html/678e5af9-0def-6c68-94f3-c31f595e51aa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3a2027d3-2601-4da4-9f90-3853496e2289" Title="TestCase_BusinessRules Properties" Url="html/6adb53a8-4f5e-f4c7-4964-63d72fe480ec.htm">
+        <HelpTOCNode Title="BusinessRule Property " Url="html/91e8dba9-3b62-4728-812d-bae859526ab9.htm" />
+        <HelpTOCNode Title="BusinessRuleReference Property " Url="html/eadc4d2d-1616-281e-677a-44d313bf7a53.htm" />
+        <HelpTOCNode Title="fk_BusinessRuleID Property " Url="html/b7b26832-7ffa-e601-e2ff-8327c6147aed.htm" />
+        <HelpTOCNode Title="fk_TestCaseID Property " Url="html/c2d84ec5-183a-402f-5c91-114e20abc47a.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/98c8f7f8-fa5d-09c2-82b6-6572f86c9bfa.htm" />
+        <HelpTOCNode Title="TestCas Property " Url="html/9620124c-8167-dde0-1706-760f4b54feeb.htm" />
+        <HelpTOCNode Title="TestCasReference Property " Url="html/c96a237a-04ba-6059-80ae-3a6cdd4cd307.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestCase_BusinessRules Events" Url="html/297b00a5-c7a5-7e59-c55c-4b3d583ae629.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3076099c-7479-4f2d-84df-9b1eb7a36595" Title="TestCase_PostConditions Class" Url="html/fed45eda-61e2-88b8-7605-fdfeebdcc71f.htm">
+      <HelpTOCNode Title="TestCase_PostConditions Members" Url="html/732bf12f-cabc-9e95-6073-96e401552fb8.htm" />
+      <HelpTOCNode Title="TestCase_PostConditions Constructor " Url="html/7f46cef1-6200-7684-7df8-71f0b9a3d4af.htm" />
+      <HelpTOCNode Id="9c72622f-b839-42a8-be84-73433faa86fc" Title="TestCase_PostConditions Methods" Url="html/d0cb5694-cff4-50cd-1637-b7c1c64117c5.htm">
+        <HelpTOCNode Title="CreateTestCase_PostConditions Method " Url="html/e1546afd-0c7b-d8df-cc12-8d15845446c8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f1bf5b18-41ef-4069-9d6c-c99720702ddb" Title="TestCase_PostConditions Properties" Url="html/02d29293-beea-d300-8e7a-ae38975a42e9.htm">
+        <HelpTOCNode Title="fk_PostConditionsID Property " Url="html/83be7417-f8f0-7c11-eb2a-67df69400b25.htm" />
+        <HelpTOCNode Title="fk_TestCaseID Property " Url="html/31001b8e-db3e-0f3c-5750-976a52d81548.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/1bdd71f2-0047-ee20-4318-add35b1ded70.htm" />
+        <HelpTOCNode Title="PostCondition Property " Url="html/7d2cca2e-1941-4df9-2273-46c49a0e3ba0.htm" />
+        <HelpTOCNode Title="PostConditionReference Property " Url="html/3c4688e3-3161-386c-dbfd-9fb655bae8fb.htm" />
+        <HelpTOCNode Title="TestCas Property " Url="html/114969b5-21ec-aba0-58a2-5ad35f41dd02.htm" />
+        <HelpTOCNode Title="TestCasReference Property " Url="html/f89eec89-f31a-071c-743f-3dee7d1c03aa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestCase_PostConditions Events" Url="html/c4c25598-4878-175c-fc55-78085d493323.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ce03fd5d-eaea-47a7-a466-f28ec95dda55" Title="TestCase_PreConditions Class" Url="html/5fade062-95b0-5bd3-76e1-b7d65f08f088.htm">
+      <HelpTOCNode Title="TestCase_PreConditions Members" Url="html/5538be3a-d8f8-d650-8af1-f87a168906c8.htm" />
+      <HelpTOCNode Title="TestCase_PreConditions Constructor " Url="html/a1a29ee1-c686-e89b-60cf-ba4592bd786c.htm" />
+      <HelpTOCNode Id="274b86ef-27a1-4aca-a3a8-b0341d8a3ec2" Title="TestCase_PreConditions Methods" Url="html/57182d57-6d2d-32b3-974c-f4fe854089d3.htm">
+        <HelpTOCNode Title="CreateTestCase_PreConditions Method " Url="html/f8a2c20f-5fb5-7040-1952-dadb7dc79422.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d56c7204-1f2e-486d-bee1-b6327ce6d8ca" Title="TestCase_PreConditions Properties" Url="html/b08c2a43-3bd4-4fd1-e174-53d7bc3b335d.htm">
+        <HelpTOCNode Title="fk_PreConditionsID Property " Url="html/6cad4618-490a-5025-85ad-84c1e28c8aca.htm" />
+        <HelpTOCNode Title="fk_TestCaseID Property " Url="html/8a70cdb6-84e0-7fe3-cfcf-e235ed4fa7dd.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/148731e4-9a4a-bd8f-17f4-d0f4ecac8fa3.htm" />
+        <HelpTOCNode Title="PreCondition Property " Url="html/2e69f29b-6a86-2eca-6a23-ea0b62860131.htm" />
+        <HelpTOCNode Title="PreConditionReference Property " Url="html/1a950e63-adb1-480f-b42c-ec53fd98ffac.htm" />
+        <HelpTOCNode Title="TestCas Property " Url="html/b40a8d90-5d6a-1421-88a3-cf3b6ac16543.htm" />
+        <HelpTOCNode Title="TestCasReference Property " Url="html/470486c4-c765-7652-c87b-516e992a7fbc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestCase_PreConditions Events" Url="html/117a0140-8ae2-b18e-9137-d9ba2942856f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8c703561-ce01-400e-a0ad-950d83824465" Title="TestCase_TestSteps Class" Url="html/ae2bf79e-3778-316b-90ca-102eec9b8c52.htm">
+      <HelpTOCNode Title="TestCase_TestSteps Members" Url="html/537b83c9-fe3a-190e-b3b0-d66e8a5235d3.htm" />
+      <HelpTOCNode Title="TestCase_TestSteps Constructor " Url="html/72a1475c-d7c9-06cb-dc81-8b8c55601a57.htm" />
+      <HelpTOCNode Id="c6f21c07-3a9a-4b25-9837-18928af2e528" Title="TestCase_TestSteps Methods" Url="html/e2f49852-2865-e079-16b1-1a19ed0c9133.htm">
+        <HelpTOCNode Title="CreateTestCase_TestSteps Method " Url="html/fff542f6-42ed-85b8-57be-6c275144294b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="47db6c77-1c56-4c51-bd43-c29d93f24473" Title="TestCase_TestSteps Properties" Url="html/ee73a84b-273a-e558-81cc-5c779b32d402.htm">
+        <HelpTOCNode Title="fk_TestCaseID Property " Url="html/1e3130f0-e143-a5bb-e522-3c201de9ffad.htm" />
+        <HelpTOCNode Title="fk_TestStepID Property " Url="html/223b6ef8-2045-f76d-e4bf-0ba181b1b775.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/b598b69b-2222-dc08-3581-f8fe92cc1ccd.htm" />
+        <HelpTOCNode Title="SeqNum Property " Url="html/39c8ff35-6d5f-f4d5-cb10-9a8adb1a91c5.htm" />
+        <HelpTOCNode Title="TestCas Property " Url="html/58e7e1d5-048d-e9c0-5aa7-e46b39d160bf.htm" />
+        <HelpTOCNode Title="TestCasReference Property " Url="html/5b2dc6a3-f6e9-675d-c6d6-7da630804038.htm" />
+        <HelpTOCNode Title="TestStep Property " Url="html/6dce6e85-baa0-e5e9-9307-edfc2337ab71.htm" />
+        <HelpTOCNode Title="TestStepReference Property " Url="html/d96dcabf-c381-6b5a-45d3-73912b344979.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestCase_TestSteps Events" Url="html/90a2b651-0ccb-1b50-7a6b-2eaf980121a2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6d2a7339-0666-47fa-8ca7-feb5b3340f8a" Title="TestCasesDAL Class" Url="html/a5179c7b-fb70-f1b3-55d7-07a0edd2bad4.htm">
+      <HelpTOCNode Title="TestCasesDAL Members" Url="html/5ed895c0-3d31-759e-0ba2-872402df97b6.htm" />
+      <HelpTOCNode Title="TestCasesDAL Constructor " Url="html/ddf9fd8e-f8cb-b769-61d4-f44915e0d37a.htm" />
+      <HelpTOCNode Id="0a12e5a1-8c5a-4ed2-b063-ae4b52089bcb" Title="TestCasesDAL Methods" Url="html/0a34d697-9fc1-4055-f4b8-762d32518d84.htm">
+        <HelpTOCNode Title="addNewTestCase Method " Url="html/9473420e-d925-f085-f2ed-cfd2358a30b9.htm" />
+        <HelpTOCNode Title="addNewTestStep Method " Url="html/8a29b2c1-33d9-d832-91df-ea235051ac2d.htm" />
+        <HelpTOCNode Title="deleteTestCase Method " Url="html/c2c9702c-8950-8237-c270-1b44bf94f7b0.htm" />
+        <HelpTOCNode Title="deleteTestStep Method " Url="html/b3393244-7dd7-d35c-9d1c-548390eb1942.htm" />
+        <HelpTOCNode Title="getAllTestCases Method " Url="html/b8cc00db-4afa-fcb2-7de3-29a34097f9a7.htm" />
+        <HelpTOCNode Title="getTestCaseByID Method " Url="html/1f57edc4-c51e-e8c0-7706-d51f16de6043.htm" />
+        <HelpTOCNode Title="getTestStepByID Method " Url="html/79c5d793-172a-46bb-8021-c0dbfb2c57f3.htm" />
+        <HelpTOCNode Title="getTestStepsForTestCase Method " Url="html/aeb59e4e-b4a0-a468-fb32-adcf255bcba8.htm" />
+        <HelpTOCNode Title="updateTestCase Method " Url="html/0b83bb44-ab29-e3f8-e0c1-98c180e76d40.htm" />
+        <HelpTOCNode Title="updateTestStep Method " Url="html/c6ba3e5c-d000-3e08-87a2-70f1f57ac63b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cb5c9016-f075-43bf-ac1f-3536b90f5014" Title="TestCasesDAL Properties" Url="html/28a05cba-53e7-2841-2951-63d93102a86a.htm">
+        <HelpTOCNode Title="currentProjectID Property " Url="html/dfb207f6-bc85-93c8-7ebf-5017d996144b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68e8e579-b8f6-4486-a57f-87e72f8ca91c" Title="TestScenario Class" Url="html/9f7e55a8-4aa1-e6ea-c6d9-43800cc60a01.htm">
+      <HelpTOCNode Title="TestScenario Members" Url="html/415b3d32-21ea-f993-dd64-7e52c904409b.htm" />
+      <HelpTOCNode Title="TestScenario Constructor " Url="html/cfed6c94-f5e3-2f15-2dfd-7a69dd4ea040.htm" />
+      <HelpTOCNode Id="d91d4add-34d5-450b-a824-872024e36a7c" Title="TestScenario Methods" Url="html/dc0954bd-7990-45ec-f671-b7e2ef1cb5c5.htm">
+        <HelpTOCNode Title="CreateTestScenario Method " Url="html/57d42f1f-e9b9-fc77-9349-ba6aae241428.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="792f3b5f-53f1-400c-8137-32751391496b" Title="TestScenario Properties" Url="html/a0fa8958-bb08-f834-1741-90883f7e384e.htm">
+        <HelpTOCNode Title="Active Property " Url="html/9c7d64df-c6fe-55d5-7a8b-4836259fc2f2.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/1d9d7d78-a646-3136-10ed-a49011a982ff.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/7e54ad61-d008-9cac-4320-50d96e42b3b8.htm" />
+        <HelpTOCNode Title="TestScenario_TestCases Property " Url="html/45bbd7d3-49d8-a945-3d13-79ba7f738a4e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestScenario Events" Url="html/36db0fb7-5d2c-fb49-6c21-56cb29d5b8e5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="73785772-4b54-4b05-a12a-23ddd56ce303" Title="TestScenario_TestCases Class" Url="html/3fe4a834-8207-b1f8-ecae-d2f0fe0e501c.htm">
+      <HelpTOCNode Title="TestScenario_TestCases Members" Url="html/11c71daa-02fe-be07-cd64-005b5e9be0eb.htm" />
+      <HelpTOCNode Title="TestScenario_TestCases Constructor " Url="html/370d569e-be32-62e4-6fdc-033817623704.htm" />
+      <HelpTOCNode Id="31197501-a2d0-4cd3-8018-4a22d6f65ee5" Title="TestScenario_TestCases Methods" Url="html/df308e1b-a0d0-660c-3ab4-aa2a6c9b13c0.htm">
+        <HelpTOCNode Title="CreateTestScenario_TestCases Method " Url="html/fa927d78-8a6a-9763-b9bc-14254d2680e5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="40e62377-73d9-4e16-b76b-961dae498d34" Title="TestScenario_TestCases Properties" Url="html/08907bc9-5308-dfe8-c0f8-f80432308ccc.htm">
+        <HelpTOCNode Title="fk_TestCaseID Property " Url="html/bc21aa72-82a3-5811-f2ff-b088a0b04496.htm" />
+        <HelpTOCNode Title="fk_TestScenarioID Property " Url="html/9e73f479-f2c4-3613-3338-124714bc7e25.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/daf11aeb-2333-835a-d02c-16e32a39bfd6.htm" />
+        <HelpTOCNode Title="SeqNum Property " Url="html/80cab8f8-a7cb-7fab-91ed-51425f8cf6a0.htm" />
+        <HelpTOCNode Title="TestCas Property " Url="html/67b4c309-e586-7527-8b21-fab5d3ae2d01.htm" />
+        <HelpTOCNode Title="TestCasReference Property " Url="html/3728f015-6b2c-3814-a569-de5dc588c2a2.htm" />
+        <HelpTOCNode Title="TestScenario Property " Url="html/6cb526d4-64b7-8f6a-4b3e-4639f2cd93fa.htm" />
+        <HelpTOCNode Title="TestScenarioReference Property " Url="html/78dd110f-0781-3e65-a4fd-548fa6df655f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestScenario_TestCases Events" Url="html/7f64edd8-b5f9-949a-b1ad-8a04019fe354.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="499ff9b0-09f8-4f7e-8a3b-1ce0a4261c49" Title="TestScenariosDAL Class" Url="html/8cce1744-cae2-072d-8142-d5ad93dd407e.htm">
+      <HelpTOCNode Title="TestScenariosDAL Members" Url="html/3d179872-61e0-42c6-3034-6d0a83c65cee.htm" />
+      <HelpTOCNode Title="TestScenariosDAL Constructor " Url="html/b0298e6a-b923-e17e-03e8-17c68a1a758e.htm" />
+      <HelpTOCNode Id="10cfd699-cc78-4c54-ac72-170b874430ae" Title="TestScenariosDAL Methods" Url="html/ee670bf0-4744-0157-9bd1-3b737c2f1f4f.htm">
+        <HelpTOCNode Title="addNewTestScenario Method " Url="html/cb316f33-153a-dc2e-8697-c5e4f47aed4c.htm" />
+        <HelpTOCNode Title="addTestScenarioTestCaseRelationship Method " Url="html/7f0b2ab1-8d9f-90bf-a7e3-46b77a88c811.htm" />
+        <HelpTOCNode Title="deleteTestScenario Method " Url="html/9fa22609-ff70-7497-5d22-551ae4fb1bf6.htm" />
+        <HelpTOCNode Title="deleteTestScenarioTestCaseRelationship Method " Url="html/334815fd-d6c8-bff8-23dc-509b06084aa8.htm" />
+        <HelpTOCNode Title="getAllTestScenarios Method " Url="html/f6cc813f-70e4-e879-e124-45120fdfc893.htm" />
+        <HelpTOCNode Title="getTestCasesForScenario Method " Url="html/1882278d-81e8-42a9-15ab-f19849adca61.htm" />
+        <HelpTOCNode Title="getTestScenarioByID Method " Url="html/c98af06e-efae-731c-569c-04ea113973ab.htm" />
+        <HelpTOCNode Title="updateTestScenario Method " Url="html/bd1d397e-235a-13da-2155-f4f62a55343c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1d25866b-9e1b-42bc-adfe-c89f5d1432a5" Title="TestStep Class" Url="html/913c6a66-4fdb-1724-ab72-33fab372ea5c.htm">
+      <HelpTOCNode Title="TestStep Members" Url="html/a00a7be3-9833-e7f3-048e-5fca96316874.htm" />
+      <HelpTOCNode Title="TestStep Constructor " Url="html/f57f2891-c99c-7597-d93e-b330f2e98e04.htm" />
+      <HelpTOCNode Id="d77c5f07-635c-4f28-aadb-c1a57b9b144c" Title="TestStep Methods" Url="html/66a5038f-7084-e233-b2db-caa71ed4a9fc.htm">
+        <HelpTOCNode Title="CreateTestStep Method " Url="html/a89a6c41-61e6-c5bb-5b19-056f2d45c3ad.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c6738ff4-f8a4-466d-8540-8638de8a907f" Title="TestStep Properties" Url="html/60a2af41-80c8-cdf4-11c3-827ada098c60.htm">
+        <HelpTOCNode Title="ID Property " Url="html/da2d795f-af13-4e87-d1d6-e1f69233a07b.htm" />
+        <HelpTOCNode Title="TestCase_TestSteps Property " Url="html/96fa373b-e266-19e1-7359-5c4aa5165337.htm" />
+        <HelpTOCNode Title="TestStep_BusinessRules Property " Url="html/43757791-8303-c641-0cff-2dfddf3c6b93.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/634c15fd-902a-ef52-b0ed-77be39f7460f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestStep Events" Url="html/1fa9983d-94b1-c019-a771-80ebd77cbc21.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac2ef8fd-89b5-42e9-ba55-c531b3873153" Title="TestStep_BusinessRules Class" Url="html/fd8547d9-94de-d857-753d-f91bcae9cbd8.htm">
+      <HelpTOCNode Title="TestStep_BusinessRules Members" Url="html/0dee1d91-fccc-1a65-08e2-6b1f45811c0c.htm" />
+      <HelpTOCNode Title="TestStep_BusinessRules Constructor " Url="html/4109065b-0887-a154-7a2f-2f85b6d7fd4b.htm" />
+      <HelpTOCNode Id="3ae18aa7-8f8d-4626-b16b-21f21a9fe94c" Title="TestStep_BusinessRules Methods" Url="html/da73ee9b-17e1-a04e-605a-3b53c29ae622.htm">
+        <HelpTOCNode Title="CreateTestStep_BusinessRules Method " Url="html/00bc94a5-22ac-5084-a7bd-8ef1bd7e18a5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4de497c6-2472-4271-be73-d79c688135dd" Title="TestStep_BusinessRules Properties" Url="html/550624a8-0a51-4733-975f-31a3f0ab5116.htm">
+        <HelpTOCNode Title="BusinessRule Property " Url="html/b3656801-2813-d4ea-4ba2-2d34b785ffa9.htm" />
+        <HelpTOCNode Title="BusinessRuleReference Property " Url="html/1134f743-c9f4-e142-9cff-153e762f17de.htm" />
+        <HelpTOCNode Title="fk_BusinessRuleID Property " Url="html/0b0c80d1-310d-a822-ad97-d25cc29c2af9.htm" />
+        <HelpTOCNode Title="fk_TestStepID Property " Url="html/fe91a8ba-37e1-af9f-b85e-97c407dac74b.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/c145eaab-5895-7913-b8a3-e5cd4f05fb68.htm" />
+        <HelpTOCNode Title="TestStep Property " Url="html/5b72ba39-490a-0fc5-b641-f5f49a21f982.htm" />
+        <HelpTOCNode Title="TestStepReference Property " Url="html/b5b87e26-ed6c-169e-9600-9da83f71dd33.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestStep_BusinessRules Events" Url="html/0e82a65f-3b7d-8ee9-64b0-0431564e1aaf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="17cf5b8b-e9f7-453e-b52e-28593eb34287" Title="User Class" Url="html/0123b36f-c311-97ba-90d6-14237a4760cb.htm">
+      <HelpTOCNode Title="User Members" Url="html/c6d7dc56-d657-e4fc-39a0-62697c96eed7.htm" />
+      <HelpTOCNode Title="User Constructor " Url="html/8a0d2228-272a-ea9c-9e45-93b77a10bd42.htm" />
+      <HelpTOCNode Id="352d8d0f-836c-4e08-8535-96ebd2ea5260" Title="User Methods" Url="html/d740641c-ba89-8189-a0a7-6dce1529a50f.htm">
+        <HelpTOCNode Title="CreateUser Method " Url="html/da994df6-3a33-1d4d-43c5-15e6b867b8ed.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e2e33637-ec8d-41db-9d28-8636c5792175" Title="User Properties" Url="html/e892f27a-1697-95cf-b460-0b6485c96f09.htm">
+        <HelpTOCNode Title="Active Property " Url="html/dcf4600d-9bf3-4f19-27a0-834947e6d2ad.htm" />
+        <HelpTOCNode Title="Email Property " Url="html/89cb16b4-ce61-e6db-c205-b820eade5f36.htm" />
+        <HelpTOCNode Title="FirstName Property " Url="html/b3204a6d-5122-049f-9f1a-1833aa71bded.htm" />
+        <HelpTOCNode Title="fk_UserRoleID Property " Url="html/e3e2e06a-e194-f8a2-d6a6-97b374063c89.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/20d92fb2-fe49-9d7b-1cc1-36b0b42baaea.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/17f03b10-a1a0-1a77-8f50-f53f0954a11a.htm" />
+        <HelpTOCNode Title="lkup_Roles Property " Url="html/b2c81c30-53c7-825f-3a60-253d8b0ff01a.htm" />
+        <HelpTOCNode Title="lkup_RolesReference Property " Url="html/dd4576be-6549-0aa8-474f-eb77d32e6e89.htm" />
+        <HelpTOCNode Title="MiddleInitial Property " Url="html/40be5137-5e64-76f3-c263-722fbb4dbe02.htm" />
+        <HelpTOCNode Title="PW Property " Url="html/9bec0b21-72c3-e491-03c4-38be51a427ea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="User Events" Url="html/a9c66502-ff48-c0c1-91d3-0a254a361add.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="769fe4a1-0a50-4512-9e55-94fb58bd6c4c" Title="Entities Namespace" Url="html/2ce45568-9703-32a0-c968-c43ce4465f0e.htm">
+    <HelpTOCNode Id="2d1ba976-0871-465f-81a5-bfe7c7d59f09" Title="JSTree_Node Class" Url="html/8b8bdbcd-bcf1-5faa-cd9d-ac5bb7d4fdf6.htm">
+      <HelpTOCNode Title="JSTree_Node Members" Url="html/484d19b5-3da4-ff1a-edd5-85db76341c4e.htm" />
+      <HelpTOCNode Title="JSTree_Node Constructor " Url="html/f9d31a5b-e9b0-5330-ba89-3c60c87bc05b.htm" />
+      <HelpTOCNode Id="5efaeb2c-ba91-4bdb-a168-e3799d486e3c" Title="JSTree_Node Fields" Url="html/00bfe3ee-78e3-f751-318c-f547e46226bb.htm">
+        <HelpTOCNode Title="attr Field" Url="html/fbb10371-bcbc-ce07-5b49-3f5296b82f7e.htm" />
+        <HelpTOCNode Title="children Field" Url="html/70aa1b09-7c3d-e800-2011-6469863f70a0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="JSTree_Node Methods" Url="html/99f8cbf0-a34a-f418-5daf-97ea3db3e22f.htm" />
+      <HelpTOCNode Id="06ed43f6-168d-4c7b-839d-e0a9a5edcb6e" Title="JSTree_Node Properties" Url="html/c7dc4808-9f09-4790-9719-271554172a2c.htm">
+        <HelpTOCNode Title="data Property " Url="html/44471a7f-f31c-897c-cafd-99779311ddad.htm" />
+        <HelpTOCNode Title="icons Property " Url="html/8b9e95ec-f634-6578-f54f-5d3fa5fb5354.htm" />
+        <HelpTOCNode Title="IdServerUse Property " Url="html/8e824e6e-7aae-fcfe-4a5e-0580fb09509e.htm" />
+        <HelpTOCNode Title="state Property " Url="html/8b136526-32bf-159a-77d3-24d7ba3ecc64.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ca2fd15d-be5f-4cac-a9a9-efa55a6eae53" Title="JsTreeAttribute Class" Url="html/c01ee7ad-e142-3661-f1dc-890beda9367c.htm">
+      <HelpTOCNode Title="JsTreeAttribute Members" Url="html/74d54750-1a69-b0bc-790f-9bc4894801d5.htm" />
+      <HelpTOCNode Title="JsTreeAttribute Constructor " Url="html/c10a977e-eacb-7956-05e6-080e59cd775a.htm" />
+      <HelpTOCNode Id="517bd135-3882-498c-8b60-339cd0c15ad8" Title="JsTreeAttribute Fields" Url="html/15b1092d-4300-2165-cc87-5950a255a1bf.htm">
+        <HelpTOCNode Title="id Field" Url="html/c35b701b-85d8-d0f5-73e1-a13729991378.htm" />
+        <HelpTOCNode Title="selected Field" Url="html/372d0026-a9b4-0838-e88a-7ec7183650b1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="JsTreeAttribute Methods" Url="html/0db8a9a7-2044-895a-8f43-84ab1c94112f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f59d7d3e-0477-483e-b72b-e97971844dc7" Title="viewBusinessRule Class" Url="html/bb60116a-b0e3-a079-9381-387208e3ea92.htm">
+      <HelpTOCNode Title="viewBusinessRule Members" Url="html/93554472-d1f3-685e-3b2f-5da889c54756.htm" />
+      <HelpTOCNode Title="viewBusinessRule Constructor " Url="html/b17c2750-7720-e7c5-9c60-b99b34769b23.htm" />
+      <HelpTOCNode Title="viewBusinessRule Methods" Url="html/ef5ab4e0-0d00-bad3-48af-52e2b3f64d51.htm" />
+      <HelpTOCNode Id="7e4dc74d-52ca-4009-939c-eff79857ac43" Title="viewBusinessRule Properties" Url="html/79234032-18a1-7584-cde7-3f72fd9716d2.htm">
+        <HelpTOCNode Title="Active Property " Url="html/de100f87-8369-e414-13d2-94cc4e3e130c.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/35c3f67b-d2ff-4aa0-deb3-1ae95dae62a0.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/168e9f4c-6669-7924-f6c0-70956e657871.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/465594dc-52fd-ebf7-bb4e-3aaacf4b0396.htm" />
+        <HelpTOCNode Title="StatusID Property " Url="html/07942b8e-2a11-a377-6c09-20418d11b3ec.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/01eb5fdc-69f5-f767-f267-cb91782ca7d5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="59097c0a-87ca-4165-8a27-36a499288e33" Title="viewCSMResponseType Class" Url="html/10b66acc-ea10-5c52-3d81-4f2dbf2d3fbd.htm">
+      <HelpTOCNode Title="viewCSMResponseType Members" Url="html/14164abc-5a53-264d-9b8e-b8d349c2cf9d.htm" />
+      <HelpTOCNode Title="viewCSMResponseType Constructor " Url="html/dbe673d6-4990-f173-3fd7-16d29a0a17d6.htm" />
+      <HelpTOCNode Title="viewCSMResponseType Methods" Url="html/737a0ce2-71d1-26d0-bdf6-f30ab46f4ca6.htm" />
+      <HelpTOCNode Id="a94c5be9-aeeb-4765-8004-a3673bcb69ce" Title="viewCSMResponseType Properties" Url="html/098cd1e1-e65b-2d13-50e5-fd9c0011fc40.htm">
+        <HelpTOCNode Title="Active Property " Url="html/6146728b-f4d6-7c6f-2880-8a9e0652070b.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/bdfc391e-caf8-14d2-6497-c35cbed2edae.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/163f2b59-1ae3-035d-d8dd-5d4367a11a7c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="38a8e95a-14e8-4009-a1bb-4666048cea7d" Title="viewCSMType Class" Url="html/1d8d5a8d-4f32-6025-2b7b-a0dc83565182.htm">
+      <HelpTOCNode Title="viewCSMType Members" Url="html/22278ef6-af28-8dba-01b1-7d50a0fbd481.htm" />
+      <HelpTOCNode Title="viewCSMType Constructor " Url="html/585ab851-832e-e88c-23ce-f990124dfaed.htm" />
+      <HelpTOCNode Title="viewCSMType Methods" Url="html/758054fd-1098-b11f-0d04-4a3a1d209e1b.htm" />
+      <HelpTOCNode Id="9bc92c7d-503c-4c44-b38b-eb753e0343e6" Title="viewCSMType Properties" Url="html/4ee59a27-89ed-8d13-6054-285d90f0599b.htm">
+        <HelpTOCNode Title="Active Property " Url="html/e939098f-d078-92f8-c85e-5c64cb7da004.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/f97006f4-8a1e-87f3-872e-83544453e4b4.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/6bca4801-7c7d-a7c0-5eba-9ca1c80a1008.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e45706cb-db7b-49de-b45b-087290377691" Title="viewCustomerServiceMessage Class" Url="html/d742a080-77a2-5341-98f1-c46fdb7ff8e6.htm">
+      <HelpTOCNode Title="viewCustomerServiceMessage Members" Url="html/7bf3ba2a-3df8-fb03-286e-09c128bd8347.htm" />
+      <HelpTOCNode Title="viewCustomerServiceMessage Constructor " Url="html/11e68385-f91b-b944-dd9f-58c357d4f3ad.htm" />
+      <HelpTOCNode Title="viewCustomerServiceMessage Methods" Url="html/67c231e4-c793-8562-b78b-bdb752ce43b9.htm" />
+      <HelpTOCNode Id="668392af-f45e-4aa5-a846-32486d7e1793" Title="viewCustomerServiceMessage Properties" Url="html/941e6e85-b5b3-35ee-b8d5-6198aa882d8c.htm">
+        <HelpTOCNode Title="Active Property " Url="html/44f51e9b-0d48-696d-629b-17df7713257b.htm" />
+        <HelpTOCNode Title="CSMResponse_Type Property " Url="html/8c7c5c6c-bfb2-a4eb-5c84-a4a8e6aed6aa.htm" />
+        <HelpTOCNode Title="CSMResponse_TypeID Property " Url="html/4e2fba28-6053-d793-521f-519604950274.htm" />
+        <HelpTOCNode Title="CSMType Property " Url="html/6fcb998b-a7c0-0e39-0f04-3b764bf67d45.htm" />
+        <HelpTOCNode Title="CSMTypeID Property " Url="html/5e2b2944-d6a7-4df0-9fac-582c259e8d57.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/adb2fc96-2aba-386e-d5fe-fac5749b4382.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/708997f7-dbfb-dcd0-e3b9-cf45d4f3df57.htm" />
+        <HelpTOCNode Title="Status Property " Url="html/91fa0717-ca8b-e053-9942-76b2022465da.htm" />
+        <HelpTOCNode Title="StatusID Property " Url="html/9282d3e7-29db-3724-0638-24baa28d895c.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/659256a6-1977-2f0f-238c-14326db6df5d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="799735fb-0c5a-4a8b-8e2c-3cc108eaebe6" Title="viewFeature Class" Url="html/40c8b546-42de-dd98-b007-937b82b72e44.htm">
+      <HelpTOCNode Title="viewFeature Members" Url="html/82d096a7-0ad3-e085-f915-e52a6411c9bc.htm" />
+      <HelpTOCNode Title="viewFeature Constructor " Url="html/798a1085-3846-2dc3-47e3-20605a0b5757.htm" />
+      <HelpTOCNode Title="viewFeature Methods" Url="html/d7dd93c5-1bb6-1cc3-4d15-ae558614bb68.htm" />
+      <HelpTOCNode Id="00edbe32-c0e2-49e7-b55e-d7d724e73843" Title="viewFeature Properties" Url="html/28677744-1628-237b-cd7c-048a142db69e.htm">
+        <HelpTOCNode Title="Active Property " Url="html/7f6ac1ef-f1b7-13cc-b3e8-04289d6cbd32.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/4a799514-b782-c620-974b-c1f2786a3ac2.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/dff00599-df64-ebfa-2c8f-d6cf42ab4427.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cbeb9bce-7a68-422f-b5fd-eb33c58f1507" Title="viewProject Class" Url="html/a76b4dc5-fcea-25ed-d5f1-8fa607953371.htm">
+      <HelpTOCNode Title="viewProject Members" Url="html/123055e9-a163-e9d1-8c61-dd465db6e7a0.htm" />
+      <HelpTOCNode Title="viewProject Constructor " Url="html/fd313a00-fa92-74de-a8fb-e84f405e9274.htm" />
+      <HelpTOCNode Title="viewProject Methods" Url="html/f0521567-3bba-9a62-bbfc-ae999d7a70ce.htm" />
+      <HelpTOCNode Id="134af009-ce39-44ac-bcf9-e5e599b477bb" Title="viewProject Properties" Url="html/d55aa7d4-045b-c346-c67a-9b9fedfa6764.htm">
+        <HelpTOCNode Title="DataSource Property " Url="html/5e320df1-33ed-6ed7-fe6a-9eea1145f01c.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/1c06e22e-cc59-dc2f-cfda-3b7c8c9fd9bb.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/0e995beb-879e-5245-1e3a-8d43554d19be.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bd46d9a4-65c9-4f5b-a889-013e0ffa3284" Title="viewRole Class" Url="html/efd345fa-624e-0996-b8fb-de3698f385c5.htm">
+      <HelpTOCNode Title="viewRole Members" Url="html/744ad753-ff67-fd00-bf89-03ed3e619b48.htm" />
+      <HelpTOCNode Title="viewRole Constructor " Url="html/d7e894eb-e537-11fa-e3f4-2b7fc90c5237.htm" />
+      <HelpTOCNode Title="viewRole Methods" Url="html/e67be8d1-1627-5e84-e4d3-ea564488ba0f.htm" />
+      <HelpTOCNode Id="5943b96e-f1b5-41c1-8cae-8ae2a14400a7" Title="viewRole Properties" Url="html/8721b94f-90a7-df49-a821-73449e3ec04b.htm">
+        <HelpTOCNode Title="Active Property " Url="html/ff383dd9-bebc-75a2-a5bd-f88b2ef9e2f2.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/68299261-3b11-9221-1ffc-afa43c2edf5f.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/7e5254ef-f749-42df-5f3b-421e203fb9af.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a6da0139-402f-4f08-8c70-68392afa0347" Title="viewSection Class" Url="html/1edee131-0250-24da-aace-5813f9d74210.htm">
+      <HelpTOCNode Title="viewSection Members" Url="html/0049e257-0fbf-8a92-9f4c-dcc876eaa8d4.htm" />
+      <HelpTOCNode Title="viewSection Constructor " Url="html/6e216413-1972-9727-d838-0b76762573fe.htm" />
+      <HelpTOCNode Title="viewSection Methods" Url="html/ec4795b4-74f1-1f27-7bb0-247736ca5228.htm" />
+      <HelpTOCNode Id="2afb08db-7bdd-4a87-a5b5-b1b304e92d5f" Title="viewSection Properties" Url="html/6b8cef1f-bfdb-8897-58b4-b60de6185698.htm">
+        <HelpTOCNode Title="Abbreviation Property " Url="html/a56bc517-06f1-34f8-5cd9-a708ea6e4f65.htm" />
+        <HelpTOCNode Title="Active Property " Url="html/9ad5ba0b-e0fe-b35b-0071-b61f688e95f4.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/8312ce47-f23b-4b03-0963-db6af94065a8.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/17f5e00f-9bad-40e5-3f8c-9fb6d73ad5c8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b1d13ad8-7254-41fa-829e-1b98ade84b51" Title="viewStatus Class" Url="html/914094d8-e6cb-a95f-5f9f-d83e8b66fb1d.htm">
+      <HelpTOCNode Title="viewStatus Members" Url="html/07d55ac3-fa19-f14a-c4bc-9eb754832ad5.htm" />
+      <HelpTOCNode Title="viewStatus Constructor " Url="html/8dd27db1-5b9f-e716-c71c-6704f7e7141c.htm" />
+      <HelpTOCNode Title="viewStatus Methods" Url="html/96c75aac-e3e2-08c7-8e31-8c2a4c6f1d96.htm" />
+      <HelpTOCNode Id="8f1e1718-a5bf-4821-91d8-0806c49901f6" Title="viewStatus Properties" Url="html/99e3efd1-a43d-c475-c7e5-2119b13cd23a.htm">
+        <HelpTOCNode Title="Active Property " Url="html/0a2da476-629a-3278-865b-4cfdbbe66560.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/b9e2420e-71dd-59eb-97af-a0f39c2b8c04.htm" />
+        <HelpTOCNode Title="Text Property " Url="html/0f177c5a-9eca-4e78-3f09-031ba44afdb4.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4aa85428-1f70-44ed-ae48-c1f569096401" Title="viewTestCase Class" Url="html/2c77880c-6bb3-8b04-c7d2-097c1344d78d.htm">
+      <HelpTOCNode Title="viewTestCase Members" Url="html/81a36fc8-69ca-9c4a-90f5-6bcd9258649f.htm" />
+      <HelpTOCNode Title="viewTestCase Constructor " Url="html/16bbfd5c-ce35-a82c-3d3e-b354ac3f9c4c.htm" />
+      <HelpTOCNode Title="viewTestCase Methods" Url="html/30c5fc9b-12f0-445a-4747-f22b6260c956.htm" />
+      <HelpTOCNode Id="f40d8b72-20b9-4e57-bc3a-416e0bcb6593" Title="viewTestCase Properties" Url="html/944f0daf-8a6d-fa21-6e83-8c97433991e3.htm">
+        <HelpTOCNode Title="ID Property " Url="html/76517a1f-b88b-e9b0-62af-8e23d05012af.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/4dde69b7-eb3e-b510-d5df-2c4bae53b381.htm" />
+        <HelpTOCNode Title="SeqNum Property " Url="html/5ad05323-6a71-2baa-d682-3fdeae49c217.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="cc43fcd9-7aa4-47a1-99d3-4fb4239c41f8" Title="viewTestScenario Class" Url="html/c4226ea1-616e-53c3-04cc-a7cb576e4823.htm">
+      <HelpTOCNode Title="viewTestScenario Members" Url="html/b5740fc2-3696-941c-13ae-5ba944b23bf4.htm" />
+      <HelpTOCNode Title="viewTestScenario Constructor " Url="html/c3953232-db31-1f17-d402-b48829a2dc45.htm" />
+      <HelpTOCNode Title="viewTestScenario Methods" Url="html/54aca8ec-5767-1c89-639b-710363daab58.htm" />
+      <HelpTOCNode Id="86e04c2f-7539-4376-b059-9f9e43592ae5" Title="viewTestScenario Properties" Url="html/a22cd720-0cca-a431-f88e-09f3165712bb.htm">
+        <HelpTOCNode Title="ID Property " Url="html/04fc4ef2-fe15-1b69-1f2b-af7be5182672.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/e054c0a3-15c2-4da2-51a3-d12c054eddd1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="743b9c12-974b-408b-b5e2-843455b76b31" Title="viewTestStep Class" Url="html/de5c0157-b83b-6765-6920-63679bee621b.htm">
+      <HelpTOCNode Title="viewTestStep Members" Url="html/7e255c97-a01b-fd82-2c95-928033f833c1.htm" />
+      <HelpTOCNode Title="viewTestStep Constructor " Url="html/a845e9c5-4dd7-7a07-ed3c-f3859e5c8f5d.htm" />
+      <HelpTOCNode Title="viewTestStep Methods" Url="html/169efa9c-4478-0af4-0e5e-3b1e97b372f6.htm" />
+      <HelpTOCNode Id="753c2189-5820-48c4-9c12-beaa2a256a90" Title="viewTestStep Properties" Url="html/d45de7ac-1c09-9dbd-9a40-3bead2d06eb5.htm">
+        <HelpTOCNode Title="ID Property " Url="html/55f4f057-f3a3-4611-38d9-cff92493481e.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/dc683dc8-1d3a-3ac8-ee69-f3939fa94132.htm" />
+        <HelpTOCNode Title="SeqNum Property " Url="html/e31533b1-b972-b666-f28d-94de19870a7a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="08557f16-7013-4454-ab48-0eff0d48c611" Title="viewUser Class" Url="html/fe87b2f1-55df-cfa4-ed24-9e5eeb6b1cfb.htm">
+      <HelpTOCNode Title="viewUser Members" Url="html/37ac2f29-716f-1f2a-9bac-d1c3c463288e.htm" />
+      <HelpTOCNode Title="viewUser Constructor " Url="html/ebc4b7fb-9c97-54f3-c115-90deb26a7e60.htm" />
+      <HelpTOCNode Title="viewUser Methods" Url="html/355b6882-b8a1-b028-c8b0-786afbcb34f5.htm" />
+      <HelpTOCNode Id="089ccdaa-c259-4edc-8b6f-9a8872cbd0c8" Title="viewUser Properties" Url="html/833952cf-97b2-65d9-46c6-65493f121752.htm">
+        <HelpTOCNode Title="Active Property " Url="html/f2e221a9-552d-06d3-9cdb-d85d26cfd0a8.htm" />
+        <HelpTOCNode Title="Email Property " Url="html/c67a1a53-1512-719f-2a0d-b1e6ae7692b5.htm" />
+        <HelpTOCNode Title="FirstName Property " Url="html/53847a0e-6aaf-cdc0-09c8-d946de699a82.htm" />
+        <HelpTOCNode Title="ID Property " Url="html/ba946d48-d09d-1ca4-10b4-4a0f77b81306.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/6b7d941e-8dce-3b7f-cf24-fd72f93c9066.htm" />
+        <HelpTOCNode Title="MiddleInitial Property " Url="html/e3134c34-5896-454e-c187-71dd86ac0462.htm" />
+        <HelpTOCNode Title="PW Property " Url="html/b15f4d95-3db4-9c8d-952d-fca7199002c8.htm" />
+        <HelpTOCNode Title="RoleName Property " Url="html/3c66af0f-6639-419a-5552-5649bbee17dd.htm" />
+        <HelpTOCNode Title="UserRoleID Property " Url="html/63b3a011-0d49-7c8d-0652-bdd5e10b07b6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b7f81ec2-4ed0-4cca-8ea1-f146cbc9cf14" Title="Enums Namespace" Url="html/1c6af834-46e1-e629-c0f0-daac5d7abba5.htm">
+    <HelpTOCNode Title="featureEnums Class" Url="html/b9a80a19-9d38-05db-f311-e12a05cd4e65.htm" />
+    <HelpTOCNode Title="featureEnums.Feature Enumeration" Url="html/384f9da2-6099-0430-d480-28bdd8f96a26.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="db9f61c1-8fbe-44c8-821f-4164d629abae" Title="Palinoia Namespace" Url="html/b6ce0656-91c0-844e-a081-2dcb1fb29e1a.htm">
+    <HelpTOCNode Id="d7fdb457-0d83-4ecc-acf6-7a6cf8b1943e" Title="_Default Class" Url="html/fd8c5693-7c0c-08f5-9bc9-d5cda4aa1266.htm">
+      <HelpTOCNode Title="_Default Members" Url="html/7355e958-4020-1666-94d6-8bf8e9168179.htm" />
+      <HelpTOCNode Title="_Default Constructor " Url="html/6f652dff-2d65-eb9c-c029-a40e09f7c6d1.htm" />
+      <HelpTOCNode Id="d6e6dfac-313a-4f89-9432-061487430553" Title="_Default Methods" Url="html/497f0347-ad86-0132-f01f-c04b1552ef8e.htm">
+        <HelpTOCNode Title="Page_Load Method " Url="html/93061d17-01a5-1ce9-1389-8cc1829ccd34.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="_Default Properties" Url="html/c7a77dab-8aee-5a7e-5b23-ec2d0ee10c63.htm" />
+      <HelpTOCNode Title="_Default Events" Url="html/05f16f7c-29d5-205d-27c4-f6fbf6859428.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fdf16846-7b21-4619-9f3a-b4c78846db4d" Title="About Class" Url="html/d0736c1f-ffd0-8222-92a9-8724add9d5e8.htm">
+      <HelpTOCNode Title="About Members" Url="html/11baeb96-2643-a125-6fa2-0bc784159afc.htm" />
+      <HelpTOCNode Title="About Constructor " Url="html/485d463b-8d27-acfa-b13b-832445d0d358.htm" />
+      <HelpTOCNode Id="59403765-ebd5-4d43-adcd-7b8d80d4434f" Title="About Methods" Url="html/aa1ccf8c-b218-80f0-68dc-2da7d2126c8c.htm">
+        <HelpTOCNode Title="Page_Load Method " Url="html/c2e60163-b4f8-1854-2173-159a35c6145f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="About Properties" Url="html/3cc52653-175b-fec3-71c2-0dcfc92d07bd.htm" />
+      <HelpTOCNode Title="About Events" Url="html/5e1b74eb-36c0-339f-05f2-848d7b8057b4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fbeb3ec4-9b97-4458-b7d3-1ca7009b3d29" Title="Global Class" Url="html/0e7ecf34-8abb-37f0-ed64-7cff39bc92f1.htm">
+      <HelpTOCNode Title="Global Members" Url="html/f27b7d98-8c62-7387-48c0-945eff8da311.htm" />
+      <HelpTOCNode Title="Global Constructor " Url="html/34eaf83f-bafa-a0ef-fb35-326134f720df.htm" />
+      <HelpTOCNode Title="Global Methods" Url="html/be26b4f6-2b8a-6cad-a3c2-e1a0cbc65fe0.htm" />
+      <HelpTOCNode Title="Global Properties" Url="html/58e24dd8-b064-55ff-3a38-7dc7f99c7601.htm" />
+      <HelpTOCNode Title="Global Events" Url="html/bebeebbb-07e7-90be-cbd5-2fc29cf43efd.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ac1ce77c-ee23-4268-8aed-dad7df4ce533" Title="SiteMaster Class" Url="html/f13f2681-78fe-ae71-cc3b-159e3b252c8a.htm">
+      <HelpTOCNode Title="SiteMaster Members" Url="html/9bd39bc3-3f5b-c7f4-0256-bf47ed43b85f.htm" />
+      <HelpTOCNode Title="SiteMaster Constructor " Url="html/55b733fc-9f33-455c-c9ca-9c46b616870d.htm" />
+      <HelpTOCNode Id="53800e63-f5bb-4a24-b84f-727070c87a58" Title="SiteMaster Fields" Url="html/7efacdd2-dd65-1ca6-7c6e-cce4c252ddba.htm">
+        <HelpTOCNode Title="A1 Field" Url="html/3ac9bd6c-d7f6-2ab7-7c9c-d8dd228fcf99.htm" />
+        <HelpTOCNode Title="A2 Field" Url="html/55b7d807-e245-86f6-29ae-e1398c58f2ac.htm" />
+        <HelpTOCNode Title="Head1 Field" Url="html/a238462d-5b2e-9eaa-52f1-cef67e5f8953.htm" />
+        <HelpTOCNode Title="HeadContent Field" Url="html/41dc6766-9567-2a39-a88c-4c8d4a60e659.htm" />
+        <HelpTOCNode Title="invalidUserDiv Field" Url="html/edfa8d78-0399-e3b3-6d33-82657f91f15b.htm" />
+        <HelpTOCNode Title="lblLoginName Field" Url="html/29353f4d-b5bf-b99f-25e0-d95abe717478.htm" />
+        <HelpTOCNode Title="LoginDIV Field" Url="html/6ec39c20-9473-6cbc-1c14-5b953bf31726.htm" />
+        <HelpTOCNode Title="MainContent Field" Url="html/cfca5800-e488-23e0-41f1-5fa59effca41.htm" />
+        <HelpTOCNode Title="masterForm Field" Url="html/64cd8d09-662b-2174-e058-786c0a65a67d.htm" />
+        <HelpTOCNode Title="menuTree Field" Url="html/5abcfa0c-1a22-a24e-e53b-13187917330b.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/079def33-4e57-c32d-03ee-fd211f59f204.htm" />
+        <HelpTOCNode Title="SiteMapDataSource1 Field" Url="html/dd661b61-2a2b-69c2-1c26-848fbc2eced6.htm" />
+        <HelpTOCNode Title="validUserDiv Field" Url="html/c7c0e044-dbc2-6644-c045-ac1c89255fab.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f5c4fc97-05bb-4473-8ac0-e7cbaebf9de5" Title="SiteMaster Methods" Url="html/7a2de0e8-bc9a-242a-fe33-86eaf96c4b52.htm">
+        <HelpTOCNode Title="Page_Load Method " Url="html/eeadb4f4-8d85-d98a-d4d7-909286eab1e7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SiteMaster Properties" Url="html/c4a93d0c-2759-68ea-adab-e71c815025a8.htm" />
+      <HelpTOCNode Title="SiteMaster Events" Url="html/4fab2d92-a970-77d5-420e-9c24d7f8733b.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="a2f21892-9068-4784-913d-639a56f2222f" Title="Palinoia.Account Namespace" Url="html/6e330f36-4d18-6c45-33af-9bde5dbf465d.htm">
+    <HelpTOCNode Id="78112a86-2fec-41e6-988d-7349be88418c" Title="ChangePassword Class" Url="html/648f14a0-4793-a84a-60c1-23a6c78c4143.htm">
+      <HelpTOCNode Title="ChangePassword Members" Url="html/f06ed3a0-af22-4251-b081-1004e17c8fb3.htm" />
+      <HelpTOCNode Title="ChangePassword Constructor " Url="html/ee0424c0-8394-c7fb-dd84-451a09728136.htm" />
+      <HelpTOCNode Id="f2a934e0-2604-4e63-bb18-3db89c141ec2" Title="ChangePassword Fields" Url="html/ac2c6f82-7c53-d599-4367-f1843c0fdc63.htm">
+        <HelpTOCNode Title="ChangeUserPassword Field" Url="html/aed9b0c3-e01f-0494-e441-c3f5891c77dc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="77a188e3-f00b-4c91-a2ac-0be130980557" Title="ChangePassword Methods" Url="html/d69946e9-8223-3a0a-9c49-2b50b8821794.htm">
+        <HelpTOCNode Title="Page_Load Method " Url="html/2a3cf15f-aa19-8789-2a03-97e14619f87b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ChangePassword Properties" Url="html/86828258-f4a5-c5f8-9009-b453886133ae.htm" />
+      <HelpTOCNode Title="ChangePassword Events" Url="html/4a7385b9-4baa-e291-1392-28cb3dcb8184.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c88bc05c-708e-4c82-9f35-899774eed79b" Title="ChangePasswordSuccess Class" Url="html/568a4cec-c9c8-c20c-e92e-ef02c0d1e91c.htm">
+      <HelpTOCNode Title="ChangePasswordSuccess Members" Url="html/7593cd9e-72bd-0736-0ce7-db5f3c790e8d.htm" />
+      <HelpTOCNode Title="ChangePasswordSuccess Constructor " Url="html/e6872884-16ee-f928-cadf-38d81aa6e788.htm" />
+      <HelpTOCNode Id="817ca904-ebac-40bf-94e1-62f9f620777e" Title="ChangePasswordSuccess Methods" Url="html/3960fd3e-6567-c36c-b546-c93a2ad94ea9.htm">
+        <HelpTOCNode Title="Page_Load Method " Url="html/5fcfc167-8a51-e0a8-de60-da5bf903926d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="ChangePasswordSuccess Properties" Url="html/a20bb1b4-1a97-e759-2cff-2e7d92583422.htm" />
+      <HelpTOCNode Title="ChangePasswordSuccess Events" Url="html/de1e512c-be33-8296-5edc-9a0253885c8a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3ca19936-60b5-4e6c-9877-92c17b71b3d7" Title="Login Class" Url="html/b8658f57-6761-e300-f7e0-2df7a2df62c5.htm">
+      <HelpTOCNode Title="Login Members" Url="html/50bde3db-03a3-05c1-fa24-23c459b4e435.htm" />
+      <HelpTOCNode Title="Login Constructor " Url="html/a373b893-c9f1-231f-0dad-f82bd7bf9046.htm" />
+      <HelpTOCNode Id="30d00069-e348-41ed-bbae-e9776c49ad2f" Title="Login Fields" Url="html/97eb4e94-84ae-0984-f4b0-4c4fda620cb4.htm">
+        <HelpTOCNode Title="LoginButton Field" Url="html/b3e912ca-12da-19a3-bea2-dd67d79f342b.htm" />
+        <HelpTOCNode Title="PasswordLabel Field" Url="html/b3fb94a2-83ea-8591-fd7b-f5f2fb059500.htm" />
+        <HelpTOCNode Title="PasswordRequired Field" Url="html/c764ce21-43db-6b37-504a-99b9da138ad1.htm" />
+        <HelpTOCNode Title="txtPassword Field" Url="html/5f6ad086-5e54-94bd-1f2c-79dc908d5af4.htm" />
+        <HelpTOCNode Title="txtUserName Field" Url="html/ec5c4534-5e20-69d9-b2b4-b4459e972f28.htm" />
+        <HelpTOCNode Title="UserNameLabel Field" Url="html/86c256bb-fe49-14bd-e242-330bb94a3d07.htm" />
+        <HelpTOCNode Title="UserNameRequired Field" Url="html/2f6cf479-7e3b-3be6-b413-c328db7c7a41.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="440f75a6-cd8a-4149-99aa-5c44fe7fb19c" Title="Login Methods" Url="html/17f35977-fcad-ad49-a7a2-7d1f96543725.htm">
+        <HelpTOCNode Title="LoginButton_Click Method " Url="html/2fa8fe1f-fe2e-dbb8-562d-82d0912cff6e.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/005fb803-ad25-bc40-1a3c-46cb490cd8bb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Login Properties" Url="html/a72d1ce5-b345-8f2f-e28b-7cf4719535cf.htm" />
+      <HelpTOCNode Title="Login Events" Url="html/1c10d2da-cb61-b4fd-1fde-6ce8afff4b11.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a0fee642-f3bf-47ad-b1b0-974ce784a2b9" Title="Register Class" Url="html/8da4a8de-a9dc-ee33-c941-4d2c3d169f0e.htm">
+      <HelpTOCNode Title="Register Members" Url="html/803caa7f-6832-616d-de57-ee9a430104b6.htm" />
+      <HelpTOCNode Title="Register Constructor " Url="html/3a794550-0e22-1954-9a02-ca2eb77e4b06.htm" />
+      <HelpTOCNode Id="623e3c78-f1dc-461b-9238-25c27e52a990" Title="Register Fields" Url="html/6d53ba0d-2ff7-9df3-354c-ceb2ab8e228c.htm">
+        <HelpTOCNode Title="RegisterUser Field" Url="html/b3c8685d-750a-e518-477e-80e34c6cf7e7.htm" />
+        <HelpTOCNode Title="RegisterUserWizardStep Field" Url="html/26ba72ab-25d3-17ad-f092-8bbe594fa4bd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c135e0bb-a1b3-4486-9c05-0f5b123934eb" Title="Register Methods" Url="html/42cfc5ee-f59a-479a-703a-70f7b123b344.htm">
+        <HelpTOCNode Title="Page_Load Method " Url="html/37038de7-8160-adb8-6aa9-4d3ff8c08e4f.htm" />
+        <HelpTOCNode Title="RegisterUser_CreatedUser Method " Url="html/2170a001-0f4f-5857-3597-895bda68cf07.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Register Properties" Url="html/9830825f-6b4c-1755-7125-1a99575dc31b.htm" />
+      <HelpTOCNode Title="Register Events" Url="html/63440e63-af8f-0490-784d-6be1cf18eab9.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="945f6cf9-7e34-40ac-9a6f-5cc7c0340a95" Title="Palinoia.UI Namespace" Url="html/48a1fd63-558d-c7cb-2c2a-76f74dbbaeef.htm">
+    <HelpTOCNode Id="47b080c5-4730-4c51-b35e-f22c3cc1120d" Title="basePalinoiaPage Class" Url="html/c84dd6d6-65b2-0868-668b-25b391dbcb9a.htm">
+      <HelpTOCNode Title="basePalinoiaPage Members" Url="html/fa797fe8-57e9-9c33-4f38-828ef58f5a8c.htm" />
+      <HelpTOCNode Title="basePalinoiaPage Constructor " Url="html/c907b881-ecee-c267-8a10-6dc3b59e2212.htm" />
+      <HelpTOCNode Id="147f738b-cef7-4d58-9317-963715814808" Title="basePalinoiaPage Methods" Url="html/c2115bad-81c0-ea99-cbbf-420ef8de94f9.htm">
+        <HelpTOCNode Id="79c46596-aa41-44e8-9bba-0c8d2a225779" Title="addJavaScriptReferences Method " Url="html/1eede73e-225e-fbc9-cfae-9c08229445a6.htm">
+          <HelpTOCNode Title="addJavaScriptReferences Method (String)" Url="html/4de4d2ca-04fe-34be-79fc-2604901c21f5.htm" />
+          <HelpTOCNode Title="addJavaScriptReferences Method (String, Boolean)" Url="html/e8cc7936-6b72-cc58-e9fb-2f9c1c705da8.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="sendMessageToClient Method " Url="html/4ff4f758-301b-a0e1-b22e-418d30035e18.htm" />
+        <HelpTOCNode Title="setUpClientUIForValidation Method " Url="html/9724669b-050e-fc28-5ed5-3d85cf874939.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="basePalinoiaPage Properties" Url="html/e40e8e48-e8cf-a0cf-3e93-e1a5a24a2ca1.htm" />
+      <HelpTOCNode Title="basePalinoiaPage Events" Url="html/5809455c-410f-562c-aa34-3ddfa736a51a.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c5b3b947-131b-47f6-a2c8-ca78ca461277" Title="Palinoia.UI.Admin Namespace" Url="html/5dd801f5-d97c-c8c8-0ef5-361aaaa393f8.htm">
+    <HelpTOCNode Id="7d0139ab-5a25-4b69-ba05-dcf3d1beb760" Title="adminCSMResponseTypes Class" Url="html/745143ee-5a09-a36f-6ebf-c064242fcf6d.htm">
+      <HelpTOCNode Title="adminCSMResponseTypes Members" Url="html/dde07d77-35a6-46d7-2c19-799947d125b1.htm" />
+      <HelpTOCNode Title="adminCSMResponseTypes Constructor " Url="html/e048716b-3e18-5b83-9801-3c71be0a2144.htm" />
+      <HelpTOCNode Id="24f2615d-9ba8-41bc-af26-f86b8e256fac" Title="adminCSMResponseTypes Fields" Url="html/1193b7a2-e077-a1d8-d25d-ee6c7e975221.htm">
+        <HelpTOCNode Title="btnAddResponseType Field" Url="html/e3d7dfd8-fcd0-2a9e-4a62-e031bb7f1573.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/ee2d778f-876a-b8c2-7ba7-0965478020b0.htm" />
+        <HelpTOCNode Title="btnSaveAddCSMResponseType Field" Url="html/48c17cd2-f4fb-610a-dc23-43dc66004b29.htm" />
+        <HelpTOCNode Title="btnSaveEditCSMResponseType Field" Url="html/b9dbb0e1-cfb0-8d1f-7362-7d5c81d7768e.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/6d688ea7-2897-b43c-7243-e2cd0f52ce01.htm" />
+        <HelpTOCNode Title="grdCSMResponseTypes Field" Url="html/41ad011e-ef4d-d950-0992-cdb1f1925d39.htm" />
+        <HelpTOCNode Title="hdnEditResponseTypeID Field" Url="html/279d7e28-a2e6-45af-bfa0-c3d8711f9d58.htm" />
+        <HelpTOCNode Title="lblResponseTypeText Field" Url="html/b4d4c230-f8be-d7fd-8566-a09cfd607573.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/0b147160-848e-6217-aeb1-0581ce68c06f.htm" />
+        <HelpTOCNode Title="txtAddResponseType Field" Url="html/cdca2e0c-071d-2dcd-6ce8-04dad1ce79a3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b1bc4a2-23c1-465f-bba0-5b70bd4792be" Title="adminCSMResponseTypes Methods" Url="html/9b87497f-6dec-db98-cd5f-20abe992114a.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/887e2bfd-f93b-cdc5-28ff-a5727276c270.htm" />
+        <HelpTOCNode Title="btnAddResponseType_Click Method " Url="html/bd158398-7259-827c-4e7d-1bdc5affcc52.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/42da6d9e-ba99-cd62-bd59-4e7494987699.htm" />
+        <HelpTOCNode Title="btnSaveCSMResponseType_Click Method " Url="html/38aa268f-6a16-8079-5339-ec5e34899e28.htm" />
+        <HelpTOCNode Title="btnSaveEditCSMResponseType_Click Method " Url="html/b0e09c88-d859-9871-d609-c37e05fecb27.htm" />
+        <HelpTOCNode Title="grdCSMResponseTypes_RowDataBound Method " Url="html/f5c61c36-ca4e-9ff8-57a8-7521d8d2d50b.htm" />
+        <HelpTOCNode Title="grdCSMResponseTypes_RowDeleting Method " Url="html/f754730c-ed4f-4245-9a91-6829f6f585e4.htm" />
+        <HelpTOCNode Title="grdCSMResponseTypes_RowEditing Method " Url="html/53ab03c0-3126-670f-887f-4aa5dabea430.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/d8733807-8b3f-5e9c-8db0-92d67cca090e.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/8f18bfcd-a3b6-8de5-efc5-bdce3bbd0b87.htm" />
+        <HelpTOCNode Title="populateCSMResponseTypeGrid Method " Url="html/7a9b7f80-2e0d-5220-b622-0c3de4407f8a.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/c9f8d28b-76da-c7ed-6e63-3b4dff8cc8c3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminCSMResponseTypes Properties" Url="html/35bdff07-b784-fcd0-396b-5f34370259d8.htm" />
+      <HelpTOCNode Title="adminCSMResponseTypes Events" Url="html/90e443a5-d114-24cb-afc7-5426de775fd5.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d6b84ba4-fd69-493e-b4ac-7b166cda4d9d" Title="adminCSMTypes Class" Url="html/3e05d0d6-7d05-1238-5d10-d1c4e361749a.htm">
+      <HelpTOCNode Title="adminCSMTypes Members" Url="html/260eea17-6f96-ee4f-dea6-69836e555714.htm" />
+      <HelpTOCNode Title="adminCSMTypes Constructor " Url="html/020b0ac2-bc25-5a19-e735-07ac81a1f049.htm" />
+      <HelpTOCNode Id="098cefeb-3d69-48e8-9fcb-3f4234b2b834" Title="adminCSMTypes Fields" Url="html/02c6c0a2-166d-9c81-5178-c253792b32e0.htm">
+        <HelpTOCNode Title="btnAddCSMType Field" Url="html/499a2db4-f704-73c8-a577-715605861cf1.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/d32ef5a9-a902-7d51-8d4b-8521414802bb.htm" />
+        <HelpTOCNode Title="btnSaveAddCSMType Field" Url="html/b2e6f825-8470-dd24-205b-5755570aa77f.htm" />
+        <HelpTOCNode Title="btnSaveEditCSMType Field" Url="html/f2248996-6a83-f00f-bfdb-c85cb84c64bd.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/31e018c3-3bae-fe5f-7c91-97ff472ebfc9.htm" />
+        <HelpTOCNode Title="grdCSMTypes Field" Url="html/c35888c3-4f06-5571-936b-ec3605054b59.htm" />
+        <HelpTOCNode Title="hdnCSMTypeID Field" Url="html/3c3f77f3-f095-38a2-dc10-de8f77cc28f3.htm" />
+        <HelpTOCNode Title="lblCSMTypeText Field" Url="html/f1cb4c5a-91eb-2ee4-fab4-837bd2298899.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/e44865b6-f002-ab7f-4cae-dcb9cf785b92.htm" />
+        <HelpTOCNode Title="txtAddCSMType Field" Url="html/7d41db26-7e16-0817-16fe-4c8855d05255.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="4c226eae-f3d5-4dcb-9ca4-8b166415394d" Title="adminCSMTypes Methods" Url="html/e7c46655-b534-e51b-6150-1e28a5daf059.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/d081885b-1082-5459-b625-093496ba28fc.htm" />
+        <HelpTOCNode Title="btnAddCSMType_Click Method " Url="html/b274eb31-9be9-6d95-7674-5d1c4f0623b9.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/66d9ec74-93b4-fcaa-ba01-29b24cfd5005.htm" />
+        <HelpTOCNode Title="btnSaveAddCSMType_Click Method " Url="html/9e869fc2-416b-bee3-3f04-d32705e640d7.htm" />
+        <HelpTOCNode Title="btnSaveEditCSMType_Click Method " Url="html/a0aa90c0-b2df-f106-d5fd-e7dbaaa05bca.htm" />
+        <HelpTOCNode Title="grdCSMTypes_RowDataBound Method " Url="html/cd6c5385-b8c1-2ad8-a46e-362017368358.htm" />
+        <HelpTOCNode Title="grdCSMTypes_RowDeleting Method " Url="html/d6cf07fd-ca6c-9c98-4613-51c12db66455.htm" />
+        <HelpTOCNode Title="grdCSMTypes_RowEditing Method " Url="html/dcba0276-e021-ce25-115d-d9201e81a57e.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/ce5e7a94-800d-14fa-ce66-834e7e44ceab.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/c75a1109-2dd4-96e3-ae00-05674bae3e92.htm" />
+        <HelpTOCNode Title="populateCSMTypesGrid Method " Url="html/9af15786-fbf7-ec95-116d-a58bf54b866a.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/1a84fdbe-a8ca-c707-b83a-34fe38f20300.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminCSMTypes Properties" Url="html/43e7e78e-bc89-6c47-b294-3432ec825f06.htm" />
+      <HelpTOCNode Title="adminCSMTypes Events" Url="html/c753ae69-040a-288d-a256-1334bfd4b62d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="97a008ba-fcac-4ae7-b078-30bc780a00de" Title="adminFeatures Class" Url="html/a92c6f2b-79dc-d16b-b398-ad387771846b.htm">
+      <HelpTOCNode Title="adminFeatures Members" Url="html/8121e12f-47e5-b4b5-b511-177f53cb4fa9.htm" />
+      <HelpTOCNode Title="adminFeatures Constructor " Url="html/ac9d6b41-ddd3-5cbe-8ad8-75c0cb9eeaaa.htm" />
+      <HelpTOCNode Id="61650790-e526-4925-bb80-eb7a4f6c8979" Title="adminFeatures Fields" Url="html/a3b792eb-ee65-242f-09e0-34ed53948e86.htm">
+        <HelpTOCNode Title="btnAddFeature Field" Url="html/05e44385-8a3c-a4c5-cc52-1df1568b8564.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/ca28b074-4a58-2f59-ce3a-cfe7ae20c220.htm" />
+        <HelpTOCNode Title="btnSaveAddFeature Field" Url="html/fc13f091-2687-c262-8428-0d40f9b49d01.htm" />
+        <HelpTOCNode Title="btnSaveEditFeature Field" Url="html/e0750aa9-866c-708f-47bf-2f0ed7f0fb24.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/5b1b2efe-e3b1-8c7d-a464-2a3641c9b87a.htm" />
+        <HelpTOCNode Title="grdFeatures Field" Url="html/545d983f-2ad7-4dea-2481-0f28802c212b.htm" />
+        <HelpTOCNode Title="hdnFeatureID Field" Url="html/1b76bc5b-2582-fd01-b393-c39b8e01751a.htm" />
+        <HelpTOCNode Title="lblFeatureText Field" Url="html/4a224120-e9c8-2662-1262-8ee2394312d4.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/890f623b-a69d-2cae-45b4-f5e2fafe617d.htm" />
+        <HelpTOCNode Title="txtAddFeature Field" Url="html/e6be7786-ee99-825b-daec-db8af6bb6777.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1ca5b0ed-11f4-4dc3-92e8-bd3429d71b16" Title="adminFeatures Methods" Url="html/8406fd21-7dc7-8b48-923b-35d46964bf7d.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/d0048ac3-b9d5-ec4f-58e4-e02ff202d703.htm" />
+        <HelpTOCNode Title="btnAddFeature_Click Method " Url="html/bf9e0fc0-e26f-cd0e-270e-c1071e647d28.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/2943ea1f-3327-a64e-aea8-4d4981074c5d.htm" />
+        <HelpTOCNode Title="btnSaveAddFeature_Click Method " Url="html/678f2130-858b-9ad6-30d3-8cbac4472b72.htm" />
+        <HelpTOCNode Title="btnSaveEditFeature_Click Method " Url="html/4bef605e-cc88-66a5-67e0-feae5c4ff54b.htm" />
+        <HelpTOCNode Title="grdFeatures_RowDataBound Method " Url="html/4bf27c31-eec0-1897-5e3f-701c2d333c05.htm" />
+        <HelpTOCNode Title="grdFeatures_RowDeleting Method " Url="html/5c72c163-f91b-966e-e1be-f77591649415.htm" />
+        <HelpTOCNode Title="grdFeatures_RowEditing Method " Url="html/3295c9bf-5977-1dbc-b2a4-cb9eacf489af.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/59262a4f-d4f7-5ed2-2e71-cc5a141d3db4.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/f70fcb20-ac00-c9c3-6a46-b21809ab1a82.htm" />
+        <HelpTOCNode Title="populateFeaturesGrid Method " Url="html/81c69990-eac2-bd19-dd3d-0a817b8eeb78.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/158bbfc3-5a10-5bd5-a0d1-a9f84cec1018.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminFeatures Properties" Url="html/16a1e7be-846f-66c5-806d-b1c9c32a3cd1.htm" />
+      <HelpTOCNode Title="adminFeatures Events" Url="html/026930c9-7d8f-1213-1ffa-b592216c107a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b9a1ae73-e2e3-4361-a847-919e8597d95f" Title="AdministrationMain Class" Url="html/07b09b45-c34d-cca7-54be-9847b6c65fc6.htm">
+      <HelpTOCNode Title="AdministrationMain Members" Url="html/7fa8f5cf-ef2d-606a-1903-e19b8d361e04.htm" />
+      <HelpTOCNode Title="AdministrationMain Constructor " Url="html/aafbc690-0233-c385-920d-5d2a5e994322.htm" />
+      <HelpTOCNode Id="05a8f814-15c2-4292-9e6d-6850b5aefd97" Title="AdministrationMain Fields" Url="html/bca60a24-fc70-4503-193d-022569bc1d52.htm">
+        <HelpTOCNode Title="NavigationMenu Field" Url="html/a11df9dc-c3c1-2b79-e874-b9a718788899.htm" />
+        <HelpTOCNode Title="ScriptManager1 Field" Url="html/e6315b7a-acda-991c-e7f2-82d8ff1ce56f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="83577799-d95c-46eb-8836-2586134e9697" Title="AdministrationMain Methods" Url="html/594a174a-3082-3f11-eb7a-c502bda694b0.htm">
+        <HelpTOCNode Title="Page_Load Method " Url="html/fd71ec08-82f9-89cf-78f4-6204fe557f36.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AdministrationMain Properties" Url="html/af80c48e-6107-680c-099d-c35beafbe680.htm" />
+      <HelpTOCNode Title="AdministrationMain Events" Url="html/0667e371-b825-0a60-eacd-4ba60407875d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="24de3a48-38d2-43a9-8bcb-9e8de902871b" Title="adminProject Class" Url="html/12b5e1cf-b024-db4a-1534-0c76aa4b4c9b.htm">
+      <HelpTOCNode Title="adminProject Members" Url="html/b237b3d4-01a3-d0f4-f90a-d9841558562a.htm" />
+      <HelpTOCNode Title="adminProject Constructor " Url="html/6e4a3233-b4bc-e77d-9346-5e10da55f249.htm" />
+      <HelpTOCNode Id="2f677bf5-c481-456f-b12f-51852550cc9d" Title="adminProject Fields" Url="html/2b14582b-c984-e5fb-5daa-5b5d7e9040f7.htm">
+        <HelpTOCNode Title="addProjectDIV Field" Url="html/683c512a-fffe-54cf-f3f4-d0a71d59eb44.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/ce4519a8-d93f-ed78-8fa9-d6efd47f00c5.htm" />
+        <HelpTOCNode Title="btnNewProject Field" Url="html/8ce560a7-7efe-a95a-6f8b-3c8181084e98.htm" />
+        <HelpTOCNode Title="btnSaveAddProject Field" Url="html/831cdf01-e3b3-1665-50d7-de40832e629b.htm" />
+        <HelpTOCNode Title="btnSaveEditProject Field" Url="html/1118e1f4-3916-1d12-932b-a23839e4632a.htm" />
+        <HelpTOCNode Title="grdProjects Field" Url="html/d38d4f63-01b6-888f-bb79-4fcde8025e8f.htm" />
+        <HelpTOCNode Title="hdnProjectID Field" Url="html/70b209d1-8f6a-d238-bfe7-8456a0d0b243.htm" />
+        <HelpTOCNode Title="lblNewProjectName Field" Url="html/4ecbb763-884a-5add-72a2-34520dcfec21.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/b2ec5dbb-d48d-fd79-7b47-c44fe3a1a555.htm" />
+        <HelpTOCNode Title="txtNewProjectName Field" Url="html/2a64606e-1d02-22f1-5b27-ac5645539a46.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2552bc0d-cab2-4fdc-a783-084efe3ae07b" Title="adminProject Methods" Url="html/bce73e48-9d6b-e0eb-dd6e-6ce131306085.htm">
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/e3ef4685-d873-64b6-c6c2-4e2dcaf00a34.htm" />
+        <HelpTOCNode Title="btnNewProject_Click Method " Url="html/b7233d16-7a40-d953-ea70-1611bc2be917.htm" />
+        <HelpTOCNode Title="btnSaveAddProject_Click Method " Url="html/47f11edf-5d8b-7062-c3f7-b13c80de45d2.htm" />
+        <HelpTOCNode Title="btnSaveEditProject_Click Method " Url="html/87170282-d6e7-58b8-4dc3-202be62dfdf2.htm" />
+        <HelpTOCNode Title="grdProjects_RowDataBound Method " Url="html/4bfb893f-84f6-40e3-3be0-120781fd51a8.htm" />
+        <HelpTOCNode Title="grdProjects_RowDeleting Method " Url="html/0703032e-ba33-43ca-e2c5-72e633414e5f.htm" />
+        <HelpTOCNode Title="grdProjects_RowEditing Method " Url="html/dd52235f-ed71-0518-d0f5-b0d685c26a8c.htm" />
+        <HelpTOCNode Title="grdProjects_SelectedIndexChanging Method " Url="html/6aaa1f53-424c-bd4b-b158-4f8475b6c73e.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/d4d0f946-f452-ee7b-32a5-906a8611cc5f.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/6317bb9b-3b24-a203-c7fd-8bdecd11c9c2.htm" />
+        <HelpTOCNode Title="populateProjectsGrid Method " Url="html/f7fa8da5-48a9-f0bb-a58a-24cf8f01eb1d.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/bbc43f6a-962c-c91c-271f-08d2d4679c19.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminProject Properties" Url="html/045a32b9-1df5-b3ab-1324-8252b167e3f3.htm" />
+      <HelpTOCNode Title="adminProject Events" Url="html/7fb9f7ce-8332-7b79-ce52-354b74e12bd4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="24acce1d-d00d-4075-9438-bdc94603ee84" Title="adminRoleFeatures Class" Url="html/49475320-1b69-f553-f896-5a65b97c0239.htm">
+      <HelpTOCNode Title="adminRoleFeatures Members" Url="html/77a18491-819b-2bf5-616f-bf8e2183ff8a.htm" />
+      <HelpTOCNode Title="adminRoleFeatures Constructor " Url="html/53d3050b-4c54-3535-1cd6-488d2f02d603.htm" />
+      <HelpTOCNode Id="338ce7e1-61fe-46de-9967-6e2fe4755bc9" Title="adminRoleFeatures Fields" Url="html/d5bb5b7c-50f3-edd8-9a70-208286d31cf7.htm">
+        <HelpTOCNode Title="associationButtonsDIV Field" Url="html/0c66141e-ea03-af55-e878-ad07f653905c.htm" />
+        <HelpTOCNode Title="btnAddFeature Field" Url="html/445ca30e-9825-d238-52d2-b6b723a39dd1.htm" />
+        <HelpTOCNode Title="btnDone Field" Url="html/b3099e35-1481-92f2-c67d-ccb432689f73.htm" />
+        <HelpTOCNode Title="btnRemoveFeature Field" Url="html/82609a36-7366-7b2d-3407-a222e9feefaa.htm" />
+        <HelpTOCNode Title="lblAssociatedFeatures Field" Url="html/ea50b286-5482-69b4-215a-2831a35815c5.htm" />
+        <HelpTOCNode Title="lblAvailableFeatures Field" Url="html/6c3ecda7-17a5-4a15-55a4-877356a838ea.htm" />
+        <HelpTOCNode Title="lblRoleName Field" Url="html/b37e0b7b-3f23-1af1-fc22-6954b66e972f.htm" />
+        <HelpTOCNode Title="leftListBoxDIV Field" Url="html/b5596a31-d4ea-8c3a-10f3-2c9ae995028c.htm" />
+        <HelpTOCNode Title="listAssociatedFeatures Field" Url="html/79cdf91b-963d-e132-472a-b3f6c6cff7fb.htm" />
+        <HelpTOCNode Title="listAvailableFeatures Field" Url="html/40a67f30-e448-5ae7-41e2-6ab162c4dcc3.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/f68b21a1-0262-e666-64e7-2f3b4818f8ef.htm" />
+        <HelpTOCNode Title="rightListBoxDIV Field" Url="html/27129862-d414-cde9-98a3-1ebf7e54944d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="56c64ef6-df73-4952-8a45-a8649e49866c" Title="adminRoleFeatures Methods" Url="html/7dfc7d70-6b2e-e92c-f5d7-c228949aabcc.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/0a45aa99-f9c6-f7fe-f814-9eaf383b6684.htm" />
+        <HelpTOCNode Title="btnAddFeature_Click Method " Url="html/01d8ee94-a5bf-1d93-4b1c-4a8ee8950e1d.htm" />
+        <HelpTOCNode Title="btnDone_Click Method " Url="html/7ccb5681-2d56-4b4b-70f5-3a7c09acd8df.htm" />
+        <HelpTOCNode Title="btnRemoveFeature_Click Method " Url="html/0c7e368a-80cc-6540-6133-3b0dc3d56643.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/e27579ab-278f-b04f-e2e1-9d80a27c8710.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/d32272eb-bf9e-abe5-d73d-6322521afacb.htm" />
+        <HelpTOCNode Title="populateControls Method " Url="html/b5d1ecce-b6ed-672d-f126-f5dea972e7a3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminRoleFeatures Properties" Url="html/bc4bc5f8-763b-1a06-7d98-45e95b9c2862.htm" />
+      <HelpTOCNode Title="adminRoleFeatures Events" Url="html/1971fe9f-6d82-a347-fe3e-1b338e7e3d54.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a18a5f8c-ae64-4228-9b2b-15018ed0be4b" Title="adminRoles Class" Url="html/f108e13a-c124-ece2-42b2-84037e6bd7e0.htm">
+      <HelpTOCNode Title="adminRoles Members" Url="html/6812b506-0795-0706-bc8f-a83a5cee7c0d.htm" />
+      <HelpTOCNode Title="adminRoles Constructor " Url="html/cf6f1716-d229-c7f1-403c-c9fbca483dc5.htm" />
+      <HelpTOCNode Id="8ec81ab5-0162-4e1e-8625-1c7616161667" Title="adminRoles Fields" Url="html/22b65a24-f2d4-ea84-aad5-2a74114fb11a.htm">
+        <HelpTOCNode Title="btnAddRole Field" Url="html/2a4660df-02fd-35c4-b53f-2e36d5ffb680.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/d184724a-3cdb-1894-12aa-d663749131c7.htm" />
+        <HelpTOCNode Title="btnSaveAddRole Field" Url="html/6b88f904-8ab9-2312-6fe2-793b2801a4bc.htm" />
+        <HelpTOCNode Title="btnSaveEditRole Field" Url="html/454fcdd8-c397-d00e-b508-74e52e2ffb9a.htm" />
+        <HelpTOCNode Title="btnSetFeatures Field" Url="html/784d40e1-f9a5-4659-c796-a68bfbfe2fab.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/a11f4b07-1bdf-a56c-ba74-a144f9be10ce.htm" />
+        <HelpTOCNode Title="grdRoles Field" Url="html/21ee2e6f-92e5-ef67-5c7c-2dbb4a84d185.htm" />
+        <HelpTOCNode Title="hdnRoleID Field" Url="html/fea1cb77-7e8a-18d5-4a87-129d5a0f9758.htm" />
+        <HelpTOCNode Title="lblRoleText Field" Url="html/6f8b18b5-b71d-102c-6ef8-74992483d6aa.htm" />
+        <HelpTOCNode Title="txtAddRole Field" Url="html/7d65302d-ab06-bc81-d62b-976ef3ae586f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b9b95d79-18fe-41f0-802f-0d6ae8038684" Title="adminRoles Methods" Url="html/18c57c3d-a088-04fa-8748-d784e106cff3.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/b4d652d4-26d0-02d6-cd8a-6508b080da9d.htm" />
+        <HelpTOCNode Title="btnAddRole_Click Method " Url="html/face2d79-aa89-aedf-592f-02eb34946bd1.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/273f9bce-f672-366d-92c0-a84793fd5ab8.htm" />
+        <HelpTOCNode Title="btnSaveAddRole_Click Method " Url="html/6e6d6257-48e1-42cd-4507-e24ce5916a79.htm" />
+        <HelpTOCNode Title="btnSaveEditRole_Click Method " Url="html/d285ad24-fd60-7ecc-7c11-df4ddaedf0fb.htm" />
+        <HelpTOCNode Title="btnSetFeatures_Click Method " Url="html/b6bc688d-75a5-b898-abb7-8dc90a4a4f24.htm" />
+        <HelpTOCNode Title="grdRoles_RowDataBound Method " Url="html/f420c617-b9fa-f9db-2e9f-b2860e174231.htm" />
+        <HelpTOCNode Title="grdRoles_RowDeleting Method " Url="html/da78b7dd-0c94-b09e-2c5d-033128a592dd.htm" />
+        <HelpTOCNode Title="grdRoles_RowEditing Method " Url="html/9295aa0b-1cc4-9fad-850c-c78f1f91cf81.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/7a39c3b6-559c-7b2d-eedc-9b40b41d9d25.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/20409d79-bc18-ad82-086e-aa74940040bb.htm" />
+        <HelpTOCNode Title="populateRolesGrid Method " Url="html/c29e6f20-6257-fb96-c7d8-3142188ca799.htm" />
+        <HelpTOCNode Title="sendMessageToClient Method " Url="html/a041fae0-e2f6-5059-9f11-d26751067345.htm" />
+        <HelpTOCNode Title="setUpClientUIForValidation Method " Url="html/13ce35fe-f47b-3af1-1bbd-d0e066cfc006.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/795433e6-4f90-6042-59e8-e61abb647d0d.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminRoles Properties" Url="html/f0ed0859-2160-43f2-ac95-cc6b0b4f3160.htm" />
+      <HelpTOCNode Title="adminRoles Events" Url="html/4015bc1a-82e0-a06e-a2f3-43704a417d6f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c23cd8cf-9a1d-4aa4-ba29-eb3cd9962772" Title="adminSections Class" Url="html/7e18ebb8-3c1e-9c9b-1418-bd19dd58579f.htm">
+      <HelpTOCNode Title="adminSections Members" Url="html/d489fb39-d9f7-7596-3f32-3c59a15d2002.htm" />
+      <HelpTOCNode Title="adminSections Constructor " Url="html/2bdf9163-1da6-cf60-9a30-fdf70e106cfc.htm" />
+      <HelpTOCNode Id="ab13d7c4-ca70-488d-b93b-6ac549f2ee38" Title="adminSections Fields" Url="html/dbcfeeee-be7d-cae2-136e-e8ffa411ebba.htm">
+        <HelpTOCNode Title="btnAddSection Field" Url="html/af9e4580-ee86-7372-5cad-e9ab5ccf95c8.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/57c1e0fb-470b-d331-4832-a67a32cc28e8.htm" />
+        <HelpTOCNode Title="btnSaveAddSection Field" Url="html/5da639eb-0061-3a62-f161-be405d05bb0d.htm" />
+        <HelpTOCNode Title="btnSaveEditSection Field" Url="html/b0003d6b-37ff-7fad-a095-3ce124847f63.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/9ed44f6c-d0f0-5eb4-b2e1-e17a061f2634.htm" />
+        <HelpTOCNode Title="grdSections Field" Url="html/41d39746-d5df-a8d5-e9d1-ee29f1d83fec.htm" />
+        <HelpTOCNode Title="hdnSectionID Field" Url="html/83d27584-794e-9faf-574b-3a4d8835cdde.htm" />
+        <HelpTOCNode Title="lblSectionAbbreviation Field" Url="html/d43f1d97-6ae8-7690-e5f8-c6c98f194886.htm" />
+        <HelpTOCNode Title="lblSectionName Field" Url="html/3d710bf9-263a-7c14-36f5-a7edcf1124af.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/191c977f-d5b7-ce0e-a5b3-0a9b10b9287b.htm" />
+        <HelpTOCNode Title="txtSectionAbbreviation Field" Url="html/2b236319-1ebf-0ed0-659b-b6c50a8ad8f8.htm" />
+        <HelpTOCNode Title="txtSectionName Field" Url="html/f1a4df62-5a35-9f01-475f-18140323f262.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="058c624b-8d1b-4094-90be-ca7027671b51" Title="adminSections Methods" Url="html/1f6e37f7-5986-bd0a-07d1-cc24dbc2a282.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/e374dd04-51de-ef3b-2ba9-079a8d3d0320.htm" />
+        <HelpTOCNode Title="btnAddSection_Click Method " Url="html/ac0d387e-1980-b443-6718-70483f872061.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/7dc2d17c-548c-9a09-5ad0-b5a5a1293113.htm" />
+        <HelpTOCNode Title="btnSaveAddSection_Click Method " Url="html/c3dd0af6-ff73-b436-de30-c082af11e857.htm" />
+        <HelpTOCNode Title="btnSaveEditSection_Click Method " Url="html/35858e27-3686-7f32-93de-daeb2872ecb3.htm" />
+        <HelpTOCNode Title="grdSections_RowDataBound Method " Url="html/6715b606-15b5-134f-1028-cd4fc0196c05.htm" />
+        <HelpTOCNode Title="grdSections_RowDeleting Method " Url="html/de873ef0-d4d4-0df2-d042-84f2eb642023.htm" />
+        <HelpTOCNode Title="grdSections_RowEditing Method " Url="html/cfe5ab11-904d-419e-5ec5-16570a1de50c.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/a00ba70e-21bd-92a4-21b8-759f7807e1c6.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/0e7f6f39-cd61-0e7d-40cf-b703a7580547.htm" />
+        <HelpTOCNode Title="populateSectionsGrid Method " Url="html/8af840d8-d29b-4472-bb38-798f5ced5bef.htm" />
+        <HelpTOCNode Title="sendMessageToClient Method " Url="html/a6a40d15-ceec-6e92-98a7-e6b3c4686883.htm" />
+        <HelpTOCNode Title="setUpClientUIForValidation Method " Url="html/35661d51-0eae-6533-6588-2549afd1a739.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/856a2df7-57e4-c0ca-0529-1dc97fe90cd9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminSections Properties" Url="html/597a506e-953b-4dc4-2286-a33cabdfde75.htm" />
+      <HelpTOCNode Title="adminSections Events" Url="html/f7d08927-bbb9-c868-7d43-fd3df91efbe2.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="dbfdead3-5c04-4c1f-a210-a6a759cdf6e3" Title="adminStatus Class" Url="html/d24c8a92-36a0-2a94-a2fb-299582433229.htm">
+      <HelpTOCNode Title="adminStatus Members" Url="html/5a966be3-c5f6-c4eb-aa12-8b262c1ceda4.htm" />
+      <HelpTOCNode Title="adminStatus Constructor " Url="html/fcadf15c-3cbc-b29d-e214-6f0ea39b3f8b.htm" />
+      <HelpTOCNode Id="fb819c1a-efb7-4fc5-885b-6521fd538e26" Title="adminStatus Fields" Url="html/0d8f6993-29c2-8a36-1933-c0835fa79dc9.htm">
+        <HelpTOCNode Title="btnAddStatus Field" Url="html/05793231-9f85-5631-b4da-33d91a867d3f.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/17e97ad9-0394-3338-8119-a957551458e8.htm" />
+        <HelpTOCNode Title="btnSaveAddStatus Field" Url="html/6864aa8f-4df0-2e85-e568-d069483fa693.htm" />
+        <HelpTOCNode Title="btnSaveEditStatus Field" Url="html/29fee8c4-bc46-a901-3e14-edb5972506cf.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/1d140123-b95e-fce8-a47a-d6c7a8f23275.htm" />
+        <HelpTOCNode Title="grdStatus Field" Url="html/221ebb8c-f446-6bdb-5147-22d3b0ee0ccc.htm" />
+        <HelpTOCNode Title="hdnStatusID Field" Url="html/ca88d0d8-82aa-8072-66a0-ab0715dc69fc.htm" />
+        <HelpTOCNode Title="lblResponseTypeText Field" Url="html/69dd0727-1aa9-9882-8a45-9b3721ddc85c.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/4a52cac3-98c5-28a8-387b-dfea6fc3bb57.htm" />
+        <HelpTOCNode Title="txtAddStatus Field" Url="html/013a5529-4736-e6f3-afed-6c3d36a5e29c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="87e185a7-e084-481d-9537-e9268a5228c8" Title="adminStatus Methods" Url="html/b5b8b1b7-07ca-4efc-2821-04931a832042.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/c3085956-7c85-0c7f-f352-736079602dba.htm" />
+        <HelpTOCNode Title="btnAddStatus_Click Method " Url="html/7ac0075f-385d-e3bf-a577-f1b5a1698593.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/f64657eb-20a3-2e42-3bea-6d325ea9bcc3.htm" />
+        <HelpTOCNode Title="btnSaveAddStatus_Click Method " Url="html/52784c26-8419-ba8e-f9a1-4708daaffd29.htm" />
+        <HelpTOCNode Title="btnSaveEditStatus_Click Method " Url="html/29a37a4e-62c9-09d6-913a-311f52a43819.htm" />
+        <HelpTOCNode Title="grdStatus_RowDataBound Method " Url="html/0fadd3f9-8556-0a6d-09d1-a59c323fd650.htm" />
+        <HelpTOCNode Title="grdStatus_RowDeleting Method " Url="html/d29f287a-b2ef-d42d-6008-66a5e2089d96.htm" />
+        <HelpTOCNode Title="grdStatus_RowEditing Method " Url="html/cdc7a1f2-9f48-553d-723e-c43b0dd5aeb7.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/f8183717-9885-e988-66e5-d9a323250898.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/3cffb9f6-cf58-a3f8-ca3b-f388dc6f152e.htm" />
+        <HelpTOCNode Title="populateStatusGrid Method " Url="html/0bf996a5-e567-9773-cb5a-275ca6790167.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/84a5ad63-450b-30bd-aaee-361eac8c0f75.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminStatus Properties" Url="html/271992d8-b215-bd4b-f342-96c676781393.htm" />
+      <HelpTOCNode Title="adminStatus Events" Url="html/ac11612d-2e9b-a1f2-5201-bbd8b6fef55d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fffaf250-8715-46c5-8777-68dee5cfddfc" Title="adminUsers Class" Url="html/cd9df4bd-09a3-f172-d093-d870c22e5b89.htm">
+      <HelpTOCNode Title="adminUsers Members" Url="html/edead884-242b-06fc-f187-d22c187889ca.htm" />
+      <HelpTOCNode Title="adminUsers Constructor " Url="html/0368eaeb-a4b5-14b8-ee14-48728f26ac94.htm" />
+      <HelpTOCNode Id="6702adc3-fbc8-4d67-a3b0-013df77fb833" Title="adminUsers Fields" Url="html/c12d2e6f-4b31-e725-2735-1c8e26f09296.htm">
+        <HelpTOCNode Title="btnAddUser Field" Url="html/ff9186b2-cea3-7476-8775-2daa47809fe4.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/123b303e-8a79-2e48-1db4-c0de325186a6.htm" />
+        <HelpTOCNode Title="btnSaveAddUser Field" Url="html/9e114db7-8d95-546c-98bf-185d04b358b1.htm" />
+        <HelpTOCNode Title="btnSaveEditUser Field" Url="html/6a088ef5-23f9-130a-6e51-13f6cbe7271d.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/c6c00d04-1daf-a370-a7fa-cd416202c1fc.htm" />
+        <HelpTOCNode Title="ddlUserRole Field" Url="html/0611db71-6717-1695-f5b4-a562fb7a330f.htm" />
+        <HelpTOCNode Title="grdUsers Field" Url="html/c0e88abb-390c-66f0-47df-ea3874a6f0b8.htm" />
+        <HelpTOCNode Title="hdnUserID Field" Url="html/6423df51-bd11-3ad7-320a-b46d4786c6dd.htm" />
+        <HelpTOCNode Title="lblEmail Field" Url="html/7aaef7b6-3b07-804f-a6af-84fa0136306c.htm" />
+        <HelpTOCNode Title="lblFirstName Field" Url="html/613d5fa7-beb8-8e9d-3dc1-c92040b1e3ba.htm" />
+        <HelpTOCNode Title="lblLastName Field" Url="html/dad3a074-32be-b3d1-3f12-3771b1faf624.htm" />
+        <HelpTOCNode Title="lblMiddleInitial Field" Url="html/0d42f50b-6754-0e38-491a-18a2d00bcdaa.htm" />
+        <HelpTOCNode Title="lblPassword Field" Url="html/2d3d3d5d-a9b1-827c-5211-786df2a341e4.htm" />
+        <HelpTOCNode Title="lblRole Field" Url="html/428e46b3-f074-bc61-6709-87dff9d66f94.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/05bc4a7d-6d24-6498-b3a0-1a5112d54b00.htm" />
+        <HelpTOCNode Title="txtEmail Field" Url="html/71a4546c-57cb-05cf-a333-befa76ef9b9f.htm" />
+        <HelpTOCNode Title="txtFirstName Field" Url="html/b902c5a2-2015-5343-ab1c-c5dc400e9379.htm" />
+        <HelpTOCNode Title="txtLastName Field" Url="html/63f28782-97c5-141f-ee1e-b8584cd68892.htm" />
+        <HelpTOCNode Title="txtMiddleInitial Field" Url="html/dfd8a295-6a92-9c36-4e31-5ba52b596f2c.htm" />
+        <HelpTOCNode Title="txtPassword Field" Url="html/a7750d96-56d9-486d-f49c-007920ee9b31.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1c909a75-ab14-44e9-9734-346cf31bf3b5" Title="adminUsers Methods" Url="html/3be1b648-e26d-f71b-d619-29fcff122fb2.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/797c72b6-bebb-d7f4-b1d5-6533a7cd88bb.htm" />
+        <HelpTOCNode Title="btnAddUser_Click Method " Url="html/bafadd5d-e8c7-1822-7b8d-46573ec6794b.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/1f6a632c-984e-e966-ef7b-3f412d0b6076.htm" />
+        <HelpTOCNode Title="btnSaveAddUser_Click Method " Url="html/f01d4e01-2033-75a9-cb5a-6899330f2859.htm" />
+        <HelpTOCNode Title="btnSaveEditUser_Click Method " Url="html/11269404-b2ef-0dc8-328c-baa0b36be831.htm" />
+        <HelpTOCNode Title="grdUsers_RowDataBound Method " Url="html/2246150f-ea18-514b-f67a-688c4ac16cf6.htm" />
+        <HelpTOCNode Title="grdUsers_RowDeleting Method " Url="html/b8e9d3e0-ea22-2f90-f9d9-84b981171614.htm" />
+        <HelpTOCNode Title="grdUsers_RowEditing Method " Url="html/7b32188e-ec98-9e9a-c4f3-a487313674e0.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/ae356f45-7558-13be-c83f-f1526633e857.htm" />
+        <HelpTOCNode Title="populateRolesDDL Method " Url="html/b8de88ac-d236-34df-b1cc-7c426828d303.htm" />
+        <HelpTOCNode Title="populateUsersGrid Method " Url="html/bff1db51-9ede-981a-4abe-1deaa67039d4.htm" />
+        <HelpTOCNode Title="sendMessageToClient Method " Url="html/c9826ffe-0bbb-473b-940b-7202b203c32f.htm" />
+        <HelpTOCNode Title="setUpClientUIForValidation Method " Url="html/9a6de4fd-db8f-b9f5-6bf9-da4ab04e3ee9.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/7996280a-f7a8-0d48-5ed5-530c87247074.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="adminUsers Properties" Url="html/ed7bc996-9b38-a181-be8c-f8012c99af1d.htm" />
+      <HelpTOCNode Title="adminUsers Events" Url="html/c0cb1278-6f67-fae7-5a34-fcba8ac3d7e2.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c831b7af-f223-452b-b548-1794d6871d75" Title="Palinoia.UI.BusinessRules Namespace" Url="html/01d73622-2bc8-b12d-4cdd-46d76ff875ce.htm">
+    <HelpTOCNode Id="4efe96bb-e4e3-4aa5-bed9-c7d0c96bc066" Title="BusinessRules Class" Url="html/12167f60-be7d-9bef-43d0-22e5f297d448.htm">
+      <HelpTOCNode Title="BusinessRules Members" Url="html/11b36a65-059f-b952-e827-af081be2b728.htm" />
+      <HelpTOCNode Title="BusinessRules Constructor " Url="html/066092be-f7ea-e289-f382-87354b7d5f58.htm" />
+      <HelpTOCNode Id="90a77cd6-87ef-4c63-9d22-a1fb4b523b99" Title="BusinessRules Fields" Url="html/2b782d46-0771-b71b-918d-d1a471dc2022.htm">
+        <HelpTOCNode Title="btnAddBusinessRule Field" Url="html/288c5ec0-2ade-2ca8-cfa2-a38987ce75ac.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/74e9c39e-db17-ec63-72df-4b4add54c5a1.htm" />
+        <HelpTOCNode Title="btnSaveAddBusinessRule Field" Url="html/ad1d462d-653d-6372-c823-5dd7259d253f.htm" />
+        <HelpTOCNode Title="btnSaveEditBusinessRule Field" Url="html/a6fcad93-19df-7edd-23e9-a6a68083c970.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/7c290be4-7c4e-a283-8e50-3d5e7911528f.htm" />
+        <HelpTOCNode Title="ddlBusinessRuleStatus Field" Url="html/aa551bad-b768-038d-737c-33897157d49c.htm" />
+        <HelpTOCNode Title="grdBusinessRules Field" Url="html/9599c6b7-c4d9-84f0-f758-8a06b5659484.htm" />
+        <HelpTOCNode Title="hdnBusinessRuleID Field" Url="html/e2d943c4-2813-78ac-ae72-e1cdbf346f44.htm" />
+        <HelpTOCNode Title="lblBRName Field" Url="html/686e6928-1911-63d7-4d7d-762ba0311e39.htm" />
+        <HelpTOCNode Title="lblBRText Field" Url="html/74622c3e-3871-d24a-ad58-42e1bd08c75e.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/4ad61815-766f-c8e2-d417-03c00c123daa.htm" />
+        <HelpTOCNode Title="txtBusinessRuleName Field" Url="html/672aba9a-5aac-86c6-b8f5-89efb45adaa2.htm" />
+        <HelpTOCNode Title="txtBusinessRuleText Field" Url="html/5327f26f-f11d-416a-10b7-7f836928da66.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b048263-0bf8-46ca-ae8c-61c82c81afbe" Title="BusinessRules Methods" Url="html/cc65eaad-f22b-2852-d37d-4fc3f83550eb.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/1aab7b1a-ff5e-15b4-9444-8f3da5cd229a.htm" />
+        <HelpTOCNode Title="btnAddBusinessRule_Click Method " Url="html/00e41607-247e-d6ed-d315-7daa7913be5c.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/0d96ba23-b6aa-8e9b-09cf-ca84b99297fa.htm" />
+        <HelpTOCNode Title="btnSaveAddBusinessRule_Click Method " Url="html/385b6268-0586-cbe6-87ff-80b808df0a02.htm" />
+        <HelpTOCNode Title="btnSaveEditBusinessRule_Click Method " Url="html/619f7707-a251-4f76-ec4a-38162631fcc5.htm" />
+        <HelpTOCNode Title="grdBusinessRules_RowDataBound Method " Url="html/63f29bf8-3562-3b9c-1b9b-866c162dc507.htm" />
+        <HelpTOCNode Title="grdBusinessRules_RowDeleting Method " Url="html/03aab91c-6849-2170-36d9-cfff1d18abd7.htm" />
+        <HelpTOCNode Title="grdBusinessRules_RowEditing Method " Url="html/79980911-e248-0f82-650c-d692c6a7a5a4.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/c9319255-edd9-0862-3ef1-37eb45608ed2.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/a0ebcf70-1f8a-2609-b044-d8d8a02bc8a3.htm" />
+        <HelpTOCNode Title="sendMessageToClient Method " Url="html/2ee0edc2-d42a-3816-83b1-27639619a5c5.htm" />
+        <HelpTOCNode Title="setUpClientUIForValidation Method " Url="html/eb4837ba-3b0f-91bf-e1ed-efd3efbb1696.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/9c8be3a0-3eef-e312-bfea-5de3d4cb020b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BusinessRules Properties" Url="html/001f3366-6bde-0750-52d9-4fe3d52454f3.htm" />
+      <HelpTOCNode Title="BusinessRules Events" Url="html/9d5e598c-f2cc-afd3-4e6b-ce9f9808ae4e.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="20d2dc33-fb3d-48e9-b277-853242ec8f4d" Title="Palinoia.UI.CustomerServiceMessages Namespace" Url="html/00c2c5cb-bd89-8db2-74e0-7837caf32c81.htm">
+    <HelpTOCNode Id="4c730d45-ad50-4a03-8237-c1bdba3e901f" Title="CustomerServiceMessages Class" Url="html/3442cd3b-a511-0e62-a272-1701f74eab24.htm">
+      <HelpTOCNode Title="CustomerServiceMessages Members" Url="html/1ded7894-37ed-f27a-eada-d94877a3e994.htm" />
+      <HelpTOCNode Title="CustomerServiceMessages Constructor " Url="html/2f2334db-511f-8acb-b40c-5c7c9df3e151.htm" />
+      <HelpTOCNode Id="3b83f870-0b00-489b-ac9f-e396ec1b80ff" Title="CustomerServiceMessages Fields" Url="html/dfffdeb3-acb6-445d-e1a8-4562d02a9075.htm">
+        <HelpTOCNode Title="btnAddCSM Field" Url="html/5270ea43-98bc-be18-3ae6-946e69adfcfe.htm" />
+        <HelpTOCNode Title="btnCancel Field" Url="html/8adcbf55-a311-2275-9814-486e46d07e3a.htm" />
+        <HelpTOCNode Title="btnSaveAddCSM Field" Url="html/2272d81c-7ab3-8bdf-2dda-2afbff3ee61d.htm" />
+        <HelpTOCNode Title="btnSaveEditCSM Field" Url="html/59629f4e-4735-a50a-e464-abf39eefddf3.htm" />
+        <HelpTOCNode Title="chkActive Field" Url="html/5c4de90a-0201-1bb2-6f5c-ffd49ea1243f.htm" />
+        <HelpTOCNode Title="ddlCSMResponseType Field" Url="html/f7592337-a80f-e61e-1b8f-e6522909761a.htm" />
+        <HelpTOCNode Title="ddlCSMStatus Field" Url="html/cff784d2-d648-5699-e4ea-99f0680ffa4d.htm" />
+        <HelpTOCNode Title="ddlCSMType Field" Url="html/6dfa39c3-5c28-a048-1c66-3cc6e954637f.htm" />
+        <HelpTOCNode Title="grdCustomerServiceMessages Field" Url="html/7c61dba6-8e73-4ce6-5d0e-272ac9ad6e4c.htm" />
+        <HelpTOCNode Title="hdnCSMID Field" Url="html/6c78bf06-df2b-59f5-4eb0-0159f37d8eac.htm" />
+        <HelpTOCNode Title="lblCSMName Field" Url="html/bc4ac2e9-484d-74b0-531f-025fcbd4a960.htm" />
+        <HelpTOCNode Title="lblCSMText Field" Url="html/f9cf48d9-4538-813f-73d9-a40c93547e34.htm" />
+        <HelpTOCNode Title="lblResponseType Field" Url="html/d189f8a3-553e-5532-bd8f-0fdf2b277f3a.htm" />
+        <HelpTOCNode Title="lblStatus Field" Url="html/1064b36b-96c2-df32-af5a-d06e02b9d368.htm" />
+        <HelpTOCNode Title="lblType Field" Url="html/6095bcc5-b9ca-30e9-02e7-451cb00fd494.htm" />
+        <HelpTOCNode Title="Panel1 Field" Url="html/2dbdbaac-94c5-a10a-bec8-0009a436fbb0.htm" />
+        <HelpTOCNode Title="txtCSMName Field" Url="html/1431b3de-6093-5751-bdd2-e67c878253dd.htm" />
+        <HelpTOCNode Title="txtCSMText Field" Url="html/3b088801-152c-b663-50a6-24e1e282885a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="95a1c894-ee92-4378-be53-49bc5dfd78bd" Title="CustomerServiceMessages Methods" Url="html/9cde68b9-e97d-b4c0-f604-fc284dba00ae.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/f3b30701-cbcc-6634-8d34-deb7e3ac7492.htm" />
+        <HelpTOCNode Title="btnAddCSM_Click Method " Url="html/8cfcdda2-3032-e1b7-a5a6-e52546bcda9c.htm" />
+        <HelpTOCNode Title="btnCancel_Click Method " Url="html/7b8ee07f-461e-c9f0-19f1-9a9da53503c9.htm" />
+        <HelpTOCNode Title="btnSaveAddCSM_Click Method " Url="html/e0d84778-444a-1ddd-082b-7f404ceb2191.htm" />
+        <HelpTOCNode Title="btnSaveEditCSM_Click Method " Url="html/1ec463d5-7437-d05c-d4a9-37ddc3d152c6.htm" />
+        <HelpTOCNode Title="grdCustomerServiceMessages_RowDataBound Method " Url="html/2b7027c2-c916-bcec-f2c9-18f3cfe1d36a.htm" />
+        <HelpTOCNode Title="grdCustomerServiceMessages_RowDeleting Method " Url="html/5e696c23-fa6d-eddc-3bd1-e06b76e8c292.htm" />
+        <HelpTOCNode Title="grdCustomerServiceMessages_RowEditing Method " Url="html/8a3b5b39-08a1-887f-7dfd-ab6da0b41bff.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/134955a3-a040-34e0-7ace-1073936fb891.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/74624a81-2c6d-fa68-8be9-d66f83b89e60.htm" />
+        <HelpTOCNode Title="sendMessageToClient Method " Url="html/799ff327-bc52-97ff-3d08-6dc332b60b57.htm" />
+        <HelpTOCNode Title="setUpClientUIForValidation Method " Url="html/09288f51-b315-d708-b043-0f2647fe4e34.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/bc3ae8bb-ea48-314d-5490-5377ed0f6ca6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CustomerServiceMessages Properties" Url="html/9336b785-e6d3-d261-aae6-2e1548cd64d4.htm" />
+      <HelpTOCNode Title="CustomerServiceMessages Events" Url="html/feb6f32b-13d2-d3b6-a509-ba297ed8672a.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7296921f-f616-44cd-8d9e-e728404e663c" Title="Palinoia.UI.TestCases Namespace" Url="html/96d37795-7ea0-d609-ff72-dffed4c9f94d.htm">
+    <HelpTOCNode Id="a0a92217-0d39-4f48-904e-762a7771fd9c" Title="TestCases Class" Url="html/fb16db8e-b327-b100-d60d-a8e32541eb11.htm">
+      <HelpTOCNode Title="TestCases Members" Url="html/dd8513f1-1656-c6f7-e5f0-b1c7c62ccdaa.htm" />
+      <HelpTOCNode Title="TestCases Constructor " Url="html/48650a94-9908-0506-b88a-99e9a916fbac.htm" />
+      <HelpTOCNode Id="7b67e8bc-e8b5-454f-a4bd-c610ba101ab5" Title="TestCases Fields" Url="html/8f8fc4de-e92c-d3c1-b770-9165d1c3adfd.htm">
+        <HelpTOCNode Title="AddTestCaseDIV Field" Url="html/1df2a1f2-9bea-b42c-bfac-1ad54861889e.htm" />
+        <HelpTOCNode Title="AddTestStepDIV Field" Url="html/87a732db-aa19-0253-e53a-3015546be951.htm" />
+        <HelpTOCNode Title="btnAddTestCase Field" Url="html/1188d181-4411-8209-d718-d06336bb0627.htm" />
+        <HelpTOCNode Title="btnAddTestCaseSave Field" Url="html/89bf3132-4bba-c160-41f9-b0b332a0e4a9.htm" />
+        <HelpTOCNode Title="btnAddTestStep Field" Url="html/fe07d41b-6fee-4039-fbce-7fadd2629294.htm" />
+        <HelpTOCNode Title="btnAddTestStepSave Field" Url="html/1667d1ab-85c1-f558-79b2-e21ce8b8d560.htm" />
+        <HelpTOCNode Title="btnEditTestCaseSave Field" Url="html/2c5fefa2-b2f1-2d93-dfc8-ca0cc7dfaf3f.htm" />
+        <HelpTOCNode Title="btnEditTestStepSave Field" Url="html/1dbeb184-40d9-4b0e-8e0e-f13923beea69.htm" />
+        <HelpTOCNode Title="btnTestCaseCancel Field" Url="html/b4f42ede-7a20-0132-4e78-655ad0a78cd9.htm" />
+        <HelpTOCNode Title="btnTestStepCancel Field" Url="html/8b2b5311-313f-ac64-1830-97366040c7e2.htm" />
+        <HelpTOCNode Title="grdTestCases Field" Url="html/152ddd88-a024-72fc-0fcc-616873152bf7.htm" />
+        <HelpTOCNode Title="grdTestSteps Field" Url="html/dbcc2d8f-5452-587b-1a73-4032e9badc07.htm" />
+        <HelpTOCNode Title="hdnTestCaseID Field" Url="html/264088e3-f17d-2bb7-a01b-ffa8fb70fd32.htm" />
+        <HelpTOCNode Title="hdnTestStepID Field" Url="html/eaf12bdf-0263-8d9d-f64e-bab90d8f48b9.htm" />
+        <HelpTOCNode Title="hdnTestStepSeqNum Field" Url="html/51b1e0fd-ae05-b105-d753-802aa799986e.htm" />
+        <HelpTOCNode Title="lblTestCaseName Field" Url="html/8105770b-bc3a-8574-3cea-9613a7344745.htm" />
+        <HelpTOCNode Title="lblTestStepName Field" Url="html/8ff6c24b-66da-885e-6a9a-0ec007928820.htm" />
+        <HelpTOCNode Title="pnlTestCases Field" Url="html/c8137c38-4e1c-d8d1-3a35-32c36b3fe988.htm" />
+        <HelpTOCNode Title="pnlTestSteps Field" Url="html/2490bb96-013a-9c41-e602-9e5a389d5051.htm" />
+        <HelpTOCNode Title="txtTestCaseName Field" Url="html/b382dafc-d7ce-5c64-f512-7529a7a7c6de.htm" />
+        <HelpTOCNode Title="txtTestStepName Field" Url="html/27c86bfd-7dfe-10d0-a2f5-db269dffb0a3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3d698bab-89e2-4107-96f3-0fab61cdb743" Title="TestCases Methods" Url="html/ca55fd08-3218-2d68-0d9d-15a92387b6f6.htm">
+        <HelpTOCNode Title="applyFeatures Method " Url="html/0034c076-eacf-8ea1-e492-4c11a130ec2a.htm" />
+        <HelpTOCNode Title="btnAddTestCase_Click Method " Url="html/8ecd86fe-8e93-7c44-fb36-940572bcf1eb.htm" />
+        <HelpTOCNode Title="btnAddTestCaseSave_Click Method " Url="html/60eb7ec3-094b-859c-17ff-a2a5425d01b4.htm" />
+        <HelpTOCNode Title="btnAddTestStep_Click Method " Url="html/ab116a8c-1d39-ba43-54b0-4eca8e67ed00.htm" />
+        <HelpTOCNode Title="btnAddTestStepSave_Click Method " Url="html/5a58173b-1ecf-cf71-ae41-32c45ade1b08.htm" />
+        <HelpTOCNode Title="btnEditTestCaseSave_Click Method " Url="html/1e84de8b-c264-7a7b-99b8-7fca45219f34.htm" />
+        <HelpTOCNode Title="btnEditTestStepSave_Click Method " Url="html/9032f320-c0ca-ceb2-97dd-3eb9b5e79ad9.htm" />
+        <HelpTOCNode Title="btnTestCaseCancel_Click Method " Url="html/8b3e19ab-e1eb-f5d7-ef98-85dafc8478fe.htm" />
+        <HelpTOCNode Title="btnTestStepCancel_Click Method " Url="html/aa54f141-c308-b483-25b9-71bd8ec6d7b3.htm" />
+        <HelpTOCNode Title="grdTestCases_RowDataBound Method " Url="html/0858c36d-0c9d-b575-db0d-4f6c657d2caf.htm" />
+        <HelpTOCNode Title="grdTestCases_RowDeleting Method " Url="html/b2708093-9e0c-16ed-66a3-0f0fe4c78fe0.htm" />
+        <HelpTOCNode Title="grdTestCases_RowEditing Method " Url="html/54354989-e00e-1734-e8aa-bf422966eb63.htm" />
+        <HelpTOCNode Title="grdTestCases_SelectedIndexChanging Method " Url="html/cbc68a01-b0bf-9cb0-49d8-2629171c4b37.htm" />
+        <HelpTOCNode Title="grdTestSteps_RowDataBound Method " Url="html/2a90b0c9-9c02-fe61-ba51-036d90225c0e.htm" />
+        <HelpTOCNode Title="grdTestSteps_RowDeleting Method " Url="html/6429f724-d4fd-e854-d606-de046ed76492.htm" />
+        <HelpTOCNode Title="grdTestSteps_RowEditing Method " Url="html/93ee5c8a-297d-1eb1-b532-98ed60900ca7.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/f570db5e-8fa5-101f-5c10-d63b1edc890d.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/5221e1b0-2917-3d2f-7839-68df10e1d796.htm" />
+        <HelpTOCNode Title="populateTestCasesGrid Method " Url="html/4cb47738-1694-eb0e-18a4-0a19998e87cc.htm" />
+        <HelpTOCNode Title="populateTestStepsGrid Method " Url="html/fa8a4ca3-cd2b-8e67-2b10-845601d4f076.htm" />
+        <HelpTOCNode Title="showTCAddEditControls Method " Url="html/a15fcfe2-cde3-3750-7d1f-776705e7d016.htm" />
+        <HelpTOCNode Title="showTSAddEditControls Method " Url="html/b299ccfc-7ad9-2e91-78cf-6ec6fe602017.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestCases Properties" Url="html/f50fe272-4209-ed4c-5793-ffda40ab699f.htm" />
+      <HelpTOCNode Title="TestCases Events" Url="html/c44ebf78-f1f7-999b-4321-594f4d9942b0.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="50793973-d318-469a-93c5-9411a63c0ab9" Title="Palinoia.UI.TestScenarios Namespace" Url="html/d5a6862c-f625-8454-2b53-9e02c5a816eb.htm">
+    <HelpTOCNode Id="c0daed97-bc04-4d63-ae34-fe345fb9dca2" Title="TestScenarios Class" Url="html/6e057115-5096-8881-8253-060ffca24662.htm">
+      <HelpTOCNode Title="TestScenarios Members" Url="html/6da3f160-dd6c-e8ec-759c-8ba10927f4f6.htm" />
+      <HelpTOCNode Title="TestScenarios Constructor " Url="html/0517d6c6-e3ce-6881-aafa-951ae2aa9ada.htm" />
+      <HelpTOCNode Id="3a26045a-5401-4f37-8388-61451e1c818b" Title="TestScenarios Fields" Url="html/ad2d4cda-9456-fba5-1fb9-b2e5913e8bce.htm">
+        <HelpTOCNode Title="AddTestScenarioDIV Field" Url="html/e97df243-cecb-daaf-8b32-81fe38bcc0af.htm" />
+        <HelpTOCNode Title="adminBLL Field" Url="html/7174ba34-5dd2-9100-9b9f-4705929470e3.htm" />
+        <HelpTOCNode Title="bll Field" Url="html/18ccb999-ebed-4eac-eabf-9b2df9881764.htm" />
+        <HelpTOCNode Title="btnAddTestScenario Field" Url="html/58088f28-8ddb-83be-da9f-7cf8b1f78da3.htm" />
+        <HelpTOCNode Title="btnAddTestScenarioSave Field" Url="html/5a645720-48f5-f4c0-be50-9418b576240b.htm" />
+        <HelpTOCNode Title="btnEditTestScenarioSave Field" Url="html/51a10ce7-6c68-c484-01be-8c38ec41b908.htm" />
+        <HelpTOCNode Title="btnTestScenarioCancel Field" Url="html/e0ac85c0-5b84-153a-e1fb-801091155733.htm" />
+        <HelpTOCNode Title="grdTestScenarios Field" Url="html/00b28b66-bea5-58ae-80b6-fa09628267ab.htm" />
+        <HelpTOCNode Title="hdnScenarioID Field" Url="html/d1e94e4c-157c-8628-3ec1-361970b7aae7.htm" />
+        <HelpTOCNode Title="lblTestScenarioName Field" Url="html/7a26543b-7721-e3a9-3828-e9ae057754f3.htm" />
+        <HelpTOCNode Title="listTestCases Field" Url="html/fb273176-276f-ce0f-7a0c-ef8b78fb12b3.htm" />
+        <HelpTOCNode Title="palinoiaBLL Field" Url="html/6a99a277-b54b-5d61-0275-5ef0a2b5a46b.htm" />
+        <HelpTOCNode Title="pID Field" Url="html/79b201e5-5f75-ef07-79c1-c4c27c132c35.htm" />
+        <HelpTOCNode Title="pnlTestScenarios Field" Url="html/aabcb522-cd8e-4d92-7b67-fec309457c74.htm" />
+        <HelpTOCNode Title="testCasesDIV Field" Url="html/3714c7a6-27d6-9a92-5264-38a1fe72ee9f.htm" />
+        <HelpTOCNode Title="testCasesPanel Field" Url="html/c1f09290-dab0-0fb7-695d-ff9c4a269615.htm" />
+        <HelpTOCNode Title="testCasesSPAN Field" Url="html/1945b939-2803-3fcb-0a9a-4afdcfa351ed.htm" />
+        <HelpTOCNode Title="TestCasesTreePanel Field" Url="html/b3ee152e-7217-a5f6-8ce6-aabc2e822b18.htm" />
+        <HelpTOCNode Title="treeTestCasesDIV Field" Url="html/8e8a671f-76fb-1e98-e64a-796490b671e1.htm" />
+        <HelpTOCNode Title="txtTestScenarioName Field" Url="html/7bd258cd-6d99-f63d-8fb8-d16d94e0f94e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e94c4458-040a-4273-8365-cda5072ea12a" Title="TestScenarios Methods" Url="html/7674da64-dea4-5b58-dd6e-93ab188f46b8.htm">
+        <HelpTOCNode Title="btnAddTestScenario_Click Method " Url="html/f72a2d8c-6501-fee8-14b6-fc1f3da88a35.htm" />
+        <HelpTOCNode Title="btnAddTestScenarioSave_Click Method " Url="html/6f1ea2cb-a6db-e5a0-ee23-4f0f826a716f.htm" />
+        <HelpTOCNode Title="btnEditTestScenarioSave_Click Method " Url="html/d0d73574-32fe-6409-556f-1e9353a72546.htm" />
+        <HelpTOCNode Title="btnTestScenarioCancel_Click Method " Url="html/d7d3f753-cbdb-83fa-0cfe-dfb47b598b28.htm" />
+        <HelpTOCNode Title="buildTestCasesTree Method " Url="html/291509d9-f49a-09d2-6ff5-a53689f862fe.htm" />
+        <HelpTOCNode Title="GetTestCasesForTree Method " Url="html/84ca3d1f-a3c8-4aef-bcc5-93916f3e8dc2.htm" />
+        <HelpTOCNode Title="grdTestScenarios_RowDataBound Method " Url="html/bea1f176-514a-1839-eb18-d7806725cd74.htm" />
+        <HelpTOCNode Title="grdTestScenarios_RowDeleting Method " Url="html/d9ee9e58-ee2f-6164-333c-6bc17e5e0d91.htm" />
+        <HelpTOCNode Title="grdTestScenarios_RowEditing Method " Url="html/03540d48-3d2e-081f-7837-f698b717425e.htm" />
+        <HelpTOCNode Title="Page_Init Method " Url="html/412549e2-95e9-1cf3-7542-d95b79c8c7e7.htm" />
+        <HelpTOCNode Title="Page_Load Method " Url="html/587b10e2-9d1a-e876-7101-dd7b7b6a8ce3.htm" />
+        <HelpTOCNode Title="populateTestScenarioGrid Method " Url="html/01696a21-3b26-2387-1d20-5b11bb763b3b.htm" />
+        <HelpTOCNode Title="SaveTestScenarioTestCaseRelationships Method " Url="html/5dd72b7e-79a7-fbed-17d5-316c7257a9ee.htm" />
+        <HelpTOCNode Title="showAddEditControls Method " Url="html/fac98471-6b2e-ed82-a68e-7f553c5792fa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TestScenarios Properties" Url="html/c3fb05e5-6be9-c27e-e31f-3c929a48e402.htm" />
+      <HelpTOCNode Title="TestScenarios Events" Url="html/f3aa3641-c9a5-a16a-a521-aade4a9b320d.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
