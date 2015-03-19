@@ -16,7 +16,6 @@ C:\ palinoia\DAL\obj\Debug\DAL.dll
 C:\ palinoia\DAL\obj\Debug\DAL.pdb
 C:\ palinoia\DAL\bin\Debug\DAL.XML
 C:\palinoiaqa\DAL\bin\Debug\DAL.dll.config
-C:\palinoiaqa\DAL\bin\Debug\DAL.XML
 C:\palinoiaqa\DAL\bin\Debug\DAL.dll
 C:\palinoiaqa\DAL\bin\Debug\DAL.pdb
 C:\palinoiaqa\DAL\bin\Debug\Entities.dll
