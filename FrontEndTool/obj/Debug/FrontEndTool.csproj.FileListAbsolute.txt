@@ -20,3 +20,25 @@ C:\ palinoia\FrontEndTool\bin\itextsharp.xml
 C:\ palinoia\FrontEndTool\bin\System.Data.SQLite.xml
 C:\ palinoia\FrontEndTool\obj\Debug\FrontEndTool.dll
 C:\ palinoia\FrontEndTool\obj\Debug\FrontEndTool.pdb
+C:\palinoiaqa\FrontEndTool\bin\FrontEndTool.dll
+C:\palinoiaqa\FrontEndTool\bin\FrontEndTool.pdb
+C:\palinoiaqa\FrontEndTool\bin\BLL.dll
+C:\palinoiaqa\FrontEndTool\bin\Entities.dll
+C:\palinoiaqa\FrontEndTool\bin\Enums.dll
+C:\palinoiaqa\FrontEndTool\bin\DAL.dll
+C:\palinoiaqa\FrontEndTool\bin\OpenSmtp.dll
+C:\palinoiaqa\FrontEndTool\bin\itextsharp.dll
+C:\palinoiaqa\FrontEndTool\bin\itextsharp.xmlworker.dll
+C:\palinoiaqa\FrontEndTool\bin\System.Data.SQLite.dll
+C:\palinoiaqa\FrontEndTool\bin\BLL.pdb
+C:\palinoiaqa\FrontEndTool\bin\BLL.xml
+C:\palinoiaqa\FrontEndTool\bin\Entities.pdb
+C:\palinoiaqa\FrontEndTool\bin\Entities.xml
+C:\palinoiaqa\FrontEndTool\bin\Enums.pdb
+C:\palinoiaqa\FrontEndTool\bin\Enums.xml
+C:\palinoiaqa\FrontEndTool\bin\DAL.pdb
+C:\palinoiaqa\FrontEndTool\bin\DAL.xml
+C:\palinoiaqa\FrontEndTool\bin\itextsharp.xml
+C:\palinoiaqa\FrontEndTool\obj\Debug\FrontEndTool.csprojResolveAssemblyReference.cache
+C:\palinoiaqa\FrontEndTool\obj\Debug\FrontEndTool.dll
+C:\palinoiaqa\FrontEndTool\obj\Debug\FrontEndTool.pdb

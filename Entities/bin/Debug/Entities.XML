@@ -44,6 +44,266 @@
             class variable to stored Active data source
             </summary>
         </member>
+        <member name="T:Entities.viewChapterType">
+            <summary>
+            class to hold viewChapterType info
+            </summary>
+        </member>
+        <member name="M:Entities.viewChapterType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
+            <summary>
+            constructor for viewChapterType object
+            </summary>
+            <param name="id">int</param>
+            <param name="text">string</param>
+            <param name="active">bool</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="P:Entities.viewChapterType.ID">
+            <summary>
+            class variable to store chapter type ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewChapterType.Text">
+            <summary>
+            class variable to store chapter type text
+            </summary>
+        </member>
+        <member name="P:Entities.viewChapterType.Active">
+            <summary>
+            class variable to store chapter type active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewChapterType.UpdatedBy">
+            <summary>
+            class variable to store key to person updating chapter type
+            </summary>
+        </member>
+        <member name="T:Entities.viewCSMResponseType">
+            <summary>
+            class to hold the code for the viewCSMResponseType object
+            </summary>
+        </member>
+        <member name="M:Entities.viewCSMResponseType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
+            <summary>
+            constructor for viewCSMResponseType Object
+            </summary>
+            <param name="id">int</param>
+            <param name="text">string</param>
+            <param name="active">bool</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="P:Entities.viewCSMResponseType.ID">
+            <summary>
+            class variable to store CSM response type ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewCSMResponseType.Text">
+            <summary>
+            class variable to store CSM response type text
+            </summary>
+        </member>
+        <member name="P:Entities.viewCSMResponseType.Active">
+            <summary>
+            class variable to store CSM response type active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewCSMResponseType.UpdatedBy">
+            <summary>
+            class variable to store key to person updating CSM response type 
+            </summary>
+        </member>
+        <member name="T:Entities.ImageInfo">
+            <summary>
+            class to hold ImageInfo information
+            </summary>
+        </member>
+        <member name="M:Entities.ImageInfo.#ctor(System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            constructor with four parameters
+            </summary>
+            <param name="id">int</param>
+            <param name="width">int</param>
+            <param name="height">int</param>
+            <param name="fileName">string</param>
+        </member>
+        <member name="P:Entities.ImageInfo.ID">
+            <summary>
+            class variable to store image ID
+            </summary>
+        </member>
+        <member name="P:Entities.ImageInfo.Width">
+            <summary>
+            class variable to store image width
+            </summary>
+        </member>
+        <member name="P:Entities.ImageInfo.Height">
+            <summary>
+            class variable to store image height
+            </summary>
+        </member>
+        <member name="P:Entities.ImageInfo.FileName">
+            <summary>
+            class variable to store image fuilename
+            </summary>
+        </member>
+        <member name="T:Entities.viewCSMType">
+            <summary>
+            class to hold code for viewCSMType object
+            </summary>
+        </member>
+        <member name="M:Entities.viewCSMType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
+            <summary>
+            constructor for viewCSMType object
+            </summary>
+            <param name="id">int</param>
+            <param name="text">string</param>
+            <param name="active">bool</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="P:Entities.viewCSMType.ID">
+            <summary>
+            class variable to store CSM type ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewCSMType.Text">
+            <summary>
+            class variable to store CSM type text
+            </summary>
+        </member>
+        <member name="P:Entities.viewCSMType.Active">
+            <summary>
+            class variable to store CSM type active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewCSMType.UpdatedBy">
+            <summary>
+            class variable to store key to person updating CSM type 
+            </summary>
+        </member>
+        <member name="T:Entities.viewTestScenario">
+            <summary>
+            class to hold code for viewTestScenario object
+            </summary>
+        </member>
+        <member name="M:Entities.viewTestScenario.#ctor(System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            constructor for viewTestScenario object
+            </summary>
+            <param name="id">int</param>
+            <param name="name">string</param>
+            <param name="notes">string</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="P:Entities.viewTestScenario.ID">
+            <summary>
+            class variable to store test scenario ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewTestScenario.Name">
+            <summary>
+            class variable to store test scenario name
+            </summary>
+        </member>
+        <member name="P:Entities.viewTestScenario.Notes">
+            <summary>
+            class variable to store test scenario notes
+            </summary>
+        </member>
+        <member name="P:Entities.viewTestScenario.UpdatedBy">
+            <summary>
+            class variable to store key to person updating test scenario
+            </summary>
+        </member>
+        <member name="T:Entities.viewDefectType">
+            <summary>
+            class to hold viewDefectType object
+            </summary>
+        </member>
+        <member name="M:Entities.viewDefectType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
+            <summary>
+            constructor for viewDefectType object
+            </summary>
+            <param name="id">int</param>
+            <param name="text">string</param>
+            <param name="active">bool</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="P:Entities.viewDefectType.ID">
+            <summary>
+            class variable to store defect type ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewDefectType.Text">
+            <summary>
+            class variable to store defect type text
+            </summary>
+        </member>
+        <member name="P:Entities.viewDefectType.Active">
+            <summary>
+            class variable to store defect type active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewDefectType.UpdatedBy">
+            <summary>
+            class variable to store key to person updating defect type
+            </summary>
+        </member>
+        <member name="T:Entities.ImageData">
+            <summary>
+            class to hold image info
+            </summary>
+        </member>
+        <member name="F:Entities.ImageData.ID">
+            <summary>
+            class variable to store image ID
+            </summary>
+        </member>
+        <member name="F:Entities.ImageData.FileName">
+            <summary>
+            class variable to store image filename
+            </summary>
+        </member>
+        <member name="F:Entities.ImageData.FilePath">
+            <summary>
+            class variable to store image path
+            </summary>
+        </member>
+        <member name="F:Entities.ImageData.Description">
+            <summary>
+            class variable to store image description
+            </summary>
+        </member>
+        <member name="F:Entities.ImageData.ByteArray">
+            <summary>
+            class variable to store array of images
+            </summary>
+        </member>
+        <member name="F:Entities.ImageData.UpdatedBy">
+            <summary>
+            class variable to store key of person that updated the image
+            </summary>
+        </member>
+        <member name="M:Entities.ImageData.#ctor(System.Int32,System.String,System.String,System.String,System.Byte[],System.Int32)">
+            <summary>
+            constructor for image data object
+            </summary>
+            <param name="id">int</param>
+            <param name="filename">string</param>
+            <param name="pathName">string</param>
+            <param name="description">string</param>
+            <param name="byteArray">byte[]</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="M:Entities.ImageData.#ctor(System.String,System.String,System.String,System.Byte[],System.Int32)">
+            <summary>
+            constructor for image data object 
+            </summary>
+            <param name="filename">string</param>
+            <param name="pathName">string</param>
+            <param name="description">string</param>
+            <param name="byteArray">byte[]</param>
+            <param name="updatedBy">int</param>
+        </member>
         <member name="T:Entities.viewCustomerServiceMessage">
             <summary>
             class to hold code for viewCustomerServiceMessage object
@@ -165,273 +425,124 @@
             class variable to store key to person updating business rule 
             </summary>
         </member>
-        <member name="T:Entities.viewError">
+        <member name="T:Entities.viewTestResult">
             <summary>
-            class to hold code for viewError
+            class to hold code for viewTestResult
             </summary>
         </member>
-        <member name="M:Entities.viewError.#ctor(System.Int32,System.DateTime,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+        <member name="M:Entities.viewTestResult.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime,System.String,System.Int32)">
             <summary>
-            constructor for viewError
-            </summary>
-            <param name="id"></param>
-            <param name="date"></param>
-            <param name="source"></param>
-            <param name="message"></param>
-            <param name="innerException"></param>
-            <param name="stackTrace"></param>
-            <param name="projectID"></param>
-            <param name="userID"></param>
-        </member>
-        <member name="P:Entities.viewError.ID">
-            <summary>
-            class variable for error ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.Date">
-            <summary>
-            class variable for error date
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.DisplayDate">
-            <summary>
-            string version of Date property for display on client
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.Message">
-            <summary>
-            class variable for error message
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.Source">
-            <summary>
-            class variable for error source
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.InnerException">
-            <summary>
-            class variable for error inner exception
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.StackTrace">
-            <summary>
-            class variable for error stack trace
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.ProjectID">
-            <summary>
-            class variable for project ID that contained the error
-            </summary>
-        </member>
-        <member name="P:Entities.viewError.UserID">
-            <summary>
-            class variable for user ID associated with error
-            </summary>
-        </member>
-        <member name="T:Entities.Report">
-            <summary>
-            Report class used to transfer report data to pdf builder
-            </summary>
-        </member>
-        <member name="P:Entities.Report.Title">
-            <summary>
-            report title
-            </summary>
-        </member>
-        <member name="P:Entities.Report.Content">
-            <summary>
-            report content
-            </summary>
-        </member>
-        <member name="T:Entities.Report.ReportType">
-            <summary>
-            constructor for chapter type enums
-            </summary>
-        </member>
-        <member name="T:Entities.viewUser">
-            <summary>
-            class that defines a viewUser object which is used to transport user data
-            </summary>
-        </member>
-        <member name="M:Entities.viewUser.#ctor(System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int32)">
-            <summary>
-            constructor for viewUser object
+            constructor for viewTestResult
             </summary>
             <param name="id">int</param>
-            <param name="userRoleID">int</param>
-            <param name="firstName">string</param>
-            <param name="lastName">string</param>
-            <param name="middleInitial">string</param>
-            <param name="email">string</param>
-            <param name="pw">string</param>
-            <param name="active">bool</param>
-            <param name="roleName">string</param>
-            <param name="updatedBy">int</param>
+            <param name="primaryTestCaseID">int</param>
+            <param name="currentTestCaseID">int</param>
+            <param name="testStepID">int</param>
+            <param name="testStatusID">int</param>
+            <param name="userID">int</param>
+            <param name="testDate">DateTime</param>
+            <param name="notes">string</param>
+            <param name="failedBusinessRuleID">int</param>
         </member>
-        <member name="M:Entities.viewUser.getFullNameLNF">
+        <member name="M:Entities.viewTestResult.#ctor">
             <summary>
-            return formatted name, last name first
-            ex: Doe, John A.
-            </summary>
-            <returns>string</returns>
-        </member>
-        <member name="M:Entities.viewUser.getFullNameFNF">
-            <summary>
-            returns formated name, first name first
-            ex: John A. Doe
-            </summary>
-            <returns>string</returns>
-        </member>
-        <member name="P:Entities.viewUser.ID">
-            <summary>
-            class variable to store user ID
+            empty constructor for viewTestResult
             </summary>
         </member>
-        <member name="P:Entities.viewUser.UserRoleID">
+        <member name="P:Entities.viewTestResult.ID">
             <summary>
-            class variable to store user role ID
+            class variable to store value of test result ID
             </summary>
         </member>
-        <member name="P:Entities.viewUser.FirstName">
+        <member name="P:Entities.viewTestResult.PrimaryTestCaseID">
             <summary>
-            class variable to store user first name
+            class variable to store value of primaryTestCaseID
             </summary>
         </member>
-        <member name="P:Entities.viewUser.LastName">
+        <member name="P:Entities.viewTestResult.CurrentTestCaseID">
             <summary>
-            class variable to store user last name
+            class variable to store value of test case ID
             </summary>
         </member>
-        <member name="P:Entities.viewUser.MiddleInitial">
+        <member name="P:Entities.viewTestResult.TestStepID">
             <summary>
-            class variable to store user middle initial
+            class variable to store value of test step ID
             </summary>
         </member>
-        <member name="P:Entities.viewUser.Email">
+        <member name="P:Entities.viewTestResult.TestStatusID">
             <summary>
-            class variable to store user email address
+            class variable to store value of test status ID
             </summary>
         </member>
-        <member name="P:Entities.viewUser.PW">
+        <member name="P:Entities.viewTestResult.UserID">
             <summary>
-            class variable to store user password
+            class variable to store value of user ID
             </summary>
         </member>
-        <member name="P:Entities.viewUser.Active">
+        <member name="P:Entities.viewTestResult.TestDate">
             <summary>
-            class variable to store user active status
+            class variable to store value of date and time that test was run
             </summary>
         </member>
-        <member name="P:Entities.viewUser.RoleName">
+        <member name="P:Entities.viewTestResult.Notes">
             <summary>
-            class variable to store user role name
+            class variable to store notes about test 
             </summary>
         </member>
-        <member name="P:Entities.viewUser.UpdatedBy">
+        <member name="P:Entities.viewTestResult.first">
             <summary>
-            class variable to store UpdatedBy user id
+            boolean var to indicate if object is first test step of the first test case being tested
             </summary>
         </member>
-        <member name="T:Entities.viewDefectType">
+        <member name="P:Entities.viewTestResult.last">
             <summary>
-            class to hold viewDefectType object
+            boolean var to indicate if object is last test step of the last test case being tested
             </summary>
         </member>
-        <member name="M:Entities.viewDefectType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
+        <member name="P:Entities.viewTestResult.FailedBusinessRuleID">
             <summary>
-            constructor for viewDefectType object
+            int var to store the specific related business rule involved with test failure
+            </summary>
+        </member>
+        <member name="T:Entities.viewDefectPriority">
+            <summary>
+            class to hold viewDefectPriorty info
+            </summary>
+        </member>
+        <member name="M:Entities.viewDefectPriority.#ctor(System.Int32,System.String,System.Boolean,System.Int32,System.Int32)">
+            <summary>
+            constructor for viewDefectPriority object
             </summary>
             <param name="id">int</param>
             <param name="text">string</param>
             <param name="active">bool</param>
             <param name="updatedBy">int</param>
+            <param name="importance">int</param>
         </member>
-        <member name="P:Entities.viewDefectType.ID">
-            <summary>
-            class variable to store defect type ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewDefectType.Text">
-            <summary>
-            class variable to store defect type text
-            </summary>
-        </member>
-        <member name="P:Entities.viewDefectType.Active">
-            <summary>
-            class variable to store defect type active status
-            </summary>
-        </member>
-        <member name="P:Entities.viewDefectType.UpdatedBy">
-            <summary>
-            class variable to store key to person updating defect type
-            </summary>
-        </member>
-        <member name="T:Entities.viewCSMType">
-            <summary>
-            class to hold code for viewCSMType object
-            </summary>
-        </member>
-        <member name="M:Entities.viewCSMType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
-            <summary>
-            constructor for viewCSMType object
-            </summary>
-            <param name="id">int</param>
-            <param name="text">string</param>
-            <param name="active">bool</param>
-            <param name="updatedBy">int</param>
-        </member>
-        <member name="P:Entities.viewCSMType.ID">
-            <summary>
-            class variable to store CSM type ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewCSMType.Text">
-            <summary>
-            class variable to store CSM type text
-            </summary>
-        </member>
-        <member name="P:Entities.viewCSMType.Active">
-            <summary>
-            class variable to store CSM type active status
-            </summary>
-        </member>
-        <member name="P:Entities.viewCSMType.UpdatedBy">
-            <summary>
-            class variable to store key to person updating CSM type 
-            </summary>
-        </member>
-        <member name="T:Entities.viewDefectStatus">
-            <summary>
-            class to hold viewDefectStatus info
-            </summary>
-        </member>
-        <member name="M:Entities.viewDefectStatus.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
-            <summary>
-            constructor for viewDefectStatus
-            </summary>
-            <param name="id">int</param>
-            <param name="text">string</param>
-            <param name="active">bool</param>
-            <param name="updatedBy">int</param>
-        </member>
-        <member name="P:Entities.viewDefectStatus.ID">
+        <member name="P:Entities.viewDefectPriority.ID">
             <summary>
             class variable to store defect ID
             </summary>
         </member>
-        <member name="P:Entities.viewDefectStatus.Text">
+        <member name="P:Entities.viewDefectPriority.Text">
             <summary>
             class variable to store defect text
             </summary>
         </member>
-        <member name="P:Entities.viewDefectStatus.Active">
+        <member name="P:Entities.viewDefectPriority.Active">
             <summary>
             class variable to store defect active status
             </summary>
         </member>
-        <member name="P:Entities.viewDefectStatus.UpdatedBy">
+        <member name="P:Entities.viewDefectPriority.UpdatedBy">
             <summary>
-            class variable to store key to person updating defect
+            class variable to store ID of person that updated the defect info
+            </summary>
+        </member>
+        <member name="P:Entities.viewDefectPriority.Importance">
+            <summary>
+            class variable to store importance value which is used to sort
+            the defects in the grid
             </summary>
         </member>
         <member name="T:Entities.viewDefect">
@@ -524,117 +635,142 @@
             class variable to indicate whether defect is open or closed
             </summary>
         </member>
-        <member name="T:Entities.viewTestResult">
+        <member name="T:Entities.TestRunnerTestStep">
             <summary>
-            class to hold code for viewTestResult
+            classtoholdcode for TestRunnerTestStep object
             </summary>
         </member>
-        <member name="M:Entities.viewTestResult.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.DateTime,System.String,System.Int32)">
+        <member name="M:Entities.TestRunnerTestStep.#ctor">
             <summary>
-            constructor for viewTestResult
-            </summary>
-            <param name="id">int</param>
-            <param name="primaryTestCaseID">int</param>
-            <param name="currentTestCaseID">int</param>
-            <param name="testStepID">int</param>
-            <param name="testStatusID">int</param>
-            <param name="userID">int</param>
-            <param name="testDate">DateTime</param>
-            <param name="notes">string</param>
-            <param name="failedBusinessRuleID">int</param>
-        </member>
-        <member name="M:Entities.viewTestResult.#ctor">
-            <summary>
-            empty constructor for viewTestResult
+            empty constructor for TestRunnerTestStep
             </summary>
         </member>
-        <member name="P:Entities.viewTestResult.ID">
+        <member name="P:Entities.TestRunnerTestStep.currentTestStep">
             <summary>
-            class variable to store value of test result ID
+            class variable to store value of currentTestStep 
             </summary>
         </member>
-        <member name="P:Entities.viewTestResult.PrimaryTestCaseID">
+        <member name="P:Entities.TestRunnerTestStep.primaryTestCaseID">
             <summary>
             class variable to store value of primaryTestCaseID
             </summary>
         </member>
-        <member name="P:Entities.viewTestResult.CurrentTestCaseID">
+        <member name="P:Entities.TestRunnerTestStep.currentTestCaseID">
             <summary>
-            class variable to store value of test case ID
+            class variable to store value of currentTestCaseID
             </summary>
         </member>
-        <member name="P:Entities.viewTestResult.TestStepID">
-            <summary>
-            class variable to store value of test step ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewTestResult.TestStatusID">
-            <summary>
-            class variable to store value of test status ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewTestResult.UserID">
-            <summary>
-            class variable to store value of user ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewTestResult.TestDate">
-            <summary>
-            class variable to store value of date and time that test was run
-            </summary>
-        </member>
-        <member name="P:Entities.viewTestResult.Notes">
-            <summary>
-            class variable to store notes about test 
-            </summary>
-        </member>
-        <member name="P:Entities.viewTestResult.first">
+        <member name="P:Entities.TestRunnerTestStep.first">
             <summary>
             boolean var to indicate if object is first test step of the first test case being tested
             </summary>
         </member>
-        <member name="P:Entities.viewTestResult.last">
+        <member name="P:Entities.TestRunnerTestStep.last">
             <summary>
             boolean var to indicate if object is last test step of the last test case being tested
             </summary>
         </member>
-        <member name="P:Entities.viewTestResult.FailedBusinessRuleID">
+        <member name="T:Entities.viewSection">
             <summary>
-            int var to store the specific related business rule involved with test failure
+            class to hold code for viewSection object
             </summary>
         </member>
-        <member name="T:Entities.viewRole">
+        <member name="M:Entities.viewSection.#ctor(System.Int32,System.String,System.String,System.Boolean,System.Int32)">
             <summary>
-            class to hold code for viewRole object
-            </summary>
-        </member>
-        <member name="M:Entities.viewRole.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
-            <summary>
-            constructor for viewRole object
+            constructor for viewSection object
             </summary>
             <param name="id">int</param>
-            <param name="text">string</param>
+            <param name="name">string</param>
+            <param name="abbreviation">string</param>
             <param name="active">bool</param>
             <param name="updatedBy">int</param>
         </member>
-        <member name="P:Entities.viewRole.ID">
+        <member name="P:Entities.viewSection.ID">
             <summary>
-            class variable to store role ID
+            class variable to store section ID
             </summary>
         </member>
-        <member name="P:Entities.viewRole.Text">
+        <member name="P:Entities.viewSection.Text">
             <summary>
-            class variable to store role text
+            class variable to store section name
             </summary>
         </member>
-        <member name="P:Entities.viewRole.Active">
+        <member name="P:Entities.viewSection.Abbreviation">
             <summary>
-            class variable to store role active status
+            class variable to store section abbreviation
             </summary>
         </member>
-        <member name="P:Entities.viewRole.UpdatedBy">
+        <member name="P:Entities.viewSection.Active">
             <summary>
-            class variable to store UpdatedBy user id
+            class variable to store section active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewSection.UpdatedBy">
+            <summary>
+            class variable to store userID as UpdatedBy
+            </summary>
+        </member>
+        <member name="T:Entities.viewError">
+            <summary>
+            class to hold code for viewError
+            </summary>
+        </member>
+        <member name="M:Entities.viewError.#ctor(System.Int32,System.DateTime,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            constructor for viewError
+            </summary>
+            <param name="id"></param>
+            <param name="date"></param>
+            <param name="source"></param>
+            <param name="message"></param>
+            <param name="innerException"></param>
+            <param name="stackTrace"></param>
+            <param name="projectID"></param>
+            <param name="userID"></param>
+        </member>
+        <member name="P:Entities.viewError.ID">
+            <summary>
+            class variable for error ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.Date">
+            <summary>
+            class variable for error date
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.DisplayDate">
+            <summary>
+            string version of Date property for display on client
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.Message">
+            <summary>
+            class variable for error message
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.Source">
+            <summary>
+            class variable for error source
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.InnerException">
+            <summary>
+            class variable for error inner exception
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.StackTrace">
+            <summary>
+            class variable for error stack trace
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.ProjectID">
+            <summary>
+            class variable for project ID that contained the error
+            </summary>
+        </member>
+        <member name="P:Entities.viewError.UserID">
+            <summary>
+            class variable for user ID associated with error
             </summary>
         </member>
         <member name="T:Entities.viewDocument">
@@ -798,44 +934,170 @@
             class variable to store list of chapter IDs
             </summary>
         </member>
-        <member name="T:Entities.viewSection">
+        <member name="T:Entities.viewDefectStatus">
             <summary>
-            class to hold code for viewSection object
+            class to hold viewDefectStatus info
             </summary>
         </member>
-        <member name="M:Entities.viewSection.#ctor(System.Int32,System.String,System.String,System.Boolean,System.Int32)">
+        <member name="M:Entities.viewDefectStatus.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
             <summary>
-            constructor for viewSection object
+            constructor for viewDefectStatus
             </summary>
             <param name="id">int</param>
-            <param name="name">string</param>
-            <param name="abbreviation">string</param>
+            <param name="text">string</param>
             <param name="active">bool</param>
             <param name="updatedBy">int</param>
         </member>
-        <member name="P:Entities.viewSection.ID">
+        <member name="P:Entities.viewDefectStatus.ID">
             <summary>
-            class variable to store section ID
+            class variable to store defect ID
             </summary>
         </member>
-        <member name="P:Entities.viewSection.Text">
+        <member name="P:Entities.viewDefectStatus.Text">
             <summary>
-            class variable to store section name
+            class variable to store defect text
             </summary>
         </member>
-        <member name="P:Entities.viewSection.Abbreviation">
+        <member name="P:Entities.viewDefectStatus.Active">
             <summary>
-            class variable to store section abbreviation
+            class variable to store defect active status
             </summary>
         </member>
-        <member name="P:Entities.viewSection.Active">
+        <member name="P:Entities.viewDefectStatus.UpdatedBy">
             <summary>
-            class variable to store section active status
+            class variable to store key to person updating defect
             </summary>
         </member>
-        <member name="P:Entities.viewSection.UpdatedBy">
+        <member name="T:Entities.NavigationMenuItem">
             <summary>
-            class variable to store userID as UpdatedBy
+            class that defines a NavigationMenuItem which is used
+            to transport data for each menu item in the main navigation
+            tree(JSTree)
+            </summary>
+        </member>
+        <member name="M:Entities.NavigationMenuItem.#ctor(System.Int32,System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            class variable to store value of navigation menu item object
+            </summary>
+            <param name="id">int</param>
+            <param name="name">string</param>
+            <param name="url">string</param>
+            <param name="parentID">int</param>
+            <param name="nodeID">string</param>
+            /// <param name="featureID">int</param>
+        </member>
+        <member name="P:Entities.NavigationMenuItem.ID">
+            <summary>
+            class variable to store value of navigation menu item ID
+            </summary>
+        </member>
+        <member name="P:Entities.NavigationMenuItem.Name">
+            <summary>
+            class variable to store value of navigation menu item name
+            </summary>
+        </member>
+        <member name="P:Entities.NavigationMenuItem.URL">
+            <summary>
+            class variable to store value of navigation menu item URL
+            </summary>
+        </member>
+        <member name="P:Entities.NavigationMenuItem.ParentID">
+            <summary>
+            class variable to store value of navigation menu item parent ID
+            </summary>
+        </member>
+        <member name="P:Entities.NavigationMenuItem.NodeID">
+            <summary>
+            class variable to store value of navigation menu item node ID
+            </summary>
+        </member>
+        <member name="P:Entities.NavigationMenuItem.FeatureID">
+            <summary>
+            class variable to store value of menu item feature ID
+            </summary>
+        </member>
+        <member name="T:Entities.viewUser">
+            <summary>
+            class that defines a viewUser object which is used to transport user data
+            </summary>
+        </member>
+        <member name="M:Entities.viewUser.#ctor(System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int32)">
+            <summary>
+            constructor for viewUser object
+            </summary>
+            <param name="id">int</param>
+            <param name="userRoleID">int</param>
+            <param name="firstName">string</param>
+            <param name="lastName">string</param>
+            <param name="middleInitial">string</param>
+            <param name="email">string</param>
+            <param name="pw">string</param>
+            <param name="active">bool</param>
+            <param name="roleName">string</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="M:Entities.viewUser.getFullNameLNF">
+            <summary>
+            return formatted name, last name first
+            ex: Doe, John A.
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:Entities.viewUser.getFullNameFNF">
+            <summary>
+            returns formated name, first name first
+            ex: John A. Doe
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="P:Entities.viewUser.ID">
+            <summary>
+            class variable to store user ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.UserRoleID">
+            <summary>
+            class variable to store user role ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.FirstName">
+            <summary>
+            class variable to store user first name
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.LastName">
+            <summary>
+            class variable to store user last name
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.MiddleInitial">
+            <summary>
+            class variable to store user middle initial
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.Email">
+            <summary>
+            class variable to store user email address
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.PW">
+            <summary>
+            class variable to store user password
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.Active">
+            <summary>
+            class variable to store user active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.RoleName">
+            <summary>
+            class variable to store user role name
+            </summary>
+        </member>
+        <member name="P:Entities.viewUser.UpdatedBy">
+            <summary>
+            class variable to store UpdatedBy user id
             </summary>
         </member>
         <member name="T:Entities.SearchEntities">
@@ -1058,92 +1320,6 @@
             <param name="keySelector"></param>
             <returns></returns>
         </member>
-        <member name="T:Entities.viewStatus">
-            <summary>
-            class to hold the code for the viewStatus object
-            </summary>
-        </member>
-        <member name="M:Entities.viewStatus.#ctor(System.Int32,System.String,System.Boolean,System.String,System.Boolean,System.Int32)">
-            <summary>
-            constructor for viewStatus object
-            </summary>
-            <param name="id">int</param>
-            <param name="text">string</param>
-            <param name="active">bool</param>
-            <param name="color">string</param>
-            <param name="displayInChapterSummary">bool</param>
-            <param name="updatedBy">int</param>
-        </member>
-        <member name="P:Entities.viewStatus.ID">
-            <summary>
-            class variable to store status ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewStatus.Text">
-            <summary>
-            class variable to store status text
-            </summary>
-        </member>
-        <member name="P:Entities.viewStatus.Active">
-            <summary>
-            class variable to store status active status
-            </summary>
-        </member>
-        <member name="P:Entities.viewStatus.Color">
-            <summary>
-            class variable to store status color
-            </summary>
-        </member>
-        <member name="P:Entities.viewStatus.DisplayInChapterSummary">
-            <summary>
-            class variable to store status DisplayInChapterSummary
-            </summary>
-        </member>
-        <member name="P:Entities.viewStatus.UpdatedBy">
-            <summary>
-            class variable to store UserID as UpdatedBy
-            </summary>
-        </member>
-        <member name="T:Entities.viewDocumentType">
-            <summary>
-            class to hold code for viewDocumentType
-            </summary>
-        </member>
-        <member name="M:Entities.viewDocumentType.#ctor(System.Int32,System.String,System.Boolean,System.Boolean,System.Int32)">
-            <summary>
-            constructor for viewDocumentType object
-            </summary>
-            <param name="id">int</param>
-            <param name="text">string</param>
-            <param name="active">bool</param>
-            <param name="includeBRCSMChapterSummary">bool</param>
-            <param name="updatedBy">int</param>
-        </member>
-        <member name="P:Entities.viewDocumentType.ID">
-            <summary>
-            class variable to store document type ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewDocumentType.Text">
-            <summary>
-            class variable to store document type name
-            </summary>
-        </member>
-        <member name="P:Entities.viewDocumentType.Active">
-            <summary>
-            class variable to store document type active status
-            </summary>
-        </member>
-        <member name="P:Entities.viewDocumentType.IncludeBRCSMChapterSummary">
-            <summary>
-            class variable to store status of IncludeBRCSMChapterSummary
-            </summary>
-        </member>
-        <member name="P:Entities.viewDocumentType.UpdatedBy">
-            <summary>
-            class variable to store key to person updating document type
-            </summary>
-        </member>
         <member name="T:Entities.viewTestCase">
             <summary>
             class to hold code for viewTestCase object
@@ -1227,40 +1403,6 @@
             class variable to store a list of test step IDs
             </summary>
         </member>
-        <member name="T:Entities.viewChapterType">
-            <summary>
-            class to hold viewChapterType info
-            </summary>
-        </member>
-        <member name="M:Entities.viewChapterType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
-            <summary>
-            constructor for viewChapterType object
-            </summary>
-            <param name="id">int</param>
-            <param name="text">string</param>
-            <param name="active">bool</param>
-            <param name="updatedBy">int</param>
-        </member>
-        <member name="P:Entities.viewChapterType.ID">
-            <summary>
-            class variable to store chapter type ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewChapterType.Text">
-            <summary>
-            class variable to store chapter type text
-            </summary>
-        </member>
-        <member name="P:Entities.viewChapterType.Active">
-            <summary>
-            class variable to store chapter type active status
-            </summary>
-        </member>
-        <member name="P:Entities.viewChapterType.UpdatedBy">
-            <summary>
-            class variable to store key to person updating chapter type
-            </summary>
-        </member>
         <member name="T:Entities.viewTestStep">
             <summary>
             class to hold code for viewTestStep object
@@ -1342,113 +1484,50 @@
             class variable to store parent test case ID
             </summary>
         </member>
-        <member name="T:Entities.ImageInfo">
+        <member name="T:Entities.viewStatus">
             <summary>
-            class to hold ImageInfo information
+            class to hold the code for the viewStatus object
             </summary>
         </member>
-        <member name="M:Entities.ImageInfo.#ctor(System.Int32,System.Int32,System.Int32,System.String)">
+        <member name="M:Entities.viewStatus.#ctor(System.Int32,System.String,System.Boolean,System.String,System.Boolean,System.Int32)">
             <summary>
-            constructor with four parameters
-            </summary>
-            <param name="id">int</param>
-            <param name="width">int</param>
-            <param name="height">int</param>
-            <param name="fileName">string</param>
-        </member>
-        <member name="P:Entities.ImageInfo.ID">
-            <summary>
-            class variable to store image ID
-            </summary>
-        </member>
-        <member name="P:Entities.ImageInfo.Width">
-            <summary>
-            class variable to store image width
-            </summary>
-        </member>
-        <member name="P:Entities.ImageInfo.Height">
-            <summary>
-            class variable to store image height
-            </summary>
-        </member>
-        <member name="P:Entities.ImageInfo.FileName">
-            <summary>
-            class variable to store image fuilename
-            </summary>
-        </member>
-        <member name="T:Entities.viewDefectPriority">
-            <summary>
-            class to hold viewDefectPriorty info
-            </summary>
-        </member>
-        <member name="M:Entities.viewDefectPriority.#ctor(System.Int32,System.String,System.Boolean,System.Int32,System.Int32)">
-            <summary>
-            constructor for viewDefectPriority object
+            constructor for viewStatus object
             </summary>
             <param name="id">int</param>
             <param name="text">string</param>
             <param name="active">bool</param>
-            <param name="updatedBy">int</param>
-            <param name="importance">int</param>
-        </member>
-        <member name="P:Entities.viewDefectPriority.ID">
-            <summary>
-            class variable to store defect ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewDefectPriority.Text">
-            <summary>
-            class variable to store defect text
-            </summary>
-        </member>
-        <member name="P:Entities.viewDefectPriority.Active">
-            <summary>
-            class variable to store defect active status
-            </summary>
-        </member>
-        <member name="P:Entities.viewDefectPriority.UpdatedBy">
-            <summary>
-            class variable to store ID of person that updated the defect info
-            </summary>
-        </member>
-        <member name="P:Entities.viewDefectPriority.Importance">
-            <summary>
-            class variable to store importance value which is used to sort
-            the defects in the grid
-            </summary>
-        </member>
-        <member name="T:Entities.viewTestScenario">
-            <summary>
-            class to hold code for viewTestScenario object
-            </summary>
-        </member>
-        <member name="M:Entities.viewTestScenario.#ctor(System.Int32,System.String,System.String,System.Int32)">
-            <summary>
-            constructor for viewTestScenario object
-            </summary>
-            <param name="id">int</param>
-            <param name="name">string</param>
-            <param name="notes">string</param>
+            <param name="color">string</param>
+            <param name="displayInChapterSummary">bool</param>
             <param name="updatedBy">int</param>
         </member>
-        <member name="P:Entities.viewTestScenario.ID">
+        <member name="P:Entities.viewStatus.ID">
             <summary>
-            class variable to store test scenario ID
+            class variable to store status ID
             </summary>
         </member>
-        <member name="P:Entities.viewTestScenario.Name">
+        <member name="P:Entities.viewStatus.Text">
             <summary>
-            class variable to store test scenario name
+            class variable to store status text
             </summary>
         </member>
-        <member name="P:Entities.viewTestScenario.Notes">
+        <member name="P:Entities.viewStatus.Active">
             <summary>
-            class variable to store test scenario notes
+            class variable to store status active status
             </summary>
         </member>
-        <member name="P:Entities.viewTestScenario.UpdatedBy">
+        <member name="P:Entities.viewStatus.Color">
             <summary>
-            class variable to store key to person updating test scenario
+            class variable to store status color
+            </summary>
+        </member>
+        <member name="P:Entities.viewStatus.DisplayInChapterSummary">
+            <summary>
+            class variable to store status DisplayInChapterSummary
+            </summary>
+        </member>
+        <member name="P:Entities.viewStatus.UpdatedBy">
+            <summary>
+            class variable to store UserID as UpdatedBy
             </summary>
         </member>
         <member name="T:Entities.viewChapter">
@@ -1508,39 +1587,98 @@
             class variable to store key to person updating chapter
             </summary>
         </member>
-        <member name="T:Entities.TestRunnerTestStep">
+        <member name="T:Entities.Report">
             <summary>
-            classtoholdcode for TestRunnerTestStep object
+            Report class used to transfer report data to pdf builder
             </summary>
         </member>
-        <member name="M:Entities.TestRunnerTestStep.#ctor">
+        <member name="P:Entities.Report.Title">
             <summary>
-            empty constructor for TestRunnerTestStep
+            report title
             </summary>
         </member>
-        <member name="P:Entities.TestRunnerTestStep.currentTestStep">
+        <member name="P:Entities.Report.Content">
             <summary>
-            class variable to store value of currentTestStep 
+            report content
             </summary>
         </member>
-        <member name="P:Entities.TestRunnerTestStep.primaryTestCaseID">
+        <member name="T:Entities.Report.ReportType">
             <summary>
-            class variable to store value of primaryTestCaseID
+            constructor for chapter type enums
             </summary>
         </member>
-        <member name="P:Entities.TestRunnerTestStep.currentTestCaseID">
+        <member name="T:Entities.viewRole">
             <summary>
-            class variable to store value of currentTestCaseID
+            class to hold code for viewRole object
             </summary>
         </member>
-        <member name="P:Entities.TestRunnerTestStep.first">
+        <member name="M:Entities.viewRole.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
             <summary>
-            boolean var to indicate if object is first test step of the first test case being tested
+            constructor for viewRole object
+            </summary>
+            <param name="id">int</param>
+            <param name="text">string</param>
+            <param name="active">bool</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="P:Entities.viewRole.ID">
+            <summary>
+            class variable to store role ID
             </summary>
         </member>
-        <member name="P:Entities.TestRunnerTestStep.last">
+        <member name="P:Entities.viewRole.Text">
             <summary>
-            boolean var to indicate if object is last test step of the last test case being tested
+            class variable to store role text
+            </summary>
+        </member>
+        <member name="P:Entities.viewRole.Active">
+            <summary>
+            class variable to store role active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewRole.UpdatedBy">
+            <summary>
+            class variable to store UpdatedBy user id
+            </summary>
+        </member>
+        <member name="T:Entities.viewDocumentType">
+            <summary>
+            class to hold code for viewDocumentType
+            </summary>
+        </member>
+        <member name="M:Entities.viewDocumentType.#ctor(System.Int32,System.String,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            constructor for viewDocumentType object
+            </summary>
+            <param name="id">int</param>
+            <param name="text">string</param>
+            <param name="active">bool</param>
+            <param name="includeBRCSMChapterSummary">bool</param>
+            <param name="updatedBy">int</param>
+        </member>
+        <member name="P:Entities.viewDocumentType.ID">
+            <summary>
+            class variable to store document type ID
+            </summary>
+        </member>
+        <member name="P:Entities.viewDocumentType.Text">
+            <summary>
+            class variable to store document type name
+            </summary>
+        </member>
+        <member name="P:Entities.viewDocumentType.Active">
+            <summary>
+            class variable to store document type active status
+            </summary>
+        </member>
+        <member name="P:Entities.viewDocumentType.IncludeBRCSMChapterSummary">
+            <summary>
+            class variable to store status of IncludeBRCSMChapterSummary
+            </summary>
+        </member>
+        <member name="P:Entities.viewDocumentType.UpdatedBy">
+            <summary>
+            class variable to store key to person updating document type
             </summary>
         </member>
         <member name="T:Entities.viewComment">
@@ -1581,54 +1719,6 @@
         <member name="P:Entities.viewComment.Text">
             <summary>
             class variable to store value of comment text
-            </summary>
-        </member>
-        <member name="T:Entities.NavigationMenuItem">
-            <summary>
-            class that defines a NavigationMenuItem which is used
-            to transport data for each menu item in the main navigation
-            tree(JSTree)
-            </summary>
-        </member>
-        <member name="M:Entities.NavigationMenuItem.#ctor(System.Int32,System.String,System.String,System.Int32,System.String,System.Int32)">
-            <summary>
-            class variable to store value of navigation menu item object
-            </summary>
-            <param name="id">int</param>
-            <param name="name">string</param>
-            <param name="url">string</param>
-            <param name="parentID">int</param>
-            <param name="nodeID">string</param>
-            /// <param name="featureID">int</param>
-        </member>
-        <member name="P:Entities.NavigationMenuItem.ID">
-            <summary>
-            class variable to store value of navigation menu item ID
-            </summary>
-        </member>
-        <member name="P:Entities.NavigationMenuItem.Name">
-            <summary>
-            class variable to store value of navigation menu item name
-            </summary>
-        </member>
-        <member name="P:Entities.NavigationMenuItem.URL">
-            <summary>
-            class variable to store value of navigation menu item URL
-            </summary>
-        </member>
-        <member name="P:Entities.NavigationMenuItem.ParentID">
-            <summary>
-            class variable to store value of navigation menu item parent ID
-            </summary>
-        </member>
-        <member name="P:Entities.NavigationMenuItem.NodeID">
-            <summary>
-            class variable to store value of navigation menu item node ID
-            </summary>
-        </member>
-        <member name="P:Entities.NavigationMenuItem.FeatureID">
-            <summary>
-            class variable to store value of menu item feature ID
             </summary>
         </member>
         <member name="T:Entities.JSTree_Node">
@@ -1701,62 +1791,6 @@
             class variable to store rel
             </summary>
         </member>
-        <member name="T:Entities.ImageData">
-            <summary>
-            class to hold image info
-            </summary>
-        </member>
-        <member name="F:Entities.ImageData.ID">
-            <summary>
-            class variable to store image ID
-            </summary>
-        </member>
-        <member name="F:Entities.ImageData.FileName">
-            <summary>
-            class variable to store image filename
-            </summary>
-        </member>
-        <member name="F:Entities.ImageData.FilePath">
-            <summary>
-            class variable to store image path
-            </summary>
-        </member>
-        <member name="F:Entities.ImageData.Description">
-            <summary>
-            class variable to store image description
-            </summary>
-        </member>
-        <member name="F:Entities.ImageData.ByteArray">
-            <summary>
-            class variable to store array of images
-            </summary>
-        </member>
-        <member name="F:Entities.ImageData.UpdatedBy">
-            <summary>
-            class variable to store key of person that updated the image
-            </summary>
-        </member>
-        <member name="M:Entities.ImageData.#ctor(System.Int32,System.String,System.String,System.String,System.Byte[],System.Int32)">
-            <summary>
-            constructor for image data object
-            </summary>
-            <param name="id">int</param>
-            <param name="filename">string</param>
-            <param name="pathName">string</param>
-            <param name="description">string</param>
-            <param name="byteArray">byte[]</param>
-            <param name="updatedBy">int</param>
-        </member>
-        <member name="M:Entities.ImageData.#ctor(System.String,System.String,System.String,System.Byte[],System.Int32)">
-            <summary>
-            constructor for image data object 
-            </summary>
-            <param name="filename">string</param>
-            <param name="pathName">string</param>
-            <param name="description">string</param>
-            <param name="byteArray">byte[]</param>
-            <param name="updatedBy">int</param>
-        </member>
         <member name="T:Entities.viewFeature">
             <summary>
             class to hold code for viewFeature object
@@ -1789,40 +1823,6 @@
         <member name="P:Entities.viewFeature.UpdatedBy">
             <summary>
             class variable to store UserID as UpdatedBy
-            </summary>
-        </member>
-        <member name="T:Entities.viewCSMResponseType">
-            <summary>
-            class to hold the code for the viewCSMResponseType object
-            </summary>
-        </member>
-        <member name="M:Entities.viewCSMResponseType.#ctor(System.Int32,System.String,System.Boolean,System.Int32)">
-            <summary>
-            constructor for viewCSMResponseType Object
-            </summary>
-            <param name="id">int</param>
-            <param name="text">string</param>
-            <param name="active">bool</param>
-            <param name="updatedBy">int</param>
-        </member>
-        <member name="P:Entities.viewCSMResponseType.ID">
-            <summary>
-            class variable to store CSM response type ID
-            </summary>
-        </member>
-        <member name="P:Entities.viewCSMResponseType.Text">
-            <summary>
-            class variable to store CSM response type text
-            </summary>
-        </member>
-        <member name="P:Entities.viewCSMResponseType.Active">
-            <summary>
-            class variable to store CSM response type active status
-            </summary>
-        </member>
-        <member name="P:Entities.viewCSMResponseType.UpdatedBy">
-            <summary>
-            class variable to store key to person updating CSM response type 
             </summary>
         </member>
     </members>

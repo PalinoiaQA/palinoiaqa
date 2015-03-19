@@ -10,6 +10,7 @@
     <p>
         Dev Start - 11/30/2012 
     </p>
+    <p>Project Moved to GitHub - 3/15/2015</p>
     <p>
         Version 0.1.00029a - 12/4/2012
     </p>

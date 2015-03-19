@@ -26,3 +26,31 @@ C:\ palinoia\Palinoia\obj\Debug\Palinoia.pdb
 C:\ palinoia\Palinoia\bin\System.Data.SQLite.dll
 C:\ palinoia\Palinoia\bin\System.Data.SQLite.Linq.dll
 C:\ palinoia\Palinoia\bin\Palinoia.XML
+C:\palinoiaqa\Palinoia\bin\Palinoia.XML
+C:\palinoiaqa\Palinoia\bin\Palinoia.dll
+C:\palinoiaqa\Palinoia\bin\Palinoia.pdb
+C:\palinoiaqa\Palinoia\bin\BLL.dll
+C:\palinoiaqa\Palinoia\bin\CKEditor.NET.dll
+C:\palinoiaqa\Palinoia\bin\Entities.dll
+C:\palinoiaqa\Palinoia\bin\EntityFramework.dll
+C:\palinoiaqa\Palinoia\bin\Enums.dll
+C:\palinoiaqa\Palinoia\bin\Newtonsoft.Json.dll
+C:\palinoiaqa\Palinoia\bin\System.Data.SQLite.dll
+C:\palinoiaqa\Palinoia\bin\System.Data.SQLite.Linq.dll
+C:\palinoiaqa\Palinoia\bin\DAL.dll
+C:\palinoiaqa\Palinoia\bin\OpenSmtp.dll
+C:\palinoiaqa\Palinoia\bin\itextsharp.dll
+C:\palinoiaqa\Palinoia\bin\itextsharp.xmlworker.dll
+C:\palinoiaqa\Palinoia\bin\BLL.pdb
+C:\palinoiaqa\Palinoia\bin\BLL.xml
+C:\palinoiaqa\Palinoia\bin\Entities.pdb
+C:\palinoiaqa\Palinoia\bin\Entities.xml
+C:\palinoiaqa\Palinoia\bin\Enums.pdb
+C:\palinoiaqa\Palinoia\bin\Enums.xml
+C:\palinoiaqa\Palinoia\bin\EntityFramework.xml
+C:\palinoiaqa\Palinoia\bin\DAL.pdb
+C:\palinoiaqa\Palinoia\bin\DAL.xml
+C:\palinoiaqa\Palinoia\bin\itextsharp.xml
+C:\palinoiaqa\Palinoia\obj\Debug\Palinoia.csprojResolveAssemblyReference.cache
+C:\palinoiaqa\Palinoia\obj\Debug\Palinoia.dll
+C:\palinoiaqa\Palinoia\obj\Debug\Palinoia.pdb

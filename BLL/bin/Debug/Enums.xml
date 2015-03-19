@@ -4,6 +4,66 @@
         <name>Enums</name>
     </assembly>
     <members>
+        <member name="T:Enums.defectPriorityEnums">
+            <summary>
+            class to hold code for defect priority Enums from lkup_DefectPriority
+            </summary>
+        </member>
+        <member name="T:Enums.defectPriorityEnums.DefectPriority">
+            <summary>
+            constructor for chapter type enums
+            </summary>
+        </member>
+        <member name="F:Enums.defectPriorityEnums.DefectPriority.Critical">
+            <summary>
+            value for critical
+            </summary>
+        </member>
+        <member name="F:Enums.defectPriorityEnums.DefectPriority.High">
+            <summary>
+            value for high
+            </summary>
+        </member>
+        <member name="F:Enums.defectPriorityEnums.DefectPriority.Medium">
+            <summary>
+            value for medium
+            </summary>
+        </member>
+        <member name="F:Enums.defectPriorityEnums.DefectPriority.Low">
+            <summary>
+            value for low
+            </summary>
+        </member>
+        <member name="T:Enums.documentTypeEnums">
+            <summary>
+            class to hold code for documentTypeEnums 
+            </summary>
+        </member>
+        <member name="T:Enums.documentTypeEnums.DocumentType">
+            <summary>
+            function to store enum values for document types
+            </summary>
+        </member>
+        <member name="F:Enums.documentTypeEnums.DocumentType.Functional">
+            <summary>
+            value for functional document type
+            </summary>
+        </member>
+        <member name="F:Enums.documentTypeEnums.DocumentType.Technical">
+            <summary>
+            value for technical document type
+            </summary>
+        </member>
+        <member name="F:Enums.documentTypeEnums.DocumentType.TestCase">
+            <summary>
+            value for test case document type
+            </summary>
+        </member>
+        <member name="F:Enums.documentTypeEnums.DocumentType.Miscellaneous">
+            <summary>
+            value for miscellaneous document type
+            </summary>
+        </member>
         <member name="T:Enums.SearchDataTypeEnums">
             <summary>
             class to hold code for SearchDataTypeEnums
@@ -634,46 +694,6 @@
             id for defects delete feature
             </summary>
         </member>
-        <member name="T:Enums.documentTypeEnums">
-            <summary>
-            class to hold code for documentTypeEnums 
-            </summary>
-        </member>
-        <member name="T:Enums.documentTypeEnums.DocumentType">
-            <summary>
-            function to store enum values for document types
-            </summary>
-        </member>
-        <member name="F:Enums.documentTypeEnums.DocumentType.Functional">
-            <summary>
-            value for functional document type
-            </summary>
-        </member>
-        <member name="F:Enums.documentTypeEnums.DocumentType.Technical">
-            <summary>
-            value for technical document type
-            </summary>
-        </member>
-        <member name="F:Enums.documentTypeEnums.DocumentType.TestCase">
-            <summary>
-            value for test case document type
-            </summary>
-        </member>
-        <member name="F:Enums.documentTypeEnums.DocumentType.Miscellaneous">
-            <summary>
-            value for miscellaneous document type
-            </summary>
-        </member>
-        <member name="T:Enums.csmeEnums">
-            <summary>
-            class to hold code for chapterTypeEnums
-            </summary>
-        </member>
-        <member name="T:Enums.csmeEnums.CSM">
-            <summary>
-            constructor for chapter type enums
-            </summary>
-        </member>
         <member name="T:Enums.testStatusEnums">
             <summary>
             class to hold enumeration code for testStatusEnums
@@ -697,6 +717,41 @@
         <member name="F:Enums.testStatusEnums.TestStatus.Untested">
             <summary>
             Untested value
+            </summary>
+        </member>
+        <member name="T:Enums.searchObjectTypeEnums">
+            <summary>
+            class to hold code for search object type Enums 
+            </summary>
+        </member>
+        <member name="T:Enums.searchObjectTypeEnums.SearchObjectType">
+            <summary>
+            function to store enum values for search object types
+            </summary>
+        </member>
+        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.BusinessRules">
+            <summary>
+            class variable to store value for business rules
+            </summary>
+        </member>
+        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.CustomerServiceMessages">
+            <summary>
+            class variable to store value for CustomerServiceMessages
+            </summary>
+        </member>
+        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.Defects">
+            <summary>
+            class variable to store value for  Defects
+            </summary>
+        </member>
+        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.TestCases">
+            <summary>
+            class variable to store value for TestCases
+            </summary>
+        </member>
+        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.Documents">
+            <summary>
+            class variable to store value for Documents
             </summary>
         </member>
         <member name="T:Enums.defectStatusEnums">
@@ -789,69 +844,14 @@
             value for system
             </summary>
         </member>
-        <member name="T:Enums.defectPriorityEnums">
+        <member name="T:Enums.csmeEnums">
             <summary>
-            class to hold code for defect priority Enums from lkup_DefectPriority
+            class to hold code for chapterTypeEnums
             </summary>
         </member>
-        <member name="T:Enums.defectPriorityEnums.DefectPriority">
+        <member name="T:Enums.csmeEnums.CSM">
             <summary>
             constructor for chapter type enums
-            </summary>
-        </member>
-        <member name="F:Enums.defectPriorityEnums.DefectPriority.Critical">
-            <summary>
-            value for critical
-            </summary>
-        </member>
-        <member name="F:Enums.defectPriorityEnums.DefectPriority.High">
-            <summary>
-            value for high
-            </summary>
-        </member>
-        <member name="F:Enums.defectPriorityEnums.DefectPriority.Medium">
-            <summary>
-            value for medium
-            </summary>
-        </member>
-        <member name="F:Enums.defectPriorityEnums.DefectPriority.Low">
-            <summary>
-            value for low
-            </summary>
-        </member>
-        <member name="T:Enums.searchObjectTypeEnums">
-            <summary>
-            class to hold code for search object type Enums 
-            </summary>
-        </member>
-        <member name="T:Enums.searchObjectTypeEnums.SearchObjectType">
-            <summary>
-            function to store enum values for search object types
-            </summary>
-        </member>
-        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.BusinessRules">
-            <summary>
-            class variable to store value for business rules
-            </summary>
-        </member>
-        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.CustomerServiceMessages">
-            <summary>
-            class variable to store value for CustomerServiceMessages
-            </summary>
-        </member>
-        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.Defects">
-            <summary>
-            class variable to store value for  Defects
-            </summary>
-        </member>
-        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.TestCases">
-            <summary>
-            class variable to store value for TestCases
-            </summary>
-        </member>
-        <member name="F:Enums.searchObjectTypeEnums.SearchObjectType.Documents">
-            <summary>
-            class variable to store value for Documents
             </summary>
         </member>
     </members>

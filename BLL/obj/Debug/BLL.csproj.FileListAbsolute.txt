@@ -17,3 +17,28 @@ C:\ palinoia\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\ palinoia\BLL\obj\Debug\BLL.dll
 C:\ palinoia\BLL\obj\Debug\BLL.pdb
 C:\ palinoia\BLL\bin\Debug\BLL.XML
+C:\palinoiaqa\BLL\bin\Debug\BLL.XML
+C:\palinoiaqa\BLL\bin\Debug\BLL.dll
+C:\palinoiaqa\BLL\bin\Debug\BLL.pdb
+C:\palinoiaqa\BLL\bin\Debug\cli_basetypes.dll
+C:\palinoiaqa\BLL\bin\Debug\cli_cppuhelper.dll
+C:\palinoiaqa\BLL\bin\Debug\cli_oootypes.dll
+C:\palinoiaqa\BLL\bin\Debug\cli_ure.dll
+C:\palinoiaqa\BLL\bin\Debug\cli_uretypes.dll
+C:\palinoiaqa\BLL\bin\Debug\DAL.dll
+C:\palinoiaqa\BLL\bin\Debug\Entities.dll
+C:\palinoiaqa\BLL\bin\Debug\Enums.dll
+C:\palinoiaqa\BLL\bin\Debug\itextsharp.dll
+C:\palinoiaqa\BLL\bin\Debug\itextsharp.xmlworker.dll
+C:\palinoiaqa\BLL\bin\Debug\OpenSmtp.dll
+C:\palinoiaqa\BLL\bin\Debug\System.Data.SQLite.dll
+C:\palinoiaqa\BLL\bin\Debug\DAL.pdb
+C:\palinoiaqa\BLL\bin\Debug\DAL.xml
+C:\palinoiaqa\BLL\bin\Debug\Entities.pdb
+C:\palinoiaqa\BLL\bin\Debug\Entities.xml
+C:\palinoiaqa\BLL\bin\Debug\Enums.pdb
+C:\palinoiaqa\BLL\bin\Debug\Enums.xml
+C:\palinoiaqa\BLL\bin\Debug\itextsharp.xml
+C:\palinoiaqa\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\palinoiaqa\BLL\obj\Debug\BLL.dll
+C:\palinoiaqa\BLL\obj\Debug\BLL.pdb

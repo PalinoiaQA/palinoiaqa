@@ -4,905 +4,6 @@
         <name>DAL</name>
     </assembly>
     <members>
-        <member name="T:DAL.TestCasesDAL">
-            <summary>
-            class to provide data access for TestCasesBLL object
-            </summary>
-        </member>
-        <member name="M:DAL.TestCasesDAL.#ctor(System.Int32)">
-            <summary>
-            constructor with one parameter
-            </summary>
-            <param name="projectID">int</param>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getAllTestCases">
-            <summary>
-            fetch all test cases from the database
-            </summary>
-            <returns>List&lt;TestCase&gt;</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getTestCaseByID(System.Int32)">
-            <summary>
-            fetch a test case from the database by ID
-            </summary>
-            <param name="testCaseID">int</param>
-            <returns>TestCase</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getAllTestCasesBySection(System.Int32)">
-            <summary>
-            get all test cases by section
-            </summary>
-            <param name="sectionID">int</param>
-            <returns>List&lt;viewTestCase>&gt;</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.addNewTestCase(Entities.viewTestCase)">
-            <summary>
-            add a test case to the database
-            </summary>
-            <param name="tc">viewTestCase</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.deleteTestCase(System.Int32,System.Int32)">
-            <summary>
-            delete a test case and its' steps from the database
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.updateTestCase(Entities.viewTestCase)">
-            <summary>
-            update a test case in the database
-            </summary>
-            <param name="vtestCase">viewTestCase</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getBusinessRulesForTestCase(System.Int32)">
-            <summary>
-            get business rules for test case
-            </summary>
-            <param name="testCaseID">int</param>
-            <returns>List&lt;viewBusinessRule&gt;</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.createTestCaseBusinessRuleRelationships(System.Int32,System.Collections.Generic.List{Entities.viewBusinessRule})">
-            <summary>
-            create test case/business rule relationship records in db from generic list
-            of associated view business rules
-            </summary>
-            <param name="testCaseID">int</param>
-            <param name="brList">List&lt;viewBusinessRule&gt;</param>
-            <returns></returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.deleteBusinessRuleRelationshipsForTestCaseID(System.Int32)">
-            <summary>
-            delete all test case/business rule relationship for a specific test case id
-            </summary>
-            <param name="testCaseID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.deleteTestCaseRelationshipsForBusinessRuleID(System.Int32)">
-            <summary>
-            delete all test case/business rule relationships for a specific business rule id
-            </summary>
-            <param name="businessRuleID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.updateTestCaseStatus(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            update test case status
-            </summary>
-            <param name="testCaseID">int</param>
-            <param name="testStatusID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.hasTestCases(System.Int32)">
-            <summary>
-            has test cases
-            </summary>
-            <param name="sectionID">int</param>
-            <returns>bool</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.hasTestSteps(System.Int32)">
-            <summary>
-            has test steps
-            </summary>
-            <param name="testCaseID">int</param>
-            <returns>bool</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getActiveTestSteps">
-            <summary>
-            return generic list of viewTestStep objects where Active = true
-            </summary>
-            <returns>List&lt;viewTestStep&gt;</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getTestStepByID(System.Int32)">
-            <summary>
-            fetch test step from the database by ID
-            </summary>
-            <param name="testStepID">int</param>
-            <returns>TestStep</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getTestStepByID(System.Int32,System.Int32)">
-            <summary>
-            overloaded method to fetch test step info by id including teststep/testcase
-            specific info since testcase id is passed in as a parameter
-            </summary>
-            <param name="testStepID">int</param>
-            <param name="testCaseID">int</param>
-            <returns>viewTestStep</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.addNewTestStep(Entities.viewTestStep,System.Int32)">
-            <summary>
-            add test step to a particular test case in the database
-            </summary>
-            <param name="ts">viewTestStep</param>
-            <param name="testCaseID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.removeTestStepBusinessRuleRelationship(System.Int32,System.Int32)">
-            <summary>
-            remove relationship link between test step and business rule
-            </summary>
-            <param name="testStepID">int</param>
-            <param name="businessRuleID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.removeTestStepTestCaseRelationship(System.Int32,System.Int32)">
-            <summary>
-            remove relationship link between test step and test case
-            </summary>
-            <param name="testStepID">int</param>
-            <param name="testCaseID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.removeAllTestStepBusinessRuleRelationshipsForTestCaseID(System.Int32,System.Int32)">
-            <summary>
-            Deletes all test step/business rule relationship records in db.  Typically called prior 
-            to saving new list of relationships
-            </summary>
-            <param name="testStepID">int</param>
-            <param name="testCaseID">int</param>
-        </member>
-        <member name="M:DAL.TestCasesDAL.updateTestStepForTestCase(Entities.viewTestStep,System.Int32)">
-            <summary>
-            updates test step if test case/test step relationship exists.
-            adds test case/test step relationship if it doesn't already exist before updating
-            </summary>
-            <param name="updateTestStep">viewTestStep</param>
-            <param name="testCaseID">int</param>
-        </member>
-        <member name="M:DAL.TestCasesDAL.updateTestStepBusinessRuleRelationships(System.Int32,System.Collections.Generic.List{Entities.viewBusinessRule})">
-            <summary>
-            adds test step/business rule relationships to db from geneeric list
-            </summary>
-            <param name="testStepID">int</param>
-            <param name="brList">List&lt;viewBusinessRule&gt;</param>
-        </member>
-        <member name="M:DAL.TestCasesDAL.resequenceTestSteps(System.Int32,System.Collections.Generic.List{System.Int32})">
-            <summary>
-            resequence test steps in the database
-            </summary>
-            <param name="testCaseID">int</param>
-            <param name="sequence">List&lt;int&gt;</param>
-        </member>
-        <member name="M:DAL.TestCasesDAL.updateSeqNumForTestStep(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            handles events when test steps must be re-sequenced
-            </summary>
-            <param name="testCaseID">int</param>
-            <param name="testStepID">int</param>
-            <param name="seqNum">int</param>
-        </member>
-        <member name="M:DAL.TestCasesDAL.updateTestStepText(Entities.viewTestStep)">
-            <summary>
-            handles events when a test step is updated
-            </summary>
-            <param name="ts">viewTestStep</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getTestStepsForTestCase(System.Int32)">
-            <summary>
-            fetch test steps for a particular test case from the database
-            </summary>
-            <param name="testCaseID">int</param>
-            <returns>List&lt;TestStep&gt;</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.addTestCaseTestStepRelationship(System.Int32,Entities.viewTestStep)">
-            <summary>
-            add a test step to a particular test case in the database
-            </summary>
-            <param name="testCaseID">int</param>
-            <param name="testStep">viewTestStep</param>
-        </member>
-        <member name="M:DAL.TestCasesDAL.addTestStep_BusinessRuleRelationship(System.Int32,System.Int32)">
-            <summary>
-            handles events when a test step - business rule relationship is added to the database
-            </summary>
-            <param name="testStepID">int</param>
-            <param name="businessRuleID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getNextTestStepSequenceNumber(System.Int32)">
-            <summary>
-            fetches the next test step sequence number by test case ID
-            </summary>
-            <param name="testCaseID">int</param>
-            <returns>int</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getTestCaseForTestStep(System.Int32)">
-            <summary>
-            return partent test case for test step id
-            </summary>
-            <param name="testStepID">int</param>
-            <returns>viewTestCase</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.savePreConditionsForTestCase(System.Int32,System.Collections.Generic.List{System.Int32})">
-            <summary>
-            save preconditions for test case
-            </summary>
-            <param name="testCaseID">int</param>
-            <param name="preConditionTestCaseIDs">List&lt;int&gt;</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getPreConditionsForTestCase(System.Int32)">
-            <summary>
-            fetch preconditions for tese case
-            </summary>
-            <param name="testCaseID">int</param>
-            <returns>List&lt;PreCondition&gt;</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.addPreConditionTestCaseRelationship(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            add precondition test case relationship
-            </summary>
-            <param name="tcID">int</param>
-            <param name="pctcID">int</param>
-            <param name="seqnum">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.removeAllPreConditionTestCases(System.Int32)">
-            <summary>
-            remove precondition test case relationship
-            </summary>
-            <param name="tcID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.saveTestResult(Entities.viewTestResult)">
-            <summary>
-            Saves test result record to db
-            </summary>
-            <param name="tr">viewTestResult</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.TestCasesDAL.getLatestTestResult(System.Int32,System.Int32)">
-            <summary>
-            gets latest(by date desc) test result for specific test case/test step
-            </summary>
-            <param name="testCaseID">int</param>
-            <param name="testStepID">int</param>
-            <returns>viewTestResult</returns>
-        </member>
-        <member name="P:DAL.TestCasesDAL.currentProjectID">
-            <summary>
-            an ID int to identify the current project being worked on 
-            </summary>
-        </member>
-        <member name="T:DAL.DefectsDAL">
-            <summary>
-            data access class layer for defect objects
-            </summary>
-        </member>
-        <member name="F:DAL.DefectsDAL.appDAL">
-            <summary>
-            class variable to store application DAL
-            </summary>
-        </member>
-        <member name="M:DAL.DefectsDAL.#ctor(System.Int32)">
-            <summary>
-            constructor for documentsDAL
-            </summary>
-            <param name="projectID">int</param>
-        </member>
-        <member name="M:DAL.DefectsDAL.getAllOpenDefects">
-            <summary>
-            fetch all open (closed = false) defects in database
-            ordered by created date descending (newest on top)
-            </summary>
-            <returns>List&lt;Defect&gt;</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.getDefectbyID(System.Int32)">
-            <summary>
-            build viewDefect object from database record for selected ID
-            </summary>
-            <param name="defectID">int</param>
-            <returns>viewDefect</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.updateDefect(Entities.viewDefect,System.Int32)">
-            <summary>
-            updates database record from viewDefect
-            </summary>
-            <param name="defect">viewDefect</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.addNewDefect(Entities.viewDefect,System.Int32)">
-            <summary>
-            add new defect
-            </summary>
-            <param name="defect">viewDefect</param>
-            <param name="userID">int</param>
-            <returns>int</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.deleteDefectByID(System.Int32,System.Int32)">
-            <summary>
-            deletes Defect record from Defects table by ID
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.addComment(Entities.viewComment)">
-            <summary>
-            add comment
-            </summary>
-            <param name="comment">viewComment</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.getCommentsForDefect(System.Int32)">
-            <summary>
-            fetch comments for defect
-            </summary>
-            <param name="defectID">int</param>
-            <returns>List&lt;Defect_Comments&gt;</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.deleteCommentsForDefect(System.Int32)">
-            <summary>
-            Deletes all comment records from Defect_Comments for specific defect id.
-            This is used to delete associated comment records when a defect is deleted.
-            </summary>
-            <param name="defectID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.createDefectBusinessRuleRelationship(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            stores businessRuleID and defectID in Defect_BusinessRule table
-            </summary>
-            <param name="businessRuleID">int</param>
-            <param name="defectID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.deleteDefectBusinessRuleRelationshipByBRID(System.Int32,System.Int32)">
-            <summary>
-            delete all relationship records in Defect_BusinessRules that contain business rule id parameter
-            </summary>
-            <param name="businessRuleID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.deleteDefectBusinessRuleRelationshipByDefectID(System.Int32,System.Int32)">
-            <summary>
-            delete all relationship records in Defect_BusinessRules that contain defect id parameter
-            </summary>
-            <param name="defectID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.getBusinessRuleForDefectID(System.Int32)">
-            <summary>
-            get a single viewBusinessRule record associated with the defect id parameter
-            in Defect_BusinessRule table
-            </summary>
-            <param name="defectID">int</param>
-            <returns>viewBusinessRule</returns>
-        </member>
-        <member name="M:DAL.DefectsDAL.getDefectForBusinessRuleID(System.Int32)">
-            <summary>
-            get a single viewDefect record for businessRuleID parameter in the
-            Defect_BusinessRule table
-            </summary>
-            <param name="businessRuleID">int</param>
-            <returns>viewDefect</returns>
-        </member>
-        <member name="P:DAL.DefectsDAL.ProjectID">
-            <summary>
-            class variable to store project ID
-            </summary>
-        </member>
-        <member name="T:DAL.applicationDAL">
-            <summary>
-            class to hold the code for the palinoia data access layer which includes application wide
-            information that is not project specific: Projects, Features, Roles, Users
-            </summary>
-        </member>
-        <member name="F:DAL.applicationDAL.createClientTablesSQLFileName">
-            <summary>
-            stores the file name of the SQL script used to generate 
-            all tables and values necessary for a new project
-            </summary>
-        </member>
-        <member name="M:DAL.applicationDAL.#ctor">
-            <summary>
-            constructor with no parameters
-            </summary>
-        </member>
-        <member name="M:DAL.applicationDAL.#ctor(System.Int32)">
-            <summary>
-            constructor with one parameter
-            </summary>
-            <param name="projectID">int</param>
-        </member>
-        <member name="M:DAL.applicationDAL.getContextForProject">
-            <summary>
-            creates a new entity within entity framework
-            </summary>
-            <returns>palinoiaEntities</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getContextForPalinoia">
-            <summary>
-            creates a new entity within entity framework
-            </summary>
-            <returns>palinoiaEntities</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getMenuItemByID(System.Int32)">
-            <summary>
-            fetch menu item by ID
-            </summary>
-            <param name="id">int</param>
-            <returns>NavigationMenuItem</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getChildNodesForParentID(System.Int32)">
-            <summary>
-            fetch child nodes for parent ID
-            </summary>
-            <param name="parentID">int</param>
-            <returns>List&lt;NavigationMenuItem&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.hasChildNodes(System.Int32)">
-            <summary>
-            has child nodes
-            </summary>
-            <param name="nodeID">int</param>
-            <returns>bool</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.createNewProjectDatabase(System.String,System.String)">
-            <summary>
-            creates a separate database for a specified project
-            </summary>
-            <param name="SQL">string</param>
-            <param name="projectDataSource">string</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getAllProjects">
-            <summary>
-            fetches a list all palinoia projects
-            </summary>
-            <returns>List&lt;viewProject&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.saveNewProject(Entities.viewProject)">
-            <summary>
-            save new project to the database
-            </summary>
-            <param name="project">viewProject</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.updateProject(Entities.viewProject)">
-            <summary>
-            update a project in the database
-            </summary>
-            <param name="project">viewProject</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.deleteProject(System.Int32,System.Int32)">
-            <summary>
-            delete a project from the database 
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getProjectByID(System.Int32)">
-            <summary>
-            fetch project by ID
-            </summary>
-            <param name="projectID">int</param>
-            <returns></returns>
-        </member>
-        <member name="M:DAL.applicationDAL.loginUser(Entities.viewUser)">
-            <summary>
-            fetches user ID from database
-            </summary>
-            <param name="user">viewUser</param>
-            <returns>int</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getFeaturesForUser(Entities.viewUser)">
-            <summary>
-            fetches features for user from database
-            </summary>
-            <param name="user">viewUser</param>
-            <returns>List&lt;lkup_Features&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getAllUsers">
-            <summary>
-            fetch all users from the database
-            </summary>
-            <returns>List&lt;viewUser&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getUserByID(System.Int32)">
-            <summary>
-            fetch a user from the database by ID
-            </summary>
-            <param name="userID">int</param>
-            <returns>viewUser</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.addUser(Entities.viewUser)">
-            <summary>
-            add a user to the database 
-            </summary>
-            <param name="vUser">viewUser</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.updateUser(Entities.viewUser)">
-            <summary>
-            update a user in the database
-            </summary>
-            <param name="vUser">viewUser</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.deleteUser(System.Int32,System.Int32)">
-            <summary>
-            delete a user from the database
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.updateUserProject(System.Int32,System.Int32)">
-            <summary>
-            update user project
-            </summary>
-            <param name="userID">int</param>
-            <param name="projectID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getProjectForUser(System.Int32)">
-            <summary>
-            fetch project for user
-            </summary>
-            <param name="userID">int</param>
-            <returns>int</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getAllRoles">
-            <summary>
-            fetch all roles from the database
-            </summary>
-            <returns>List&lt;lkup_Roles&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getRoleByID(System.Int32)">
-            <summary>
-            fetch a role from the database by ID
-            </summary>
-            <param name="roleID">int</param>
-            <returns>viewRole</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.addRole(Entities.viewRole)">
-            <summary>
-            add a role to the database
-            </summary>
-            <param name="vRole">viewRole</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.updateRole(Entities.viewRole)">
-            <summary>
-            update a role in the database
-            </summary>
-            <param name="vRole">viewRole</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.deleteRole(System.Int32,System.Int32)">
-            <summary>
-            delete a role from the database
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getRoleFeatures(System.Int32)">
-            <summary>
-            fetch the features associated with a particular role from the database
-            </summary>
-            <param name="roleID">int</param>
-            <returns>List&lt;lkup_Features&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getAvailableFeaturesForRole(System.Int32)">
-            <summary>
-            fetch the available features associated with a particular role from the database
-            </summary>
-            <param name="roleID">int</param>
-            <returns>List&lt;lkup_Features&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.addFeatureToRole(System.Int32,System.Int32)">
-            <summary>
-            associate a particular feature with a particular role in the database
-            </summary>
-            <param name="roleID">int</param>
-            <param name="featureID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.removeFeatureFromRole(System.Int32,System.Int32)">
-            <summary>
-            remove the association of a particular feature with a particular role in the database
-            </summary>
-            <param name="roleID">int</param>
-            <param name="featureID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getAllFeatures">
-            <summary>
-            fetch all features from the database
-            </summary>
-            <returns>List&lt;lkup_Features&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getFeatureByID(System.Int32)">
-            <summary>
-            fetch a feature from the database by ID
-            </summary>
-            <param name="featureID">int</param>
-            <returns>viewFeature</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.addFeature(Entities.viewFeature)">
-            <summary>
-            add a feature to the database
-            </summary>
-            <param name="vFeature">viewFeature</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.updateFeature(Entities.viewFeature)">
-            <summary>
-            update a feature in the database
-            </summary>
-            <param name="vFeature">viewFeature</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.deleteFeature(System.Int32,System.Int32)">
-            <summary>
-            delete a feature from the database
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getAllActiveErrors">
-            <summary>
-            fetches all error log records from Application_Errors table
-            </summary>
-            <returns>List&lt;Application_Errors&gt;</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getErrorByID(System.Int32)">
-            <summary>
-            get a single error log record by id
-            </summary>
-            <param name="errorID">int</param>
-            <returns>viewError</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.clearErrors">
-            <summary>
-            delete all error log records from Application_Errors table
-            </summary>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.logError(System.Exception,System.Int32,System.Int32)">
-            <summary>
-            logs a particular error message
-            </summary>
-            <param name="ex">Exception</param>
-            <param name="projectID">int</param>
-            <param name="userID">int</param>
-        </member>
-        <member name="M:DAL.applicationDAL.GetEnvData(System.String)">
-            <summary>
-            class to pull webconfig values by key
-            </summary>
-            <param name="library">key</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getDataSourceForCurrentProject">
-            <summary>
-            fetches a data source for a selected project from the database
-            </summary>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.applicationDAL.getDataSourceForPalinoia">
-            <summary>
-            fetches a data source for a selected project from the database
-            </summary>
-            <returns>string</returns>
-        </member>
-        <member name="P:DAL.applicationDAL.currentProjectID">
-            <summary>
-            stores the id of the project used to create this applicationDAL object
-            </summary>
-        </member>
-        <member name="T:DAL.SearchDAL">
-            <summary>
-            class to hold code for SearchDAL
-            </summary>
-        </member>
-        <member name="M:DAL.SearchDAL.#ctor(System.Int32)">
-            <summary>
-            constructor with one parameter
-            </summary>
-            <param name="projectID">int</param>
-        </member>
-        <member name="M:DAL.SearchDAL.getDDLSearchObjectsForTypeID(System.Int32)">
-            <summary>
-            fetch DDL search object for type ID
-            </summary>
-            <param name="searchTypeID">int</param>
-            <returns>List&lt;SearchObject&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getSearchObjectsForTypeID(System.Int32)">
-            <summary>
-            fetch search object for type ID
-            </summary>
-            <param name="searchTypeID">int</param>
-            <returns>List&lt;lkup_SearchObjects&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getSearchObjectByID(System.Int32)">
-            <summary>
-            fetch search object by ID
-            </summary>
-            <param name="id">int</param>
-            <returns>lkup_SearchObjects</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getDefectsForSearchResults(System.Collections.Generic.List{Entities.BasicSearchResult})">
-            <summary>
-            fetch defects for search results
-            </summary>
-            <param name="resultList">List&lt;BasicSearchResult&gt;</param>
-            <returns>List&lt;viewDefect&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getDefectsForSearchResults(System.Collections.Generic.List{System.Int32})">
-            <summary>
-            fetch defects for search results
-            </summary>
-            <param name="resultList">List&lt;BasicSearchResult&gt;</param>
-            <returns>List&lt;viewDefect&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.executeDefectCommentsSearch(System.String)">
-            <summary>
-            execute defect comments search
-            </summary>
-            <param name="searchValue">string</param>
-            <returns>List&lt;BasicSearchResult&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.executeIDSearch(System.String,System.Int32)">
-            <summary>
-            execute ID search
-            </summary>
-            <param name="sql">string</param>
-            <param name="displayPriority">int</param>
-            <returns>List&lt;BasicSearchResult&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.executeIDSearch(System.Int32,System.String)">
-            <summary>
-            execute ID search
-            </summary>
-            <param name="rowIndex">int</param>
-            <param name="sql">string</param>
-            <returns>List&lt;BasicSearchResult&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.executeRecordSearch(System.String)">
-            <summary>
-            execute record search
-            </summary>
-            <param name="sql">string</param>
-            <returns>List&lt;DDLValueItem&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getDataTypeForSearchObjectID(System.Int32)">
-            <summary>
-            fetch data type for search object ID
-            </summary>
-            <param name="searchObjectID">int</param>
-            <returns>int</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getDDLValuesForSearchObject(System.Int32)">
-            <summary>
-            fetch DDL values for search object
-            </summary>
-            <param name="searchObjectID">int</param>
-            <returns>List&lt;DDLValueItem&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getUsersForDDL">
-            <summary>
-            fetch users for DDL
-            </summary>
-            <returns>List&lt;DDLValueItem&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getSearchOperators">
-            <summary>
-            fetch search operators
-            </summary>
-            <returns>List&lt;string&gt;</returns>
-        </member>
-        <member name="M:DAL.SearchDAL.getSearchOperatorByID(System.Int32)">
-            <summary>
-            return string value for operator for operator id
-            </summary>
-            <param name="searchOperatorID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="P:DAL.SearchDAL.ProjectID">
-            <summary>
-            an ID int to identify a particular project
-            </summary>
-        </member>
-        <member name="T:DAL.CustomerServiceMessagesDAL">
-            <summary>
-            class to hold code for CustomerServiceMessagesDAL
-            </summary>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.#ctor(System.Int32)">
-            <summary>
-            constructor with one param
-            </summary>
-            <param name="projectID">int</param>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.hasCSM(System.Int32)">
-            <summary>
-            has customer service message
-            </summary>
-            <param name="sectionID">int</param>
-            <returns>bool</returns>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.getAllCSMs">
-            <summary>
-            fetches a list of all customer service messages from the database
-            </summary>
-            <returns>List&lt;viewCustomerServiceMessage&gt;</returns>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.getCSMByID(System.Int32)">
-            <summary>
-            fetches a customer service message from the database by ID
-            </summary>
-            <param name="csmID">int</param>
-            <returns>viewCustomerServiceMessage</returns>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.getAllCSMsBySection(System.Int32)">
-            <summary>
-            get all customer service messages by section id
-            </summary>
-            <param name="sectionID">int</param>
-            <returns>List&lt;viewCustomerServiceMessages&gt;</returns>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.addCSM(Entities.viewCustomerServiceMessage)">
-            <summary>
-            adds a new csm record to the database
-            </summary>
-            <param name="vCSM">viewCustomerServiceMessage</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.updateCSM(Entities.viewCustomerServiceMessage)">
-            <summary>
-            update a customer service message record in the database
-            </summary>
-            <param name="vCSM">viewCustomerServiceMessage</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.CustomerServiceMessagesDAL.deleteCSM(System.Int32,System.Int32)">
-            <summary>
-            delete a customer service message record from the database
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="P:DAL.CustomerServiceMessagesDAL.ProjectID">
-            <summary>
-            an ID int to identify a particular project
-            </summary>
-        </member>
         <member name="T:DAL.palinoiaEntities">
             <summary>
             No Metadata Documentation available.
@@ -3089,543 +2190,1063 @@
             No Metadata Documentation available.
             </summary>
         </member>
-        <member name="T:DAL.AdminDAL">
+        <member name="T:DAL.DocumentsDAL">
             <summary>
-            class to hold the code for the admistrative part of the palinoia data access layer
+            Class handles data access for DocumentsBLL
             </summary>
         </member>
-        <member name="M:DAL.AdminDAL.#ctor(System.Int32)">
+        <member name="M:DAL.DocumentsDAL.#ctor(System.Int32)">
+            <summary>
+            constructor for documentsDAL
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getAllDocuments">
+            <summary>
+            fetch all documents from the database
+            </summary>
+            <returns>List&lt;Document&gt;</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getAllViewDocuments">
+            <summary>
+            fetch all documents from the database
+            </summary>
+            <returns>Listl&lt;Document&gt;</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getAllActiveDocuments">
+            <summary>
+            fetch all active documents from the database
+            </summary>
+            <returns>List&lt;Document&gt;</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getDocumentsByType(System.Int32)">
+            <summary>
+            fetch all documents by type id
+            </summary>
+            <param name="docTypeID">int</param>
+            <returns>List&lt;Document&gt;</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.deleteDocumentByID(System.Int32)">
+            <summary>
+            delete document by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getDocumentByID(System.Int32)">
+            <summary>
+            fetch document by ID
+            </summary>
+            <param name="docID">int</param>
+            <returns>viewDocument</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.addNewDocument(Entities.viewDocument)">
+            <summary>
+            add new document to dbo.Documents.  Returns "OK" or error 
+            </summary>
+            <param name="doc">viewDocument</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.updateDocument(Entities.viewDocument)">
+            <summary>
+            update Document record in the database
+            </summary>
+            <param name="doc">viewDocument</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.saveDocumentChapterRelationship(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            save document-chapter relationships
+            </summary>
+            <param name="documentID">int</param>
+            <param name="chapterID">int</param>
+            <param name="seqNum">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getTestCaseIDForDocumentID(System.Int32)">
+            <summary>
+            fetch test case ID for document ID
+            </summary>
+            <param name="documentID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getNextChapterSequenceNumber(System.Int32)">
+            <summary>
+            fetches the next chapter sequence number by document id
+            </summary>
+            <param name="documentID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getChaptersForDocumentID(System.Int32)">
+            <summary>
+            fetch chapters for document ID
+            </summary>
+            <param name="documentID">int</param>
+            <returns>List&lt;viewChapter&gt;</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getChapterByID(System.Int32)">
+            <summary>
+            fetch chapter by ID
+            </summary>
+            <param name="chapterID">int</param>
+            <returns>viewChapter</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.addNewChapter(System.Int32,Entities.viewChapter)">
+            <summary>
+            add new chapter
+            </summary>
+            <param name="documentID">int</param>
+            <param name="newChapter">viewChapter</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.updateChapter(Entities.viewChapter)">
+            <summary>
+            update chapter
+            </summary>
+            <param name="editChapter">viewChapter</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.deleteChapterByID(System.Int32,System.Int32)">
+            <summary>
+            delete chapter by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getDocumentIDForChapter(System.Int32)">
+            <summary>
+            fetch document ID for chapter
+            </summary>
+            <param name="chapterID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.addImage(Entities.ImageData)">
+            <summary>
+            add an image
+            </summary>
+            <param name="iData">ImageData</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getImageFileNameByID(System.Int32)">
+            <summary>
+            fetch image file name by ID.  retures default image not
+            found graphic(ID = 1) if no image located.
+            </summary>
+            <param name="id">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DocumentsDAL.getNextImageID(System.String,System.String)">
+            <summary>
+            if image filename is found in the database,
+            returnn the id of that image.
+            if no image is found, return the next pk sequence
+            number that will be assigned when image is saved.
+            </summary>
+            <param name="dbDataSource">string</param>
+            <param name="fileName">string</param>
+            <returns>int</returns>
+        </member>
+        <member name="P:DAL.DocumentsDAL.ProjectID">
+            <summary>
+            class variable to store project ID
+            </summary>
+        </member>
+        <member name="T:DAL.SearchDAL">
+            <summary>
+            class to hold code for SearchDAL
+            </summary>
+        </member>
+        <member name="M:DAL.SearchDAL.#ctor(System.Int32)">
             <summary>
             constructor with one parameter
             </summary>
             <param name="projectID">int</param>
         </member>
-        <member name="M:DAL.AdminDAL.getAllCSMResponsesTypes">
+        <member name="M:DAL.SearchDAL.getDDLSearchObjectsForTypeID(System.Int32)">
             <summary>
-            fetch all response types from the database
+            fetch DDL search object for type ID
             </summary>
-            <returns>List&lt;lkup_CSMResponseType&gt;</returns>
+            <param name="searchTypeID">int</param>
+            <returns>List&lt;SearchObject&gt;</returns>
         </member>
-        <member name="M:DAL.AdminDAL.getAllActiveCSMResponsesTypes">
+        <member name="M:DAL.SearchDAL.getSearchObjectsForTypeID(System.Int32)">
             <summary>
-            fetch all active response types from the database
+            fetch search object for type ID
             </summary>
-            <returns>List&lt;lkup_CSMResponseType&gt;</returns>
+            <param name="searchTypeID">int</param>
+            <returns>List&lt;lkup_SearchObjects&gt;</returns>
         </member>
-        <member name="M:DAL.AdminDAL.getCSMResponseTypeByID(System.Int32)">
+        <member name="M:DAL.SearchDAL.getSearchObjectByID(System.Int32)">
             <summary>
-            fetch a response type from the database by ID
+            fetch search object by ID
             </summary>
-            <param name="csmResponseTypeID">int</param>
-            <returns>viewCSMResponseType</returns>
+            <param name="id">int</param>
+            <returns>lkup_SearchObjects</returns>
         </member>
-        <member name="M:DAL.AdminDAL.addCSMResponseType(Entities.viewCSMResponseType)">
+        <member name="M:DAL.SearchDAL.getDefectsForSearchResults(System.Collections.Generic.List{Entities.BasicSearchResult})">
             <summary>
-            add a response types to the database
+            fetch defects for search results
             </summary>
-            <param name="viewRT">viewCSMResponseType</param>
+            <param name="resultList">List&lt;BasicSearchResult&gt;</param>
+            <returns>List&lt;viewDefect&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.getDefectsForSearchResults(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            fetch defects for search results
+            </summary>
+            <param name="resultList">List&lt;BasicSearchResult&gt;</param>
+            <returns>List&lt;viewDefect&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.executeDefectCommentsSearch(System.String)">
+            <summary>
+            execute defect comments search
+            </summary>
+            <param name="searchValue">string</param>
+            <returns>List&lt;BasicSearchResult&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.executeIDSearch(System.String,System.Int32)">
+            <summary>
+            execute ID search
+            </summary>
+            <param name="sql">string</param>
+            <param name="displayPriority">int</param>
+            <returns>List&lt;BasicSearchResult&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.executeIDSearch(System.Int32,System.String)">
+            <summary>
+            execute ID search
+            </summary>
+            <param name="rowIndex">int</param>
+            <param name="sql">string</param>
+            <returns>List&lt;BasicSearchResult&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.executeRecordSearch(System.String)">
+            <summary>
+            execute record search
+            </summary>
+            <param name="sql">string</param>
+            <returns>List&lt;DDLValueItem&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.getDataTypeForSearchObjectID(System.Int32)">
+            <summary>
+            fetch data type for search object ID
+            </summary>
+            <param name="searchObjectID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.getDDLValuesForSearchObject(System.Int32)">
+            <summary>
+            fetch DDL values for search object
+            </summary>
+            <param name="searchObjectID">int</param>
+            <returns>List&lt;DDLValueItem&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.getUsersForDDL">
+            <summary>
+            fetch users for DDL
+            </summary>
+            <returns>List&lt;DDLValueItem&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.getSearchOperators">
+            <summary>
+            fetch search operators
+            </summary>
+            <returns>List&lt;string&gt;</returns>
+        </member>
+        <member name="M:DAL.SearchDAL.getSearchOperatorByID(System.Int32)">
+            <summary>
+            return string value for operator for operator id
+            </summary>
+            <param name="searchOperatorID">int</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.AdminDAL.deleteCSMResponseType(System.Int32,System.Int32)">
-            <summary>
-            delete a response types from the database
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateCSMResponseType(Entities.viewCSMResponseType)">
-            <summary>
-            update a response types in the database
-            </summary>
-            <param name="editResponseType">viewCSMResponseType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllStatuses">
-            <summary>
-            fetch all status types from the database
-            </summary>
-            <returns>List&lt;lkup_Status&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getStatusByID(System.Int32)">
-            <summary>
-            fetch a status from the database by ID
-            </summary>
-            <param name="statusID">int</param>
-            <returns>viewStatus</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addStatus(Entities.viewStatus)">
-            <summary>
-            add a new status types to the database
-            </summary>
-            <param name="status">viewStatus</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteStatus(System.Int32,System.Int32)">
-            <summary>
-            delete a status types from the database
-            </summary>
-            <param name="statusID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateStatus(Entities.viewStatus)">
-            <summary>
-            update a status type in the database
-            </summary>
-            <param name="status">viewStatus</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.StatusUsedInProject(System.Int32)">
-            <summary>
-            returns true if status has been used for a business rule in a project
-            </summary>
-            <param name="statusID"></param>
-            <returns></returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllCSMTypes">
-            <summary>
-            fetch all CSM types from the database
-            </summary>
-            <returns>List&lt;lkup_CSMType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllActiveCSMTypes">
-            <summary>
-            fetch all active CSM types from the database
-            </summary>
-            <returns>List&lt;lkup_CSMType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getCSMTypesByID(System.Int32)">
-            <summary>
-            fetch a CSMType from the database by ID
-            </summary>
-            <param name="CSMTypeID">int</param>
-            <returns>viewCSMType</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addCSMType(Entities.viewCSMType)">
-            <summary>
-            add a new CSMTypes to the database
-            </summary>
-            <param name="csmType">viewCSMType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteCSMType(System.Int32,System.Int32)">
-            <summary>
-            delete a CSMType from the database
-            </summary>
-            <param name="csmTypeID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateCSMType(Entities.viewCSMType)">
-            <summary>
-            update a CSMType in the database
-            </summary>
-            <param name="csmType">viewCSMType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllSections">
-            <summary>
-            fetch all sections from the database
-            </summary>
-            <returns>List&lt;lkup_Sections&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllActiveSections">
-            <summary>
-            fetch all sections from the database
-            </summary>
-            <returns>List&lt;lkup_Sections&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getSectionByID(System.Int32)">
-            <summary>
-            fetch a section from the database by ID
-            </summary>
-            <param name="sectionID">int</param>
-            <returns>viewSection</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addSection(Entities.viewSection)">
-            <summary>
-            add a section to the database
-            </summary>
-            <param name="vSection">viewSection</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateSection(Entities.viewSection)">
-            <summary>
-            update a section in the database
-            </summary>
-            <param name="vSection">viewSection</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteSection(System.Int32,System.Int32)">
-            <summary>
-            delete a section from the database
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllTestSteps">
-            <summary>
-            fetch all test steps
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteTestStepByID(System.Int32,System.Int32)">
-            <summary>
-            delete test step by ID
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addNewTestStep(Entities.viewTestStep)">
-            <summary>
-            add test step to a particular test case in the database
-            </summary>
-            <param name="ts">viewTestStep</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateTestStep(Entities.viewTestStep)">
-            <summary>
-            update test steps in the database
-            </summary>
-            <param name="vtestStep">viewTestStep</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.DocumentTypeUsedInProject(System.Int32)">
-            <summary>
-            returns true if specific DocumentType has been used in a Document for current project
-            </summary>
-            <param name="objID">int</param>
-            <returns>bool</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllDocumentTypes">
-            <summary>
-            return list fo all document type records in lkup_DocumentTypes
-            </summary>
-            <returns>List&lt;lkup_DocumentType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllActiveDocumentTypes">
-            <summary>
-            return generic list of all document types from lkup_DocumentTypes
-            where Active column is true
-            </summary>
-            <returns>List&lt;lkup_DocumentType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteDocumentType(System.Int32,System.Int32)">
-            <summary>
-            deletes document type record from lkup_DocumentTypes by ID
-            and returns OK if successful, error if not
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateDocumentType(Entities.viewDocumentType)">
-            <summary>
-            updates DocumentType record in lkup_DocumentType 
-            returns Ok if successful or error if not
-            </summary>
-            <param name="dt">viewDocumentType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addDocumentType(Entities.viewDocumentType)">
-            <summary>
-            creates new lkup_DocumentType record based on viewDocumentType object
-            returns OK if successful, error text if not.
-            </summary>
-            <param name="docType">viewDocumentType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getDocumentTypesByID(System.Int32)">
-            <summary>
-            fetch a DocumentType from the database by ID
-            </summary>
-            <param name="DocumentTypeID">int</param>
-            <returns>viewDocumentType</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllChapterTypes">
-            <summary>
-            return list fo all chapter type records in lkup_ChapterTypes
-            </summary>
-            <returns>List&lt;lkup_ChapterType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllActiveChapterTypes">
-            <summary>
-            return generic list of all Chapter types from lkup_ChapterTypes
-            where Active column is true
-            </summary>
-            <returns>List&lt;lkup_ChapterType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteChapterType(System.Int32,System.Int32)">
-            <summary>
-            deletes Chapter type record from lkup_ChapterTypes by ID
-            and returns OK if successful, error if not
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateChapterType(Entities.viewChapterType)">
-            <summary>
-            updates ChapterType record in lkup_ChapterType 
-            returns Ok if successful or error if not
-            </summary>
-            <param name="chapterType">viewChapterType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addChapterType(Entities.viewChapterType)">
-            <summary>
-            creates new lkup_ChapterType record based on viewChapterType object
-            returns OK if successful, error text if not.
-            </summary>
-            <param name="chapterType">viewChapterType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getChapterTypesByID(System.Int32)">
-            <summary>
-            fetch a ChapterType from the database by ID
-            </summary>
-            <param name="chapterTypeID">int</param>
-            <returns>viewChapterType</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllDefectStatus">
-            <summary>
-            return list fo all defect status records in lkup_DefectStatus
-            </summary>
-            <returns>List&lt;lkup_DefectStatus&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllActiveDefectStatus">
-            <summary>
-            return generic list of all defect status records from lkup_DefectStatus
-            where Active column is true
-            </summary>
-            <returns>List&lt;lkup_DefectStatus&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addDefectStatus(Entities.viewDefectStatus)">
-            <summary>
-            creates new lkup_DefectStatus record based on viewDefectStatus object
-            returns OK if successful, error text if not.
-            </summary>
-            <param name="defectStatus">viewDefectStatus</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateDefectStatus(Entities.viewDefectStatus)">
-            <summary>
-            updates DefectStatus record in lkup_DefectStatus 
-            returns Ok if successful or error if not
-            </summary>
-            <param name="ds">viewDefectStatus</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteDefectStatus(System.Int32,System.Int32)">
-            <summary>
-            deletes document type record from lkup_DocumentTypes by ID
-            and returns OK if successful, error if not
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getDefectStatusByID(System.Int32)">
-            <summary>
-            fetch a DefectStatus from the database by ID
-            </summary>
-            <param name="defectStatusID">int</param>
-            <returns>viewDefectStatus</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.DefectStatusUsedInProject(System.Int32)">
-            <summary>
-            returns true if any defects in db have this defect status assigned
-            </summary>
-            <param name="objID"></param>
-            <returns>bool</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllDefectTypes">
-            <summary>
-            return list fo all defect type records in lkup_DefectType
-            </summary>
-            <returns>List&lt;lkup_DefectType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllActiveDefectTypes">
-            <summary>
-            return generic list of all defect types from lkup_DefectTypes
-            where Active column is true
-            </summary>
-            <returns>List&lt;lkup_DefectType&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteDefectType(System.Int32,System.Int32)">
-            <summary>
-            deletes Defect type record from lkup_DefectTypes by ID
-            and returns OK if successful, error if not
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateDefectType(Entities.viewDefectType)">
-            <summary>
-            updates DefectType record in lkup_DefectType 
-            returns Ok if successful or error if not
-            </summary>
-            <param name="dt">viewDefectType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addDefectType(Entities.viewDefectType)">
-            <summary>
-            creates new lkup_DefectType record based on viewDefectType object
-            returns OK if successful, error text if not.
-            </summary>
-            <param name="dt">viewDocumentType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getDefectTypeByID(System.Int32)">
-            <summary>
-            fetch a DefectType from the database by ID
-            </summary>
-            <param name="defectTypeID">int</param>
-            <returns>viewDefectType</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.DefectTypeUsedInProject(System.Int32)">
-            <summary>
-            returns true if any defects in db have this defect type assigned
-            </summary>
-            <param name="objID"></param>
-            <returns>bool</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllDefectPriorities">
-            <summary>
-            return list fo all DefectPriority type records in lkup_DefectPriority
-            </summary>
-            <returns>List&lt;lkup_DefectPriority&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getAllActiveDefectPriorities">
-            <summary>
-            return generic list of all DefectPriority records from lkup_DefectPriority
-            where Active column is true
-            </summary>
-            <returns>List&lt;lkup_DefectPriority&gt;</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.deleteDefectPriority(System.Int32,System.Int32)">
-            <summary>
-            deletes DefectPriority record from lkup_DefectPriority by ID
-            and returns OK if successful, error if not
-            </summary>
-            <param name="deleteID">int</param>
-            <param name="userID">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.updateDefectPriority(Entities.viewDefectPriority)">
-            <summary>
-            updates DefectPriority record in lkup_DefectPriority 
-            returns Ok if successful or error if not
-            </summary>
-            <param name="dp">viewDefectPriority</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.addDefectPriority(Entities.viewDefectPriority)">
-            <summary>
-            creates new lkup_DefectPriority record based on viewDefectPriority object
-            returns OK if successful, error text if not.
-            </summary>
-            <param name="dp">viewDocumentType</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.getDefectPriorityByID(System.Int32)">
-            <summary>
-            fetch a DefectPriority from the database by ID
-            </summary>
-            <param name="defectPriorityID">int</param>
-            <returns>viewDefectPriority</returns>
-        </member>
-        <member name="M:DAL.AdminDAL.DefectPriorityUsedInProject(System.Int32)">
-            <summary>
-            returns true if any defects in db have this defect priority assigned
-            </summary>
-            <param name="objID"></param>
-            <returns>bool</returns>
-        </member>
-        <member name="P:DAL.AdminDAL.ProjectID">
+        <member name="P:DAL.SearchDAL.ProjectID">
             <summary>
             an ID int to identify a particular project
             </summary>
         </member>
-        <member name="T:DAL.BusinessRulesDAL">
+        <member name="T:DAL.TestCasesDAL">
             <summary>
-            class to hold code for Business Rules data access layer
+            class to provide data access for TestCasesBLL object
             </summary>
         </member>
-        <member name="M:DAL.BusinessRulesDAL.#ctor(System.Int32)">
+        <member name="M:DAL.TestCasesDAL.#ctor(System.Int32)">
             <summary>
             constructor with one parameter
             </summary>
             <param name="projectID">int</param>
         </member>
-        <member name="M:DAL.BusinessRulesDAL.hasBusinessRules(System.Int32)">
+        <member name="M:DAL.TestCasesDAL.getAllTestCases">
             <summary>
-            has business rules
+            fetch all test cases from the database
+            </summary>
+            <returns>List&lt;TestCase&gt;</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getTestCaseByID(System.Int32)">
+            <summary>
+            fetch a test case from the database by ID
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>TestCase</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getAllTestCasesBySection(System.Int32)">
+            <summary>
+            get all test cases by section
             </summary>
             <param name="sectionID">int</param>
-            <returns>bool</returns>
+            <returns>List&lt;viewTestCase>&gt;</returns>
         </member>
-        <member name="M:DAL.BusinessRulesDAL.getAllBusinessRules">
+        <member name="M:DAL.TestCasesDAL.addNewTestCase(Entities.viewTestCase)">
             <summary>
-            fetches a list of all business rules from the database
+            add a test case to the database
             </summary>
-            <returns>List&lt;viewBusinessRule&gt;</returns>
-        </member>
-        <member name="M:DAL.BusinessRulesDAL.getBusinessRuleByID(System.Int32)">
-            <summary>
-            fetches a business rule from the database by ID
-            </summary>
-            <param name="businessRuleID">int</param>
-            <returns>viewBusinessRule</returns>
-        </member>
-        <member name="M:DAL.BusinessRulesDAL.getAllBusinessRulesBySection(System.Int32)">
-            <summary>
-            get all business rules by section
-            </summary>
-            <param name="sectionID">int</param>
-            <returns>List&lt;viewBusinessRule&gt;</returns>
-        </member>
-        <member name="M:DAL.BusinessRulesDAL.getAllBusinessRulesByStatus(System.Int32)">
-            <summary>
-            get all business rules by status
-            </summary>
-            <param name="statusID">int</param>
-            <returns>List&lt;viewBusinessRule&gt;</returns>
-        </member>
-        <member name="M:DAL.BusinessRulesDAL.addBusinessRule(Entities.viewBusinessRule)">
-            <summary>
-            adds a business rule to the database
-            </summary>
-            <param name="vBusinessRule">viewBusinessRule</param>
+            <param name="tc">viewTestCase</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.BusinessRulesDAL.updateBusinessRule(Entities.viewBusinessRule)">
+        <member name="M:DAL.TestCasesDAL.deleteTestCase(System.Int32,System.Int32)">
             <summary>
-            update a business rule in the database
-            </summary>
-            <param name="vBusinessRule">viewBusinessRule</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.BusinessRulesDAL.deleteBusinessRule(System.Int32,System.Int32)">
-            <summary>
-            delete a business rule from the database
+            delete a test case and its' steps from the database
             </summary>
             <param name="deleteID">int</param>
             <param name="userID">int</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.BusinessRulesDAL.getBusinessRulesBySection(System.Int32)">
+        <member name="M:DAL.TestCasesDAL.updateTestCase(Entities.viewTestCase)">
             <summary>
-            get business rules by section
+            update a test case in the database
             </summary>
-            <param name="sectionID">int</param>
+            <param name="vtestCase">viewTestCase</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getBusinessRulesForTestCase(System.Int32)">
+            <summary>
+            get business rules for test case
+            </summary>
+            <param name="testCaseID">int</param>
             <returns>List&lt;viewBusinessRule&gt;</returns>
         </member>
-        <member name="P:DAL.BusinessRulesDAL.ProjectID">
+        <member name="M:DAL.TestCasesDAL.createTestCaseBusinessRuleRelationships(System.Int32,System.Collections.Generic.List{Entities.viewBusinessRule})">
+            <summary>
+            create test case/business rule relationship records in db from generic list
+            of associated view business rules
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="brList">List&lt;viewBusinessRule&gt;</param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.deleteBusinessRuleRelationshipsForTestCaseID(System.Int32)">
+            <summary>
+            delete all test case/business rule relationship for a specific test case id
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.deleteTestCaseRelationshipsForBusinessRuleID(System.Int32)">
+            <summary>
+            delete all test case/business rule relationships for a specific business rule id
+            </summary>
+            <param name="businessRuleID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.updateTestCaseStatus(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            update test case status
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStatusID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.hasTestCases(System.Int32)">
+            <summary>
+            has test cases
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.hasTestSteps(System.Int32)">
+            <summary>
+            has test steps
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getActiveTestSteps">
+            <summary>
+            return generic list of viewTestStep objects where Active = true
+            </summary>
+            <returns>List&lt;viewTestStep&gt;</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getTestStepByID(System.Int32)">
+            <summary>
+            fetch test step from the database by ID
+            </summary>
+            <param name="testStepID">int</param>
+            <returns>TestStep</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getTestStepByID(System.Int32,System.Int32)">
+            <summary>
+            overloaded method to fetch test step info by id including teststep/testcase
+            specific info since testcase id is passed in as a parameter
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="testCaseID">int</param>
+            <returns>viewTestStep</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.addNewTestStep(Entities.viewTestStep,System.Int32)">
+            <summary>
+            add test step to a particular test case in the database
+            </summary>
+            <param name="ts">viewTestStep</param>
+            <param name="testCaseID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.removeTestStepBusinessRuleRelationship(System.Int32,System.Int32)">
+            <summary>
+            remove relationship link between test step and business rule
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="businessRuleID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.removeTestStepTestCaseRelationship(System.Int32,System.Int32)">
+            <summary>
+            remove relationship link between test step and test case
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="testCaseID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.removeAllTestStepBusinessRuleRelationshipsForTestCaseID(System.Int32,System.Int32)">
+            <summary>
+            Deletes all test step/business rule relationship records in db.  Typically called prior 
+            to saving new list of relationships
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="testCaseID">int</param>
+        </member>
+        <member name="M:DAL.TestCasesDAL.updateTestStepForTestCase(Entities.viewTestStep,System.Int32)">
+            <summary>
+            updates test step if test case/test step relationship exists.
+            adds test case/test step relationship if it doesn't already exist before updating
+            </summary>
+            <param name="updateTestStep">viewTestStep</param>
+            <param name="testCaseID">int</param>
+        </member>
+        <member name="M:DAL.TestCasesDAL.updateTestStepBusinessRuleRelationships(System.Int32,System.Collections.Generic.List{Entities.viewBusinessRule})">
+            <summary>
+            adds test step/business rule relationships to db from geneeric list
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="brList">List&lt;viewBusinessRule&gt;</param>
+        </member>
+        <member name="M:DAL.TestCasesDAL.resequenceTestSteps(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            resequence test steps in the database
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="sequence">List&lt;int&gt;</param>
+        </member>
+        <member name="M:DAL.TestCasesDAL.updateSeqNumForTestStep(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            handles events when test steps must be re-sequenced
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStepID">int</param>
+            <param name="seqNum">int</param>
+        </member>
+        <member name="M:DAL.TestCasesDAL.updateTestStepText(Entities.viewTestStep)">
+            <summary>
+            handles events when a test step is updated
+            </summary>
+            <param name="ts">viewTestStep</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getTestStepsForTestCase(System.Int32)">
+            <summary>
+            fetch test steps for a particular test case from the database
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>List&lt;TestStep&gt;</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.addTestCaseTestStepRelationship(System.Int32,Entities.viewTestStep)">
+            <summary>
+            add a test step to a particular test case in the database
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStep">viewTestStep</param>
+        </member>
+        <member name="M:DAL.TestCasesDAL.addTestStep_BusinessRuleRelationship(System.Int32,System.Int32)">
+            <summary>
+            handles events when a test step - business rule relationship is added to the database
+            </summary>
+            <param name="testStepID">int</param>
+            <param name="businessRuleID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getNextTestStepSequenceNumber(System.Int32)">
+            <summary>
+            fetches the next test step sequence number by test case ID
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getTestCaseForTestStep(System.Int32)">
+            <summary>
+            return partent test case for test step id
+            </summary>
+            <param name="testStepID">int</param>
+            <returns>viewTestCase</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.savePreConditionsForTestCase(System.Int32,System.Collections.Generic.List{System.Int32})">
+            <summary>
+            save preconditions for test case
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="preConditionTestCaseIDs">List&lt;int&gt;</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getPreConditionsForTestCase(System.Int32)">
+            <summary>
+            fetch preconditions for tese case
+            </summary>
+            <param name="testCaseID">int</param>
+            <returns>List&lt;PreCondition&gt;</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.addPreConditionTestCaseRelationship(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            add precondition test case relationship
+            </summary>
+            <param name="tcID">int</param>
+            <param name="pctcID">int</param>
+            <param name="seqnum">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.removeAllPreConditionTestCases(System.Int32)">
+            <summary>
+            remove precondition test case relationship
+            </summary>
+            <param name="tcID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.saveTestResult(Entities.viewTestResult)">
+            <summary>
+            Saves test result record to db
+            </summary>
+            <param name="tr">viewTestResult</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.TestCasesDAL.getLatestTestResult(System.Int32,System.Int32)">
+            <summary>
+            gets latest(by date desc) test result for specific test case/test step
+            </summary>
+            <param name="testCaseID">int</param>
+            <param name="testStepID">int</param>
+            <returns>viewTestResult</returns>
+        </member>
+        <member name="P:DAL.TestCasesDAL.currentProjectID">
+            <summary>
+            an ID int to identify the current project being worked on 
+            </summary>
+        </member>
+        <member name="T:DAL.DefectsDAL">
+            <summary>
+            data access class layer for defect objects
+            </summary>
+        </member>
+        <member name="F:DAL.DefectsDAL.appDAL">
+            <summary>
+            class variable to store application DAL
+            </summary>
+        </member>
+        <member name="M:DAL.DefectsDAL.#ctor(System.Int32)">
+            <summary>
+            constructor for documentsDAL
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:DAL.DefectsDAL.getAllOpenDefects">
+            <summary>
+            fetch all open (closed = false) defects in database
+            ordered by created date descending (newest on top)
+            </summary>
+            <returns>List&lt;Defect&gt;</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.getDefectbyID(System.Int32)">
+            <summary>
+            build viewDefect object from database record for selected ID
+            </summary>
+            <param name="defectID">int</param>
+            <returns>viewDefect</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.updateDefect(Entities.viewDefect,System.Int32)">
+            <summary>
+            updates database record from viewDefect
+            </summary>
+            <param name="defect">viewDefect</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.addNewDefect(Entities.viewDefect,System.Int32)">
+            <summary>
+            add new defect
+            </summary>
+            <param name="defect">viewDefect</param>
+            <param name="userID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.deleteDefectByID(System.Int32,System.Int32)">
+            <summary>
+            deletes Defect record from Defects table by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.addComment(Entities.viewComment)">
+            <summary>
+            add comment
+            </summary>
+            <param name="comment">viewComment</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.getCommentsForDefect(System.Int32)">
+            <summary>
+            fetch comments for defect
+            </summary>
+            <param name="defectID">int</param>
+            <returns>List&lt;Defect_Comments&gt;</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.deleteCommentsForDefect(System.Int32)">
+            <summary>
+            Deletes all comment records from Defect_Comments for specific defect id.
+            This is used to delete associated comment records when a defect is deleted.
+            </summary>
+            <param name="defectID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.createDefectBusinessRuleRelationship(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            stores businessRuleID and defectID in Defect_BusinessRule table
+            </summary>
+            <param name="businessRuleID">int</param>
+            <param name="defectID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.deleteDefectBusinessRuleRelationshipByBRID(System.Int32,System.Int32)">
+            <summary>
+            delete all relationship records in Defect_BusinessRules that contain business rule id parameter
+            </summary>
+            <param name="businessRuleID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.deleteDefectBusinessRuleRelationshipByDefectID(System.Int32,System.Int32)">
+            <summary>
+            delete all relationship records in Defect_BusinessRules that contain defect id parameter
+            </summary>
+            <param name="defectID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.getBusinessRuleForDefectID(System.Int32)">
+            <summary>
+            get a single viewBusinessRule record associated with the defect id parameter
+            in Defect_BusinessRule table
+            </summary>
+            <param name="defectID">int</param>
+            <returns>viewBusinessRule</returns>
+        </member>
+        <member name="M:DAL.DefectsDAL.getDefectForBusinessRuleID(System.Int32)">
+            <summary>
+            get a single viewDefect record for businessRuleID parameter in the
+            Defect_BusinessRule table
+            </summary>
+            <param name="businessRuleID">int</param>
+            <returns>viewDefect</returns>
+        </member>
+        <member name="P:DAL.DefectsDAL.ProjectID">
+            <summary>
+            class variable to store project ID
+            </summary>
+        </member>
+        <member name="T:DAL.applicationDAL">
+            <summary>
+            class to hold the code for the palinoia data access layer which includes application wide
+            information that is not project specific: Projects, Features, Roles, Users
+            </summary>
+        </member>
+        <member name="F:DAL.applicationDAL.createClientTablesSQLFileName">
+            <summary>
+            stores the file name of the SQL script used to generate 
+            all tables and values necessary for a new project
+            </summary>
+        </member>
+        <member name="M:DAL.applicationDAL.#ctor">
+            <summary>
+            constructor with no parameters
+            </summary>
+        </member>
+        <member name="M:DAL.applicationDAL.#ctor(System.Int32)">
+            <summary>
+            constructor with one parameter
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:DAL.applicationDAL.getContextForProject">
+            <summary>
+            creates a new entity within entity framework
+            </summary>
+            <returns>palinoiaEntities</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getContextForPalinoia">
+            <summary>
+            creates a new entity within entity framework
+            </summary>
+            <returns>palinoiaEntities</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getMenuItemByID(System.Int32)">
+            <summary>
+            fetch menu item by ID
+            </summary>
+            <param name="id">int</param>
+            <returns>NavigationMenuItem</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getChildNodesForParentID(System.Int32)">
+            <summary>
+            fetch child nodes for parent ID
+            </summary>
+            <param name="parentID">int</param>
+            <returns>List&lt;NavigationMenuItem&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.hasChildNodes(System.Int32)">
+            <summary>
+            has child nodes
+            </summary>
+            <param name="nodeID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.createNewProjectDatabase(System.String,System.String)">
+            <summary>
+            creates a separate database for a specified project
+            </summary>
+            <param name="SQL">string</param>
+            <param name="projectDataSource">string</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getAllProjects">
+            <summary>
+            fetches a list all palinoia projects
+            </summary>
+            <returns>List&lt;viewProject&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.saveNewProject(Entities.viewProject)">
+            <summary>
+            save new project to the database
+            </summary>
+            <param name="project">viewProject</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.updateProject(Entities.viewProject)">
+            <summary>
+            update a project in the database
+            </summary>
+            <param name="project">viewProject</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.deleteProject(System.Int32,System.Int32)">
+            <summary>
+            delete a project from the database 
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getProjectByID(System.Int32)">
+            <summary>
+            fetch project by ID
+            </summary>
+            <param name="projectID">int</param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.applicationDAL.loginUser(Entities.viewUser)">
+            <summary>
+            fetches user ID from database
+            </summary>
+            <param name="user">viewUser</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getFeaturesForUser(Entities.viewUser)">
+            <summary>
+            fetches features for user from database
+            </summary>
+            <param name="user">viewUser</param>
+            <returns>List&lt;lkup_Features&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getAllUsers">
+            <summary>
+            fetch all users from the database
+            </summary>
+            <returns>List&lt;viewUser&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getUserByID(System.Int32)">
+            <summary>
+            fetch a user from the database by ID
+            </summary>
+            <param name="userID">int</param>
+            <returns>viewUser</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.addUser(Entities.viewUser)">
+            <summary>
+            add a user to the database 
+            </summary>
+            <param name="vUser">viewUser</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.updateUser(Entities.viewUser)">
+            <summary>
+            update a user in the database
+            </summary>
+            <param name="vUser">viewUser</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.deleteUser(System.Int32,System.Int32)">
+            <summary>
+            delete a user from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.updateUserProject(System.Int32,System.Int32)">
+            <summary>
+            update user project
+            </summary>
+            <param name="userID">int</param>
+            <param name="projectID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getProjectForUser(System.Int32)">
+            <summary>
+            fetch project for user
+            </summary>
+            <param name="userID">int</param>
+            <returns>int</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getAllRoles">
+            <summary>
+            fetch all roles from the database
+            </summary>
+            <returns>List&lt;lkup_Roles&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getRoleByID(System.Int32)">
+            <summary>
+            fetch a role from the database by ID
+            </summary>
+            <param name="roleID">int</param>
+            <returns>viewRole</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.addRole(Entities.viewRole)">
+            <summary>
+            add a role to the database
+            </summary>
+            <param name="vRole">viewRole</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.updateRole(Entities.viewRole)">
+            <summary>
+            update a role in the database
+            </summary>
+            <param name="vRole">viewRole</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.deleteRole(System.Int32,System.Int32)">
+            <summary>
+            delete a role from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getRoleFeatures(System.Int32)">
+            <summary>
+            fetch the features associated with a particular role from the database
+            </summary>
+            <param name="roleID">int</param>
+            <returns>List&lt;lkup_Features&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getAvailableFeaturesForRole(System.Int32)">
+            <summary>
+            fetch the available features associated with a particular role from the database
+            </summary>
+            <param name="roleID">int</param>
+            <returns>List&lt;lkup_Features&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.addFeatureToRole(System.Int32,System.Int32)">
+            <summary>
+            associate a particular feature with a particular role in the database
+            </summary>
+            <param name="roleID">int</param>
+            <param name="featureID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.removeFeatureFromRole(System.Int32,System.Int32)">
+            <summary>
+            remove the association of a particular feature with a particular role in the database
+            </summary>
+            <param name="roleID">int</param>
+            <param name="featureID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getAllFeatures">
+            <summary>
+            fetch all features from the database
+            </summary>
+            <returns>List&lt;lkup_Features&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getFeatureByID(System.Int32)">
+            <summary>
+            fetch a feature from the database by ID
+            </summary>
+            <param name="featureID">int</param>
+            <returns>viewFeature</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.addFeature(Entities.viewFeature)">
+            <summary>
+            add a feature to the database
+            </summary>
+            <param name="vFeature">viewFeature</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.updateFeature(Entities.viewFeature)">
+            <summary>
+            update a feature in the database
+            </summary>
+            <param name="vFeature">viewFeature</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.deleteFeature(System.Int32,System.Int32)">
+            <summary>
+            delete a feature from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getAllActiveErrors">
+            <summary>
+            fetches all error log records from Application_Errors table
+            </summary>
+            <returns>List&lt;Application_Errors&gt;</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getErrorByID(System.Int32)">
+            <summary>
+            get a single error log record by id
+            </summary>
+            <param name="errorID">int</param>
+            <returns>viewError</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.clearErrors">
+            <summary>
+            delete all error log records from Application_Errors table
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.logError(System.Exception,System.Int32,System.Int32)">
+            <summary>
+            logs a particular error message
+            </summary>
+            <param name="ex">Exception</param>
+            <param name="projectID">int</param>
+            <param name="userID">int</param>
+        </member>
+        <member name="M:DAL.applicationDAL.GetEnvData(System.String)">
+            <summary>
+            class to pull webconfig values by key
+            </summary>
+            <param name="library">key</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getDataSourceForCurrentProject">
+            <summary>
+            fetches a data source for a selected project from the database
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.applicationDAL.getDataSourceForPalinoia">
+            <summary>
+            fetches a data source for a selected project from the database
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="P:DAL.applicationDAL.currentProjectID">
+            <summary>
+            stores the id of the project used to create this applicationDAL object
+            </summary>
+        </member>
+        <member name="T:DAL.CustomerServiceMessagesDAL">
+            <summary>
+            class to hold code for CustomerServiceMessagesDAL
+            </summary>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.#ctor(System.Int32)">
+            <summary>
+            constructor with one param
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.hasCSM(System.Int32)">
+            <summary>
+            has customer service message
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.getAllCSMs">
+            <summary>
+            fetches a list of all customer service messages from the database
+            </summary>
+            <returns>List&lt;viewCustomerServiceMessage&gt;</returns>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.getCSMByID(System.Int32)">
+            <summary>
+            fetches a customer service message from the database by ID
+            </summary>
+            <param name="csmID">int</param>
+            <returns>viewCustomerServiceMessage</returns>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.getAllCSMsBySection(System.Int32)">
+            <summary>
+            get all customer service messages by section id
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>List&lt;viewCustomerServiceMessages&gt;</returns>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.addCSM(Entities.viewCustomerServiceMessage)">
+            <summary>
+            adds a new csm record to the database
+            </summary>
+            <param name="vCSM">viewCustomerServiceMessage</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.updateCSM(Entities.viewCustomerServiceMessage)">
+            <summary>
+            update a customer service message record in the database
+            </summary>
+            <param name="vCSM">viewCustomerServiceMessage</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.CustomerServiceMessagesDAL.deleteCSM(System.Int32,System.Int32)">
+            <summary>
+            delete a customer service message record from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="P:DAL.CustomerServiceMessagesDAL.ProjectID">
             <summary>
             an ID int to identify a particular project
             </summary>
@@ -4243,166 +3864,545 @@
             No Metadata Documentation available.
             </summary>
         </member>
-        <member name="T:DAL.DocumentsDAL">
+        <member name="T:DAL.BusinessRulesDAL">
             <summary>
-            Class handles data access for DocumentsBLL
+            class to hold code for Business Rules data access layer
             </summary>
         </member>
-        <member name="M:DAL.DocumentsDAL.#ctor(System.Int32)">
+        <member name="M:DAL.BusinessRulesDAL.#ctor(System.Int32)">
             <summary>
-            constructor for documentsDAL
+            constructor with one parameter
             </summary>
             <param name="projectID">int</param>
         </member>
-        <member name="M:DAL.DocumentsDAL.getAllDocuments">
+        <member name="M:DAL.BusinessRulesDAL.hasBusinessRules(System.Int32)">
             <summary>
-            fetch all documents from the database
+            has business rules
             </summary>
-            <returns>List&lt;Document&gt;</returns>
+            <param name="sectionID">int</param>
+            <returns>bool</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.getAllViewDocuments">
+        <member name="M:DAL.BusinessRulesDAL.getAllBusinessRules">
             <summary>
-            fetch all documents from the database
+            fetches a list of all business rules from the database
             </summary>
-            <returns>Listl&lt;Document&gt;</returns>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.getAllActiveDocuments">
+        <member name="M:DAL.BusinessRulesDAL.getBusinessRuleByID(System.Int32)">
             <summary>
-            fetch all active documents from the database
+            fetches a business rule from the database by ID
             </summary>
-            <returns>List&lt;Document&gt;</returns>
+            <param name="businessRuleID">int</param>
+            <returns>viewBusinessRule</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.getDocumentsByType(System.Int32)">
+        <member name="M:DAL.BusinessRulesDAL.getAllBusinessRulesBySection(System.Int32)">
             <summary>
-            fetch all documents by type id
+            get all business rules by section
             </summary>
-            <param name="docTypeID">int</param>
-            <returns>List&lt;Document&gt;</returns>
+            <param name="sectionID">int</param>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.deleteDocumentByID(System.Int32)">
+        <member name="M:DAL.BusinessRulesDAL.getAllBusinessRulesByStatus(System.Int32)">
             <summary>
-            delete document by ID
+            get all business rules by status
             </summary>
-            <param name="deleteID">int</param>
+            <param name="statusID">int</param>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
+        </member>
+        <member name="M:DAL.BusinessRulesDAL.addBusinessRule(Entities.viewBusinessRule)">
+            <summary>
+            adds a business rule to the database
+            </summary>
+            <param name="vBusinessRule">viewBusinessRule</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.getDocumentByID(System.Int32)">
+        <member name="M:DAL.BusinessRulesDAL.updateBusinessRule(Entities.viewBusinessRule)">
             <summary>
-            fetch document by ID
+            update a business rule in the database
             </summary>
-            <param name="docID">int</param>
-            <returns>viewDocument</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.addNewDocument(Entities.viewDocument)">
-            <summary>
-            add new document to dbo.Documents.  Returns "OK" or error 
-            </summary>
-            <param name="doc">viewDocument</param>
+            <param name="vBusinessRule">viewBusinessRule</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.updateDocument(Entities.viewDocument)">
+        <member name="M:DAL.BusinessRulesDAL.deleteBusinessRule(System.Int32,System.Int32)">
             <summary>
-            update Document record in the database
-            </summary>
-            <param name="doc">viewDocument</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.saveDocumentChapterRelationship(System.Int32,System.Int32,System.Int32)">
-            <summary>
-            save document-chapter relationships
-            </summary>
-            <param name="documentID">int</param>
-            <param name="chapterID">int</param>
-            <param name="seqNum">int</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.getTestCaseIDForDocumentID(System.Int32)">
-            <summary>
-            fetch test case ID for document ID
-            </summary>
-            <param name="documentID">int</param>
-            <returns>int</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.getNextChapterSequenceNumber(System.Int32)">
-            <summary>
-            fetches the next chapter sequence number by document id
-            </summary>
-            <param name="documentID">int</param>
-            <returns>int</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.getChaptersForDocumentID(System.Int32)">
-            <summary>
-            fetch chapters for document ID
-            </summary>
-            <param name="documentID">int</param>
-            <returns>List&lt;viewChapter&gt;</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.getChapterByID(System.Int32)">
-            <summary>
-            fetch chapter by ID
-            </summary>
-            <param name="chapterID">int</param>
-            <returns>viewChapter</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.addNewChapter(System.Int32,Entities.viewChapter)">
-            <summary>
-            add new chapter
-            </summary>
-            <param name="documentID">int</param>
-            <param name="newChapter">viewChapter</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.updateChapter(Entities.viewChapter)">
-            <summary>
-            update chapter
-            </summary>
-            <param name="editChapter">viewChapter</param>
-            <returns>string</returns>
-        </member>
-        <member name="M:DAL.DocumentsDAL.deleteChapterByID(System.Int32,System.Int32)">
-            <summary>
-            delete chapter by ID
+            delete a business rule from the database
             </summary>
             <param name="deleteID">int</param>
             <param name="userID">int</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.getDocumentIDForChapter(System.Int32)">
+        <member name="M:DAL.BusinessRulesDAL.getBusinessRulesBySection(System.Int32)">
             <summary>
-            fetch document ID for chapter
+            get business rules by section
             </summary>
-            <param name="chapterID">int</param>
-            <returns>int</returns>
+            <param name="sectionID">int</param>
+            <returns>List&lt;viewBusinessRule&gt;</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.addImage(Entities.ImageData)">
+        <member name="P:DAL.BusinessRulesDAL.ProjectID">
             <summary>
-            add an image
+            an ID int to identify a particular project
             </summary>
-            <param name="iData">ImageData</param>
+        </member>
+        <member name="T:DAL.AdminDAL">
+            <summary>
+            class to hold the code for the admistrative part of the palinoia data access layer
+            </summary>
+        </member>
+        <member name="M:DAL.AdminDAL.#ctor(System.Int32)">
+            <summary>
+            constructor with one parameter
+            </summary>
+            <param name="projectID">int</param>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllCSMResponsesTypes">
+            <summary>
+            fetch all response types from the database
+            </summary>
+            <returns>List&lt;lkup_CSMResponseType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveCSMResponsesTypes">
+            <summary>
+            fetch all active response types from the database
+            </summary>
+            <returns>List&lt;lkup_CSMResponseType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getCSMResponseTypeByID(System.Int32)">
+            <summary>
+            fetch a response type from the database by ID
+            </summary>
+            <param name="csmResponseTypeID">int</param>
+            <returns>viewCSMResponseType</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addCSMResponseType(Entities.viewCSMResponseType)">
+            <summary>
+            add a response types to the database
+            </summary>
+            <param name="viewRT">viewCSMResponseType</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.getImageFileNameByID(System.Int32)">
+        <member name="M:DAL.AdminDAL.deleteCSMResponseType(System.Int32,System.Int32)">
             <summary>
-            fetch image file name by ID.  retures default image not
-            found graphic(ID = 1) if no image located.
+            delete a response types from the database
             </summary>
-            <param name="id">int</param>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
             <returns>string</returns>
         </member>
-        <member name="M:DAL.DocumentsDAL.getNextImageID(System.String,System.String)">
+        <member name="M:DAL.AdminDAL.updateCSMResponseType(Entities.viewCSMResponseType)">
             <summary>
-            if image filename is found in the database,
-            returnn the id of that image.
-            if no image is found, return the next pk sequence
-            number that will be assigned when image is saved.
+            update a response types in the database
             </summary>
-            <param name="dbDataSource">string</param>
-            <param name="fileName">string</param>
-            <returns>int</returns>
+            <param name="editResponseType">viewCSMResponseType</param>
+            <returns>string</returns>
         </member>
-        <member name="P:DAL.DocumentsDAL.ProjectID">
+        <member name="M:DAL.AdminDAL.getAllStatuses">
             <summary>
-            class variable to store project ID
+            fetch all status types from the database
+            </summary>
+            <returns>List&lt;lkup_Status&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getStatusByID(System.Int32)">
+            <summary>
+            fetch a status from the database by ID
+            </summary>
+            <param name="statusID">int</param>
+            <returns>viewStatus</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addStatus(Entities.viewStatus)">
+            <summary>
+            add a new status types to the database
+            </summary>
+            <param name="status">viewStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteStatus(System.Int32,System.Int32)">
+            <summary>
+            delete a status types from the database
+            </summary>
+            <param name="statusID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateStatus(Entities.viewStatus)">
+            <summary>
+            update a status type in the database
+            </summary>
+            <param name="status">viewStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.StatusUsedInProject(System.Int32)">
+            <summary>
+            returns true if status has been used for a business rule in a project
+            </summary>
+            <param name="statusID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllCSMTypes">
+            <summary>
+            fetch all CSM types from the database
+            </summary>
+            <returns>List&lt;lkup_CSMType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveCSMTypes">
+            <summary>
+            fetch all active CSM types from the database
+            </summary>
+            <returns>List&lt;lkup_CSMType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getCSMTypesByID(System.Int32)">
+            <summary>
+            fetch a CSMType from the database by ID
+            </summary>
+            <param name="CSMTypeID">int</param>
+            <returns>viewCSMType</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addCSMType(Entities.viewCSMType)">
+            <summary>
+            add a new CSMTypes to the database
+            </summary>
+            <param name="csmType">viewCSMType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteCSMType(System.Int32,System.Int32)">
+            <summary>
+            delete a CSMType from the database
+            </summary>
+            <param name="csmTypeID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateCSMType(Entities.viewCSMType)">
+            <summary>
+            update a CSMType in the database
+            </summary>
+            <param name="csmType">viewCSMType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllSections">
+            <summary>
+            fetch all sections from the database
+            </summary>
+            <returns>List&lt;lkup_Sections&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveSections">
+            <summary>
+            fetch all sections from the database
+            </summary>
+            <returns>List&lt;lkup_Sections&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getSectionByID(System.Int32)">
+            <summary>
+            fetch a section from the database by ID
+            </summary>
+            <param name="sectionID">int</param>
+            <returns>viewSection</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addSection(Entities.viewSection)">
+            <summary>
+            add a section to the database
+            </summary>
+            <param name="vSection">viewSection</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateSection(Entities.viewSection)">
+            <summary>
+            update a section in the database
+            </summary>
+            <param name="vSection">viewSection</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteSection(System.Int32,System.Int32)">
+            <summary>
+            delete a section from the database
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllTestSteps">
+            <summary>
+            fetch all test steps
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteTestStepByID(System.Int32,System.Int32)">
+            <summary>
+            delete test step by ID
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addNewTestStep(Entities.viewTestStep)">
+            <summary>
+            add test step to a particular test case in the database
+            </summary>
+            <param name="ts">viewTestStep</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateTestStep(Entities.viewTestStep)">
+            <summary>
+            update test steps in the database
+            </summary>
+            <param name="vtestStep">viewTestStep</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.DocumentTypeUsedInProject(System.Int32)">
+            <summary>
+            returns true if specific DocumentType has been used in a Document for current project
+            </summary>
+            <param name="objID">int</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllDocumentTypes">
+            <summary>
+            return list fo all document type records in lkup_DocumentTypes
+            </summary>
+            <returns>List&lt;lkup_DocumentType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveDocumentTypes">
+            <summary>
+            return generic list of all document types from lkup_DocumentTypes
+            where Active column is true
+            </summary>
+            <returns>List&lt;lkup_DocumentType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteDocumentType(System.Int32,System.Int32)">
+            <summary>
+            deletes document type record from lkup_DocumentTypes by ID
+            and returns OK if successful, error if not
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateDocumentType(Entities.viewDocumentType)">
+            <summary>
+            updates DocumentType record in lkup_DocumentType 
+            returns Ok if successful or error if not
+            </summary>
+            <param name="dt">viewDocumentType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addDocumentType(Entities.viewDocumentType)">
+            <summary>
+            creates new lkup_DocumentType record based on viewDocumentType object
+            returns OK if successful, error text if not.
+            </summary>
+            <param name="docType">viewDocumentType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getDocumentTypesByID(System.Int32)">
+            <summary>
+            fetch a DocumentType from the database by ID
+            </summary>
+            <param name="DocumentTypeID">int</param>
+            <returns>viewDocumentType</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllChapterTypes">
+            <summary>
+            return list fo all chapter type records in lkup_ChapterTypes
+            </summary>
+            <returns>List&lt;lkup_ChapterType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveChapterTypes">
+            <summary>
+            return generic list of all Chapter types from lkup_ChapterTypes
+            where Active column is true
+            </summary>
+            <returns>List&lt;lkup_ChapterType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteChapterType(System.Int32,System.Int32)">
+            <summary>
+            deletes Chapter type record from lkup_ChapterTypes by ID
+            and returns OK if successful, error if not
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateChapterType(Entities.viewChapterType)">
+            <summary>
+            updates ChapterType record in lkup_ChapterType 
+            returns Ok if successful or error if not
+            </summary>
+            <param name="chapterType">viewChapterType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addChapterType(Entities.viewChapterType)">
+            <summary>
+            creates new lkup_ChapterType record based on viewChapterType object
+            returns OK if successful, error text if not.
+            </summary>
+            <param name="chapterType">viewChapterType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getChapterTypesByID(System.Int32)">
+            <summary>
+            fetch a ChapterType from the database by ID
+            </summary>
+            <param name="chapterTypeID">int</param>
+            <returns>viewChapterType</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllDefectStatus">
+            <summary>
+            return list fo all defect status records in lkup_DefectStatus
+            </summary>
+            <returns>List&lt;lkup_DefectStatus&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveDefectStatus">
+            <summary>
+            return generic list of all defect status records from lkup_DefectStatus
+            where Active column is true
+            </summary>
+            <returns>List&lt;lkup_DefectStatus&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addDefectStatus(Entities.viewDefectStatus)">
+            <summary>
+            creates new lkup_DefectStatus record based on viewDefectStatus object
+            returns OK if successful, error text if not.
+            </summary>
+            <param name="defectStatus">viewDefectStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateDefectStatus(Entities.viewDefectStatus)">
+            <summary>
+            updates DefectStatus record in lkup_DefectStatus 
+            returns Ok if successful or error if not
+            </summary>
+            <param name="ds">viewDefectStatus</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteDefectStatus(System.Int32,System.Int32)">
+            <summary>
+            deletes document type record from lkup_DocumentTypes by ID
+            and returns OK if successful, error if not
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getDefectStatusByID(System.Int32)">
+            <summary>
+            fetch a DefectStatus from the database by ID
+            </summary>
+            <param name="defectStatusID">int</param>
+            <returns>viewDefectStatus</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.DefectStatusUsedInProject(System.Int32)">
+            <summary>
+            returns true if any defects in db have this defect status assigned
+            </summary>
+            <param name="objID"></param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllDefectTypes">
+            <summary>
+            return list fo all defect type records in lkup_DefectType
+            </summary>
+            <returns>List&lt;lkup_DefectType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveDefectTypes">
+            <summary>
+            return generic list of all defect types from lkup_DefectTypes
+            where Active column is true
+            </summary>
+            <returns>List&lt;lkup_DefectType&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteDefectType(System.Int32,System.Int32)">
+            <summary>
+            deletes Defect type record from lkup_DefectTypes by ID
+            and returns OK if successful, error if not
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateDefectType(Entities.viewDefectType)">
+            <summary>
+            updates DefectType record in lkup_DefectType 
+            returns Ok if successful or error if not
+            </summary>
+            <param name="dt">viewDefectType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addDefectType(Entities.viewDefectType)">
+            <summary>
+            creates new lkup_DefectType record based on viewDefectType object
+            returns OK if successful, error text if not.
+            </summary>
+            <param name="dt">viewDocumentType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getDefectTypeByID(System.Int32)">
+            <summary>
+            fetch a DefectType from the database by ID
+            </summary>
+            <param name="defectTypeID">int</param>
+            <returns>viewDefectType</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.DefectTypeUsedInProject(System.Int32)">
+            <summary>
+            returns true if any defects in db have this defect type assigned
+            </summary>
+            <param name="objID"></param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllDefectPriorities">
+            <summary>
+            return list fo all DefectPriority type records in lkup_DefectPriority
+            </summary>
+            <returns>List&lt;lkup_DefectPriority&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getAllActiveDefectPriorities">
+            <summary>
+            return generic list of all DefectPriority records from lkup_DefectPriority
+            where Active column is true
+            </summary>
+            <returns>List&lt;lkup_DefectPriority&gt;</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.deleteDefectPriority(System.Int32,System.Int32)">
+            <summary>
+            deletes DefectPriority record from lkup_DefectPriority by ID
+            and returns OK if successful, error if not
+            </summary>
+            <param name="deleteID">int</param>
+            <param name="userID">int</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.updateDefectPriority(Entities.viewDefectPriority)">
+            <summary>
+            updates DefectPriority record in lkup_DefectPriority 
+            returns Ok if successful or error if not
+            </summary>
+            <param name="dp">viewDefectPriority</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.addDefectPriority(Entities.viewDefectPriority)">
+            <summary>
+            creates new lkup_DefectPriority record based on viewDefectPriority object
+            returns OK if successful, error text if not.
+            </summary>
+            <param name="dp">viewDocumentType</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.getDefectPriorityByID(System.Int32)">
+            <summary>
+            fetch a DefectPriority from the database by ID
+            </summary>
+            <param name="defectPriorityID">int</param>
+            <returns>viewDefectPriority</returns>
+        </member>
+        <member name="M:DAL.AdminDAL.DefectPriorityUsedInProject(System.Int32)">
+            <summary>
+            returns true if any defects in db have this defect priority assigned
+            </summary>
+            <param name="objID"></param>
+            <returns>bool</returns>
+        </member>
+        <member name="P:DAL.AdminDAL.ProjectID">
+            <summary>
+            an ID int to identify a particular project
             </summary>
         </member>
     </members>
