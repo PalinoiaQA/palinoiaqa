@@ -42,3 +42,4 @@ C:\palinoiaqa\FrontEndTool\bin\itextsharp.xml
 C:\palinoiaqa\FrontEndTool\obj\Debug\FrontEndTool.csprojResolveAssemblyReference.cache
 C:\palinoiaqa\FrontEndTool\obj\Debug\FrontEndTool.dll
 C:\palinoiaqa\FrontEndTool\obj\Debug\FrontEndTool.pdb
+C:\palinoiaQA\FrontEndTool\bin\System.Data.SQLite.xml

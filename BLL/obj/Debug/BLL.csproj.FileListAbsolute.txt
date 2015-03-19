@@ -31,7 +31,6 @@ C:\palinoiaqa\BLL\bin\Debug\Enums.dll
 C:\palinoiaqa\BLL\bin\Debug\itextsharp.dll
 C:\palinoiaqa\BLL\bin\Debug\itextsharp.xmlworker.dll
 C:\palinoiaqa\BLL\bin\Debug\OpenSmtp.dll
-C:\palinoiaqa\BLL\bin\Debug\System.Data.SQLite.dll
 C:\palinoiaqa\BLL\bin\Debug\DAL.pdb
 C:\palinoiaqa\BLL\bin\Debug\DAL.xml
 C:\palinoiaqa\BLL\bin\Debug\Entities.pdb
